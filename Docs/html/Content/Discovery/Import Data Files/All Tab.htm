@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-toc-path="Discovery Scan|Import Data Files|Manage Import Data Files|View an Imported Data File" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Import Data File</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <script src="../../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/version-switcher.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#Discovery/Import Data Files/All Tab.htm">Open topic with navigation</a>
+        </p>
+        <div role="main" id="mc-main-content">
+            <h1 class="Heading1"><span class="Strong">All Tab</span>
+            </h1>
+            <ul class="ul_3">
+                <li>
+                    <p>Displays every record included in the imported file, regardless of whether it matches an existing CI or is a new CI.</p>
+                    <ul class="ul_2">
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Blueprint Name</span>: Name of the Blueprint</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">CI</span>: CMDB CI ID matching the imported CI</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Asset Name</span>: The name of the asset as recognized in the import file or system.</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Asset ID</span>: New Asset ID is created with prefix of “IMP” to denote that this record was imported. The format is “IMP” + 6 digits (auto generated sequential number).</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Clicking the hyperlinked CI ID under CI column will display the corresponding record in CMDB.</p>
+                    <p class="step-media">
+                        <img src="../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_13.png" />
+                    </p>
+                </li>
+            </ul>
+            <ul class="ul_3">
+                <li>
+                    <p>If we click on any other column values regardless of whether CI exists in CMDB or not, the user is redirected to Imported Assets view to view the imported asset data.</p>
+                    <p class="step-media">
+                        <img src="../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_14.png" />
+                    </p>
+                </li>
+            </ul>
+            <h1 class="Heading1"><span class="Strong">Layout and Sections</span>
+            </h1>
+            <ul class="ul_3">
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Header bar</span>
+                    </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>CI identifier and name at the top (e.g., <span class="Emphasis">AST001516</span>).</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Select Actions</span> menu for record-level actions.</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Business Service Map</span> button (opens the service dependency map for this CI).</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Tabs across the top</span>
+                    </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Details</span> – the editable profile for the CI (core and custom fields).</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Components</span> – componentized items attached to the CI.</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">ITSM</span> – quick access to incidents/requests/problems/changes/known errors/releases/knowledge tied to the CI.</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Relationships</span> – Shows connections between this CI and others</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">SLA</span> – applicable service levels.</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Maintenance</span> – Schedule maintenance tasks for a CI, such as rebooting or running specific commands.</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Private Properties</span> configured private properties at the blueprint level for specific users with access.</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Tasks</span> – Tracks tasks or actions assigned to this CI</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Comments</span> – audit notes / collaboration thread.</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong"><b>History</b> - </span>Shows modification history, including timestamps and users</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Vulnerability</span> (if enabled) – Lists known vulnerabilities, threat severity, and risk details</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Primary Details</span>
+                    </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Asset Id:</span> The CMDB’s unique identifier for this CI (e.g., AST003156).</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Asset Name:</span> Provided Asset name; here it includes the host and IP (ADSERVERLD @ 10.14.80.36).</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong"><b>Version</b>:</span> Optional version/build of the asset or software (blank in the screenshot).</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong"><b>Blueprint</b>:</span> The blueprint associated (e.g., <span class="Strong">Windows Server</span>).</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong"><b>Confidence Level</b>:</span> Data quality score from discovery/enrichment (e.g., <span class="Strong">Very High</span>).</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">IP Address:</span> Last known IP (e.g., 10.14.80.36).</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Host Name:</span> DNS/host name (e.g., ADSERVERLD).</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Created On:</span> When this CI was first created in CMDB.</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Last Modified On:</span> Most recent update to any field on this record.</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Last Seen On:</span> Last successful “sighting” in discovery (empty if not yet observed).</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Last Scanned On:</span> Timestamp of the most recent discovery scan for this CI (empty if not scanned).</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Warranty Start Date / Warranty End Date:</span> Warranty lifecycle dates (editable).</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Location / Department / Vendor:</span> Organizational metadata fields for ownership/placement (editable).</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong"><b>Tags</b>:</span> Free-form labels/metadata you can use for grouping, search, or policy (editable).</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Update Picture:</span> Upload/replace the icon shown for this asset.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Owner</span>
+                    </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>Person card for the primary owner: <span class="Strong">Name</span>, <span class="Strong">Email</span>, <span class="Strong">Phone</span> (with avatar); quick remove/edit where permitted.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Second Level Support</span> / <span class="Strong" style="font-weight: bold;">Third Level Support</span></p>
+                    <ul class="ul_2">
+                        <li>
+                            <p style="font-weight: bold;">Support group or contact cards with <span class="Strong">Name</span>, <span class="Strong">Email</span>, <span class="Strong">Phone</span>. Used for routing escalations.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p style="font-weight: bold;"><span class="Strong">Manager</span>
+                    </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>Manager contact card (Name/Email/Phone) tied to the CI or its owning team.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Related Records</span>
+                    </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>Shortcuts (often with counts) to ITSM items associated to this CI:</p>
+                            <ul class="ul_1">
+                                <li>
+                                    <p><span class="Strong">Open Incidents</span>, <span class="Strong">Open Requests</span>, <span class="Strong">Open Problems</span></p>
+                                </li>
+                                <li>
+                                    <p><span class="Strong">Open Known Errors</span>, <span class="Strong">Releases</span>, <span class="Strong">Open Knowledge</span></p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>Clicking a link takes you to the filtered list for that record type with this CI pre-applied.</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul> </div>
+        <div>
+            <hr style="margin-top: 12pt;" width="100%" size="0" align="center" />
+            <div style="font-family: Verdana;font-size: 8pt;text-align: center;">Copyright © 2025 Virima, Inc. All rights reserved. v6.1</div>
+        </div>
+    </body>
+</html>

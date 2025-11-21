@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>CMDB Process Jobs</title>
+        <link href="../../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <script src="../../../../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../Resources/Scripts/foundation.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../Resources/Scripts/version-switcher.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../../Default.htm#ITSM/Config Mngmt/Config Items/Config Item Details/CMDB-Process-Jobs.htm">Open topic with navigation</a>
+        </p>
+        <div role="main" id="mc-main-content">
+            <h1>CMDB Process Jobs</h1>
+            <p>When any of the these actions are chosen in the Configuration Items <i>Select Actions</i> drop-down list, the following occurs:</p>
+            <div class="Bullet1">A confirmation message displays. </div>
+            <table class="AutoNumber_div_emdash1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                <col style="width: 72px;" />
+                <col style="width: 24px;" />
+                <col style="width: auto;" />
+                <tr>
+                    <td valign="top" />
+                    <td class="AutoNumber_div_NumLista" valign="top"><span>- </span>
+                    </td>
+                    <td class="AutoNumber_div_NumLista" valign="top" data-mc-autonum="- ">Click <b>Yes</b> (to start processing). If <b>Yes</b> is selected, a Success Message displays, indicating the process has started and will work in the background. Click <b>OK</b>.</td>
+                </tr>
+            </table>
+            <table class="AutoNumber_div_emdash1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                <col style="width: 72px;" />
+                <col style="width: 24px;" />
+                <col style="width: auto;" />
+                <tr>
+                    <td valign="top" />
+                    <td class="AutoNumber_div_NumLista" valign="top"><span>- </span>
+                    </td>
+                    <td class="AutoNumber_div_NumLista" valign="top" data-mc-autonum="- ">or <b>No </b>(to cancel the action).</td>
+                </tr>
+            </table>
+            <div class="Bullet1">As the processing takes place, a message scrolls across the menu.</div>
+            <div class="Bullet1">When processing is complete, an email notification is sent to the user who initiated the process, confirming the process is complete.</div>
+            <p style="font-size: 10pt; font-style: italic;">
+                <img src="../../../../Resources/Images/arrow-border.PNG" />
+            </p>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../../../Skins/Default/Stylesheets/Images/transparent.gif" height="12" width="16" alt="Closed" data-mc-alt2="Open" />Process&#160;Cloud Hierarchy</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <p><b>Purpose</b>: Creates relationship between the cloud imported CIs: -</p>
+                    <p><b>Limitation/Usage</b>: This cannot be processed for single/multiple selected CIs. This process will run for the entire CMDB when triggered.</p>
+                    <h3><u>Azure Instances</u>
+                    </h3>
+                    <h4>Azure SQL Server Contains Database</h4>
+                    <div class="Bullet1">Relationship Type: Contains</div>
+                    <div class="Bullet1">Source: Azure SQL Server</div>
+                    <div class="Bullet1">Target: Database</div>
+                    <h3><u>AWS Instances</u>
+                    </h3>
+                    <h4>AWS Load Balancer Contains Target Group</h4>
+                    <div class="Bullet1">Relationship Type: Contains</div>
+                    <div class="Bullet1">Source: AWS Load Balancer</div>
+                    <div class="Bullet1">Target: Target Group</div>
+                    <h4>AWS Load Balancer Secured By AWS Security Group</h4>
+                    <div class="Bullet1">Relationship Type: Secured By</div>
+                    <div class="Bullet1">Source: AWS Load Balancer</div>
+                    <div class="Bullet1">Target: AWS Security Group</div>
+                    <h4>AWS VPC Contains AWS Load Balancer</h4>
+                    <div class="Bullet1">Relationship Type: Contains</div>
+                    <div class="Bullet1">Source: AWS VPC</div>
+                    <div class="Bullet1">Target: AWS Load Balancer</div>
+                    <h4>AWS EC2 Instance Secured By AWS Security Group</h4>
+                    <div class="Bullet1">Relationship Type: Secured By</div>
+                    <div class="Bullet1">Source: AWS EC2 Instance</div>
+                    <div class="Bullet1">Target: AWS Security Group</div>
+                    <h4>AWS EC2 Instance Instantiates “Windows Server”/ “Windows Host”/ “Unix Server”/ “Linux Server”</h4>
+                    <div class="Bullet1">Relationship Type: Instantiates</div>
+                    <div class="Bullet1">Source: AWS EC2 Instance</div>
+                    <div class="Bullet1">Target: “Windows Server”/ “Windows Host”/ “Unix Server”/ “Linux Server”</div>
+                    <h4>AWS EC2 Instance Attached To AWS EBS</h4>
+                    <div class="Bullet1">Relationship Type: Attached To</div>
+                    <div class="Bullet1">Source: AWS EC2 Instance</div>
+                    <div class="Bullet1">Target: AWS EBS</div>
+                    <h4>AWS EC2 Instance Belongs To AWS VPC</h4>
+                    <div class="Bullet1">Relationship Type: Belongs To</div>
+                    <div class="Bullet1">Source: AWS EC2 Instance</div>
+                    <div class="Bullet1">Target: AWS VPC</div>
+                    <h4>AWS EC2 Instance Contains Target Group</h4>
+                    <div class="Bullet1">Relationship Type: Contains</div>
+                    <div class="Bullet1">Source: AWS EC2 Instance</div>
+                    <div class="Bullet1">Target: Target Group</div>
+                    <h4>AWS NAT Gateways Contains AWS Subnet</h4>
+                    <div class="Bullet1">Relationship Type: Contains</div>
+                    <div class="Bullet1">Source: AWS NAT Gateways</div>
+                    <div class="Bullet1">Target: AWS Subnet</div>
+                    <h4>AWS Subnet Contains AWS Route Table</h4>
+                    <div class="Bullet1">Relationship Type: Contains</div>
+                    <div class="Bullet1">Source: AWS Subnet</div>
+                    <div class="Bullet1">Target: AWS Route Table</div>
+                    <h4>AWS EC2 Instance Parts Of AWS Subnet</h4>
+                    <div class="Bullet1">Relationship Type: Parts Of</div>
+                    <div class="Bullet1">Source: AWS EC2 Instance</div>
+                    <div class="Bullet1">Target: AWS Subnet</div>
+                    <h4>AWS Network ACL Contains AWS Subnet</h4>
+                    <div class="Bullet1">Relationship Type: Contains</div>
+                    <div class="Bullet1">Source: AWS Network ACL</div>
+                    <div class="Bullet1">Target: AWS Subnet</div>
+                    <h4>AWS Internet Gateway Used By Route</h4>
+                    <div class="Bullet1">Relationship Type: Used By</div>
+                    <div class="Bullet1">Source: AWS Internet Gateway</div>
+                    <div class="Bullet1">Target: Route</div>
+                    <h4>AWS Database Cluster Secured By AWS Security Group</h4>
+                    <div class="Bullet1">Relationship Type: Secured By</div>
+                    <div class="Bullet1">Source: AWS Database Cluster</div>
+                    <div class="Bullet1">Target: AWS Security Group</div>
+                    <h4>AWS DocumentDB Used By Route</h4>
+                    <div class="Bullet1">Relationship Type: Used By</div>
+                    <div class="Bullet1">Source: AWS DocumentDB</div>
+                    <div class="Bullet1">Target: Route</div>
+                    <h4>AWS Neptune Used By Route</h4>
+                    <div class="Bullet1">Relationship Type: Used By</div>
+                    <div class="Bullet1">Source: AWS Neptune</div>
+                    <div class="Bullet1">Target: Route</div>
+                    <h4>AWS RDS Used By Route</h4>
+                    <div class="Bullet1">Relationship Type: Used By</div>
+                    <div class="Bullet1">Source: AWS RDS</div>
+                    <div class="Bullet1">Target: Route</div>
+                    <h4>AWS Internet Gateway Used By Route</h4>
+                    <div class="Bullet1">Relationship Type: Used By</div>
+                    <div class="Bullet1">Source: AWS Internet Gateway</div>
+                    <div class="Bullet1">Target: Route</div>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../../../Skins/Default/Stylesheets/Images/transparent.gif" height="12" width="16" alt="Closed" data-mc-alt2="Open" />Process Software Installation</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <p><b>Purpose</b>: Creates relationship for Software</p>
+                    <p><b>Limitation/Usage</b>: This cannot be processed for single/multiple selected CIs. This process will run for the entire CMDB when triggered.</p>
+                    <h4>Software License Key Component Of Software</h4>
+                    <div class="Bullet1">Relationship Type: Component Of</div>
+                    <div class="Bullet1">Source: Software License Key</div>
+                    <div class="Bullet1">Target: Software</div>
+                    <h4>Software Installed On “Windows Server”/ “Windows Host”/ “Unix Server”/ “Linux Server”</h4>
+                    <div class="Bullet1">Relationship Type: Installed On</div>
+                    <div class="Bullet1">Source: Software</div>
+                    <div class="Bullet1">Target: “Windows Server”/ “Windows Host”/ “Unix Server”/ “Linux Server”</div>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../../../Skins/Default/Stylesheets/Images/transparent.gif" height="12" width="16" alt="Closed" data-mc-alt2="Open" />Process ADM</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <p><b>Purpose</b>: Creates relationship between various Software and CI’s.</p>
+                    <p><b>Limitation/Usage</b>: This can be processed for single/multiple selected CIs. If no CI is selected then this process will run for the entire CMDB when triggered.</p>
+                    <div class="Bullet1"><i>Source Blueprints</i>: “Windows Server”/ “Windows Host”/ “Unix Server”/ “Linux Server”/ “Software Instance”</div>
+                    <div class="Bullet1"><i>Target Blueprints</i>: “Software Instance”</div>
+                    <h4>&lt;Source Blueprints&gt; Communicates With &lt;Target Blueprints&gt;</h4>
+                    <div class="Bullet1">Relationship Type: Communicates With</div>
+                    <div class="Bullet1">Source: &lt;Source Blueprints&gt;</div>
+                    <div class="Bullet1">Target: &lt;Target Blueprints&gt;</div>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../../../Skins/Default/Stylesheets/Images/transparent.gif" height="12" width="16" alt="Closed" data-mc-alt2="Open" />Process VCenter Hierarchy</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <p><b>Purpose</b>: Creates relationship for VCenter</p>
+                    <p><b>Limitation/Usage</b>: This cannot be processed for single/multiple selected CIs. This process will run for the entire CMDB when triggered.</p>
+                    <h4>Windows Server”/ “Windows Host”/ “Unix Server”/ “Linux Server” Esxi virtualises host ESXi Host</h4>
+                    <div class="Bullet1">Relationship Type: Esxi virtualises host</div>
+                    <div class="Bullet1">Source: “Windows Server”/ “Windows Host”/ “Unix Server”/ “Linux Server”</div>
+                    <div class="Bullet1">Target: ESXi Host</div>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../../../Skins/Default/Stylesheets/Images/transparent.gif" height="12" width="16" alt="Closed" data-mc-alt2="Open" />Process Network Connections</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <p><b>Purpose</b>: Creates relationship for Switch, Routers and Vlans</p>
+                    <p><b>Limitation/Usage</b>: This cannot be processed for single/multiple selected CIs. This process will run for the entire CMDB when triggered.</p>
+                    <h3>VLAN Connected To VLAN</h3>
+                    <div class="Bullet1">Relationship Type: Connected To</div>
+                    <div class="Bullet1">Source: VLAN</div>
+                    <div class="Bullet1">Target: VLAN</div>
+                    <h3>VLAN Connected To &lt;Any Blueprint&gt;</h3>
+                    <div class="Bullet1">Relationship Type: Connected To</div>
+                    <div class="Bullet1">Source: VLAN</div>
+                    <div class="Bullet1">Target: Any Blueprint</div>
+                    <h3>VLAN Connected To “Switch”/ “Router”</h3>
+                    <div class="Bullet1">Relationship Type: Connected To</div>
+                    <div class="Bullet1">Source: VLAN</div>
+                    <div class="Bullet1">Target: “Switch”/ “Router”</div>
+                    <h3>&lt;Any Blueprint&gt; Connected To “Switch”/ “Router”</h3>
+                    <div class="Bullet1">Relationship Type: Connected To</div>
+                    <div class="Bullet1">Source: Any Blueprint</div>
+                    <div class="Bullet1">Target: “Switch”/ “Router”</div>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../../../Skins/Default/Stylesheets/Images/transparent.gif" height="12" width="16" alt="Closed" data-mc-alt2="Open" />Process Dev Ops</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <p><b>Purpose</b>: Creates relationship between the cloud imported CIs: -</p>
+                    <p><b>Limitation/Usage</b>: This cannot be processed for single/multiple selected CIs. This process will run for the entire CMDB when triggered.</p>
+                    <h4>Website Hosted On &lt;Any Blueprint&gt;</h4>
+                    <div class="Bullet1">Relationship Type: Hosted On</div>
+                    <div class="Bullet1">Source: Website</div>
+                    <div class="Bullet1">Target: &lt;Any Blueprint&gt;</div>
+                    <h4>Application Hosts Software Instance</h4>
+                    <div class="Bullet1">Relationship Type: Hosts</div>
+                    <div class="Bullet1">Source: Application</div>
+                    <div class="Bullet1">Target: Software Instance</div>
+                    <h4>Software Instance Load Balancer For Software Instance</h4>
+                    <div class="Bullet1">Relationship Type: Load Balancer For</div>
+                    <div class="Bullet1">Source: Software Instance</div>
+                    <div class="Bullet1">Target: Software Instance</div>
+                    <h4>Database Load Balancer For Application</h4>
+                    <div class="Bullet1">Relationship Type: Load Balancer For</div>
+                    <div class="Bullet1">Source: Database</div>
+                    <div class="Bullet1">Target: Application</div>
+                    <h4>Database Hosts Application</h4>
+                    <div class="Bullet1">Relationship Type: Hosts</div>
+                    <div class="Bullet1">Source: Database</div>
+                    <div class="Bullet1">Target: Application</div>
+                    <h4>Database Hosted On Software Instance</h4>
+                    <div class="Bullet1">Relationship Type: Hosted On</div>
+                    <div class="Bullet1">Source: Database</div>
+                    <div class="Bullet1">Target: Software Instance</div>
+                    <h3><u>IIS Websites</u>
+                    </h3>
+                    <h4>IIS Website HOSTED ON Application</h4>
+                    <div class="Bullet1">Relationship Type: Hosts</div>
+                    <div class="Bullet1">Source: IIS Website</div>
+                    <div class="Bullet1">Target: Application</div>
+                    <h4>Windows Server / Windows Host Runs IIS Website</h4>
+                    <div class="Bullet1">Relationship Type: Runs</div>
+                    <div class="Bullet1">Source: Windows Server / Windows Host</div>
+                    <div class="Bullet1">Target : IIS Website</div>
+                    <h4>Windows Server / Windows Host [Relationship mentioned in port configuration]  &lt;Any blueprint&gt;</h4>
+                    <div class="Bullet1">Relationship Type: Relationship mentioned in port configuration</div>
+                    <div class="Bullet1">Source: Windows Server / Windows Host</div>
+                    <div class="Bullet1">Target: Any Main Blueprint</div>
+                    <h4>Windows Server / Windows Host Load Balances Windows Server / windows Host with Microsoft NLB’s Dedicated IP</h4>
+                    <div class="Bullet1">Relationship Type: Load Balances</div>
+                    <div class="Bullet1">Source: Windows Server/ windows Host</div>
+                    <div class="Bullet1">Target: Windows Server / Windows Host with Microsoft NLB’s Dedicated IP</div>
+                    <h3><u>MSSQL Instance</u>
+                    </h3>
+                    <h4>Windows Server RUNS MSSQL Instance</h4>
+                    <div class="Bullet1">Relationship Type: Runs</div>
+                    <div class="Bullet1">Source: Windows Server</div>
+                    <div class="Bullet1">Target: MSSQL Instance</div>
+                    <h4>Software Instance Instantiates MSSQL Instance</h4>
+                    <div class="Bullet1">Relationship Type: Instantiates</div>
+                    <div class="Bullet1">Source: Software Instance</div>
+                    <div class="Bullet1">Target: MSSQL Instance</div>
+                    <h3><u>Windows Cluster</u>
+                    </h3>
+                    <h4>Windows Cluster Cluster Of Windows Cluster Node</h4>
+                    <div class="Bullet1">Relationship Type: Cluster Of</div>
+                    <div class="Bullet1">Source: Windows Cluster</div>
+                    <div class="Bullet1">Target: Windows Cluster Node</div>
+                    <h4>Windows Cluster Node Hosted On Windows Server/Windows Host</h4>
+                    <div class="Bullet1">Relationship Type: Windows Cluster</div>
+                    <div class="Bullet1">Source: Windows Cluster Node</div>
+                    <div class="Bullet1">Target: Windows Server/Windows Host</div>
+                    <h3><u>Oracle Cluster</u>
+                    </h3>
+                    <h4>Linux Server Hosts Oracle Cluster</h4>
+                    <div class="Bullet1">Relationship Type: Hosts</div>
+                    <div class="Bullet1">Source: Linux Server</div>
+                    <div class="Bullet1">Target: Oracle Cluster</div>
+                    <h4>Oracle  Cluster Of Software Instance</h4>
+                    <div class="Bullet1">Relationship Type: Cluster Of</div>
+                    <div class="Bullet1">Source: Oracle Cluster</div>
+                    <div class="Bullet1">Target: Software Instance</div>
+                    <h3><u>Cisco</u>
+                    </h3>
+                    <h4>Cisco UCS Contains Cisco UCS Chassis</h4>
+                    <div class="Bullet1">Relationship Type: Contains</div>
+                    <div class="Bullet1">Source: Cisco UCS</div>
+                    <div class="Bullet1">Target: Cisco UCS Chassis</div>
+                    <h4>Cisco UCS Chassis Contains Cisco Blade Server</h4>
+                    <div class="Bullet1">Relationship Type: Contains</div>
+                    <div class="Bullet1">Source: Cisco UCS</div>
+                    <div class="Bullet1">Target: Cisco UCS Chassis</div>
+                    <h3><u>HyperV</u>
+                    </h3>
+                    <h4>HyperV Virtualizes Windows Server/Windows Host</h4>
+                    <div class="Bullet1">Relationship Type: Virtualizes</div>
+                    <div class="Bullet1">Source: HyperV</div>
+                    <div class="Bullet1">Target: Windows Server/Windows Host</div>
+                </div>
+            </div>
+            <p>&#160;</p>
+        </div>
+        <div>
+            <hr style="margin-top: 12pt;" width="100%" size="0" align="center" />
+            <div style="font-family: Verdana;font-size: 8pt;text-align: center;">Copyright © 2025 Virima, Inc. All rights reserved. v6.1</div>
+        </div>
+    </body>
+</html>

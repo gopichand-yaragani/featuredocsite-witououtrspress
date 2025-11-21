@@ -1,0 +1,1798 @@
+TOC VALIDATION - FINAL REPORT
+================================================================================
+
+Total TOC links: 360
+Valid links: 3
+Broken links: 357
+Total MDX files: 1125
+Files not in TOC: 1122
+
+================================================================================
+BROKEN LINKS IN TOC:
+================================================================================
+
+Link: All About Virima v6.1
+  TOC Path: /6_1/application_overview_6_1/all_about_virima_v6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\all_about_virima_v6_1.mdx
+  Status: NOT FOUND
+
+Link: System Icons
+  TOC Path: /6_1/application_overview_6_1/icons_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\icons_6_1.mdx
+  Status: NOT FOUND
+
+Link: User Specific Functions
+  TOC Path: /6_1/application_overview_6_1/user_specific_functions_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\user_specific_functions_6_1.mdx
+  Status: NOT FOUND
+
+Link: Online Help
+  TOC Path: /6_1/application_overview_6_1/online_help_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\online_help_6_1.mdx
+  Status: NOT FOUND
+
+Link: About Common Functions
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/about_common_functions_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\about_common_functions_6_1.mdx
+  Status: NOT FOUND
+
+Link: Advanced Search
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/advanced_search_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\advanced_search_6_1.mdx
+  Status: NOT FOUND
+
+Link: Attachments
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/attachments_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\attachments_6_1.mdx
+  Status: NOT FOUND
+
+Link: Auto Refresh
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/auto_refresh_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\auto_refresh_6_1.mdx
+  Status: NOT FOUND
+
+Link: Collapse/Maximize
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/collapse_maximize_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\collapse_maximize_6_1.mdx
+  Status: NOT FOUND
+
+Link: Comments
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/comments_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\comments_6_1.mdx
+  Status: NOT FOUND
+
+Link: Copy to Cherwell
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/copy_to_cherwell_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\copy_to_cherwell_6_1.mdx
+  Status: NOT FOUND
+
+Link: Copy to Ivanti
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/copy_to_ivanti_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\copy_to_ivanti_6_1.mdx
+  Status: NOT FOUND
+
+Link: Copy to ServiceNow
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/copy_to_servicenow_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\copy_to_servicenow_6_1.mdx
+  Status: NOT FOUND
+
+Link: Delete/Remove
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/delete_remove_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\delete_remove_6_1.mdx
+  Status: NOT FOUND
+
+Link: Email Preferences
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/email_prefs_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\email_prefs_6_1.mdx
+  Status: NOT FOUND
+
+Link: Enable/Disable Editing
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/enable_disable_editing_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\enable_disable_editing_6_1.mdx
+  Status: NOT FOUND
+
+Link: Export
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/export_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\export_6_1.mdx
+  Status: NOT FOUND
+
+Link: History
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/history_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\history_6_1.mdx
+  Status: NOT FOUND
+
+Link: Import
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/import_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\import_6_1.mdx
+  Status: NOT FOUND
+
+Link: Items per Page
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/items_per_page_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\items_per_page_6_1.mdx
+  Status: NOT FOUND
+
+Link: Mark as Knowledge
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/mark_as_knowledge_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\mark_as_knowledge_6_1.mdx
+  Status: NOT FOUND
+
+Link: Other Asset Info
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/other_asset_info_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\other_asset_info_6_1.mdx
+  Status: NOT FOUND
+
+Link: Outage Calendar
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/outage_calendar_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\outage_calendar_6_1.mdx
+  Status: NOT FOUND
+
+Link: Personalize Columns
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/personalize_columns_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\personalize_columns_6_1.mdx
+  Status: NOT FOUND
+
+Link: Print
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/print_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\print_6_1.mdx
+  Status: NOT FOUND
+
+Link: Process ADM
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/process_adm_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\process_adm_6_1.mdx
+  Status: NOT FOUND
+
+Link: Process Missing Components
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/process_missing_components_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\process_missing_components_6_1.mdx
+  Status: NOT FOUND
+
+Link: Records per Page
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/records_per_page_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\records_per_page_6_1.mdx
+  Status: NOT FOUND
+
+Link: Reload Default Mapping
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/reload_default_mapping_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\reload_default_mapping_6_1.mdx
+  Status: NOT FOUND
+
+Link: Re-scan
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/re_scan_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\re_scan_6_1.mdx
+  Status: NOT FOUND
+
+Link: Re-Sync Data
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/re_sync_data_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\re_sync_data_6_1.mdx
+  Status: NOT FOUND
+
+Link: Save
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/save_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\save_6_1.mdx
+  Status: NOT FOUND
+
+Link: Saved Filters
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/saved_filters_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\saved_filters_6_1.mdx
+  Status: NOT FOUND
+
+Link: Searching
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/searching_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\searching_6_1.mdx
+  Status: NOT FOUND
+
+Link: Show Main/All Properties
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/show_main_all_properties_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\show_main_all_properties_6_1.mdx
+  Status: NOT FOUND
+
+Link: Tasks
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/tasks_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\tasks_6_1.mdx
+  Status: NOT FOUND
+
+Link: Updates
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/updates_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\updates_6_1.mdx
+  Status: NOT FOUND
+
+Link: Version Control
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/version_control_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\version_control_6_1.mdx
+  Status: NOT FOUND
+
+Link: Go to Page
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/go_to_page_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\go_to_page_6_1.mdx
+  Status: NOT FOUND
+
+Link: Send Report To
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/send_report_to_6_1
+  Expected File: FeatureDocsite\src\content\6_1\application_overview_6_1\shared_functions_6_1\send_report_to_6_1.mdx
+  Status: NOT FOUND
+
+Link: My Dashboard Overview
+  TOC Path: /6_1/my-dashboard-6_1/my-dashboard-overview-6_1
+  Expected File: FeatureDocsite\src\content\6_1\my-dashboard-6_1\my-dashboard-overview-6_1.mdx
+  Status: NOT FOUND
+
+Link: Dashboards
+  TOC Path: /6_1/my-dashboard-6_1/dashboards-6_1
+  Expected File: FeatureDocsite\src\content\6_1\my-dashboard-6_1\dashboards-6_1.mdx
+  Status: NOT FOUND
+
+Link: Contents
+  TOC Path: /6_1/my-dashboard-6_1/dashboards-contents-6_1
+  Expected File: FeatureDocsite\src\content\6_1\my-dashboard-6_1\dashboards-contents-6_1.mdx
+  Status: NOT FOUND
+
+Link: Customization
+  TOC Path: /6_1/my-dashboard-6_1/dashboards-customization-6_1
+  Expected File: FeatureDocsite\src\content\6_1\my-dashboard-6_1\dashboards-customization-6_1.mdx
+  Status: NOT FOUND
+
+Link: My Dashboard
+  TOC Path: /6_1/my-dashboard-6_1/my-dashboard-6_1
+  Expected File: FeatureDocsite\src\content\6_1\my-dashboard-6_1\my-dashboard-6_1.mdx
+  Status: NOT FOUND
+
+Link: Contents
+  TOC Path: /6_1/my-dashboard-6_1/my-dashboard-contents-6_1
+  Expected File: FeatureDocsite\src\content\6_1\my-dashboard-6_1\my-dashboard-contents-6_1.mdx
+  Status: NOT FOUND
+
+Link: Report Actions
+  TOC Path: /6_1/my-dashboard-6_1/dashboards-report-actions-6_1
+  Expected File: FeatureDocsite\src\content\6_1\my-dashboard-6_1\dashboards-report-actions-6_1.mdx
+  Status: NOT FOUND
+
+Link: System Icons
+  TOC Path: /6_1/my-dashboard-6_1/system-icons-6_1
+  Expected File: FeatureDocsite\src\content\6_1\my-dashboard-6_1\system-icons-6_1.mdx
+  Status: NOT FOUND
+
+Link: Access CMDB
+  TOC Path: /6_1/cmdb_6_1/access_cmdb_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\access_cmdb_6_1.mdx
+  Status: NOT FOUND
+
+Link: Manage CMDB
+  TOC Path: /6_1/cmdb_6_1/manage_cmdb_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\manage_cmdb_6_1.mdx
+  Status: NOT FOUND
+
+Link: Audits
+  TOC Path: /6_1/cmdb_6_1/audits_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\audits_6_1.mdx
+  Status: NOT FOUND
+
+Link: Change Attributes
+  TOC Path: /6_1/cmdb_6_1/change_attributes_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\change_attributes_6_1.mdx
+  Status: NOT FOUND
+
+Link: Delete
+  TOC Path: /6_1/cmdb_6_1/delete_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\delete_6_1.mdx
+  Status: NOT FOUND
+
+Link: Export
+  TOC Path: /6_1/cmdb_6_1/export_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\export_6_1.mdx
+  Status: NOT FOUND
+
+Link: New
+  TOC Path: /6_1/cmdb_6_1/new_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\new_6_1.mdx
+  Status: NOT FOUND
+
+Link: Copy to Ivanti
+  TOC Path: /6_1/cmdb_6_1/copy_to_ivanti_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\copy_to_ivanti_6_1.mdx
+  Status: NOT FOUND
+
+Link: Copy to Jira
+  TOC Path: /6_1/cmdb_6_1/copy_to_jira_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\copy_to_jira_6_1.mdx
+  Status: NOT FOUND
+
+Link: Copy to ServiceNow
+  TOC Path: /6_1/cmdb_6_1/copy_to_servicenow_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\copy_to_servicenow_6_1.mdx
+  Status: NOT FOUND
+
+Link: Generate Installed Software Report
+  TOC Path: /6_1/cmdb_6_1/generate_installed_software_report_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\generate_installed_software_report_6_1.mdx
+  Status: NOT FOUND
+
+Link: Process ADM
+  TOC Path: /6_1/cmdb_6_1/process_adm_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\process_adm_6_1.mdx
+  Status: NOT FOUND
+
+Link: Process Available Patch Report
+  TOC Path: /6_1/cmdb_6_1/process_available_patch_report_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\process_available_patch_report_6_1.mdx
+  Status: NOT FOUND
+
+Link: Process Cloud Hierarchy
+  TOC Path: /6_1/cmdb_6_1/process_cloud_hierarchy_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\process_cloud_hierarchy_6_1.mdx
+  Status: NOT FOUND
+
+Link: Process DevOps
+  TOC Path: /6_1/cmdb_6_1/process_devops_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\process_devops_6_1.mdx
+  Status: NOT FOUND
+
+Link: Process Missing Components
+  TOC Path: /6_1/cmdb_6_1/process_missing_components_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\process_missing_components_6_1.mdx
+  Status: NOT FOUND
+
+Link: Process Network Connection
+  TOC Path: /6_1/cmdb_6_1/process_network_connection_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\process_network_connection_6_1.mdx
+  Status: NOT FOUND
+
+Link: Process Software Installation
+  TOC Path: /6_1/cmdb_6_1/process_software_installation_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\process_software_installation_6_1.mdx
+  Status: NOT FOUND
+
+Link: CI Left Panel
+  TOC Path: /6_1/cmdb_6_1/ci_left_panel_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\ci_left_panel_6_1.mdx
+  Status: NOT FOUND
+
+Link: CI Details and Tabs
+  TOC Path: /6_1/cmdb_6_1/ci_details_and_tabs_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\ci_details_and_tabs_6_1.mdx
+  Status: NOT FOUND
+
+Link: Details
+  TOC Path: /6_1/cmdb_6_1/details_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\details_6_1.mdx
+  Status: NOT FOUND
+
+Link: Manage CI
+  TOC Path: /6_1/cmdb_6_1/manage_ci_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\manage_ci_6_1.mdx
+  Status: NOT FOUND
+
+Link: Business Service Map
+  TOC Path: /6_1/cmdb_6_1/business_service_map_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\business_service_map_6_1.mdx
+  Status: NOT FOUND
+
+Link: Components
+  TOC Path: /6_1/cmdb_6_1/components_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\components_6_1.mdx
+  Status: NOT FOUND
+
+Link: Logon Events
+  TOC Path: /6_1/cmdb_6_1/logon_events_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\logon_events_6_1.mdx
+  Status: NOT FOUND
+
+Link: ITSM
+  TOC Path: /6_1/cmdb_6_1/itsm_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\itsm_6_1.mdx
+  Status: NOT FOUND
+
+Link: Relationships
+  TOC Path: /6_1/cmdb_6_1/relationships_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\relationships_6_1.mdx
+  Status: NOT FOUND
+
+Link: Audits
+  TOC Path: /6_1/cmdb_6_1/audits_tab_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\audits_tab_6_1.mdx
+  Status: NOT FOUND
+
+Link: SLA
+  TOC Path: /6_1/cmdb_6_1/sla_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\sla_6_1.mdx
+  Status: NOT FOUND
+
+Link: Maintenance
+  TOC Path: /6_1/cmdb_6_1/maintenance_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\maintenance_6_1.mdx
+  Status: NOT FOUND
+
+Link: Vulnerability
+  TOC Path: /6_1/cmdb_6_1/vulnerability_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\vulnerability_6_1.mdx
+  Status: NOT FOUND
+
+Link: Private Properties
+  TOC Path: /6_1/cmdb_6_1/private_properties_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\private_properties_6_1.mdx
+  Status: NOT FOUND
+
+Link: Tasks
+  TOC Path: /6_1/cmdb_6_1/tasks_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\tasks_6_1.mdx
+  Status: NOT FOUND
+
+Link: History
+  TOC Path: /6_1/cmdb_6_1/history_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\history_6_1.mdx
+  Status: NOT FOUND
+
+Link: Attachments
+  TOC Path: /6_1/cmdb_6_1/attachments_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\attachments_6_1.mdx
+  Status: NOT FOUND
+
+Link: Comments
+  TOC Path: /6_1/cmdb_6_1/comments_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\comments_6_1.mdx
+  Status: NOT FOUND
+
+Link: Other Functions and Page Elements
+  TOC Path: /6_1/cmdb_6_1/other_functions_and_page_elements_6_1
+  Expected File: FeatureDocsite\src\content\6_1\cmdb_6_1\other_functions_and_page_elements_6_1.mdx
+  Status: NOT FOUND
+
+Link: Discovery Scan Overview
+  TOC Path: /6_1/discovery_scan_6_1/discovery_scan_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\discovery_scan_6_1.mdx
+  Status: NOT FOUND
+
+Link: Dashboard
+  TOC Path: /6_1/discovery_scan_6_1/dashboard_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\dashboard_6_1.mdx
+  Status: NOT FOUND
+
+Link: Access Dashboard
+  TOC Path: /6_1/discovery_scan_6_1/access_dashboard_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\access_dashboard_6_1.mdx
+  Status: NOT FOUND
+
+Link: Dashboard Features
+  TOC Path: /6_1/discovery_scan_6_1/dashboard_features_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\dashboard_features_6_1.mdx
+  Status: NOT FOUND
+
+Link: Add Contents
+  TOC Path: /6_1/discovery_scan_6_1/add_contents_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\add_contents_6_1.mdx
+  Status: NOT FOUND
+
+Link: Dashboard Customization
+  TOC Path: /6_1/discovery_scan_6_1/dashboard_customization_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\dashboard_customization_6_1.mdx
+  Status: NOT FOUND
+
+Link: Run a Scan
+  TOC Path: /6_1/discovery_scan_6_1/run_a_scan_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\run_a_scan_6_1.mdx
+  Status: NOT FOUND
+
+Link: Pre-requisites for Scan
+  TOC Path: /6_1/discovery_scan_6_1/pre_requisites_for_scan_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\pre_requisites_for_scan_6_1.mdx
+  Status: NOT FOUND
+
+Link: Initiate and Configure Discovery Scan
+  TOC Path: /6_1/discovery_scan_6_1/initiate_and_configure_discovery_scan_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\initiate_and_configure_discovery_scan_6_1.mdx
+  Status: NOT FOUND
+
+Link: Access Run A Scan
+  TOC Path: /6_1/discovery_scan_6_1/access_run_a_scan_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\access_run_a_scan_6_1.mdx
+  Status: NOT FOUND
+
+Link: Configure Discovery Scan
+  TOC Path: /6_1/discovery_scan_6_1/configure_discovery_scan_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\configure_discovery_scan_6_1.mdx
+  Status: NOT FOUND
+
+Link: Probes Configuration
+  TOC Path: /6_1/discovery_scan_6_1/probes_configuration_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\probes_configuration_6_1.mdx
+  Status: NOT FOUND
+
+Link: Client Configuration
+  TOC Path: /6_1/discovery_scan_6_1/client_configuration_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\client_configuration_6_1.mdx
+  Status: NOT FOUND
+
+Link: Recent Scans
+  TOC Path: /6_1/discovery_scan_6_1/recent_scans_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\recent_scans_6_1.mdx
+  Status: NOT FOUND
+
+Link: Access Recent Scan
+  TOC Path: /6_1/discovery_scan_6_1/access_recent_scan_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\access_recent_scan_6_1.mdx
+  Status: NOT FOUND
+
+Link: View Recent Scan
+  TOC Path: /6_1/discovery_scan_6_1/view_recent_scan_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\view_recent_scan_6_1.mdx
+  Status: NOT FOUND
+
+Link: Details
+  TOC Path: /6_1/discovery_scan_6_1/details_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\details_6_1.mdx
+  Status: NOT FOUND
+
+Link: Export Scan Report
+  TOC Path: /6_1/discovery_scan_6_1/export_scan_report_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\export_scan_report_6_1.mdx
+  Status: NOT FOUND
+
+Link: Refresh
+  TOC Path: /6_1/discovery_scan_6_1/refresh_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\refresh_6_1.mdx
+  Status: NOT FOUND
+
+Link: Logs
+  TOC Path: /6_1/discovery_scan_6_1/logs_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\logs_6_1.mdx
+  Status: NOT FOUND
+
+Link: Tasks
+  TOC Path: /6_1/discovery_scan_6_1/tasks_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\tasks_6_1.mdx
+  Status: NOT FOUND
+
+Link: Comments
+  TOC Path: /6_1/discovery_scan_6_1/comments_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\comments_6_1.mdx
+  Status: NOT FOUND
+
+Link: Attachments
+  TOC Path: /6_1/discovery_scan_6_1/attachments_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\attachments_6_1.mdx
+  Status: NOT FOUND
+
+Link: Scheduled Scans and Imports
+  TOC Path: /6_1/discovery_scan_6_1/scheduled_scans_and_imports_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\scheduled_scans_and_imports_6_1.mdx
+  Status: NOT FOUND
+
+Link: Pre-requisites
+  TOC Path: /6_1/discovery_scan_6_1/prerequisites_scheduled_scans_and_imports_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\prerequisites_scheduled_scans_and_imports_6_1.mdx
+  Status: NOT FOUND
+
+Link: Accessing Scheduled Scan and Imports
+  TOC Path: /6_1/discovery_scan_6_1/accessing_scheduled_scan_and_imports_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\accessing_scheduled_scan_and_imports_6_1.mdx
+  Status: NOT FOUND
+
+Link: Key Features and Options on the Landing Page
+  TOC Path: /6_1/discovery_scan_6_1/key_features_and_options_on_the_landing_page_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\key_features_and_options_on_the_landing_page_6_1.mdx
+  Status: NOT FOUND
+
+Link: Scans and Import Options
+  TOC Path: /6_1/discovery_scan_6_1/scans_and_import_options_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\scans_and_import_options_6_1.mdx
+  Status: NOT FOUND
+
+Link: Scan and Import Schedule List
+  TOC Path: /6_1/discovery_scan_6_1/scan_and_import_schedule_list_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\scan_and_import_schedule_list_6_1.mdx
+  Status: NOT FOUND
+
+Link: Schedule a Network Scan
+  TOC Path: /6_1/discovery_scan_6_1/schedule_a_network_scan_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\schedule_a_network_scan_6_1.mdx
+  Status: NOT FOUND
+
+Link: Editing a Scheduled Scan
+  TOC Path: /6_1/discovery_scan_6_1/editing_a_scheduled_scan_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\editing_a_scheduled_scan_6_1.mdx
+  Status: NOT FOUND
+
+Link: History of Scheduled Scan Execution
+  TOC Path: /6_1/discovery_scan_6_1/history_of_scheduled_scan_execution_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\history_of_scheduled_scan_execution_6_1.mdx
+  Status: NOT FOUND
+
+Link: Bulk Update Scan
+  TOC Path: /6_1/discovery_scan_6_1/bulk_update_scan_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\bulk_update_scan_6_1.mdx
+  Status: NOT FOUND
+
+Link: Exporting a Scan
+  TOC Path: /6_1/discovery_scan_6_1/exporting_a_scan_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\exporting_a_scan_6_1.mdx
+  Status: NOT FOUND
+
+Link: Importing Scan Schedule(s)
+  TOC Path: /6_1/discovery_scan_6_1/importing_scan_schedules_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\importing_scan_schedules_6_1.mdx
+  Status: NOT FOUND
+
+Link: Deleting a Scan Schedule
+  TOC Path: /6_1/discovery_scan_6_1/deleting_a_scan_schedule_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\deleting_a_scan_schedule_6_1.mdx
+  Status: NOT FOUND
+
+Link: Scheduled Import Setup
+  TOC Path: /6_1/discovery_scan_6_1/scheduled_import_setup_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\scheduled_import_setup_6_1.mdx
+  Status: NOT FOUND
+
+Link: AWS Import
+  TOC Path: /6_1/discovery_scan_6_1/aws_import_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\aws_import_6_1.mdx
+  Status: NOT FOUND
+
+Link: Azure Import
+  TOC Path: /6_1/discovery_scan_6_1/azure_import_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\azure_import_6_1.mdx
+  Status: NOT FOUND
+
+Link: Azure Import
+  TOC Path: /6_1/discovery_scan_6_1/azure_import_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\azure_import_6_1.mdx
+  Status: NOT FOUND
+
+Link: Meraki Import
+  TOC Path: /6_1/discovery_scan_6_1/meraki_import_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\meraki_import_6_1.mdx
+  Status: NOT FOUND
+
+Link: IPAM Networks
+  TOC Path: /6_1/discovery_scan_6_1/ipam_networks_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\ipam_networks_6_1.mdx
+  Status: NOT FOUND
+
+Link: IPAM Procedure
+  TOC Path: /6_1/discovery_scan_6_1/ipam_procedure_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\ipam_procedure_6_1.mdx
+  Status: NOT FOUND
+
+Link: Infoblox Configuration
+  TOC Path: /6_1/discovery_scan_6_1/infoblox_configuration_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\infoblox_configuration_6_1.mdx
+  Status: NOT FOUND
+
+Link: IPAM (IP Address Management)
+  TOC Path: /6_1/discovery_scan_6_1/ipam_ip_address_management_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\ipam_ip_address_management_6_1.mdx
+  Status: NOT FOUND
+
+Link: IPAM Functions Overview
+  TOC Path: /6_1/discovery_scan_6_1/ipam_functions_overview_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\ipam_functions_overview_6_1.mdx
+  Status: NOT FOUND
+
+Link: Scan Function
+  TOC Path: /6_1/discovery_scan_6_1/scan_function_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\scan_function_6_1.mdx
+  Status: NOT FOUND
+
+Link: Status Update
+  TOC Path: /6_1/discovery_scan_6_1/status_update_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\status_update_6_1.mdx
+  Status: NOT FOUND
+
+Link: Regular Scan
+  TOC Path: /6_1/discovery_scan_6_1/regular_scan_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\regular_scan_6_1.mdx
+  Status: NOT FOUND
+
+Link: Sync (Instant and Scheduled)
+  TOC Path: /6_1/discovery_scan_6_1/sync_instant_and_scheduled_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\sync_instant_and_scheduled_6_1.mdx
+  Status: NOT FOUND
+
+Link: View and Edit a Network
+  TOC Path: /6_1/discovery_scan_6_1/view_and_edit_a_network_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\view_and_edit_a_network_6_1.mdx
+  Status: NOT FOUND
+
+Link: Other Functions and Page Elements
+  TOC Path: /6_1/discovery_scan_6_1/other_functions_and_page_elements_ipam_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\other_functions_and_page_elements_ipam_6_1.mdx
+  Status: NOT FOUND
+
+Link: Discovered Items
+  TOC Path: /6_1/discovery_scan_6_1/discovered_items_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\discovered_items_6_1.mdx
+  Status: NOT FOUND
+
+Link: Prerequisites
+  TOC Path: /6_1/discovery_scan_6_1/prerequisites_discovered_items_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\prerequisites_discovered_items_6_1.mdx
+  Status: NOT FOUND
+
+Link: Access Discovered Items
+  TOC Path: /6_1/discovery_scan_6_1/access_discovered_items_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\access_discovered_items_6_1.mdx
+  Status: NOT FOUND
+
+Link: Manage Discovered Items
+  TOC Path: /6_1/discovery_scan_6_1/manage_discovered_items_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\manage_discovered_items_6_1.mdx
+  Status: NOT FOUND
+
+Link: Delete
+  TOC Path: /6_1/discovery_scan_6_1/delete_discovered_items_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\delete_discovered_items_6_1.mdx
+  Status: NOT FOUND
+
+Link: Export
+  TOC Path: /6_1/discovery_scan_6_1/export_discovered_items_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\export_discovered_items_6_1.mdx
+  Status: NOT FOUND
+
+Link: Export Without Selecting Any Record
+  TOC Path: /6_1/discovery_scan_6_1/export_without_selecting_any_record_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\export_without_selecting_any_record_6_1.mdx
+  Status: NOT FOUND
+
+Link: Move to CMDB
+  TOC Path: /6_1/discovery_scan_6_1/move_to_cmdb_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\move_to_cmdb_6_1.mdx
+  Status: NOT FOUND
+
+Link: Re-scan
+  TOC Path: /6_1/discovery_scan_6_1/re_scan_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\re_scan_6_1.mdx
+  Status: NOT FOUND
+
+Link: Column Descriptions
+  TOC Path: /6_1/discovery_scan_6_1/column_descriptions_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\column_descriptions_6_1.mdx
+  Status: NOT FOUND
+
+Link: Detailed View of Discovered Items
+  TOC Path: /6_1/discovery_scan_6_1/detailed_view_of_discovered_items_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\detailed_view_of_discovered_items_6_1.mdx
+  Status: NOT FOUND
+
+Link: Primary Details Block
+  TOC Path: /6_1/discovery_scan_6_1/primary_details_block_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\primary_details_block_6_1.mdx
+  Status: NOT FOUND
+
+Link: Owner Block
+  TOC Path: /6_1/discovery_scan_6_1/owner_block_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\owner_block_6_1.mdx
+  Status: NOT FOUND
+
+Link: Main Information Area
+  TOC Path: /6_1/discovery_scan_6_1/main_information_area_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\main_information_area_6_1.mdx
+  Status: NOT FOUND
+
+Link: Action Buttons
+  TOC Path: /6_1/discovery_scan_6_1/action_buttons_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\action_buttons_6_1.mdx
+  Status: NOT FOUND
+
+Link: Navigation Tabs
+  TOC Path: /6_1/discovery_scan_6_1/navigation_tabs_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\navigation_tabs_6_1.mdx
+  Status: NOT FOUND
+
+Link: Other Functions and Page Elements
+  TOC Path: /6_1/discovery_scan_6_1/other_functions_and_page_elements_discovered_items_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\other_functions_and_page_elements_discovered_items_6_1.mdx
+  Status: NOT FOUND
+
+Link: Toolbar or Control Bar
+  TOC Path: /6_1/discovery_scan_6_1/toolbar_or_control_bar_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\toolbar_or_control_bar_6_1.mdx
+  Status: NOT FOUND
+
+Link: Filter By
+  TOC Path: /6_1/discovery_scan_6_1/filter_by_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\filter_by_6_1.mdx
+  Status: NOT FOUND
+
+Link: Import from AWS
+  TOC Path: /6_1/discovery_scan_6_1/import_from_aws_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\import_from_aws_6_1.mdx
+  Status: NOT FOUND
+
+Link: Access the Import AWS Window
+  TOC Path: /6_1/discovery_scan_6_1/access_the_import_aws_window_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\access_the_import_aws_window_6_1.mdx
+  Status: NOT FOUND
+
+Link: Import AWS Record
+  TOC Path: /6_1/discovery_scan_6_1/import_aws_record_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\import_aws_record_6_1.mdx
+  Status: NOT FOUND
+
+Link: View AWS Import Record
+  TOC Path: /6_1/discovery_scan_6_1/view_aws_import_record_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\view_aws_import_record_6_1.mdx
+  Status: NOT FOUND
+
+Link: Key columns
+  TOC Path: /6_1/discovery_scan_6_1/key_columns_aws_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\key_columns_aws_6_1.mdx
+  Status: NOT FOUND
+
+Link: Move Items to CMDB
+  TOC Path: /6_1/discovery_scan_6_1/move_items_to_cmdb_aws_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\move_items_to_cmdb_aws_6_1.mdx
+  Status: NOT FOUND
+
+Link: Logs
+  TOC Path: /6_1/discovery_scan_6_1/logs_aws_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\logs_aws_6_1.mdx
+  Status: NOT FOUND
+
+Link: Delete AWS Record
+  TOC Path: /6_1/discovery_scan_6_1/delete_aws_record_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\delete_aws_record_6_1.mdx
+  Status: NOT FOUND
+
+Link: Export AWS Records
+  TOC Path: /6_1/discovery_scan_6_1/export_aws_records_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\export_aws_records_6_1.mdx
+  Status: NOT FOUND
+
+Link: View a discovered AWS record
+  TOC Path: /6_1/discovery_scan_6_1/view_a_discovered_aws_record_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\view_a_discovered_aws_record_6_1.mdx
+  Status: NOT FOUND
+
+Link: Import from Azure
+  TOC Path: /6_1/discovery_scan_6_1/import_from_azure_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\import_from_azure_6_1.mdx
+  Status: NOT FOUND
+
+Link: Access the Import AZURE Window
+  TOC Path: /6_1/discovery_scan_6_1/access_import_azure_window_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\access_import_azure_window_6_1.mdx
+  Status: NOT FOUND
+
+Link: Import AZURE Record
+  TOC Path: /6_1/discovery_scan_6_1/import_azure_record_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\import_azure_record_6_1.mdx
+  Status: NOT FOUND
+
+Link: View AZURE Import Record
+  TOC Path: /6_1/discovery_scan_6_1/view_azure_import_record_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\view_azure_import_record_6_1.mdx
+  Status: NOT FOUND
+
+Link: Common controls (top-right of the grid)
+  TOC Path: /6_1/discovery_scan_6_1/common_controls_azure_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\common_controls_azure_6_1.mdx
+  Status: NOT FOUND
+
+Link: Key columns
+  TOC Path: /6_1/discovery_scan_6_1/key_columns_azure_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\key_columns_azure_6_1.mdx
+  Status: NOT FOUND
+
+Link: Move items to the CMDB
+  TOC Path: /6_1/discovery_scan_6_1/move_items_to_the_cmdb_azure_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\move_items_to_the_cmdb_azure_6_1.mdx
+  Status: NOT FOUND
+
+Link: Delete AZURE Record
+  TOC Path: /6_1/discovery_scan_6_1/delete_azure_record_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\delete_azure_record_6_1.mdx
+  Status: NOT FOUND
+
+Link: Export AZURE Records
+  TOC Path: /6_1/discovery_scan_6_1/export_azure_records_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\export_azure_records_6_1.mdx
+  Status: NOT FOUND
+
+Link: View a discovered AZURE record
+  TOC Path: /6_1/discovery_scan_6_1/view_a_discovered_azure_record_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\view_a_discovered_azure_record_6_1.mdx
+  Status: NOT FOUND
+
+Link: Discovered item view overview
+  TOC Path: /6_1/discovery_scan_6_1/discovered_item_view_overview_azure_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\discovered_item_view_overview_azure_6_1.mdx
+  Status: NOT FOUND
+
+Link: Top-right actions
+  TOC Path: /6_1/discovery_scan_6_1/top_right_actions_azure_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\top_right_actions_azure_6_1.mdx
+  Status: NOT FOUND
+
+Link: Tabs (main panel)
+  TOC Path: /6_1/discovery_scan_6_1/tabs_main_panel_azure_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\tabs_main_panel_azure_6_1.mdx
+  Status: NOT FOUND
+
+Link: Import from Meraki
+  TOC Path: /6_1/discovery_scan_6_1/import_from_meraki_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\import_from_meraki_6_1.mdx
+  Status: NOT FOUND
+
+Link: Prerequisites
+  TOC Path: /6_1/discovery_scan_6_1/prerequisites_meraki_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\prerequisites_meraki_6_1.mdx
+  Status: NOT FOUND
+
+Link: Assess Import Meraki Window
+  TOC Path: /6_1/discovery_scan_6_1/assess_import_meraki_window_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\assess_import_meraki_window_6_1.mdx
+  Status: NOT FOUND
+
+Link: Import Meraki Record
+  TOC Path: /6_1/discovery_scan_6_1/import_meraki_record_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\import_meraki_record_6_1.mdx
+  Status: NOT FOUND
+
+Link: View Meraki Import Record
+  TOC Path: /6_1/discovery_scan_6_1/view_meraki_import_record_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\view_meraki_import_record_6_1.mdx
+  Status: NOT FOUND
+
+Link: Common controls
+  TOC Path: /6_1/discovery_scan_6_1/common_controls_meraki_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\common_controls_meraki_6_1.mdx
+  Status: NOT FOUND
+
+Link: Key columns
+  TOC Path: /6_1/discovery_scan_6_1/key_columns_meraki_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\key_columns_meraki_6_1.mdx
+  Status: NOT FOUND
+
+Link: Move items to the CMDB
+  TOC Path: /6_1/discovery_scan_6_1/move_items_to_the_cmdb_meraki_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\move_items_to_the_cmdb_meraki_6_1.mdx
+  Status: NOT FOUND
+
+Link: Logs
+  TOC Path: /6_1/discovery_scan_6_1/logs_meraki_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\logs_meraki_6_1.mdx
+  Status: NOT FOUND
+
+Link: Delete Meraki Record
+  TOC Path: /6_1/discovery_scan_6_1/delete_meraki_record_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\delete_meraki_record_6_1.mdx
+  Status: NOT FOUND
+
+Link: Export Meraki Records
+  TOC Path: /6_1/discovery_scan_6_1/export_meraki_records_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\export_meraki_records_6_1.mdx
+  Status: NOT FOUND
+
+Link: View a discovered Meraki record
+  TOC Path: /6_1/discovery_scan_6_1/view_a_discovered_meraki_record_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\view_a_discovered_meraki_record_6_1.mdx
+  Status: NOT FOUND
+
+Link: Discovered item view overview
+  TOC Path: /6_1/discovery_scan_6_1/discovered_item_view_overview_meraki_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\discovered_item_view_overview_meraki_6_1.mdx
+  Status: NOT FOUND
+
+Link: Top-right actions
+  TOC Path: /6_1/discovery_scan_6_1/top_right_actions_meraki_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\top_right_actions_meraki_6_1.mdx
+  Status: NOT FOUND
+
+Link: Tabs (main panel)
+  TOC Path: /6_1/discovery_scan_6_1/tabs_main_panel_meraki_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\tabs_main_panel_meraki_6_1.mdx
+  Status: NOT FOUND
+
+Link: Import from Intune
+  TOC Path: /6_1/discovery_scan_6_1/import_from_intune_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\import_from_intune_6_1.mdx
+  Status: NOT FOUND
+
+Link: Access Import From Intune
+  TOC Path: /6_1/discovery_scan_6_1/access_import_from_intune_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\access_import_from_intune_6_1.mdx
+  Status: NOT FOUND
+
+Link: Import Intune Record
+  TOC Path: /6_1/discovery_scan_6_1/import_intune_record_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\import_intune_record_6_1.mdx
+  Status: NOT FOUND
+
+Link: View Intune Import Record
+  TOC Path: /6_1/discovery_scan_6_1/view_intune_import_record_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\view_intune_import_record_6_1.mdx
+  Status: NOT FOUND
+
+Link: Delete Intune Record
+  TOC Path: /6_1/discovery_scan_6_1/delete_intune_record_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\delete_intune_record_6_1.mdx
+  Status: NOT FOUND
+
+Link: Export Intune Records
+  TOC Path: /6_1/discovery_scan_6_1/export_intune_records_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\export_intune_records_6_1.mdx
+  Status: NOT FOUND
+
+Link: View a discovered Intune record
+  TOC Path: /6_1/discovery_scan_6_1/view_a_discovered_intune_record_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\view_a_discovered_intune_record_6_1.mdx
+  Status: NOT FOUND
+
+Link: Import Data Files
+  TOC Path: /6_1/discovery_scan_6_1/import_data_files_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\import_data_files_6_1.mdx
+  Status: NOT FOUND
+
+Link: Access the Import Data Files
+  TOC Path: /6_1/discovery_scan_6_1/access_the_import_data_files_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\access_the_import_data_files_6_1.mdx
+  Status: NOT FOUND
+
+Link: Manage Import Data Files
+  TOC Path: /6_1/discovery_scan_6_1/manage_import_data_files_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\manage_import_data_files_6_1.mdx
+  Status: NOT FOUND
+
+Link: Import CI
+  TOC Path: /6_1/discovery_scan_6_1/import_ci_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\import_ci_6_1.mdx
+  Status: NOT FOUND
+
+Link: View an Imported Data File
+  TOC Path: /6_1/discovery_scan_6_1/view_an_imported_data_file_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\view_an_imported_data_file_6_1.mdx
+  Status: NOT FOUND
+
+Link: All Tab
+  TOC Path: /6_1/discovery_scan_6_1/all_tab_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\all_tab_6_1.mdx
+  Status: NOT FOUND
+
+Link: Authorized Tab
+  TOC Path: /6_1/discovery_scan_6_1/authorized_tab_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\authorized_tab_6_1.mdx
+  Status: NOT FOUND
+
+Link: Unauthorized Tab
+  TOC Path: /6_1/discovery_scan_6_1/unauthorized_tab_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\unauthorized_tab_6_1.mdx
+  Status: NOT FOUND
+
+Link: Import Asset/CI Relations
+  TOC Path: /6_1/discovery_scan_6_1/import_asset_ci_relations_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\import_asset_ci_relations_6_1.mdx
+  Status: NOT FOUND
+
+Link: Delete
+  TOC Path: /6_1/discovery_scan_6_1/delete_import_data_files_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\delete_import_data_files_6_1.mdx
+  Status: NOT FOUND
+
+Link: Export
+  TOC Path: /6_1/discovery_scan_6_1/export_import_data_files_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\export_import_data_files_6_1.mdx
+  Status: NOT FOUND
+
+Link: Imported Assets
+  TOC Path: /6_1/discovery_scan_6_1/imported_assets_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\imported_assets_6_1.mdx
+  Status: NOT FOUND
+
+Link: Access the Imported Assets
+  TOC Path: /6_1/discovery_scan_6_1/access_the_imported_assets_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\access_the_imported_assets_6_1.mdx
+  Status: NOT FOUND
+
+Link: Manage Imported Assets
+  TOC Path: /6_1/discovery_scan_6_1/manage_imported_assets_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\manage_imported_assets_6_1.mdx
+  Status: NOT FOUND
+
+Link: Imported Asset Details
+  TOC Path: /6_1/discovery_scan_6_1/imported_asset_details_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\imported_asset_details_6_1.mdx
+  Status: NOT FOUND
+
+Link: AD User Import Logs
+  TOC Path: /6_1/discovery_scan_6_1/ad_user_import_logs_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\ad_user_import_logs_6_1.mdx
+  Status: NOT FOUND
+
+Link: AD Configuration and Import
+  TOC Path: /6_1/discovery_scan_6_1/ad_configuration_and_import_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\ad_configuration_and_import_6_1.mdx
+  Status: NOT FOUND
+
+Link: AD Configuration Property Descriptions
+  TOC Path: /6_1/discovery_scan_6_1/ad_configuration_property_descriptions_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\ad_configuration_property_descriptions_6_1.mdx
+  Status: NOT FOUND
+
+Link: Testing AD Configuration
+  TOC Path: /6_1/discovery_scan_6_1/testing_ad_configuration_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\testing_ad_configuration_6_1.mdx
+  Status: NOT FOUND
+
+Link: Import Users
+  TOC Path: /6_1/discovery_scan_6_1/import_users_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\import_users_6_1.mdx
+  Status: NOT FOUND
+
+Link: Scheduled AD Import
+  TOC Path: /6_1/discovery_scan_6_1/scheduled_ad_import_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\scheduled_ad_import_6_1.mdx
+  Status: NOT FOUND
+
+Link: Access the AD User Import Logs
+  TOC Path: /6_1/discovery_scan_6_1/access_the_ad_user_import_logs_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\access_the_ad_user_import_logs_6_1.mdx
+  Status: NOT FOUND
+
+Link: View Import Log Details
+  TOC Path: /6_1/discovery_scan_6_1/view_import_log_details_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\view_import_log_details_6_1.mdx
+  Status: NOT FOUND
+
+Link: Details Tab
+  TOC Path: /6_1/discovery_scan_6_1/details_tab_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\details_tab_6_1.mdx
+  Status: NOT FOUND
+
+Link: Tabs for Extended Information
+  TOC Path: /6_1/discovery_scan_6_1/tabs_for_extended_information_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\tabs_for_extended_information_6_1.mdx
+  Status: NOT FOUND
+
+Link: Customize Columns
+  TOC Path: /6_1/discovery_scan_6_1/customize_columns_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\customize_columns_6_1.mdx
+  Status: NOT FOUND
+
+Link: Azure AD User Import Logs
+  TOC Path: /6_1/discovery_scan_6_1/azure_ad_user_import_logs_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\azure_ad_user_import_logs_6_1.mdx
+  Status: NOT FOUND
+
+Link: Azure AD Configuration and Import
+  TOC Path: /6_1/discovery_scan_6_1/azure_ad_configuration_and_import_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\azure_ad_configuration_and_import_6_1.mdx
+  Status: NOT FOUND
+
+Link: Azure AD Configuration Property Descriptions
+  TOC Path: /6_1/discovery_scan_6_1/azure_ad_configuration_property_descriptions_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\azure_ad_configuration_property_descriptions_6_1.mdx
+  Status: NOT FOUND
+
+Link: Testing AD Configuration
+  TOC Path: /6_1/discovery_scan_6_1/testing_ad_configuration_azure_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\testing_ad_configuration_azure_6_1.mdx
+  Status: NOT FOUND
+
+Link: Import Users
+  TOC Path: /6_1/discovery_scan_6_1/import_users_azure_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\import_users_azure_6_1.mdx
+  Status: NOT FOUND
+
+Link: Scheduled Azure AD Import
+  TOC Path: /6_1/discovery_scan_6_1/scheduled_azure_ad_import_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\scheduled_azure_ad_import_6_1.mdx
+  Status: NOT FOUND
+
+Link: Access the Azure AD User Import Logs
+  TOC Path: /6_1/discovery_scan_6_1/access_the_azure_ad_user_import_logs_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\access_the_azure_ad_user_import_logs_6_1.mdx
+  Status: NOT FOUND
+
+Link: View Import Log Details
+  TOC Path: /6_1/discovery_scan_6_1/view_import_log_details_azure_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\view_import_log_details_azure_6_1.mdx
+  Status: NOT FOUND
+
+Link: Details Tab
+  TOC Path: /6_1/discovery_scan_6_1/details_tab_azure_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\details_tab_azure_6_1.mdx
+  Status: NOT FOUND
+
+Link: Key Information Displayed
+  TOC Path: /6_1/discovery_scan_6_1/key_information_displayed_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\key_information_displayed_6_1.mdx
+  Status: NOT FOUND
+
+Link: Tabs for Extended Information
+  TOC Path: /6_1/discovery_scan_6_1/tabs_for_extended_information_azure_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\tabs_for_extended_information_azure_6_1.mdx
+  Status: NOT FOUND
+
+Link: Customize Columns
+  TOC Path: /6_1/discovery_scan_6_1/customize_columns_azure_6_1
+  Expected File: FeatureDocsite\src\content\6_1\discovery_scan_6_1\customize_columns_azure_6_1.mdx
+  Status: NOT FOUND
+
+Link: Access CMDB
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/access_cmdb_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\access_cmdb_6_1.mdx
+  Status: NOT FOUND
+
+Link: Manage CMDB
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/manage_cmdb_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\manage_cmdb_6_1.mdx
+  Status: NOT FOUND
+
+Link: Audits
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/audits_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\audits_6_1.mdx
+  Status: NOT FOUND
+
+Link: Change Attributes
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/change_attributes_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\change_attributes_6_1.mdx
+  Status: NOT FOUND
+
+Link: Delete
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/delete_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\delete_6_1.mdx
+  Status: NOT FOUND
+
+Link: Export
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/export_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\export_6_1.mdx
+  Status: NOT FOUND
+
+Link: New
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/new_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\new_6_1.mdx
+  Status: NOT FOUND
+
+Link: Copy to Ivanti
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/copy_to_ivanti_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\copy_to_ivanti_6_1.mdx
+  Status: NOT FOUND
+
+Link: Copy to Jira
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/copy_to_jira_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\copy_to_jira_6_1.mdx
+  Status: NOT FOUND
+
+Link: Copy to ServiceNow
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/copy_to_servicenow_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\copy_to_servicenow_6_1.mdx
+  Status: NOT FOUND
+
+Link: Generate Installed Software Report
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/generate_installed_software_report_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\generate_installed_software_report_6_1.mdx
+  Status: NOT FOUND
+
+Link: Process ADM
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/process_adm_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\process_adm_6_1.mdx
+  Status: NOT FOUND
+
+Link: Process Available Patch Report
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/process_available_patch_report_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\process_available_patch_report_6_1.mdx
+  Status: NOT FOUND
+
+Link: Process Cloud Hierarchy
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/process_cloud_hierarchy_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\process_cloud_hierarchy_6_1.mdx
+  Status: NOT FOUND
+
+Link: Process DevOps
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/process_devops_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\process_devops_6_1.mdx
+  Status: NOT FOUND
+
+Link: Process Missing Components
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/process_missing_components_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\process_missing_components_6_1.mdx
+  Status: NOT FOUND
+
+Link: Process Network Connection
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/process_network_connection_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\process_network_connection_6_1.mdx
+  Status: NOT FOUND
+
+Link: Process Software Installation
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/process_software_installation_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\process_software_installation_6_1.mdx
+  Status: NOT FOUND
+
+Link: CI Left Panel
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/ci_left_panel_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\ci_left_panel_6_1.mdx
+  Status: NOT FOUND
+
+Link: Contacts on a CI
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/contacts_on_ci_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\contacts_on_ci_6_1.mdx
+  Status: NOT FOUND
+
+Link: CI Details and Tabs
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/ci_details_and_tabs_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\ci_details_and_tabs_6_1.mdx
+  Status: NOT FOUND
+
+Link: Manage CI
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/manage_ci_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\manage_ci_6_1.mdx
+  Status: NOT FOUND
+
+Link: Business Service Map
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/business_service_map_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\business_service_map_6_1.mdx
+  Status: NOT FOUND
+
+Link: Components
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/components_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\components_6_1.mdx
+  Status: NOT FOUND
+
+Link: Logon Events
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/logon_events_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\logon_events_6_1.mdx
+  Status: NOT FOUND
+
+Link: ITSM
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/itsm_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\itsm_6_1.mdx
+  Status: NOT FOUND
+
+Link: Relationships
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/relationships_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\relationships_6_1.mdx
+  Status: NOT FOUND
+
+Link: Audits
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/audits_tab_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\audits_tab_6_1.mdx
+  Status: NOT FOUND
+
+Link: SLA
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/sla_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\sla_6_1.mdx
+  Status: NOT FOUND
+
+Link: Maintenance
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/maintenance_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\maintenance_6_1.mdx
+  Status: NOT FOUND
+
+Link: Vulnerability
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/vulnerability_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\vulnerability_6_1.mdx
+  Status: NOT FOUND
+
+Link: Private Properties
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/private_properties_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\private_properties_6_1.mdx
+  Status: NOT FOUND
+
+Link: Tasks
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/tasks_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\tasks_6_1.mdx
+  Status: NOT FOUND
+
+Link: History
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/history_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\history_6_1.mdx
+  Status: NOT FOUND
+
+Link: Attachments
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/attachments_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\attachments_6_1.mdx
+  Status: NOT FOUND
+
+Link: Comments
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/comments_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\comments_6_1.mdx
+  Status: NOT FOUND
+
+Link: Sync Logs
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/sync_logs_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\sync_logs_6_1.mdx
+  Status: NOT FOUND
+
+Link: Tags
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/tags_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\tags_6_1.mdx
+  Status: NOT FOUND
+
+Link: Audits
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/audits_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\audits_6_1.mdx
+  Status: NOT FOUND
+
+Link: Access CMDB
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/access_cmdb_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\access_cmdb_6_1.mdx
+  Status: NOT FOUND
+
+Link: Manage CMDB
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/manage_cmdb_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\manage_cmdb_6_1.mdx
+  Status: NOT FOUND
+
+Link: Audits
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/audits_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\audits_6_1.mdx
+  Status: NOT FOUND
+
+Link: Change Attributes
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/change_attributes_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\change_attributes_6_1.mdx
+  Status: NOT FOUND
+
+Link: Delete
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/delete_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\delete_6_1.mdx
+  Status: NOT FOUND
+
+Link: Export
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/export_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\export_6_1.mdx
+  Status: NOT FOUND
+
+Link: New
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/new_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\new_6_1.mdx
+  Status: NOT FOUND
+
+Link: Copy to Ivanti
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/copy_to_ivanti_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\copy_to_ivanti_6_1.mdx
+  Status: NOT FOUND
+
+Link: Copy to Jira
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/copy_to_jira_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\copy_to_jira_6_1.mdx
+  Status: NOT FOUND
+
+Link: Copy to ServiceNow
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/copy_to_servicenow_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\copy_to_servicenow_6_1.mdx
+  Status: NOT FOUND
+
+Link: Generate Installed Software Report
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/generate_installed_software_report_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\generate_installed_software_report_6_1.mdx
+  Status: NOT FOUND
+
+Link: Process ADM
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/process_adm_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\process_adm_6_1.mdx
+  Status: NOT FOUND
+
+Link: Process Available Patch Report
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/process_available_patch_report_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\process_available_patch_report_6_1.mdx
+  Status: NOT FOUND
+
+Link: Process Cloud Hierarchy
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/process_cloud_hierarchy_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\process_cloud_hierarchy_6_1.mdx
+  Status: NOT FOUND
+
+Link: Process DevOps
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/process_devops_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\process_devops_6_1.mdx
+  Status: NOT FOUND
+
+Link: Process Missing Components
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/process_missing_components_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\process_missing_components_6_1.mdx
+  Status: NOT FOUND
+
+Link: Process Network Connection
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/process_network_connection_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\process_network_connection_6_1.mdx
+  Status: NOT FOUND
+
+Link: Process Software Installation
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/process_software_installation_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\process_software_installation_6_1.mdx
+  Status: NOT FOUND
+
+Link: Process Network Virtualization Hierarchy
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/process_network_virtualization_hierarchy_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\process_network_virtualization_hierarchy_6_1.mdx
+  Status: NOT FOUND
+
+Link: CI Left Panel
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/ci_left_panel_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\ci_left_panel_6_1.mdx
+  Status: NOT FOUND
+
+Link: Contacts on a CI
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/contacts_on_ci_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\contacts_on_ci_6_1.mdx
+  Status: NOT FOUND
+
+Link: CI Details and Tabs
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/ci_details_and_tabs_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\ci_details_and_tabs_6_1.mdx
+  Status: NOT FOUND
+
+Link: Manage CI
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/manage_ci_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\manage_ci_6_1.mdx
+  Status: NOT FOUND
+
+Link: Business Service Map
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/business_service_map_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\business_service_map_6_1.mdx
+  Status: NOT FOUND
+
+Link: Components
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/components_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\components_6_1.mdx
+  Status: NOT FOUND
+
+Link: Logon Events
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/logon_events_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\logon_events_6_1.mdx
+  Status: NOT FOUND
+
+Link: ITSM
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/itsm_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\itsm_6_1.mdx
+  Status: NOT FOUND
+
+Link: Relationships
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/relationships_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\relationships_6_1.mdx
+  Status: NOT FOUND
+
+Link: Audits
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/audits_tab_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\audits_tab_6_1.mdx
+  Status: NOT FOUND
+
+Link: SLA
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/sla_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\sla_6_1.mdx
+  Status: NOT FOUND
+
+Link: Maintenance
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/maintenance_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\maintenance_6_1.mdx
+  Status: NOT FOUND
+
+Link: Vulnerability
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/vulnerability_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\vulnerability_6_1.mdx
+  Status: NOT FOUND
+
+Link: Private Properties
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/private_properties_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\private_properties_6_1.mdx
+  Status: NOT FOUND
+
+Link: Tasks
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/tasks_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\tasks_6_1.mdx
+  Status: NOT FOUND
+
+Link: History
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/history_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\history_6_1.mdx
+  Status: NOT FOUND
+
+Link: Attachments
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/attachments_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\attachments_6_1.mdx
+  Status: NOT FOUND
+
+Link: Comments
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/comments_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\comments_6_1.mdx
+  Status: NOT FOUND
+
+Link: Sync Logs
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/sync_logs_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\sync_logs_6_1.mdx
+  Status: NOT FOUND
+
+Link: Tags
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/tags_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\tags_6_1.mdx
+  Status: NOT FOUND
+
+Link: Audits
+  TOC Path: /6_1/itam_6_1/cmdb_6_1/audits_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\cmdb_6_1\audits_6_1.mdx
+  Status: NOT FOUND
+
+Link: Audits
+  TOC Path: /6_1/itam_6_1/audits_itam_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\audits_itam_6_1.mdx
+  Status: NOT FOUND
+
+Link: Asset License Entitlement
+  TOC Path: /6_1/itam_6_1/asset_lic_entitlement_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\asset_lic_entitlement_6_1.mdx
+  Status: NOT FOUND
+
+Link: User License Entitlement
+  TOC Path: /6_1/itam_6_1/user_license_entitle_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\user_license_entitle_6_1.mdx
+  Status: NOT FOUND
+
+Link: Stockroom
+  TOC Path: /6_1/itam_6_1/stockroom_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\stockroom_6_1.mdx
+  Status: NOT FOUND
+
+Link: Stockroom Type
+  TOC Path: /6_1/itam_6_1/stockroom_type_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\stockroom_type_6_1.mdx
+  Status: NOT FOUND
+
+Link: Requested Items
+  TOC Path: /6_1/itam_6_1/procurement/req_items_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\procurement\req_items_6_1.mdx
+  Status: NOT FOUND
+
+Link: Purchase Orders
+  TOC Path: /6_1/itam_6_1/procurement/po_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\procurement\po_6_1.mdx
+  Status: NOT FOUND
+
+Link: Purchase Order Line Items
+  TOC Path: /6_1/itam_6_1/procurement/po_line_items_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\procurement\po_line_items_6_1.mdx
+  Status: NOT FOUND
+
+Link: Receiving Slips
+  TOC Path: /6_1/itam_6_1/procurement/recv_slip_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\procurement\recv_slip_6_1.mdx
+  Status: NOT FOUND
+
+Link: Receiving Slip Lines
+  TOC Path: /6_1/itam_6_1/procurement/recv_slip_lines_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\procurement\recv_slip_lines_6_1.mdx
+  Status: NOT FOUND
+
+Link: Transfer Order
+  TOC Path: /6_1/itam_6_1/procurement/transfer_order_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\procurement\transfer_order_6_1.mdx
+  Status: NOT FOUND
+
+Link: Service Design Package
+  TOC Path: /6_1/itam_6_1/service_design_package_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\service_design_package_6_1.mdx
+  Status: NOT FOUND
+
+Link: About Financial Management
+  TOC Path: /6_1/itam_6_1/financial_management/about_financial_management_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\financial_management\about_financial_management_6_1.mdx
+  Status: NOT FOUND
+
+Link: CI Financial Plan
+  TOC Path: /6_1/itam_6_1/financial_management/ci_financial_plan_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\financial_management\ci_financial_plan_6_1.mdx
+  Status: NOT FOUND
+
+Link: Service Financial Plan
+  TOC Path: /6_1/itam_6_1/financial_management/service_financial_plan_6_1
+  Expected File: FeatureDocsite\src\content\6_1\itam_6_1\financial_management\service_financial_plan_6_1.mdx
+  Status: NOT FOUND
+
+Link: Core Functionality
+  TOC Path: /6_1/vulnerability_management-6_1/core_functionality_6_1
+  Expected File: FeatureDocsite\src\content\6_1\vulnerability_management-6_1\core_functionality_6_1.mdx
+  Status: NOT FOUND
+
+Link: Access Vulnerability Management
+  TOC Path: /6_1/vulnerability_management-6_1/access_vulnerability_management_6_1
+  Expected File: FeatureDocsite\src\content\6_1\vulnerability_management-6_1\access_vulnerability_management_6_1.mdx
+  Status: NOT FOUND
+
+Link: View Vulnerability Management
+  TOC Path: /6_1/vulnerability_management-6_1/view_vulnerability_management_6_1
+  Expected File: FeatureDocsite\src\content\6_1\vulnerability_management-6_1\view_vulnerability_management_6_1.mdx
+  Status: NOT FOUND
+
+Link: Best Practices
+  TOC Path: /6_1/vulnerability_management-6_1/best_practices_6_1
+  Expected File: FeatureDocsite\src\content\6_1\vulnerability_management-6_1\best_practices_6_1.mdx
+  Status: NOT FOUND
+
+Link: Limitations and Considerations
+  TOC Path: /6_1/vulnerability_management-6_1/limitations_considerations_6_1
+  Expected File: FeatureDocsite\src\content\6_1\vulnerability_management-6_1\limitations_considerations_6_1.mdx
+  Status: NOT FOUND
+
+Link: Service Catalog
+  TOC Path: /6_1/self-service-6_1/service_catalog_6_1
+  Expected File: FeatureDocsite\src\content\6_1\self-service-6_1\service_catalog_6_1.mdx
+  Status: NOT FOUND
+
+Link: My Incidents
+  TOC Path: /6_1/self-service-6_1/my_incidents_6_1
+  Expected File: FeatureDocsite\src\content\6_1\self-service-6_1\my_incidents_6_1.mdx
+  Status: NOT FOUND
+
+Link: My Requests
+  TOC Path: /6_1/self-service-6_1/my_requests_6_1
+  Expected File: FeatureDocsite\src\content\6_1\self-service-6_1\my_requests_6_1.mdx
+  Status: NOT FOUND
+
+Link: Program Dashboard
+  TOC Path: /6_1/program-project-management-6_1/program_dashboard_6_1
+  Expected File: FeatureDocsite\src\content\6_1\program-project-management-6_1\program_dashboard_6_1.mdx
+  Status: NOT FOUND
+
+Link: Project Dashboard
+  TOC Path: /6_1/program-project-management-6_1/project_dashboard_6_1
+  Expected File: FeatureDocsite\src\content\6_1\program-project-management-6_1\project_dashboard_6_1.mdx
+  Status: NOT FOUND
+
+Link: Risk Dashboard
+  TOC Path: /6_1/risk-register-6_1/risk_dashboard_6_1
+  Expected File: FeatureDocsite\src\content\6_1\risk-register-6_1\risk_dashboard_6_1.mdx
+  Status: NOT FOUND
+
+Link: Risks
+  TOC Path: /6_1/risk-register-6_1/risks_6_1
+  Expected File: FeatureDocsite\src\content\6_1\risk-register-6_1\risks_6_1.mdx
+  Status: NOT FOUND
+
+Link: Ad Hoc Reports
+  TOC Path: /6_1/reports_6_1/reports_ad_hoc_6_1
+  Expected File: FeatureDocsite\src\content\6_1\reports_6_1\reports_ad_hoc_6_1.mdx
+  Status: NOT FOUND
+
+Link: Canned Reports
+  TOC Path: /6_1/reports_6_1/reports_canned_6_1
+  Expected File: FeatureDocsite\src\content\6_1\reports_6_1\reports_canned_6_1.mdx
+  Status: NOT FOUND
+
+Link: Properties and Conditions
+  TOC Path: /6_1/reports_6_1/reports_props_conds_6_1
+  Expected File: FeatureDocsite\src\content\6_1\reports_6_1\reports_props_conds_6_1.mdx
+  Status: NOT FOUND
+
+Link: Run Report
+  TOC Path: /6_1/reports_6_1/reports_run_6_1
+  Expected File: FeatureDocsite\src\content\6_1\reports_6_1\reports_run_6_1.mdx
+  Status: NOT FOUND
+
+Link: Delete Report
+  TOC Path: /6_1/reports_6_1/reports_delete_6_1
+  Expected File: FeatureDocsite\src\content\6_1\reports_6_1\reports_delete_6_1.mdx
+  Status: NOT FOUND
+
+Link: Cost Center
+  TOC Path: /6_1/admin_6_1/admin_org_details/cost_center_6_1
+  Expected File: FeatureDocsite\src\content\6_1\admin_6_1\admin_org_details\cost_center_6_1.mdx
+  Status: NOT FOUND
+
+Link: Members
+  TOC Path: /6_1/admin_6_1/admin_org_details/departments_members_6_1
+  Expected File: FeatureDocsite\src\content\6_1\admin_6_1\admin_org_details\departments_members_6_1.mdx
+  Status: NOT FOUND
+
+Link: Designations
+  TOC Path: /6_1/admin_6_1/admin_org_details/designations_6_1
+  Expected File: FeatureDocsite\src\content\6_1\admin_6_1\admin_org_details\designations_6_1.mdx
+  Status: NOT FOUND
+
+Link: Holidays
+  TOC Path: /6_1/admin_6_1/admin_org_details/holidays_6_1
+  Expected File: FeatureDocsite\src\content\6_1\admin_6_1\admin_org_details\holidays_6_1.mdx
+  Status: NOT FOUND
+
+Link: Locations
+  TOC Path: /6_1/admin_6_1/admin_org_details/locations_6_1
+  Expected File: FeatureDocsite\src\content\6_1\admin_6_1\admin_org_details\locations_6_1.mdx
+  Status: NOT FOUND
+
+Link: Operational Hours
+  TOC Path: /6_1/admin_6_1/admin_org_details/operational_hours_6_1
+  Expected File: FeatureDocsite\src\content\6_1\admin_6_1\admin_org_details\operational_hours_6_1.mdx
+  Status: NOT FOUND
+
+Link: Organizational Details
+  TOC Path: /6_1/admin_6_1/admin_org_details/organizational_details_6_1
+  Expected File: FeatureDocsite\src\content\6_1\admin_6_1\admin_org_details\organizational_details_6_1.mdx
+  Status: NOT FOUND
+

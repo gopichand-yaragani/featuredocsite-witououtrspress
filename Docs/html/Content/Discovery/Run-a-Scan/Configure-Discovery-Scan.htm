@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-toc-path="Discovery Scan|Run a Scan|Initiate and Configure Discovery Scan" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Recent Scans</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <script src="../../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/version-switcher.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#Discovery/Run-a-Scan/Configure-Discovery-Scan.htm">Open topic with navigation</a>
+        </p>
+        <div role="main" id="mc-main-content">
+            <h1 class="Heading1">Configuring a Discovery Scan</h1>
+            <p>Configure the parameters below:
+        </p>
+            <ul class="ul_3">
+                <li>
+                    <p>Name <br />Enter a unique name for the scan.</p>
+                </li>
+                <li>
+                    <p>Probe: Select the appropriate probe type for your environment and scan objectives (see detailed probe options in the full documentation).</p>
+                </li>
+                <li>
+                    <p>IP Range
+                    <br />Define the network segment to scan.<br />Supported formats:</p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>Single IP: 192.168.48.1</p>
+                        </li>
+                        <li>
+                            <p>Multiple IPs: 192.168.48.1 192.168.49.2</p>
+                        </li>
+                        <li>
+                            <p>Range: 192.168.48.1-50</p>
+                        </li>
+                        <li>
+                            <p>CIDR: 192.168.48.0/24</p>
+                        </li>
+                        <li>
+                            <p>Multiple subnets: 192.168.48.0/24 192.168.49.0/24</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Click the subnet icon next to the IP range field to automatically populate the subnet where the selected client (Discovery Application) is installed</p>
+                </li>
+            </ul>
+            <p class="step-media">
+                <img src="../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_2.png" />
+            </p>
+            <ul class="ul_3">
+                <li>
+                    <p>Exclude IP Range (Optional)
+                </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>Add IP addresses or ranges to exclude from the scan.</p>
+                        </li>
+                        <li>
+                            <p>Use the same format as the IP Range field.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Location
+                </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>CI(s) discovered as part of this scan is associated with the selected location</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Scan Type
+                </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>Immediate: Runs the scan instantly.</p>
+                        </li>
+                        <li>
+                            <p>Scheduled: Opens scheduling options (see below).</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <p class="step-media">
+                <img src="../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_3.png" />
+            </p>
+            <ul class="ul_3">
+                <li>
+                    <p>Scheduled Scan Details
+                </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>If scheduled, set: </p>
+                            <ul class="ul_1">
+                                <li>
+                                    <p>Time Zone
+                                </p>
+                                </li>
+                                <li>
+                                    <p>Schedule: Second, Minute, Hour, Day, Month, Weekday<br /><span class="Emphasis">(Choose either Day or Weekday, not both)</span></p>
+                                </li>
+                                <li>
+                                    <p>Active: Enable/disable the schedule.</p>
+                                </li>
+                                <li>
+                                    <p>Recurring: Enable for repeated scans (yearly)</p>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <p class="step-media">
+                <img src="../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_4.png" />
+            </p>
+            <p class="p_3">Please select only one: either the Day field or the Weekday field — not both.</p>
+            <ul class="ul_3">
+                <li>
+                    <p>Send Scan Report To
+                </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>Click Add to select users, roles, groups, or departments for the scan report.</p>
+                        </li>
+                        <li>
+                            <p>Email recipient list can be formed using all options meaning by selecting users and by selecting roles/groups and departments</p>
+                        </li>
+                        <li>
+                            <p>Use the Search Bar to find users by name or ID.</p>
+                        </li>
+                        <li>
+                            <p>Selected users will automatically appear in the Selected Users panel after you click the checkbox.</p>
+                        </li>
+                        <li>
+                            <p>Use Advanced Search for detailed user filtering.</p>
+                            <ul class="ul_1">
+                                <li>
+                                    <p>Select the Field to search by</p>
+                                </li>
+                                <li>
+                                    <p>Select operations</p>
+                                </li>
+                                <li>
+                                    <p>Select Value to search for within the selected field</p>
+                                </li>
+                                <li>
+                                    <p>Add Multiple Conditions by using AND / OR options</p>
+                                </li>
+                                <li>
+                                    <p>Click on Run to get the list of users/roles/groups/Departments that match the Criteria</p>
+                                </li>
+                                <li>
+                                    <p>Click the checkbox to add add users/roles/groups/departments to email list</p>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <p class="step-media">
+                <img src="../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_5.png" />
+            </p>
+            <ul class="ul_3">
+                <li>
+                    <p>Selected users will receive email notifications once the scan is complete.</p>
+                </li>
+                <li>
+                    <p>Save your selection to confirm recipients or click Cancel to discard changes.</p>
+                </li>
+            </ul>
+            <p class="step-media">
+                <img src="../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_6.png" />
+            </p>
+            <ul class="ul_3">
+                <li>
+                    <p>Starting the Scan
+                </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>Once you complete all required fields, click the Run button at the top-right or bottom-right corner of the interface.</p>
+                        </li>
+                        <li>
+                            <p>Clicking Run will initiate the scan and automatically redirect you to the Recent Scans page.</p>
+                        </li>
+                        <li>
+                            <p>To check the scan status and view scan details, refer to the Recent Scans.</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <hr style="margin-top: 12pt;" width="100%" size="0" align="center" />
+            <div style="font-family: Verdana;font-size: 8pt;text-align: center;">Copyright © 2025 Virima, Inc. All rights reserved. v6.1</div>
+        </div>
+    </body>
+</html>

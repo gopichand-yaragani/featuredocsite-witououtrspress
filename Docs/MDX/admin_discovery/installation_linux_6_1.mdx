@@ -1,0 +1,55 @@
+---
+lang: en-us
+title: Installing the Linux Application
+viewport: width=device-width, initial-scale=1.0
+---
+
+# Installing and Running the Linux Application
+
+[The Linux Application can perform ]{.span_1}[Unix System Discovery]{.span_2}[ and ]{.span_1}[Network Device Discovery]{.span_2}[ in a Network.]{.span_1}
+
+Once the application is downloaded, follow the below installation steps:
+
+ -- ----- -------------------------------------------
+ 1. Push the *tar* file onto a Linux Machine.
+ -- ----- -------------------------------------------
+
+ -- ----- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 2. Untar the file by running the following:\
+ [[[command]{style="font-size: 10pt;"}]{style="font-family: 'Courier New';"}]{.span_2}[[[: ]{style="font-size: 10pt;"}]{style="font-family: 'Courier New';"}]{.span_1}[[[tar -xvf VirimaLinuxAgent.tar]{style="font-size: 10pt;"}]{style="font-family: 'Courier New';"}]{.span_4}
+
+ -- ----- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 3. Install the Virima Linux Application into the folder [/opt/virima]{style="font-family: 'Courier New'; font-size: 10pt;"}.as a service by running the following:\
+ [[[command]{style="font-size: 10pt;"}]{style="font-family: 'Courier New';"}]{.span_2}[[[:]{style="font-size: 10pt;"}]{style="font-family: 'Courier New';"}]{.span_1}[[[ bash install.sh]{style="font-size: 10pt;"}\
+ ]{style="font-family: 'Courier New';"}]{.span_4}
+
+ -- ----- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 4. [In the [confirmation.xml]{style="font-family: 'Courier New'; font-size: 10pt;"} file found at [/opt/virima/config/]{style="font-size: 10pt; font-family: 'Courier New';"}, enter your **Virima User Name,** **Password,** and the preferred **Application**. ]{.span_1}
+ -- ----- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- ---------------------------------------------------------------------------------------------------------------------------------------------------------
+ 5. [To start the service, from the main window, select **[[**Admin \> Client**]{.span_1}](Client.htm)**]{.span_1}[.]{.span_1}
+ -- ----- ---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ --- -------------------------------------------------------------
+   If the Client state is *false*, try restarting the service.
+ --- -------------------------------------------------------------
+
+## Commands to Run the Application on Linux
+
+::: Bullet1
+[**Starting** application command]{.span_2}[: ]{.span_1}[service: [virimadiscoveryagent start]{style="font-family: 'Courier New'; font-size: 10pt;"}]{.span_4}
+
+::: Bullet1
+[**Stopping** application command]{.span_2}[: ]{.span_1}[service: [virimadiscoveryagent stop]{style="font-size: 10pt; font-family: 'Courier New';"}]{.span_4}
+
+::: Bullet1
+[**Restarting** application command]{.span_2}[: ]{.span_1}[service: [virimadiscoveryagent restart]{style="font-size: 10pt; font-family: 'Courier New';"}]{.span_4}
+
+::: Bullet1
+[**Uninstall** application command]{.span_2}[: ]{.span_1}[service: [virimadiscoveryagent uninstall]{style="font-size: 10pt; font-family: 'Courier New';"}]{.span_4}
+

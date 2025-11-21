@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-toc-path="ITAM" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>About Configuration Management</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <script src="../../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/version-switcher.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#ITSM/Config Mngmt/About-Conf-Mngt.htm">Open topic with navigation</a>
+        </p>
+        <div role="main" id="mc-main-content">
+            <h1>About Configuration Management</h1>
+            <p>The purpose of <b>Service Asset and Configuration Management</b> (SACM) is to ensure that the assets required to deliver services are properly controlled, and that accurate and reliable information about those assets is available when and where it is needed. This information includes details of how the assets have been configured and the relationships between assets. </p>
+            <p>SACM supports the business by providing the information needed to manage all CIs across the whole of the service lifecycle. This contributes to the success of all service management processes, as well as providing IT management and the business with the information needed to get maximum value from service assets. </p>
+            <p>The scope of SACM may extend to non-IT assets and to internal and external service providers, where shared assets need to be controlled. To manage large and complex IT services and infrastructures, SACM requires the use of a supporting system known as the Configuration Management System (CMS).</p>
+            <h2>Overview</h2>
+            <p>The <b>Configuration Management Database (CMDB)</b> is a series of tables containing all the assets and business services controlled by a company and their configurations. This includes, for example, computers and devices on the network, software contracts and licenses, business services. The IT desk can use the CDMB to understand better their network users' equipment, and the relationships between them. The CMDB can also be referenced by other processes within the system.</p>
+            <p>The CMDB can be populated by using the Discovery agent. Discovery searches the network for all attached computers and devices, then populates the CMDB with information on each computer/device configuration, provisioning, and current status. Discovery also reports on any software which is running, and the IP connections between the systems, thereby establishing their relationships.</p>
+            <h2>Definition of a CI</h2>
+            <p>Any component or other service asset that needs to be managed in order to deliver an IT service.</p>
+            <p>In Virima, every CI is derived from a Blueprint.</p>
+            <p>Every CI has components, these components can be Network Adapters, Storage Disks or Software Instance, etc.</p>
+            <p>Each CI component is associated to the parent CI using Relationships--for example, Installed On, Component Of, Hosted On, Virtualized On etc.</p>
+            <p>Each CI/CI Component in the application has a unique Asset ID.</p>
+            <p>In Virima, CI's are added in three ways:</p>
+            <div class="Bullet1">CI's are added into CMDB manually.</div>
+            <div class="Bullet1">CI's discovered by the Discovery application are moved into CMDB.</div>
+            <div class="Bullet1">CI's details can be imported from a file (xls,xlsx.csv).</div>
+            <h2>Definition of a Blueprint</h2>
+            <p>Blueprint defines the skeletal structure of a CI which includes properties and relations of a CI.</p>
+            <h2>Functions</h2>
+            <p>This module contains the following functions:</p>
+            <div class="Bullet1"><a href="Dashboard.htm">Dashboard</a>
+            </div>
+            <div class="Bullet1"><a href="Config Items/Config Item Details/Config-Items.htm">CMDB</a>
+            </div>
+            <div class="Bullet1" style="color: #000000;"><a href="Sync-Logs.htm">Sync Logs</a>
+            </div>
+            <div class="Bullet1"><a href="Tags.htm">Tags</a>
+            </div>
+            <div class="Bullet1"><a href="Audits/Audits.htm">Audits</a>
+            </div>
+        </div>
+        <div>
+            <hr style="margin-top: 12pt;" width="100%" size="0" align="center" />
+            <div style="font-family: Verdana;font-size: 8pt;text-align: center;">Copyright © 2025 Virima, Inc. All rights reserved. v6.1</div>
+        </div>
+    </body>
+</html>

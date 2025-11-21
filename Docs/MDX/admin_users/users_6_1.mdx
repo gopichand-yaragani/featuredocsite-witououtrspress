@@ -1,0 +1,279 @@
+---
+lang: en-us
+title: Users
+viewport: width=device-width, initial-scale=1.0
+---
+
+# Users
+
+Use this function to create new users in the application.
+
+ --- ---------------------------------------------------------------------------------------------------
+   [Role Access](../Admin%20-%20Other/Role-Access.mdx) permissions must be set before adding a user.
+ --- ---------------------------------------------------------------------------------------------------
+
+In the main window, click **Admin \> Users \> Users**. The Access Management window displays.
+
+![Users v6 1](../Resources/Images/Admin - Users/Users_v6_1.png)
+
+![arrow border](../Resources/Images/arrow-border.PNG)
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" User](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+ -- ----- -----------------------------------------------------------------
+ 1. From the *Select Actions* drop-down list, choose **New User.**\
+
+ -- ----- -----------------------------------------------------------------
+
+ -- ----- ---------------------------------------------------
+ 2. To complete the fields, refer to the table below.
+ -- ----- ---------------------------------------------------
+
+ -- ----- ------------------------------------------------------
+ 3. When all selections/entries are made, click **Add**.
+ -- ----- ------------------------------------------------------
+
+### []{#NewUserDetails}New User Details Fields
+
++--------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Field | Description |
++==============================================================+==================================================================================================================================================================================================================================+
+| Email | User\'s email address. |
++--------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Username | Username for logging into the system. |
++--------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Is VIP | [Identifies a user for whom their tickets are given a 1-Priority, by default.]{style="color: #000000;"} |
+| --- | --- |
+| | --- -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| | If a VIP user is selected as a Reporter/Requester to raise an ITSM record, by default the priority of an ITSM record will be set to 1-Very High. |
+| | --- -------------------------------------------------------------------------------------------------------------------------------------------------- |
++--------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Is Active | When selected, the user is active in the application and can perform the assigned activities. |
+| --- | --- |
+| | --- ------------------------------------------------------------------------------------------- |
+| | If unchecked, an Alert message displays when the user tries to log in to the application. |
+| | --- ------------------------------------------------------------------------------------------- |
++--------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Enable MFA | When enabled, upon trying to log in, the user receives an email verification screen and can select to use either **Email** or **Two-Factor Authentication**. |
+| --- | --- |
+| | ![MFA 6.1](../Resources/Images/Admin - Users/MFA_6.1.png) |
+| | |
+| | Email |
+| | |
+| | If **Email** is selected, an MFA code is sent and that code must be entered. If the code is not received, click **Resend Code**. |
+| | |
+| | ![MFA Email 6.1](../Resources/Images/Admin - Users/MFA_Email_6.1.png) |
+| | |
+| | Two-Factor Authentication |
+| | |
+| | If **Two-Factor Authentication** is selected, follow the instructions in this dialog box and do one of the following: |
+| | |
+| | ::: Bullet1 |
+| | If the QR code is scanned, click **Continue**, check the Google Authenticator app, enter the token, and click **Verify Token**. |
+| | ::: |
+| | |
+| | ::: Ind50 |
+| | ![MFA Twofactor 6.1](../Resources/Images/Admin - Users/MFA_Twofactor_6.1.png) |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | Enter the code shown into the Google Authenticator app. |
+| | ::: |
+| | |
+| | --- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| | For details on using the Google Authenticator app, [click here](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US&gl=US). |
+| | --- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| | |
+| | To disable the verification process, click **Reset MFA**. |
++--------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Authentications | Check based on the organization authentication process. Choices are AD, AZURE AD, SAML, and Normal. |
++--------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Password | The password associated with the username. The password must be validated by entering it a second time in the **Re-Enter Password** field. To display the password, click **Show Password** checkbox or click the **Show** icon. |
++--------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| User Profile Fields | Requires **First Name** and **Last Name**. **Display Name** is optional and, by default, is set to "FirstName LastName," customize if needed. |
++--------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| User Information Fields | Specifies the information to display within the application. |
++--------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [Location](/admin_org_details/locations_6_1.mdx) | Specifies the location of the user. |
+| --- | --- |
+| | Click **Add** and, in the Location dialog box, search for and select the applicable location. If a location is not shown, it has not been set up in the application. |
+| | |
+| | Click the **plus + sign** then search for and select the applicable location. |
++--------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [Roles](User-Roles.mdx) | Assigns a role(s) to the user that allows the user to perform assigned responsibilities. |
+| --- | --- |
+| | Click **Add** and in the Roles dialog box, search for and select the applicable role(s). |
+| | |
+| | Click the **plus + sign** then search for and select the applicable role(s). |
++--------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [Departments](/admin_org_details/departments_6_1.mdx) | Associates the user with a department. |
+| --- | --- |
+| | Click **Add** then search for and select the applicable department. |
+| | |
+| | Click the **plus + sign** then search for and select the applicable department. |
++--------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [Groups](User-Groups.mdx) | Associates the user with a group. |
+| --- | --- |
+| | Click **Add** then search for and select the applicable group. |
+| | |
+| | Click the **plus + sign** then search for and select the applicable group. |
++--------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Report To | Specifies to whom the user reports. |
+| --- | --- |
+| | Click **Add** then search for and select the applicable user. |
+| | |
+| | Click the **plus + sign** then search for and select the applicable user. |
++--------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [Designation](/admin_org_details/designations_6_1.mdx) | Assigns a designation to the user. |
+| --- | --- |
+| | Click **Add** then search for and select the applicable designation. |
+| | |
+| | Click the **plus + sign** then search for and select the applicable designation. |
++--------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Profile Picture | Displays a profile picture for the user. Click **Upload**. In the Attach File dialog box, **Browse** to the location of the photo, select the photo, then click **OK**. |
++--------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Landing Page | Specifies the page that displays to the user on first accessing the application. |
++--------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Language | Specifies the users language. |
++--------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" New Users](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+Use this function to import new users by uploading a file.
+
+ -- ----- ---------------------------------------------------------------------------------------------------------------------
+ 1. From the *Select Actions* drop-down list, choose **Import New User(s).** The Attach Data Files dialog box displays.
+ -- ----- ---------------------------------------------------------------------------------------------------------------------
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Edit](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+Use this function edit multiple users at the same time.
+
+ -- ----- --------------------------------------------------
+ 1. In the list, highlight each user record to edit.
+ -- ----- --------------------------------------------------
+
+ -- ----- -----------------------------------------------------------------
+ 2. From the *Select Actions* drop-down list, choose **Bulk Edit**.
+ -- ----- -----------------------------------------------------------------
+
+ -- ----- ----------------------------------------------------
+ 3. In the Confirmation message window, click **Yes**.
+ -- ----- ----------------------------------------------------
+
+ -- ----- ---------------------------------------------------------------------------------------------------
+ 4. Refer to the information under \"New Users\" for information on the available fields and options.
+ -- ----- ---------------------------------------------------------------------------------------------------
+
+ -- ----- ----------------------------------------------------------------------------------------------------------
+ 5. When all selections/entries are made, click **Update**. The details for all the select users is updated.
+ -- ----- ----------------------------------------------------------------------------------------------------------
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" MFA](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+Use this function to enable multi-factor authentication for one or more users.
+
+ -- ----- --------------------------------------------------------------------------------------------------------------------------------
+ 1. In the list, highlight each user for which MFA should be enabled. If not selection is made, MFA will be enabled for all users.
+ -- ----- --------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- -----------------------
+ 2. Click **Enable MFA**.
+ -- ----- -----------------------
+
+ --- -----------------------------------------------------------------
+   To reset MFA, open the user\'s profile and click **Reset MFA**.
+ --- -----------------------------------------------------------------
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}[]{#ResourceChart}[Resource Chart](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+[[Use this function to view details for a user, such as tasks performed, hours spent on the task, status of a task (such as ]{style="color: #000000;"}*Active*[, ]{style="color: #000000;"}*Started*[, and ]{style="color: #000000;"}*Not Started*]{style="color: #dc143c;"}), and dates on which tasks occurred.
+
+ -- ----- ----------------------------------------------------------------------
+ 1. From the *Select Actions* drop-down list, choose **View Resources**.
+ -- ----- ----------------------------------------------------------------------
+
+ -- ----- -----------------------------------------------------------------------------------
+ 1. On the toolbar, click the **Resource Chart** icon. The Resources window displays.
+ -- ----- -----------------------------------------------------------------------------------
+
+::: Ind50
+![resource chart new](../Resources/Images/Admin - Users/resource-chart-new.PNG)
+
+ -- ----- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 2. Click the drop-down list and select the type of tasks to view\--either **Miscellaneous Tasks** or **Project Tasks**. The window updates and shows the status for each user.
+ -- ----- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- ------------------------------------------------------------
+ 3. To view users who have reported, click **Reported Users**.
+ -- ----- ------------------------------------------------------------
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Resources](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+[[Use this function to view details for a user, such as tasks performed, hours spent on the task, status of a task (such as ]{style="color: #000000;"}*Active*[, ]{style="color: #000000;"}*Started*[, and ]{style="color: #000000;"}*Not Started*]{style="color: #dc143c;"}), and dates on which tasks occurred.
+
+ -- ----- -----------------------------------------------------------------------------------------------
+ 1. In the main window, click **Admin \> Users \> Users**. The Access Management window displays.
+ -- ----- -----------------------------------------------------------------------------------------------
+
+ -- ----- ----------------------------------------------------------------------------------------------------------------------------
+ 2. From the *Select Actions* drop-down list, choose **View Resources**. A new window opens and provides the relevant details.
+ -- ----- ----------------------------------------------------------------------------------------------------------------------------
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" User](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+ --- -----------------------------------------------------------------------------------------
+   Not all functions include an option to edit record line items shown in the main window.
+ --- -----------------------------------------------------------------------------------------
+
+ -- ----- -------------------------------------------------------
+ 1. Navigate to the window containing the record to edit.
+ -- ----- -------------------------------------------------------
+
+ -- ----- -------------------------------------------------------------------------------------
+ 2. Click the line containing the record. The applicable window or dialog box displays.
+ -- ----- -------------------------------------------------------------------------------------
+
+ -- ----- -----------------------------------
+ 3. Make the necessary modifications.
+ -- ----- -----------------------------------
+
+ -- ----- -------------------------------------------
+ 4. Click **Save** or **Add**, as applicable.
+ -- ----- -------------------------------------------
+
+When editing an existing item, other options may be available, such as adding [Tasks](/itsm/release_mngmt/tasks_6_1.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}, [Comments](/discovery/comments_6_1.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}, and [Attachments](/discovery/attachments_6_1.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a} and viewing [History](/common_topics/history_6_1.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}.
+
+ --- ---------------------------------------------------------------------------------------
+   The options change based upon the function; therefore, not every option may be shown.
+ --- ---------------------------------------------------------------------------------------
+
+In this window, you can also:
+
+::: Bullet1
+Click **Email Preferences** and select all the functions for which the user will receive email notifications. Then click **Save**.
+
+- [[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" User](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+ --- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   Deleting is a permanent action and cannot be undone. Deleting may affect other functionality and information in the application such as data in configured reports, fields in windows, selectable options, etc. Therefore, be sure to understand the potential effects before making a deletion.
+ --- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- --------------------------------------------------
+ 1. Click the line that contains the item to delete.
+ -- ----- --------------------------------------------------
+
+ -- ----- ------------------------------------------------------------------------------------------------------------------------------------------------------
+ 2. From the *Select Actions* drop-down list, choose **Delete**. If a confirmation message is displayed, type **Delete** and click **Delete**to confirm.
+ -- ----- ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[Other Functions and Page Elements]{style="font-family: Verdana;"}
+
+::: Bullet1
+[Auto Refresh](../Common%20Functions/Auto-Refresh.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+
+::: Bullet1
+[Personalize Columns](../Common%20Functions/Personalize-Columns.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+
+::: Bullet1
+[Saved Filters](../Common%20Functions/Saved-Filters.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+

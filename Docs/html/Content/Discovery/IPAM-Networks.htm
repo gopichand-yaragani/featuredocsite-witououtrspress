@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>IPAM Networks</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <link href="../Resources/TableStyles/Note-Indent.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <link href="../Resources/TableStyles/Note.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <link href="../Resources/TableStyles/Important.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/version-switcher.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#Discovery/IPAM-Networks.htm">Open topic with navigation</a>
+        </p>
+        <div role="main" id="mc-main-content">
+            <h1>IPAM Networks</h1>
+            <p class="NormalWeb_2">Use this function to enable planning, tracking, and managing the information associated with an Internet Protocol address existing in the monitored network environment. It updates the following details to the application user:</p>
+            <div class="Bullet1">Total number of subnets existing with its user details.</div>
+            <div class="Bullet1">Total number of IP address(s)present in each subnet.</div>
+            <div class="Bullet1">Name of the host associated with an IP address.</div>
+            <div class="Bullet1">Specific hardware/software associated with an IP address.</div>
+            <table style="mc-table-style: url('../Resources/TableStyles/Note.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-Note" cellspacing="0">
+                <col class="TableStyle-Note-Column-Column1" />
+                <col class="TableStyle-Note-Column-Column2" />
+                <tbody>
+                    <tr class="TableStyle-Note-Body-Body1">
+                        <td class="TableStyle-Note-BodyB-Column1-Body1">&#160;</td>
+                        <td class="TableStyle-Note-BodyA-Column2-Body1">Infoblox delivers essential technology to enable customers to manage, control, and optimize&#160;DNS, DHCP, and IPAM (DDI). Infoblox technology helps businesses automate complex network control functions to reduce costs and increase security and up time – building bulletproof, scalable, and efficient networks.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2><span class="Strong_5">IPAM Procedure</span>
+            </h2>
+            <p class="NormalWeb_2">The procedure to perform IPAM is as below:</p>
+            <div class="Bullet1">Infoblox Configuration</div>
+            <div class="Bullet1">IPAM</div>
+            <p style="font-size: 10pt; font-style: italic;">
+                <img src="../Resources/Images/arrow-border.PNG" />
+            </p>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="12" width="16" alt="Closed" data-mc-alt2="Open" /><span class="Strong_5">Infoblox Configuration</span></a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <p class="NormalWeb_2">Use this function to configure Infoblox on the installed machine.</p>
+                    <table style="mc-table-style: url('../Resources/TableStyles/Note.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-Note" cellspacing="0">
+                        <col class="TableStyle-Note-Column-Column1" />
+                        <col class="TableStyle-Note-Column-Column2" />
+                        <tbody>
+                            <tr class="TableStyle-Note-Body-Body1">
+                                <td class="TableStyle-Note-BodyB-Column1-Body1">&#160;</td>
+                                <td class="TableStyle-Note-BodyA-Column2-Body1">A <a href="../Admin - Discovery/Client.htm">client</a> needs to be created to associate a client with an Infoblox credential. </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>In the navigation pane, select <b>Admin &gt; Integration &gt; Infoblox Configuration</b>. The Infoblox Credential dialog box displays. By default, the Add New Infoblox Credential option is selected.</p>
+                    <p>
+                        <img src="../Resources/Images/Admin - Discovery/infoblox-credential.PNG" data-mc-conditions="Default.OldUI" />
+                    </p>
+                    <p>
+                        <img src="../Resources/Images/Admin - Discovery/infoblox-credential-new.PNG" data-mc-conditions="Default.NewUI" />
+                    </p>
+                    <h3>Add New Infoblox Credential</h3>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>1. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="1. ">In the InfoBlox Credential dialog box, select <b>Add New Infoblox Credential.</b></td>
+                        </tr>
+                    </table>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>2. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="2. ">In the <i>Username</i> field, enter the user name of the Infoblox installed on the machine.</td>
+                        </tr>
+                    </table>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>3. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="3. ">In the <i>Password</i> field, type the related password associated with the Username.</td>
+                        </tr>
+                    </table>
+                    <table class="AutoNumber_div_NumLista" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 48px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_NumLista" valign="top"><span>a. </span>
+                            </td>
+                            <td class="AutoNumber_div_NumLista" valign="top" data-mc-autonum="a. ">To change the password, click <b>Change Password</b>. The InfoBlox Credential dialog box updates and displays the <b>Show Password checkbox</b> and the <b>Cancel Change</b> option<span style="color: #dc143c;">. </span></td>
+                        </tr>
+                    </table>
+                    <table class="AutoNumber_div_NumLista" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 48px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_NumLista" valign="top"><span>b. </span>
+                            </td>
+                            <td class="AutoNumber_div_NumLista" valign="top" data-mc-autonum="b. ">In the <i>Show Password</i> field, click the checkbox to show the entered password.</td>
+                        </tr>
+                    </table>
+                    <table class="AutoNumber_div_NumLista" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 48px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_NumLista" valign="top"><span>c. </span>
+                            </td>
+                            <td class="AutoNumber_div_NumLista" valign="top" data-mc-autonum="c. ">Click <b>Cancel Change</b>&#160;to cancel the password change. </td>
+                        </tr>
+                    </table>
+                    <div class="Ind75">
+                        <img src="../Resources/Images/Admin - Discovery/infoblox-credential-change-password.PNG" data-mc-conditions="Default.OldUI" />
+                    </div>
+                    <div class="Ind75">
+                        <img src="../Resources/Images/Admin - Discovery/infoblox-credential-change-password-new.png" data-mc-conditions="Default.NewUI" />
+                    </div>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>4. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="4. ">In the <i>Host</i> field, enter the IP&#160;address of the InfoBlox machine installed on the Host box.</td>
+                        </tr>
+                    </table>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>5. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="5. ">In the <i>Client</i> field, click the drop-down list and select the applicable client. You can search in this field by typing the first few letters of the client name to display a list of possible matches. </td>
+                        </tr>
+                    </table>
+                    <table style="width: 100%;mc-table-style: url('../Resources/TableStyles/Note-Indent.css');border-top-style: solid;border-top-width: 2px;border-top-color: #90ee90;border-bottom-style: solid;border-bottom-width: 2px;border-bottom-color: #90ee90;margin-left: 0.5in;margin-right: auto;" class="TableStyle-Note-Indent" cellspacing="0">
+                        <col class="TableStyle-Note-Indent-Column-Column1" />
+                        <col class="TableStyle-Note-Indent-Column-Column2" />
+                        <tbody>
+                            <tr class="TableStyle-Note-Indent-Body-Body1">
+                                <td class="TableStyle-Note-Indent-BodyB-Column1-Body1">&#160;</td>
+                                <td class="TableStyle-Note-Indent-BodyA-Column2-Body1">The name of the client displays only if it is functionally "up."</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>6. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="6. ">When all selections/entries are made, click <b>Save</b>. </td>
+                        </tr>
+                    </table>
+                    <h3>Auto Pick Credential from Discovery Application</h3>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>1. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="1. ">In the Infoblox Credential dialog box, select <b>Auto pick credential from Discovery application</b>. </td>
+                        </tr>
+                    </table>
+                    <div class="Ind50">
+                        <img src="../Resources/Images/Admin - Integration/infoblox-auto-pick-old.PNG" data-mc-conditions="Default.OldUI" />
+                    </div>
+                    <div class="Ind50">
+                        <img src="../Resources/Images/Admin - Integration/infoblox-auto-pick-new.png" data-mc-conditions="Default.NewUI" />
+                    </div>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>2. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="2. ">In the <i>Host</i> field, enter the <b>IP&#160;Address</b> of the machine on which Infoblox is installed.</td>
+                        </tr>
+                    </table>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>3. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="3. ">In the <i>Client</i> field, click the drop-down list and select the client's name. The list only contains the name of those clients in "up" status. </td>
+                        </tr>
+                    </table>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>4. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="4. ">Click <b>Save</b>. </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="12" width="16" alt="Closed" data-mc-alt2="Open" /><span class="Strong_5">IPAM</span></a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <p class="NormalWeb_2">Use this function to monitor and sync the Internet Protocol address from Infoblox that exists in the monitored network environment.</p>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>1. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="1. "><span class="span_5">In the navigation pane, select <b>Discovery Scan &gt; </b></span><span class="Strong_4"><b>IPAM Networks</b>. The IPAM window displays. </span>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="Ind50">
+                        <img src="../Resources/Images/Discovery/IPAM-networks.png" data-mc-conditions="Default.OldUI" />
+                    </div>
+                    <div class="Ind50">
+                        <img src="../Resources/Images/Discovery/IPAM-networks-new.PNG" data-mc-conditions="Default.NewUI" />
+                    </div>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>2. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="2. ">Refer to the sections below for details on each function.</td>
+                        </tr>
+                    </table>
+                    <h3 data-mc-conditions="Default.OldUI">Scan</h3>
+                    <p data-mc-conditions="Default.OldUI">Use this function to identify the devices that are connected and communicating in a network. The Discovery application identifies the Device Types, Host Name, and Other Information of the device based on the probe selected for the scan. Users can initiate a scan Immediately or Schedule a Scan based on the requirement.</p>
+                    <table style="mc-table-style: url('../Resources/TableStyles/Note.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-Note" cellspacing="0">
+                        <col class="TableStyle-Note-Column-Column1" />
+                        <col class="TableStyle-Note-Column-Column2" />
+                        <tbody>
+                            <tr class="TableStyle-Note-Body-Body1">
+                                <td class="TableStyle-Note-BodyB-Column1-Body1" data-mc-conditions="Default.OldUI">&#160;</td>
+                                <td class="TableStyle-Note-BodyA-Column2-Body1" data-mc-conditions="Default.OldUI">Start the Discovery Application before initiating a scan.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h3><span class="Strong_2">Sync (Instant and Schedule)</span>
+                    </h3>
+                    <p class="NormalWeb_2">Use this function to plan, track, and manage information associated with an Internet Protocol address in the monitored network environment.</p>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>1. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="1. "><span class="span_5">In the IPAM Networks window, click&#160;</span><span class="Strong_4"><b>Sync</b>. The Sync From InfoBlox window displays.</span>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="Ind50">
+                        <img src="../Resources/Images/Discovery/sync-from-infoblox.png" data-mc-conditions="Default.OldUI" />
+                    </div>
+                    <div class="Ind50">
+                        <img src="../Resources/Images/Discovery/sync-from-infoblox-new.png" data-mc-conditions="Default.NewUI" />
+                    </div>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>2. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="2. "><span class="span_5">Select&#160;</span><span class="Strong_4" style="font-style: italic;">Instant Sync</span><span class="span_5">&#160;to import the records from the Infoblox server.</span>
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>3. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="3. "><span class="span_5">Select&#160;</span><span class="Strong_4" style="font-style: italic;">Schedule Sync</span><span class="span_5">&#160;to import the records at a scheduled time. </span>
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="AutoNumber_div_NumLista" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 48px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_NumLista" valign="top"><span>a. </span>
+                            </td>
+                            <td class="AutoNumber_div_NumLista" valign="top" data-mc-autonum="a. ">In the <i>Schedule Report Frequency</i> drop-down list, select the required value. </td>
+                        </tr>
+                    </table>
+                    <table class="AutoNumber_div_NumLista" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 48px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_NumLista" valign="top"><span>b. </span>
+                            </td>
+                            <td class="AutoNumber_div_NumLista" valign="top" data-mc-autonum="b. "><span class="span_5">Check “</span><span class="Strong_4">Second</span><span class="span_5">” and/or “</span><span class="Strong_4">Minute</span><span class="span_5">” and/or “</span><span class="Strong_4">Hour</span><span class="span_5">” and/or “</span><span class="Strong_4">Day</span><span class="span_5">” and/or “</span><span class="Strong_4">Month</span><span class="span_5">” and/or “</span><span class="Strong_4">Weekday</span><span class="span_5">” option(s) according to the time selected for the Schedule Report Frequency.</span>
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="AutoNumber_div_NumLista" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 48px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_NumLista" valign="top"><span>c. </span>
+                            </td>
+                            <td class="AutoNumber_div_NumLista" valign="top" data-mc-autonum="c. "><span class="span_5">Click&#160;</span><span class="Strong_4" style="font-weight: bold;">Add</span><span class="span_5">&#160;to update the schedule details accordingly.</span>
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>4. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="4. "><span class="span_5">Click&#160;</span><span class="Strong_4" style="font-weight: bold;">Sync Now</span><span class="span_5">&#160;to enable the operation.</span>
+                            </td>
+                        </tr>
+                    </table>
+                    <h3 data-mc-conditions="Default.NewUI">Status Update</h3>
+                    <p data-mc-conditions="Default.NewUI">Use this function to select one or more networks (subnet) from the IPAM Networks page, one or more IP Addresses from the IPAM Network’s IP list tab, then perform a status update scan. This pings every IP Address in the network's IP List, and updates its status to <i>Used</i> or <i>Unused</i>. All pingable IPs are set to <i>Used</i> and non-pingable to <i>Unused</i>.</p>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>1. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="1. ">Select a line item. </td>
+                        </tr>
+                    </table>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>2. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="2. ">Click <b>Status Update</b>.</td>
+                        </tr>
+                    </table>
+                    <div class="Ind50" data-mc-conditions="Default.NewUI">
+                        <img src="../Resources/Images/Discovery/status-update_468x248.png" style="width: 468;height: 248;" />
+                    </div>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>3. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="3. ">Enter the <i>Probe</i> to scan.</td>
+                        </tr>
+                    </table>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>4. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="4. ">In the <i>Client</i> field, click the drop-down list and select the applicable client.</td>
+                        </tr>
+                    </table>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>5. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="5. ">Enter an <i>IP&#160;Range</i>. </td>
+                        </tr>
+                    </table>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>6. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="6. ">Select if the update should be <i>Immediate</i> or <i>Scheduled</i>. If <i>Scheduled</i> is selected, configure the <i>Scan Frequency</i>. </td>
+                        </tr>
+                    </table>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>7. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="7. ">When all selections/entries are made, click <b>Status Update</b>. </td>
+                        </tr>
+                    </table>
+                    <h3 data-mc-conditions="Default.NewUI">Regular Scan</h3>
+                    <p data-mc-conditions="Default.NewUI">Use this function to perform a full-fledged scan based on the probe selected by the user. </p>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>1. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="1. ">Select an item in the list. </td>
+                        </tr>
+                    </table>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>2. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="2. ">Click <b>Regular Scan</b>. </td>
+                        </tr>
+                    </table>
+                    <div class="Ind50" data-mc-conditions="Default.NewUI">
+                        <img src="../Resources/Images/Discovery/regular-scan_443x420.png" style="width: 443;height: 420;" />
+                    </div>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>3. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="3. ">Enter a <i>Name</i> for this network.</td>
+                        </tr>
+                    </table>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>4. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="4. ">In the <i>Probe</i> field, click the drop-down list and select the applicable probe. </td>
+                        </tr>
+                    </table>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>5. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="5. ">In the <i>Client</i> field, click the drop-down list and select the applicable client.</td>
+                        </tr>
+                    </table>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>6. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="6. ">Enter an IP&#160;Range to include or exclude.</td>
+                        </tr>
+                    </table>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>7. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="7. ">Click the <b>plus + sign</b> to add a <i>Location</i> and <i>Send&#160;Scan Report To</i> recipient(s). </td>
+                        </tr>
+                    </table>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>8. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="8. ">Select if the scan should be <i>Immediate</i> or <i>Scheduled</i>. If <i>Scheduled</i> is selected, configure the <i><a href="Scans-Frequency.htm">Scan Frequency</a></i>. </td>
+                        </tr>
+                    </table>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>9. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="9. ">When all selections/entries are made, click <b>Run</b>.</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="12" width="16" alt="Closed" data-mc-alt2="Open" />Edit IPAM&#160;Network</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <table style="mc-table-style: url('../Resources/TableStyles/Note.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-Note" cellspacing="0">
+                        <col class="TableStyle-Note-Column-Column1" />
+                        <col class="TableStyle-Note-Column-Column2" />
+                        <tbody>
+                            <tr class="TableStyle-Note-Body-Body1">
+                                <td class="TableStyle-Note-BodyB-Column1-Body1">&#160;</td>
+                                <td class="TableStyle-Note-BodyA-Column2-Body1">Not all functions include an option to edit record line items shown in the main window. </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>1. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="1. ">Navigate to the window containing the record to edit. </td>
+                        </tr>
+                    </table>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>2. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="2. ">Click the line containing the record. The applicable window or dialog box displays.</td>
+                        </tr>
+                    </table>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>3. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="3. ">Make the necessary modifications.  </td>
+                        </tr>
+                    </table>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>4. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="4. ">Click <b>Save</b> or <b>Add</b>, as applicable. </td>
+                        </tr>
+                    </table>
+                    <p>To view details for the selected IP, click the <b>Details</b> tab.</p>
+                    <p>To view schedule details, click the <b>Schedule Details</b> tab.</p>
+                    <p>To view the history of activity, such as when changes were made, click the <b>History</b> tab. </p>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="12" width="16" alt="Closed" data-mc-alt2="Open" />Delete IPAM&#160;Network</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <table style="mc-table-style: url('../Resources/TableStyles/Important.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-Important" cellspacing="0">
+                        <col class="TableStyle-Important-Column-Column1" />
+                        <col class="TableStyle-Important-Column-Column2" />
+                        <tbody>
+                            <tr class="TableStyle-Important-Body-Body1">
+                                <td class="TableStyle-Important-BodyB-Column1-Body1" style="text-align: center;">&#160;</td>
+                                <td class="TableStyle-Important-BodyA-Column2-Body1">Deleting is a permanent action and cannot be undone. Deleting may affect other functionality and information in the application such as data in configured reports, fields in windows, selectable options, etc. Therefore, be sure to understand the potential effects before making a deletion.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>1. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="1. ">Click the line that contains the item to delete.</td>
+                        </tr>
+                    </table>
+                    <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                        <col style="width: 24px;" />
+                        <col style="width: 24px;" />
+                        <col style="width: auto;" />
+                        <tr>
+                            <td valign="top" />
+                            <td class="AutoNumber_div_numlist1" valign="top"><span>2. </span>
+                            </td>
+                            <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="2. ">From the <i>Select Actions</i> drop-down list, choose <b>Delete</b>.  If a confirmation message is displayed, type <b>Delete</b> and click <b>Delete</b>to confirm.</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <p>&#160;</p>
+            <p style="font-weight: bold;background-color: #f5f5f5;"><span style="font-family: Verdana;">Other Functions and Page Elements</span>
+            </p>
+            <div class="Bullet1" data-mc-conditions="Default.OldUI"><a href="../Common Functions/Records-per-Page.htm" class="MCTopicPopup MCTopicPopupHotSpot a">Records per Page</a>
+            </div>
+            <div class="Bullet1"><a href="../Common Functions/Personalize-Columns.htm" class="MCTopicPopup MCTopicPopupHotSpot a">Personalize Columns</a>
+            </div>
+            <div class="Bullet1"><a href="../Common Functions/Saved-Filters.htm" class="MCTopicPopup MCTopicPopupHotSpot a">Saved Filters</a>
+            </div>
+            <div class="Bullet1" data-mc-conditions="Default.NewUI"><a href="../Common Functions/Items-per-Page.htm" class="MCTopicPopup MCTopicPopupHotSpot a">Items per Page</a>
+            </div>
+        </div>
+        <div>
+            <hr style="margin-top: 12pt;" width="100%" size="0" align="center" />
+            <div style="font-family: Verdana;font-size: 8pt;text-align: center;">Copyright © 2025 Virima, Inc. All rights reserved. v6.1</div>
+        </div>
+    </body>
+</html>

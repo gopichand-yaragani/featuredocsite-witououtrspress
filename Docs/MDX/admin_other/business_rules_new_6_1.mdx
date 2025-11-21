@@ -1,0 +1,90 @@
+---
+lang: en-us
+title: New Business Rules
+viewport: width=device-width, initial-scale=1.0
+---
+
+# New Business Rule
+
+Use this function to accomplish tasks like automatically modifying the ITSM records or creating a new record based on action details when the trigger conditions are met. This reduces the manual effort of creating and updating the records.
+
+Business rules can be set to run when the following actions occur: Add, Edit, and Add and Edit.
+
+ -- ----- -------------------------------------------------------------------------------------------------------
+ 1. In the main window, select **Admin \> Others \> Business Rules**. The Business Rules window displays.
+ -- ----- -------------------------------------------------------------------------------------------------------
+
+ -- ----- -------------------------------------------------------------------------
+ 2. Click **New Business Rule**. The new Business Rule dialog box displays.
+ -- ----- -------------------------------------------------------------------------
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Conditions](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+Use this function to apply a set of conditions to the business rule.
+
+When adding a condition, the following applies:
+
+- [[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Conditions](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+ -- ----- ------------------------------------------------------
+ 1. Under *Trigger Condition Details*, do the following:
+ -- ----- ------------------------------------------------------
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Details](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+ --- --------------------------------------------------------------
+   The *Action Type* determines what additional fields display.
+ --- --------------------------------------------------------------
+
+ -- ----- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 1. In the *Action Type* field, click the drop-down list and select the applicable type. Based on this selection, the remain fields change. *Refer to the table below for more details on the Action Type and its corresponding fields.*
+ -- ----- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+::: {.Ind50
+![biz rules action details new 531x79](../Resources/Images/Admin - Other/biz-rules-action-details-new_531x79.png)]{style="color: #dc143c;"} | When the module is Discovery, moves the records from Discovery to CMDB. |
++-------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Delete the triggered record | N/A |
++-------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Create task in triggered record | Property, Operator and Value |
++-------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [Survey notification]{style="color: #000000;"} | When the module is Incident, Change, Release/Request/Problem in Business rule, a survey is sent to the Assignee, Reporter, and Stake Holders of the record. |
++-------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| No action | N/A |
++-------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| \"Process\" Action Types\ | N/A |
++-------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| \"Copy To\" Action Types\ | N/A |
+| (ServiceNow, Cherwell, Ivanti) | |
++-------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+ -- ----- ------------------------------------------------------
+ 1. Click the **plus + sign** next to the *Update* text.
+ -- ----- ------------------------------------------------------
+
+ -- ----- ------------------------------------------------------------------------
+ 2. Click the type of list to search (such as USERS, ROLES, and so forth).
+ -- ----- ------------------------------------------------------------------------
+
+ --- --------------------------------------------------------------------------------------------------------------------
+   Selections can be made of each type to designate all who need to receive a notifcation when an action takes place.
+ --- --------------------------------------------------------------------------------------------------------------------
+
+ -- ----- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 3. Enter the search criteria and press **Enter**. *See also* [Advanced Search](../Common%20Topics/Advanced-Search.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}.
+ -- ----- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- --------------------------------------------------------------------
+ 4. Select choices from the results list, moving to the selected list.
+ -- ----- --------------------------------------------------------------------
+
+::: {.Ind50
+![send report to 471x317](../Resources/Images/Admin - Other/send-report-to_471x317.png)
+
+ -- ----- -------------------------------------------------------------------------------------------------------------------------
+ 5. When all selections/entries are made, click **Add**. The window is updated and displays all the selected notifications.
+ -- ----- -------------------------------------------------------------------------------------------------------------------------
+
+::: {.Ind50
+![biz rules notifications list](../Resources/Images/Admin - Other/biz-rules-notifications-list.PNG)
+

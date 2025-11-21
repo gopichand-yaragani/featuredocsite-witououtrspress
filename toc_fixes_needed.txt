@@ -1,0 +1,1439 @@
+TOC PATH FIXES NEEDED
+================================================================================
+
+Total TOC links: 360
+Broken links (file not found): 357
+Path mismatches (file exists but path wrong): 0
+
+================================================================================
+BROKEN LINKS - Files not found:
+================================================================================
+
+Link: All About Virima v6.1
+  Current TOC path: 6_1/application_overview_6_1/all_about_virima_v6_1
+  Status: FILE NOT FOUND
+
+Link: System Icons
+  Current TOC path: 6_1/application_overview_6_1/icons_6_1
+  Status: FILE NOT FOUND
+
+Link: User Specific Functions
+  Current TOC path: 6_1/application_overview_6_1/user_specific_functions_6_1
+  Status: FILE NOT FOUND
+
+Link: Online Help
+  Current TOC path: 6_1/application_overview_6_1/online_help_6_1
+  Status: FILE NOT FOUND
+
+Link: About Common Functions
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/about_common_functions_6_1
+  Status: FILE NOT FOUND
+
+Link: Advanced Search
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/advanced_search_6_1
+  Status: FILE NOT FOUND
+
+Link: Attachments
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/attachments_6_1
+  Status: FILE NOT FOUND
+
+Link: Auto Refresh
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/auto_refresh_6_1
+  Status: FILE NOT FOUND
+
+Link: Collapse/Maximize
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/collapse_maximize_6_1
+  Status: FILE NOT FOUND
+
+Link: Comments
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/comments_6_1
+  Status: FILE NOT FOUND
+
+Link: Copy to Cherwell
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/copy_to_cherwell_6_1
+  Status: FILE NOT FOUND
+
+Link: Copy to Ivanti
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/copy_to_ivanti_6_1
+  Status: FILE NOT FOUND
+
+Link: Copy to ServiceNow
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/copy_to_servicenow_6_1
+  Status: FILE NOT FOUND
+
+Link: Delete/Remove
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/delete_remove_6_1
+  Status: FILE NOT FOUND
+
+Link: Email Preferences
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/email_prefs_6_1
+  Status: FILE NOT FOUND
+
+Link: Enable/Disable Editing
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/enable_disable_editing_6_1
+  Status: FILE NOT FOUND
+
+Link: Export
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/export_6_1
+  Status: FILE NOT FOUND
+
+Link: History
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/history_6_1
+  Status: FILE NOT FOUND
+
+Link: Import
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/import_6_1
+  Status: FILE NOT FOUND
+
+Link: Items per Page
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/items_per_page_6_1
+  Status: FILE NOT FOUND
+
+Link: Mark as Knowledge
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/mark_as_knowledge_6_1
+  Status: FILE NOT FOUND
+
+Link: Other Asset Info
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/other_asset_info_6_1
+  Status: FILE NOT FOUND
+
+Link: Outage Calendar
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/outage_calendar_6_1
+  Status: FILE NOT FOUND
+
+Link: Personalize Columns
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/personalize_columns_6_1
+  Status: FILE NOT FOUND
+
+Link: Print
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/print_6_1
+  Status: FILE NOT FOUND
+
+Link: Process ADM
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/process_adm_6_1
+  Status: FILE NOT FOUND
+
+Link: Process Missing Components
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/process_missing_components_6_1
+  Status: FILE NOT FOUND
+
+Link: Records per Page
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/records_per_page_6_1
+  Status: FILE NOT FOUND
+
+Link: Reload Default Mapping
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/reload_default_mapping_6_1
+  Status: FILE NOT FOUND
+
+Link: Re-scan
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/re_scan_6_1
+  Status: FILE NOT FOUND
+
+Link: Re-Sync Data
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/re_sync_data_6_1
+  Status: FILE NOT FOUND
+
+Link: Save
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/save_6_1
+  Status: FILE NOT FOUND
+
+Link: Saved Filters
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/saved_filters_6_1
+  Status: FILE NOT FOUND
+
+Link: Searching
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/searching_6_1
+  Status: FILE NOT FOUND
+
+Link: Show Main/All Properties
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/show_main_all_properties_6_1
+  Status: FILE NOT FOUND
+
+Link: Tasks
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/tasks_6_1
+  Status: FILE NOT FOUND
+
+Link: Updates
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/updates_6_1
+  Status: FILE NOT FOUND
+
+Link: Version Control
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/version_control_6_1
+  Status: FILE NOT FOUND
+
+Link: Go to Page
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/go_to_page_6_1
+  Status: FILE NOT FOUND
+
+Link: Send Report To
+  Current TOC path: 6_1/application_overview_6_1/shared_functions_6_1/send_report_to_6_1
+  Status: FILE NOT FOUND
+
+Link: My Dashboard Overview
+  Current TOC path: 6_1/my-dashboard-6_1/my-dashboard-overview-6_1
+  Status: FILE NOT FOUND
+
+Link: Dashboards
+  Current TOC path: 6_1/my-dashboard-6_1/dashboards-6_1
+  Status: FILE NOT FOUND
+
+Link: Contents
+  Current TOC path: 6_1/my-dashboard-6_1/dashboards-contents-6_1
+  Status: FILE NOT FOUND
+
+Link: Customization
+  Current TOC path: 6_1/my-dashboard-6_1/dashboards-customization-6_1
+  Status: FILE NOT FOUND
+
+Link: My Dashboard
+  Current TOC path: 6_1/my-dashboard-6_1/my-dashboard-6_1
+  Status: FILE NOT FOUND
+
+Link: Contents
+  Current TOC path: 6_1/my-dashboard-6_1/my-dashboard-contents-6_1
+  Status: FILE NOT FOUND
+
+Link: Report Actions
+  Current TOC path: 6_1/my-dashboard-6_1/dashboards-report-actions-6_1
+  Status: FILE NOT FOUND
+
+Link: System Icons
+  Current TOC path: 6_1/my-dashboard-6_1/system-icons-6_1
+  Status: FILE NOT FOUND
+
+Link: Access CMDB
+  Current TOC path: 6_1/cmdb_6_1/access_cmdb_6_1
+  Status: FILE NOT FOUND
+
+Link: Manage CMDB
+  Current TOC path: 6_1/cmdb_6_1/manage_cmdb_6_1
+  Status: FILE NOT FOUND
+
+Link: Audits
+  Current TOC path: 6_1/cmdb_6_1/audits_6_1
+  Status: FILE NOT FOUND
+
+Link: Change Attributes
+  Current TOC path: 6_1/cmdb_6_1/change_attributes_6_1
+  Status: FILE NOT FOUND
+
+Link: Delete
+  Current TOC path: 6_1/cmdb_6_1/delete_6_1
+  Status: FILE NOT FOUND
+
+Link: Export
+  Current TOC path: 6_1/cmdb_6_1/export_6_1
+  Status: FILE NOT FOUND
+
+Link: New
+  Current TOC path: 6_1/cmdb_6_1/new_6_1
+  Status: FILE NOT FOUND
+
+Link: Copy to Ivanti
+  Current TOC path: 6_1/cmdb_6_1/copy_to_ivanti_6_1
+  Status: FILE NOT FOUND
+
+Link: Copy to Jira
+  Current TOC path: 6_1/cmdb_6_1/copy_to_jira_6_1
+  Status: FILE NOT FOUND
+
+Link: Copy to ServiceNow
+  Current TOC path: 6_1/cmdb_6_1/copy_to_servicenow_6_1
+  Status: FILE NOT FOUND
+
+Link: Generate Installed Software Report
+  Current TOC path: 6_1/cmdb_6_1/generate_installed_software_report_6_1
+  Status: FILE NOT FOUND
+
+Link: Process ADM
+  Current TOC path: 6_1/cmdb_6_1/process_adm_6_1
+  Status: FILE NOT FOUND
+
+Link: Process Available Patch Report
+  Current TOC path: 6_1/cmdb_6_1/process_available_patch_report_6_1
+  Status: FILE NOT FOUND
+
+Link: Process Cloud Hierarchy
+  Current TOC path: 6_1/cmdb_6_1/process_cloud_hierarchy_6_1
+  Status: FILE NOT FOUND
+
+Link: Process DevOps
+  Current TOC path: 6_1/cmdb_6_1/process_devops_6_1
+  Status: FILE NOT FOUND
+
+Link: Process Missing Components
+  Current TOC path: 6_1/cmdb_6_1/process_missing_components_6_1
+  Status: FILE NOT FOUND
+
+Link: Process Network Connection
+  Current TOC path: 6_1/cmdb_6_1/process_network_connection_6_1
+  Status: FILE NOT FOUND
+
+Link: Process Software Installation
+  Current TOC path: 6_1/cmdb_6_1/process_software_installation_6_1
+  Status: FILE NOT FOUND
+
+Link: CI Left Panel
+  Current TOC path: 6_1/cmdb_6_1/ci_left_panel_6_1
+  Status: FILE NOT FOUND
+
+Link: CI Details and Tabs
+  Current TOC path: 6_1/cmdb_6_1/ci_details_and_tabs_6_1
+  Status: FILE NOT FOUND
+
+Link: Details
+  Current TOC path: 6_1/cmdb_6_1/details_6_1
+  Status: FILE NOT FOUND
+
+Link: Manage CI
+  Current TOC path: 6_1/cmdb_6_1/manage_ci_6_1
+  Status: FILE NOT FOUND
+
+Link: Business Service Map
+  Current TOC path: 6_1/cmdb_6_1/business_service_map_6_1
+  Status: FILE NOT FOUND
+
+Link: Components
+  Current TOC path: 6_1/cmdb_6_1/components_6_1
+  Status: FILE NOT FOUND
+
+Link: Logon Events
+  Current TOC path: 6_1/cmdb_6_1/logon_events_6_1
+  Status: FILE NOT FOUND
+
+Link: ITSM
+  Current TOC path: 6_1/cmdb_6_1/itsm_6_1
+  Status: FILE NOT FOUND
+
+Link: Relationships
+  Current TOC path: 6_1/cmdb_6_1/relationships_6_1
+  Status: FILE NOT FOUND
+
+Link: Audits
+  Current TOC path: 6_1/cmdb_6_1/audits_tab_6_1
+  Status: FILE NOT FOUND
+
+Link: SLA
+  Current TOC path: 6_1/cmdb_6_1/sla_6_1
+  Status: FILE NOT FOUND
+
+Link: Maintenance
+  Current TOC path: 6_1/cmdb_6_1/maintenance_6_1
+  Status: FILE NOT FOUND
+
+Link: Vulnerability
+  Current TOC path: 6_1/cmdb_6_1/vulnerability_6_1
+  Status: FILE NOT FOUND
+
+Link: Private Properties
+  Current TOC path: 6_1/cmdb_6_1/private_properties_6_1
+  Status: FILE NOT FOUND
+
+Link: Tasks
+  Current TOC path: 6_1/cmdb_6_1/tasks_6_1
+  Status: FILE NOT FOUND
+
+Link: History
+  Current TOC path: 6_1/cmdb_6_1/history_6_1
+  Status: FILE NOT FOUND
+
+Link: Attachments
+  Current TOC path: 6_1/cmdb_6_1/attachments_6_1
+  Status: FILE NOT FOUND
+
+Link: Comments
+  Current TOC path: 6_1/cmdb_6_1/comments_6_1
+  Status: FILE NOT FOUND
+
+Link: Other Functions and Page Elements
+  Current TOC path: 6_1/cmdb_6_1/other_functions_and_page_elements_6_1
+  Status: FILE NOT FOUND
+
+Link: Discovery Scan Overview
+  Current TOC path: 6_1/discovery_scan_6_1/discovery_scan_6_1
+  Status: FILE NOT FOUND
+
+Link: Dashboard
+  Current TOC path: 6_1/discovery_scan_6_1/dashboard_6_1
+  Status: FILE NOT FOUND
+
+Link: Access Dashboard
+  Current TOC path: 6_1/discovery_scan_6_1/access_dashboard_6_1
+  Status: FILE NOT FOUND
+
+Link: Dashboard Features
+  Current TOC path: 6_1/discovery_scan_6_1/dashboard_features_6_1
+  Status: FILE NOT FOUND
+
+Link: Add Contents
+  Current TOC path: 6_1/discovery_scan_6_1/add_contents_6_1
+  Status: FILE NOT FOUND
+
+Link: Dashboard Customization
+  Current TOC path: 6_1/discovery_scan_6_1/dashboard_customization_6_1
+  Status: FILE NOT FOUND
+
+Link: Run a Scan
+  Current TOC path: 6_1/discovery_scan_6_1/run_a_scan_6_1
+  Status: FILE NOT FOUND
+
+Link: Pre-requisites for Scan
+  Current TOC path: 6_1/discovery_scan_6_1/pre_requisites_for_scan_6_1
+  Status: FILE NOT FOUND
+
+Link: Initiate and Configure Discovery Scan
+  Current TOC path: 6_1/discovery_scan_6_1/initiate_and_configure_discovery_scan_6_1
+  Status: FILE NOT FOUND
+
+Link: Access Run A Scan
+  Current TOC path: 6_1/discovery_scan_6_1/access_run_a_scan_6_1
+  Status: FILE NOT FOUND
+
+Link: Configure Discovery Scan
+  Current TOC path: 6_1/discovery_scan_6_1/configure_discovery_scan_6_1
+  Status: FILE NOT FOUND
+
+Link: Probes Configuration
+  Current TOC path: 6_1/discovery_scan_6_1/probes_configuration_6_1
+  Status: FILE NOT FOUND
+
+Link: Client Configuration
+  Current TOC path: 6_1/discovery_scan_6_1/client_configuration_6_1
+  Status: FILE NOT FOUND
+
+Link: Recent Scans
+  Current TOC path: 6_1/discovery_scan_6_1/recent_scans_6_1
+  Status: FILE NOT FOUND
+
+Link: Access Recent Scan
+  Current TOC path: 6_1/discovery_scan_6_1/access_recent_scan_6_1
+  Status: FILE NOT FOUND
+
+Link: View Recent Scan
+  Current TOC path: 6_1/discovery_scan_6_1/view_recent_scan_6_1
+  Status: FILE NOT FOUND
+
+Link: Details
+  Current TOC path: 6_1/discovery_scan_6_1/details_6_1
+  Status: FILE NOT FOUND
+
+Link: Export Scan Report
+  Current TOC path: 6_1/discovery_scan_6_1/export_scan_report_6_1
+  Status: FILE NOT FOUND
+
+Link: Refresh
+  Current TOC path: 6_1/discovery_scan_6_1/refresh_6_1
+  Status: FILE NOT FOUND
+
+Link: Logs
+  Current TOC path: 6_1/discovery_scan_6_1/logs_6_1
+  Status: FILE NOT FOUND
+
+Link: Tasks
+  Current TOC path: 6_1/discovery_scan_6_1/tasks_6_1
+  Status: FILE NOT FOUND
+
+Link: Comments
+  Current TOC path: 6_1/discovery_scan_6_1/comments_6_1
+  Status: FILE NOT FOUND
+
+Link: Attachments
+  Current TOC path: 6_1/discovery_scan_6_1/attachments_6_1
+  Status: FILE NOT FOUND
+
+Link: Scheduled Scans and Imports
+  Current TOC path: 6_1/discovery_scan_6_1/scheduled_scans_and_imports_6_1
+  Status: FILE NOT FOUND
+
+Link: Pre-requisites
+  Current TOC path: 6_1/discovery_scan_6_1/prerequisites_scheduled_scans_and_imports_6_1
+  Status: FILE NOT FOUND
+
+Link: Accessing Scheduled Scan and Imports
+  Current TOC path: 6_1/discovery_scan_6_1/accessing_scheduled_scan_and_imports_6_1
+  Status: FILE NOT FOUND
+
+Link: Key Features and Options on the Landing Page
+  Current TOC path: 6_1/discovery_scan_6_1/key_features_and_options_on_the_landing_page_6_1
+  Status: FILE NOT FOUND
+
+Link: Scans and Import Options
+  Current TOC path: 6_1/discovery_scan_6_1/scans_and_import_options_6_1
+  Status: FILE NOT FOUND
+
+Link: Scan and Import Schedule List
+  Current TOC path: 6_1/discovery_scan_6_1/scan_and_import_schedule_list_6_1
+  Status: FILE NOT FOUND
+
+Link: Schedule a Network Scan
+  Current TOC path: 6_1/discovery_scan_6_1/schedule_a_network_scan_6_1
+  Status: FILE NOT FOUND
+
+Link: Editing a Scheduled Scan
+  Current TOC path: 6_1/discovery_scan_6_1/editing_a_scheduled_scan_6_1
+  Status: FILE NOT FOUND
+
+Link: History of Scheduled Scan Execution
+  Current TOC path: 6_1/discovery_scan_6_1/history_of_scheduled_scan_execution_6_1
+  Status: FILE NOT FOUND
+
+Link: Bulk Update Scan
+  Current TOC path: 6_1/discovery_scan_6_1/bulk_update_scan_6_1
+  Status: FILE NOT FOUND
+
+Link: Exporting a Scan
+  Current TOC path: 6_1/discovery_scan_6_1/exporting_a_scan_6_1
+  Status: FILE NOT FOUND
+
+Link: Importing Scan Schedule(s)
+  Current TOC path: 6_1/discovery_scan_6_1/importing_scan_schedules_6_1
+  Status: FILE NOT FOUND
+
+Link: Deleting a Scan Schedule
+  Current TOC path: 6_1/discovery_scan_6_1/deleting_a_scan_schedule_6_1
+  Status: FILE NOT FOUND
+
+Link: Scheduled Import Setup
+  Current TOC path: 6_1/discovery_scan_6_1/scheduled_import_setup_6_1
+  Status: FILE NOT FOUND
+
+Link: AWS Import
+  Current TOC path: 6_1/discovery_scan_6_1/aws_import_6_1
+  Status: FILE NOT FOUND
+
+Link: Azure Import
+  Current TOC path: 6_1/discovery_scan_6_1/azure_import_6_1
+  Status: FILE NOT FOUND
+
+Link: Azure Import
+  Current TOC path: 6_1/discovery_scan_6_1/azure_import_6_1
+  Status: FILE NOT FOUND
+
+Link: Meraki Import
+  Current TOC path: 6_1/discovery_scan_6_1/meraki_import_6_1
+  Status: FILE NOT FOUND
+
+Link: IPAM Networks
+  Current TOC path: 6_1/discovery_scan_6_1/ipam_networks_6_1
+  Status: FILE NOT FOUND
+
+Link: IPAM Procedure
+  Current TOC path: 6_1/discovery_scan_6_1/ipam_procedure_6_1
+  Status: FILE NOT FOUND
+
+Link: Infoblox Configuration
+  Current TOC path: 6_1/discovery_scan_6_1/infoblox_configuration_6_1
+  Status: FILE NOT FOUND
+
+Link: IPAM (IP Address Management)
+  Current TOC path: 6_1/discovery_scan_6_1/ipam_ip_address_management_6_1
+  Status: FILE NOT FOUND
+
+Link: IPAM Functions Overview
+  Current TOC path: 6_1/discovery_scan_6_1/ipam_functions_overview_6_1
+  Status: FILE NOT FOUND
+
+Link: Scan Function
+  Current TOC path: 6_1/discovery_scan_6_1/scan_function_6_1
+  Status: FILE NOT FOUND
+
+Link: Status Update
+  Current TOC path: 6_1/discovery_scan_6_1/status_update_6_1
+  Status: FILE NOT FOUND
+
+Link: Regular Scan
+  Current TOC path: 6_1/discovery_scan_6_1/regular_scan_6_1
+  Status: FILE NOT FOUND
+
+Link: Sync (Instant and Scheduled)
+  Current TOC path: 6_1/discovery_scan_6_1/sync_instant_and_scheduled_6_1
+  Status: FILE NOT FOUND
+
+Link: View and Edit a Network
+  Current TOC path: 6_1/discovery_scan_6_1/view_and_edit_a_network_6_1
+  Status: FILE NOT FOUND
+
+Link: Other Functions and Page Elements
+  Current TOC path: 6_1/discovery_scan_6_1/other_functions_and_page_elements_ipam_6_1
+  Status: FILE NOT FOUND
+
+Link: Discovered Items
+  Current TOC path: 6_1/discovery_scan_6_1/discovered_items_6_1
+  Status: FILE NOT FOUND
+
+Link: Prerequisites
+  Current TOC path: 6_1/discovery_scan_6_1/prerequisites_discovered_items_6_1
+  Status: FILE NOT FOUND
+
+Link: Access Discovered Items
+  Current TOC path: 6_1/discovery_scan_6_1/access_discovered_items_6_1
+  Status: FILE NOT FOUND
+
+Link: Manage Discovered Items
+  Current TOC path: 6_1/discovery_scan_6_1/manage_discovered_items_6_1
+  Status: FILE NOT FOUND
+
+Link: Delete
+  Current TOC path: 6_1/discovery_scan_6_1/delete_discovered_items_6_1
+  Status: FILE NOT FOUND
+
+Link: Export
+  Current TOC path: 6_1/discovery_scan_6_1/export_discovered_items_6_1
+  Status: FILE NOT FOUND
+
+Link: Export Without Selecting Any Record
+  Current TOC path: 6_1/discovery_scan_6_1/export_without_selecting_any_record_6_1
+  Status: FILE NOT FOUND
+
+Link: Move to CMDB
+  Current TOC path: 6_1/discovery_scan_6_1/move_to_cmdb_6_1
+  Status: FILE NOT FOUND
+
+Link: Re-scan
+  Current TOC path: 6_1/discovery_scan_6_1/re_scan_6_1
+  Status: FILE NOT FOUND
+
+Link: Column Descriptions
+  Current TOC path: 6_1/discovery_scan_6_1/column_descriptions_6_1
+  Status: FILE NOT FOUND
+
+Link: Detailed View of Discovered Items
+  Current TOC path: 6_1/discovery_scan_6_1/detailed_view_of_discovered_items_6_1
+  Status: FILE NOT FOUND
+
+Link: Primary Details Block
+  Current TOC path: 6_1/discovery_scan_6_1/primary_details_block_6_1
+  Status: FILE NOT FOUND
+
+Link: Owner Block
+  Current TOC path: 6_1/discovery_scan_6_1/owner_block_6_1
+  Status: FILE NOT FOUND
+
+Link: Main Information Area
+  Current TOC path: 6_1/discovery_scan_6_1/main_information_area_6_1
+  Status: FILE NOT FOUND
+
+Link: Action Buttons
+  Current TOC path: 6_1/discovery_scan_6_1/action_buttons_6_1
+  Status: FILE NOT FOUND
+
+Link: Navigation Tabs
+  Current TOC path: 6_1/discovery_scan_6_1/navigation_tabs_6_1
+  Status: FILE NOT FOUND
+
+Link: Other Functions and Page Elements
+  Current TOC path: 6_1/discovery_scan_6_1/other_functions_and_page_elements_discovered_items_6_1
+  Status: FILE NOT FOUND
+
+Link: Toolbar or Control Bar
+  Current TOC path: 6_1/discovery_scan_6_1/toolbar_or_control_bar_6_1
+  Status: FILE NOT FOUND
+
+Link: Filter By
+  Current TOC path: 6_1/discovery_scan_6_1/filter_by_6_1
+  Status: FILE NOT FOUND
+
+Link: Import from AWS
+  Current TOC path: 6_1/discovery_scan_6_1/import_from_aws_6_1
+  Status: FILE NOT FOUND
+
+Link: Access the Import AWS Window
+  Current TOC path: 6_1/discovery_scan_6_1/access_the_import_aws_window_6_1
+  Status: FILE NOT FOUND
+
+Link: Import AWS Record
+  Current TOC path: 6_1/discovery_scan_6_1/import_aws_record_6_1
+  Status: FILE NOT FOUND
+
+Link: View AWS Import Record
+  Current TOC path: 6_1/discovery_scan_6_1/view_aws_import_record_6_1
+  Status: FILE NOT FOUND
+
+Link: Key columns
+  Current TOC path: 6_1/discovery_scan_6_1/key_columns_aws_6_1
+  Status: FILE NOT FOUND
+
+Link: Move Items to CMDB
+  Current TOC path: 6_1/discovery_scan_6_1/move_items_to_cmdb_aws_6_1
+  Status: FILE NOT FOUND
+
+Link: Logs
+  Current TOC path: 6_1/discovery_scan_6_1/logs_aws_6_1
+  Status: FILE NOT FOUND
+
+Link: Delete AWS Record
+  Current TOC path: 6_1/discovery_scan_6_1/delete_aws_record_6_1
+  Status: FILE NOT FOUND
+
+Link: Export AWS Records
+  Current TOC path: 6_1/discovery_scan_6_1/export_aws_records_6_1
+  Status: FILE NOT FOUND
+
+Link: View a discovered AWS record
+  Current TOC path: 6_1/discovery_scan_6_1/view_a_discovered_aws_record_6_1
+  Status: FILE NOT FOUND
+
+Link: Import from Azure
+  Current TOC path: 6_1/discovery_scan_6_1/import_from_azure_6_1
+  Status: FILE NOT FOUND
+
+Link: Access the Import AZURE Window
+  Current TOC path: 6_1/discovery_scan_6_1/access_import_azure_window_6_1
+  Status: FILE NOT FOUND
+
+Link: Import AZURE Record
+  Current TOC path: 6_1/discovery_scan_6_1/import_azure_record_6_1
+  Status: FILE NOT FOUND
+
+Link: View AZURE Import Record
+  Current TOC path: 6_1/discovery_scan_6_1/view_azure_import_record_6_1
+  Status: FILE NOT FOUND
+
+Link: Common controls (top-right of the grid)
+  Current TOC path: 6_1/discovery_scan_6_1/common_controls_azure_6_1
+  Status: FILE NOT FOUND
+
+Link: Key columns
+  Current TOC path: 6_1/discovery_scan_6_1/key_columns_azure_6_1
+  Status: FILE NOT FOUND
+
+Link: Move items to the CMDB
+  Current TOC path: 6_1/discovery_scan_6_1/move_items_to_the_cmdb_azure_6_1
+  Status: FILE NOT FOUND
+
+Link: Delete AZURE Record
+  Current TOC path: 6_1/discovery_scan_6_1/delete_azure_record_6_1
+  Status: FILE NOT FOUND
+
+Link: Export AZURE Records
+  Current TOC path: 6_1/discovery_scan_6_1/export_azure_records_6_1
+  Status: FILE NOT FOUND
+
+Link: View a discovered AZURE record
+  Current TOC path: 6_1/discovery_scan_6_1/view_a_discovered_azure_record_6_1
+  Status: FILE NOT FOUND
+
+Link: Discovered item view overview
+  Current TOC path: 6_1/discovery_scan_6_1/discovered_item_view_overview_azure_6_1
+  Status: FILE NOT FOUND
+
+Link: Top-right actions
+  Current TOC path: 6_1/discovery_scan_6_1/top_right_actions_azure_6_1
+  Status: FILE NOT FOUND
+
+Link: Tabs (main panel)
+  Current TOC path: 6_1/discovery_scan_6_1/tabs_main_panel_azure_6_1
+  Status: FILE NOT FOUND
+
+Link: Import from Meraki
+  Current TOC path: 6_1/discovery_scan_6_1/import_from_meraki_6_1
+  Status: FILE NOT FOUND
+
+Link: Prerequisites
+  Current TOC path: 6_1/discovery_scan_6_1/prerequisites_meraki_6_1
+  Status: FILE NOT FOUND
+
+Link: Assess Import Meraki Window
+  Current TOC path: 6_1/discovery_scan_6_1/assess_import_meraki_window_6_1
+  Status: FILE NOT FOUND
+
+Link: Import Meraki Record
+  Current TOC path: 6_1/discovery_scan_6_1/import_meraki_record_6_1
+  Status: FILE NOT FOUND
+
+Link: View Meraki Import Record
+  Current TOC path: 6_1/discovery_scan_6_1/view_meraki_import_record_6_1
+  Status: FILE NOT FOUND
+
+Link: Common controls
+  Current TOC path: 6_1/discovery_scan_6_1/common_controls_meraki_6_1
+  Status: FILE NOT FOUND
+
+Link: Key columns
+  Current TOC path: 6_1/discovery_scan_6_1/key_columns_meraki_6_1
+  Status: FILE NOT FOUND
+
+Link: Move items to the CMDB
+  Current TOC path: 6_1/discovery_scan_6_1/move_items_to_the_cmdb_meraki_6_1
+  Status: FILE NOT FOUND
+
+Link: Logs
+  Current TOC path: 6_1/discovery_scan_6_1/logs_meraki_6_1
+  Status: FILE NOT FOUND
+
+Link: Delete Meraki Record
+  Current TOC path: 6_1/discovery_scan_6_1/delete_meraki_record_6_1
+  Status: FILE NOT FOUND
+
+Link: Export Meraki Records
+  Current TOC path: 6_1/discovery_scan_6_1/export_meraki_records_6_1
+  Status: FILE NOT FOUND
+
+Link: View a discovered Meraki record
+  Current TOC path: 6_1/discovery_scan_6_1/view_a_discovered_meraki_record_6_1
+  Status: FILE NOT FOUND
+
+Link: Discovered item view overview
+  Current TOC path: 6_1/discovery_scan_6_1/discovered_item_view_overview_meraki_6_1
+  Status: FILE NOT FOUND
+
+Link: Top-right actions
+  Current TOC path: 6_1/discovery_scan_6_1/top_right_actions_meraki_6_1
+  Status: FILE NOT FOUND
+
+Link: Tabs (main panel)
+  Current TOC path: 6_1/discovery_scan_6_1/tabs_main_panel_meraki_6_1
+  Status: FILE NOT FOUND
+
+Link: Import from Intune
+  Current TOC path: 6_1/discovery_scan_6_1/import_from_intune_6_1
+  Status: FILE NOT FOUND
+
+Link: Access Import From Intune
+  Current TOC path: 6_1/discovery_scan_6_1/access_import_from_intune_6_1
+  Status: FILE NOT FOUND
+
+Link: Import Intune Record
+  Current TOC path: 6_1/discovery_scan_6_1/import_intune_record_6_1
+  Status: FILE NOT FOUND
+
+Link: View Intune Import Record
+  Current TOC path: 6_1/discovery_scan_6_1/view_intune_import_record_6_1
+  Status: FILE NOT FOUND
+
+Link: Delete Intune Record
+  Current TOC path: 6_1/discovery_scan_6_1/delete_intune_record_6_1
+  Status: FILE NOT FOUND
+
+Link: Export Intune Records
+  Current TOC path: 6_1/discovery_scan_6_1/export_intune_records_6_1
+  Status: FILE NOT FOUND
+
+Link: View a discovered Intune record
+  Current TOC path: 6_1/discovery_scan_6_1/view_a_discovered_intune_record_6_1
+  Status: FILE NOT FOUND
+
+Link: Import Data Files
+  Current TOC path: 6_1/discovery_scan_6_1/import_data_files_6_1
+  Status: FILE NOT FOUND
+
+Link: Access the Import Data Files
+  Current TOC path: 6_1/discovery_scan_6_1/access_the_import_data_files_6_1
+  Status: FILE NOT FOUND
+
+Link: Manage Import Data Files
+  Current TOC path: 6_1/discovery_scan_6_1/manage_import_data_files_6_1
+  Status: FILE NOT FOUND
+
+Link: Import CI
+  Current TOC path: 6_1/discovery_scan_6_1/import_ci_6_1
+  Status: FILE NOT FOUND
+
+Link: View an Imported Data File
+  Current TOC path: 6_1/discovery_scan_6_1/view_an_imported_data_file_6_1
+  Status: FILE NOT FOUND
+
+Link: All Tab
+  Current TOC path: 6_1/discovery_scan_6_1/all_tab_6_1
+  Status: FILE NOT FOUND
+
+Link: Authorized Tab
+  Current TOC path: 6_1/discovery_scan_6_1/authorized_tab_6_1
+  Status: FILE NOT FOUND
+
+Link: Unauthorized Tab
+  Current TOC path: 6_1/discovery_scan_6_1/unauthorized_tab_6_1
+  Status: FILE NOT FOUND
+
+Link: Import Asset/CI Relations
+  Current TOC path: 6_1/discovery_scan_6_1/import_asset_ci_relations_6_1
+  Status: FILE NOT FOUND
+
+Link: Delete
+  Current TOC path: 6_1/discovery_scan_6_1/delete_import_data_files_6_1
+  Status: FILE NOT FOUND
+
+Link: Export
+  Current TOC path: 6_1/discovery_scan_6_1/export_import_data_files_6_1
+  Status: FILE NOT FOUND
+
+Link: Imported Assets
+  Current TOC path: 6_1/discovery_scan_6_1/imported_assets_6_1
+  Status: FILE NOT FOUND
+
+Link: Access the Imported Assets
+  Current TOC path: 6_1/discovery_scan_6_1/access_the_imported_assets_6_1
+  Status: FILE NOT FOUND
+
+Link: Manage Imported Assets
+  Current TOC path: 6_1/discovery_scan_6_1/manage_imported_assets_6_1
+  Status: FILE NOT FOUND
+
+Link: Imported Asset Details
+  Current TOC path: 6_1/discovery_scan_6_1/imported_asset_details_6_1
+  Status: FILE NOT FOUND
+
+Link: AD User Import Logs
+  Current TOC path: 6_1/discovery_scan_6_1/ad_user_import_logs_6_1
+  Status: FILE NOT FOUND
+
+Link: AD Configuration and Import
+  Current TOC path: 6_1/discovery_scan_6_1/ad_configuration_and_import_6_1
+  Status: FILE NOT FOUND
+
+Link: AD Configuration Property Descriptions
+  Current TOC path: 6_1/discovery_scan_6_1/ad_configuration_property_descriptions_6_1
+  Status: FILE NOT FOUND
+
+Link: Testing AD Configuration
+  Current TOC path: 6_1/discovery_scan_6_1/testing_ad_configuration_6_1
+  Status: FILE NOT FOUND
+
+Link: Import Users
+  Current TOC path: 6_1/discovery_scan_6_1/import_users_6_1
+  Status: FILE NOT FOUND
+
+Link: Scheduled AD Import
+  Current TOC path: 6_1/discovery_scan_6_1/scheduled_ad_import_6_1
+  Status: FILE NOT FOUND
+
+Link: Access the AD User Import Logs
+  Current TOC path: 6_1/discovery_scan_6_1/access_the_ad_user_import_logs_6_1
+  Status: FILE NOT FOUND
+
+Link: View Import Log Details
+  Current TOC path: 6_1/discovery_scan_6_1/view_import_log_details_6_1
+  Status: FILE NOT FOUND
+
+Link: Details Tab
+  Current TOC path: 6_1/discovery_scan_6_1/details_tab_6_1
+  Status: FILE NOT FOUND
+
+Link: Tabs for Extended Information
+  Current TOC path: 6_1/discovery_scan_6_1/tabs_for_extended_information_6_1
+  Status: FILE NOT FOUND
+
+Link: Customize Columns
+  Current TOC path: 6_1/discovery_scan_6_1/customize_columns_6_1
+  Status: FILE NOT FOUND
+
+Link: Azure AD User Import Logs
+  Current TOC path: 6_1/discovery_scan_6_1/azure_ad_user_import_logs_6_1
+  Status: FILE NOT FOUND
+
+Link: Azure AD Configuration and Import
+  Current TOC path: 6_1/discovery_scan_6_1/azure_ad_configuration_and_import_6_1
+  Status: FILE NOT FOUND
+
+Link: Azure AD Configuration Property Descriptions
+  Current TOC path: 6_1/discovery_scan_6_1/azure_ad_configuration_property_descriptions_6_1
+  Status: FILE NOT FOUND
+
+Link: Testing AD Configuration
+  Current TOC path: 6_1/discovery_scan_6_1/testing_ad_configuration_azure_6_1
+  Status: FILE NOT FOUND
+
+Link: Import Users
+  Current TOC path: 6_1/discovery_scan_6_1/import_users_azure_6_1
+  Status: FILE NOT FOUND
+
+Link: Scheduled Azure AD Import
+  Current TOC path: 6_1/discovery_scan_6_1/scheduled_azure_ad_import_6_1
+  Status: FILE NOT FOUND
+
+Link: Access the Azure AD User Import Logs
+  Current TOC path: 6_1/discovery_scan_6_1/access_the_azure_ad_user_import_logs_6_1
+  Status: FILE NOT FOUND
+
+Link: View Import Log Details
+  Current TOC path: 6_1/discovery_scan_6_1/view_import_log_details_azure_6_1
+  Status: FILE NOT FOUND
+
+Link: Details Tab
+  Current TOC path: 6_1/discovery_scan_6_1/details_tab_azure_6_1
+  Status: FILE NOT FOUND
+
+Link: Key Information Displayed
+  Current TOC path: 6_1/discovery_scan_6_1/key_information_displayed_6_1
+  Status: FILE NOT FOUND
+
+Link: Tabs for Extended Information
+  Current TOC path: 6_1/discovery_scan_6_1/tabs_for_extended_information_azure_6_1
+  Status: FILE NOT FOUND
+
+Link: Customize Columns
+  Current TOC path: 6_1/discovery_scan_6_1/customize_columns_azure_6_1
+  Status: FILE NOT FOUND
+
+Link: Access CMDB
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/access_cmdb_6_1
+  Status: FILE NOT FOUND
+
+Link: Manage CMDB
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/manage_cmdb_6_1
+  Status: FILE NOT FOUND
+
+Link: Audits
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/audits_6_1
+  Status: FILE NOT FOUND
+
+Link: Change Attributes
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/change_attributes_6_1
+  Status: FILE NOT FOUND
+
+Link: Delete
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/delete_6_1
+  Status: FILE NOT FOUND
+
+Link: Export
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/export_6_1
+  Status: FILE NOT FOUND
+
+Link: New
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/new_6_1
+  Status: FILE NOT FOUND
+
+Link: Copy to Ivanti
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/copy_to_ivanti_6_1
+  Status: FILE NOT FOUND
+
+Link: Copy to Jira
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/copy_to_jira_6_1
+  Status: FILE NOT FOUND
+
+Link: Copy to ServiceNow
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/copy_to_servicenow_6_1
+  Status: FILE NOT FOUND
+
+Link: Generate Installed Software Report
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/generate_installed_software_report_6_1
+  Status: FILE NOT FOUND
+
+Link: Process ADM
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/process_adm_6_1
+  Status: FILE NOT FOUND
+
+Link: Process Available Patch Report
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/process_available_patch_report_6_1
+  Status: FILE NOT FOUND
+
+Link: Process Cloud Hierarchy
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/process_cloud_hierarchy_6_1
+  Status: FILE NOT FOUND
+
+Link: Process DevOps
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/process_devops_6_1
+  Status: FILE NOT FOUND
+
+Link: Process Missing Components
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/process_missing_components_6_1
+  Status: FILE NOT FOUND
+
+Link: Process Network Connection
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/process_network_connection_6_1
+  Status: FILE NOT FOUND
+
+Link: Process Software Installation
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/process_software_installation_6_1
+  Status: FILE NOT FOUND
+
+Link: CI Left Panel
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/ci_left_panel_6_1
+  Status: FILE NOT FOUND
+
+Link: Contacts on a CI
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/contacts_on_ci_6_1
+  Status: FILE NOT FOUND
+
+Link: CI Details and Tabs
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/ci_details_and_tabs_6_1
+  Status: FILE NOT FOUND
+
+Link: Manage CI
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/manage_ci_6_1
+  Status: FILE NOT FOUND
+
+Link: Business Service Map
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/business_service_map_6_1
+  Status: FILE NOT FOUND
+
+Link: Components
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/components_6_1
+  Status: FILE NOT FOUND
+
+Link: Logon Events
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/logon_events_6_1
+  Status: FILE NOT FOUND
+
+Link: ITSM
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/itsm_6_1
+  Status: FILE NOT FOUND
+
+Link: Relationships
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/relationships_6_1
+  Status: FILE NOT FOUND
+
+Link: Audits
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/audits_tab_6_1
+  Status: FILE NOT FOUND
+
+Link: SLA
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/sla_6_1
+  Status: FILE NOT FOUND
+
+Link: Maintenance
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/maintenance_6_1
+  Status: FILE NOT FOUND
+
+Link: Vulnerability
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/vulnerability_6_1
+  Status: FILE NOT FOUND
+
+Link: Private Properties
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/private_properties_6_1
+  Status: FILE NOT FOUND
+
+Link: Tasks
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/tasks_6_1
+  Status: FILE NOT FOUND
+
+Link: History
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/history_6_1
+  Status: FILE NOT FOUND
+
+Link: Attachments
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/attachments_6_1
+  Status: FILE NOT FOUND
+
+Link: Comments
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/comments_6_1
+  Status: FILE NOT FOUND
+
+Link: Sync Logs
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/sync_logs_6_1
+  Status: FILE NOT FOUND
+
+Link: Tags
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/tags_6_1
+  Status: FILE NOT FOUND
+
+Link: Audits
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/audits_6_1
+  Status: FILE NOT FOUND
+
+Link: Access CMDB
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/access_cmdb_6_1
+  Status: FILE NOT FOUND
+
+Link: Manage CMDB
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/manage_cmdb_6_1
+  Status: FILE NOT FOUND
+
+Link: Audits
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/audits_6_1
+  Status: FILE NOT FOUND
+
+Link: Change Attributes
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/change_attributes_6_1
+  Status: FILE NOT FOUND
+
+Link: Delete
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/delete_6_1
+  Status: FILE NOT FOUND
+
+Link: Export
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/export_6_1
+  Status: FILE NOT FOUND
+
+Link: New
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/new_6_1
+  Status: FILE NOT FOUND
+
+Link: Copy to Ivanti
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/copy_to_ivanti_6_1
+  Status: FILE NOT FOUND
+
+Link: Copy to Jira
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/copy_to_jira_6_1
+  Status: FILE NOT FOUND
+
+Link: Copy to ServiceNow
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/copy_to_servicenow_6_1
+  Status: FILE NOT FOUND
+
+Link: Generate Installed Software Report
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/generate_installed_software_report_6_1
+  Status: FILE NOT FOUND
+
+Link: Process ADM
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/process_adm_6_1
+  Status: FILE NOT FOUND
+
+Link: Process Available Patch Report
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/process_available_patch_report_6_1
+  Status: FILE NOT FOUND
+
+Link: Process Cloud Hierarchy
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/process_cloud_hierarchy_6_1
+  Status: FILE NOT FOUND
+
+Link: Process DevOps
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/process_devops_6_1
+  Status: FILE NOT FOUND
+
+Link: Process Missing Components
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/process_missing_components_6_1
+  Status: FILE NOT FOUND
+
+Link: Process Network Connection
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/process_network_connection_6_1
+  Status: FILE NOT FOUND
+
+Link: Process Software Installation
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/process_software_installation_6_1
+  Status: FILE NOT FOUND
+
+Link: Process Network Virtualization Hierarchy
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/process_network_virtualization_hierarchy_6_1
+  Status: FILE NOT FOUND
+
+Link: CI Left Panel
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/ci_left_panel_6_1
+  Status: FILE NOT FOUND
+
+Link: Contacts on a CI
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/contacts_on_ci_6_1
+  Status: FILE NOT FOUND
+
+Link: CI Details and Tabs
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/ci_details_and_tabs_6_1
+  Status: FILE NOT FOUND
+
+Link: Manage CI
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/manage_ci_6_1
+  Status: FILE NOT FOUND
+
+Link: Business Service Map
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/business_service_map_6_1
+  Status: FILE NOT FOUND
+
+Link: Components
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/components_6_1
+  Status: FILE NOT FOUND
+
+Link: Logon Events
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/logon_events_6_1
+  Status: FILE NOT FOUND
+
+Link: ITSM
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/itsm_6_1
+  Status: FILE NOT FOUND
+
+Link: Relationships
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/relationships_6_1
+  Status: FILE NOT FOUND
+
+Link: Audits
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/audits_tab_6_1
+  Status: FILE NOT FOUND
+
+Link: SLA
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/sla_6_1
+  Status: FILE NOT FOUND
+
+Link: Maintenance
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/maintenance_6_1
+  Status: FILE NOT FOUND
+
+Link: Vulnerability
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/vulnerability_6_1
+  Status: FILE NOT FOUND
+
+Link: Private Properties
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/private_properties_6_1
+  Status: FILE NOT FOUND
+
+Link: Tasks
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/tasks_6_1
+  Status: FILE NOT FOUND
+
+Link: History
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/history_6_1
+  Status: FILE NOT FOUND
+
+Link: Attachments
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/attachments_6_1
+  Status: FILE NOT FOUND
+
+Link: Comments
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/comments_6_1
+  Status: FILE NOT FOUND
+
+Link: Sync Logs
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/sync_logs_6_1
+  Status: FILE NOT FOUND
+
+Link: Tags
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/tags_6_1
+  Status: FILE NOT FOUND
+
+Link: Audits
+  Current TOC path: 6_1/itam_6_1/cmdb_6_1/audits_6_1
+  Status: FILE NOT FOUND
+
+Link: Audits
+  Current TOC path: 6_1/itam_6_1/audits_itam_6_1
+  Status: FILE NOT FOUND
+
+Link: Asset License Entitlement
+  Current TOC path: 6_1/itam_6_1/asset_lic_entitlement_6_1
+  Status: FILE NOT FOUND
+
+Link: User License Entitlement
+  Current TOC path: 6_1/itam_6_1/user_license_entitle_6_1
+  Status: FILE NOT FOUND
+
+Link: Stockroom
+  Current TOC path: 6_1/itam_6_1/stockroom_6_1
+  Status: FILE NOT FOUND
+
+Link: Stockroom Type
+  Current TOC path: 6_1/itam_6_1/stockroom_type_6_1
+  Status: FILE NOT FOUND
+
+Link: Requested Items
+  Current TOC path: 6_1/itam_6_1/procurement/req_items_6_1
+  Status: FILE NOT FOUND
+
+Link: Purchase Orders
+  Current TOC path: 6_1/itam_6_1/procurement/po_6_1
+  Status: FILE NOT FOUND
+
+Link: Purchase Order Line Items
+  Current TOC path: 6_1/itam_6_1/procurement/po_line_items_6_1
+  Status: FILE NOT FOUND
+
+Link: Receiving Slips
+  Current TOC path: 6_1/itam_6_1/procurement/recv_slip_6_1
+  Status: FILE NOT FOUND
+
+Link: Receiving Slip Lines
+  Current TOC path: 6_1/itam_6_1/procurement/recv_slip_lines_6_1
+  Status: FILE NOT FOUND
+
+Link: Transfer Order
+  Current TOC path: 6_1/itam_6_1/procurement/transfer_order_6_1
+  Status: FILE NOT FOUND
+
+Link: Service Design Package
+  Current TOC path: 6_1/itam_6_1/service_design_package_6_1
+  Status: FILE NOT FOUND
+
+Link: About Financial Management
+  Current TOC path: 6_1/itam_6_1/financial_management/about_financial_management_6_1
+  Status: FILE NOT FOUND
+
+Link: CI Financial Plan
+  Current TOC path: 6_1/itam_6_1/financial_management/ci_financial_plan_6_1
+  Status: FILE NOT FOUND
+
+Link: Service Financial Plan
+  Current TOC path: 6_1/itam_6_1/financial_management/service_financial_plan_6_1
+  Status: FILE NOT FOUND
+
+Link: Core Functionality
+  Current TOC path: 6_1/vulnerability_management-6_1/core_functionality_6_1
+  Status: FILE NOT FOUND
+
+Link: Access Vulnerability Management
+  Current TOC path: 6_1/vulnerability_management-6_1/access_vulnerability_management_6_1
+  Status: FILE NOT FOUND
+
+Link: View Vulnerability Management
+  Current TOC path: 6_1/vulnerability_management-6_1/view_vulnerability_management_6_1
+  Status: FILE NOT FOUND
+
+Link: Best Practices
+  Current TOC path: 6_1/vulnerability_management-6_1/best_practices_6_1
+  Status: FILE NOT FOUND
+
+Link: Limitations and Considerations
+  Current TOC path: 6_1/vulnerability_management-6_1/limitations_considerations_6_1
+  Status: FILE NOT FOUND
+
+Link: Service Catalog
+  Current TOC path: 6_1/self-service-6_1/service_catalog_6_1
+  Status: FILE NOT FOUND
+
+Link: My Incidents
+  Current TOC path: 6_1/self-service-6_1/my_incidents_6_1
+  Status: FILE NOT FOUND
+
+Link: My Requests
+  Current TOC path: 6_1/self-service-6_1/my_requests_6_1
+  Status: FILE NOT FOUND
+
+Link: Program Dashboard
+  Current TOC path: 6_1/program-project-management-6_1/program_dashboard_6_1
+  Status: FILE NOT FOUND
+
+Link: Project Dashboard
+  Current TOC path: 6_1/program-project-management-6_1/project_dashboard_6_1
+  Status: FILE NOT FOUND
+
+Link: Risk Dashboard
+  Current TOC path: 6_1/risk-register-6_1/risk_dashboard_6_1
+  Status: FILE NOT FOUND
+
+Link: Risks
+  Current TOC path: 6_1/risk-register-6_1/risks_6_1
+  Status: FILE NOT FOUND
+
+Link: Ad Hoc Reports
+  Current TOC path: 6_1/reports_6_1/reports_ad_hoc_6_1
+  Status: FILE NOT FOUND
+
+Link: Canned Reports
+  Current TOC path: 6_1/reports_6_1/reports_canned_6_1
+  Status: FILE NOT FOUND
+
+Link: Properties and Conditions
+  Current TOC path: 6_1/reports_6_1/reports_props_conds_6_1
+  Status: FILE NOT FOUND
+
+Link: Run Report
+  Current TOC path: 6_1/reports_6_1/reports_run_6_1
+  Status: FILE NOT FOUND
+
+Link: Delete Report
+  Current TOC path: 6_1/reports_6_1/reports_delete_6_1
+  Status: FILE NOT FOUND
+
+Link: Cost Center
+  Current TOC path: 6_1/admin_6_1/admin_org_details/cost_center_6_1
+  Status: FILE NOT FOUND
+
+Link: Members
+  Current TOC path: 6_1/admin_6_1/admin_org_details/departments_members_6_1
+  Status: FILE NOT FOUND
+
+Link: Designations
+  Current TOC path: 6_1/admin_6_1/admin_org_details/designations_6_1
+  Status: FILE NOT FOUND
+
+Link: Holidays
+  Current TOC path: 6_1/admin_6_1/admin_org_details/holidays_6_1
+  Status: FILE NOT FOUND
+
+Link: Locations
+  Current TOC path: 6_1/admin_6_1/admin_org_details/locations_6_1
+  Status: FILE NOT FOUND
+
+Link: Operational Hours
+  Current TOC path: 6_1/admin_6_1/admin_org_details/operational_hours_6_1
+  Status: FILE NOT FOUND
+
+Link: Organizational Details
+  Current TOC path: 6_1/admin_6_1/admin_org_details/organizational_details_6_1
+  Status: FILE NOT FOUND
+

@@ -1,0 +1,1561 @@
+FILES NEEDING MANUAL ATTENTION
+================================================================================
+
+Total files: 451
+
+SUMMARY BY ISSUE TYPE:
+--------------------------------------------------------------------------------
+
+Contains old HTML/div content: 257 files
+
+Has [text]{.Strong} or [text]{.Emphasis} syntax: 65 files
+
+Has style attributes with curly braces: 318 files
+
+
+================================================================================
+DETAILED LIST:
+--------------------------------------------------------------------------------
+
+admin_6_1\admin\icons_6_1.mdx
+  - Has style attributes with curly braces
+
+admin_6_1\admin_change_mngmnt\change_category_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_change_mngmnt\change_ci_category_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_change_mngmnt\change_closure_code_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_change_mngmnt\change_error_code_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_change_mngmnt\change_model_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_change_mngmnt\change_priority_calculator_6_1.mdx
+  - Contains old HTML/div content
+
+admin_6_1\admin_change_mngmnt\change_risk_assesments_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_change_mngmnt\change_risks_6_1.mdx
+  - Contains old HTML/div content
+
+admin_6_1\admin_change_mngmnt\change_stage_state_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_change_mngmnt\change_state_workflow_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_change_mngmnt\change_types_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_change_mngmnt\risk_assessments_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_contract_mngmt\contract_properties_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_contract_mngmt\contract_property_group_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_discovery\application_map_6_1.mdx
+  - Has style attributes with curly braces
+
+admin_6_1\admin_discovery\client_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_discovery\client_build_agent_6_1.mdx
+  - Has style attributes with curly braces
+
+admin_6_1\admin_discovery\client_details_6_1.mdx
+  - Has style attributes with curly braces
+
+admin_6_1\admin_discovery\client_remote_install_6_1.mdx
+  - Has style attributes with curly braces
+
+admin_6_1\admin_discovery\client_scan_6_1.mdx
+  - Has style attributes with curly braces
+
+admin_6_1\admin_discovery\correlation_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_discovery\credentials_6_1.mdx
+  - Contains old HTML/div content
+
+admin_6_1\admin_discovery\credentials_backup_file_6_1.mdx
+  - Has style attributes with curly braces
+
+admin_6_1\admin_discovery\credentials_new_6_1.mdx
+  - Has style attributes with curly braces
+
+admin_6_1\admin_discovery\ignore_adm_process_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_discovery\ignore_process_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_discovery\import_templates_6_1.mdx
+  - Has style attributes with curly braces
+
+admin_6_1\admin_discovery\installation_linux_6_1.mdx
+  - Has style attributes with curly braces
+
+admin_6_1\admin_discovery\installation_mac_6_1.mdx
+  - Has style attributes with curly braces
+
+admin_6_1\admin_discovery\major_software_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_discovery\major_software_details_6_1.mdx
+  - Has style attributes with curly braces
+
+admin_6_1\admin_discovery\mon_prof_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_discovery\mon_prof_action_details_6_1.mdx
+  - Contains old HTML/div content
+
+admin_6_1\admin_discovery\mon_prof_frequency_6_1.mdx
+  - Contains old HTML/div content
+
+admin_6_1\admin_discovery\mon_prof_trigger_conditions_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_discovery\patterns_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_discovery\port_config_process_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_discovery\probe_workflow_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_discovery\probes_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_discovery\probes_new_6_1.mdx
+  - Has style attributes with curly braces
+
+admin_6_1\admin_discovery\scan_configuration_6_1.mdx
+  - Contains old HTML/div content
+
+admin_6_1\admin_discovery\scan_workflow_6_1.mdx
+  - Has style attributes with curly braces
+
+admin_6_1\admin_discovery\sensors_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_event_mngmnt\alert_configuration_6_1.mdx
+  - Has style attributes with curly braces
+
+admin_6_1\admin_event_mngmnt\email_actions_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_event_mngmnt\eventmailbox_configuration_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_event_mngmnt\mailbox_configuration_6_1.mdx
+  - Has style attributes with curly braces
+
+admin_6_1\admin_hardware_asset_mngmnt\hardware_properties_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_hardware_asset_mngmnt\hardware_property_group_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_incident_mngmnt\incident_auto_escalation_6_1.mdx
+  - Contains old HTML/div content
+
+admin_6_1\admin_incident_mngmnt\incident_category_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_incident_mngmnt\incident_error_code_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_incident_mngmnt\incident_model_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_incident_mngmnt\incident_priority_calculator_6_1.mdx
+  - Contains old HTML/div content
+
+admin_6_1\admin_incident_mngmnt\incident_states_substates_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_integrations\cherwell_credential_6_1.mdx
+  - Has style attributes with curly braces
+
+admin_6_1\admin_integrations\cherwell_mappings_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_integrations\cherwell_mappings_new_6_1.mdx
+  - Has style attributes with curly braces
+
+admin_6_1\admin_integrations\infoblox_config_6_1.mdx
+  - Contains old HTML/div content
+
+admin_6_1\admin_integrations\ivanti_mappings_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_integrations\ivanti_mappings_new_6_1.mdx
+  - Has style attributes with curly braces
+
+admin_6_1\admin_integrations\jira_mappings_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_integrations\servicenow_mappings_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_knowledge_mngmnt\knowledge_model_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_knowledge_mngmnt\knowledge_topic_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_knowledge_mngmnt\legislative_detail_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_org_details\cost_center_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_org_details\departments_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_org_details\departments_members_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_org_details\designations_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_org_details\holidays_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_org_details\locations_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_org_details\operational_hours_6_1.mdx
+  - Contains old HTML/div content
+
+admin_6_1\admin_org_details\organizational_details_6_1.mdx
+  - Contains old HTML/div content
+
+admin_6_1\admin_other\announcements_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_other\business_rules_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_other\business_rules_new_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_other\custom_reports_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_other\inbox_config_itsm_ticket_mngmnt_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_other\reports_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_other\risk_score_calculator_6_1.mdx
+  - Contains old HTML/div content
+
+admin_6_1\admin_other\sla_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_other\sla_attachments_6_1.mdx
+  - Contains old HTML/div content
+
+admin_6_1\admin_other\sla_comments_6_1.mdx
+  - Contains old HTML/div content
+
+admin_6_1\admin_other\sla_tasks_6_1.mdx
+  - Contains old HTML/div content
+
+admin_6_1\admin_other\smtp_config_6_1.mdx
+  - Has style attributes with curly braces
+
+admin_6_1\admin_other\survey_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_problem_mngmnt\problem_category_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_problem_mngmnt\problem_closure_code_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_problem_mngmnt\problem_error_code_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_problem_mngmnt\problem_model_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_problem_mngmnt\problem_priority_calculator_6_1.mdx
+  - Contains old HTML/div content
+
+admin_6_1\admin_problem_mngmnt\problem_state_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_procurement\procurement_properties_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_procurement\procurement_property_group_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_procurement_mngmnt\procurement_properties_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_procurement_mngmnt\procurement_property_group_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_project_mngmnt\project_template_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_release_mngmnt\release_activity_state_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_release_mngmnt\release_closure_code_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_release_mngmnt\release_model_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_release_mngmnt\release_phase_state_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_release_mngmnt\release_priority_calculator_6_1.mdx
+  - Contains old HTML/div content
+
+admin_6_1\admin_release_mngmnt\release_state_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_request_mngmnt\request_category_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_request_mngmnt\request_error_code_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_request_mngmnt\request_model_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_request_mngmnt\request_priority_calculator_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_request_mngmnt\request_state_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_sacm\add_new_property_6_1.mdx
+  - Contains old HTML/div content
+
+admin_6_1\admin_sacm\admin_sacm_6_1.mdx
+  - Has style attributes with curly braces
+
+admin_6_1\admin_sacm\blueprints_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_sacm\blueprints_attachments_6_1.mdx
+  - Contains old HTML/div content
+
+admin_6_1\admin_sacm\blueprints_comments_6_1.mdx
+  - Contains old HTML/div content
+
+admin_6_1\admin_sacm\blueprints_details_6_1.mdx
+  - Has style attributes with curly braces
+
+admin_6_1\admin_sacm\blueprints_sla_6_1.mdx
+  - Has style attributes with curly braces
+
+admin_6_1\admin_sacm\blueprints_tasks_6_1.mdx
+  - Contains old HTML/div content
+
+admin_6_1\admin_sacm\bsm_views_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_sacm\cmdb_properties_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_sacm\custom_bsm_views_6_1.mdx
+  - Has style attributes with curly braces
+
+admin_6_1\admin_sacm\export_ci_template_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_sacm\process_tags_6_1.mdx
+  - Has style attributes with curly braces
+
+admin_6_1\admin_sacm\property_group_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_sacm\relationship_types_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_users\ad_imp_auth_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_users\azure_ad_config_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_users\ldap_imp_auth_6_1.mdx
+  - Has style attributes with curly braces
+
+admin_6_1\admin_users\saml_config_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_users\time_track_reports_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_users\user_groups_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_users\user_roles_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_users\users_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_users\users_new_new_ui_6_1.mdx
+  - Has style attributes with curly braces
+
+admin_6_1\admin_users\users_new_old_ui_6_1.mdx
+  - Has style attributes with curly braces
+
+admin_6_1\admin_users\view_resources_6_1.mdx
+  - Has style attributes with curly braces
+
+admin_6_1\admin_vendor_mngmnt\vendor_properties_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+admin_6_1\admin_vendor_mngmnt\vendor_property_group_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+all_about_virima_new_6_1.mdx
+  - Has style attributes with curly braces
+
+application_overview_6_1\online_help_6_1.mdx
+  - Contains old HTML/div content
+
+application_overview_6_1\shared_functions_6_1\attachments_6_1.mdx
+  - Contains old HTML/div content
+
+application_overview_6_1\shared_functions_6_1\auto_refresh_6_1.mdx
+  - Contains old HTML/div content
+
+application_overview_6_1\shared_functions_6_1\comments_6_1.mdx
+  - Contains old HTML/div content
+
+application_overview_6_1\shared_functions_6_1\send_report_to_6_1.mdx
+  - Contains old HTML/div content
+
+application_overview_6_1\shared_functions_6_1\tasks_6_1.mdx
+  - Contains old HTML/div content
+
+application_overview_6_1\shared_functions_6_1\updates_6_1.mdx
+  - Contains old HTML/div content
+
+cmdb_6_1\audits_tab_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+cmdb_6_1\business_service_map_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+cmdb_6_1\ci_details_and_tabs_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+cmdb_6_1\ci_left_panel_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+cmdb_6_1\copy_to_ivanti_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+cmdb_6_1\copy_to_jira_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+cmdb_6_1\copy_to_servicenow_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+cmdb_6_1\delete_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+cmdb_6_1\details_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+cmdb_6_1\export_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+cmdb_6_1\generate_installed_software_report_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+cmdb_6_1\itsm_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+cmdb_6_1\logon_events_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+cmdb_6_1\maintenance_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+cmdb_6_1\manage_ci_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+cmdb_6_1\manage_cmdb_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+cmdb_6_1\new_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+cmdb_6_1\private_properties_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+cmdb_6_1\process_adm_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+cmdb_6_1\process_available_patch_report_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+cmdb_6_1\process_cloud_hierarchy_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+cmdb_6_1\process_devops_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+cmdb_6_1\process_missing_components_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+cmdb_6_1\process_network_connection_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+cmdb_6_1\process_software_installation_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+cmdb_6_1\relationships_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+cmdb_6_1\sla_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+cmdb_6_1\vulnerability_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+common_topics\attachments_6_1.mdx
+  - Contains old HTML/div content
+
+common_topics\auto_refresh_6_1.mdx
+  - Contains old HTML/div content
+
+common_topics\comments_6_1.mdx
+  - Contains old HTML/div content
+
+common_topics\mark_as_knowledge_6_1.mdx
+  - Has style attributes with curly braces
+
+common_topics\resource_chart_6_1.mdx
+  - Has style attributes with curly braces
+
+common_topics\searching_6_1.mdx
+  - Has style attributes with curly braces
+
+common_topics\tasks_6_1.mdx
+  - Contains old HTML/div content
+
+common_topics\updates_6_1.mdx
+  - Contains old HTML/div content
+
+discovery_scan_6_1\about_discovery_scan_6_1.mdx
+  - Has style attributes with curly braces
+
+discovery_scan_6_1\ad_azure_import_logs\access_the_ad_user_import_logs_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\ad_azure_import_logs\ad_configuration_and_import_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\ad_azure_import_logs\ad_configuration_property_descriptions_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\ad_azure_import_logs\ad_user_import_logs_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\ad_azure_import_logs\customize_columns_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\ad_azure_import_logs\details_tab_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\ad_azure_import_logs\import_users_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\ad_azure_import_logs\scheduled_ad_import_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\ad_azure_import_logs\tabs_for_extended_information_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\ad_azure_import_logs\testing_ad_configuration_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\ad_user_import_attachments_6_1.mdx
+  - Contains old HTML/div content
+
+discovery_scan_6_1\ad_user_import_comments_6_1.mdx
+  - Contains old HTML/div content
+
+discovery_scan_6_1\ad_user_import_logs_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+discovery_scan_6_1\ad_user_import_scan_6_1.mdx
+  - Has style attributes with curly braces
+
+discovery_scan_6_1\ad_user_import_tasks_6_1.mdx
+  - Contains old HTML/div content
+
+discovery_scan_6_1\azure_ad_import_logs\access_the_azure_ad_user_import_logs_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\azure_ad_import_logs\azure_ad_configuration_and_import_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\azure_ad_import_logs\azure_ad_configuration_property_descriptions_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\azure_ad_import_logs\azure_ad_user_import_logs_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\azure_ad_import_logs\customize_columns_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\azure_ad_import_logs\import_users_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\azure_ad_import_logs\key_information_displayed_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\azure_ad_import_logs\scheduled_azure_ad_import_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\azure_ad_import_logs\tabs_for_extended_information_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\azure_ad_import_logs\testing_ad_configuration_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\azure_ad_user_import_logs_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+discovery_scan_6_1\discovered_items_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+discovery_scan_6_1\discovered_items_attachments_6_1.mdx
+  - Contains old HTML/div content
+
+discovery_scan_6_1\discovered_items_comments_6_1.mdx
+  - Contains old HTML/div content
+
+discovery_scan_6_1\discovered_items_components_6_1.mdx
+  - Has style attributes with curly braces
+
+discovery_scan_6_1\discovered_items_edit_6_1.mdx
+  - Has style attributes with curly braces
+
+discovery_scan_6_1\discovered_items_tasks_6_1.mdx
+  - Contains old HTML/div content
+
+discovery_scan_6_1\discovered_items_updates_6_1.mdx
+  - Has style attributes with curly braces
+
+discovery_scan_6_1\import_aws_6_1.mdx
+  - Has style attributes with curly braces
+
+discovery_scan_6_1\import_aws_edit_6_1.mdx
+  - Has style attributes with curly braces
+
+discovery_scan_6_1\import_aws_record_6_1.mdx
+  - Contains old HTML/div content
+
+discovery_scan_6_1\import_azure_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+discovery_scan_6_1\import_cis_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+discovery_scan_6_1\import_data_file_6_1.mdx
+  - Contains old HTML/div content
+
+discovery_scan_6_1\import_data_files\access_the_import_data_files_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\import_data_files\all_tab_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\import_data_files\authorized_tab_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\import_data_files\delete_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\import_data_files\export_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\import_data_files\import_assetci_relations_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\import_data_files\import_ci_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\import_data_files\import_data_files_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+discovery_scan_6_1\import_data_files\unauthorized_tab_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\import_from_intune\access_import_from_intune_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\import_from_intune\delete_intune_record_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\import_from_intune\export_intune_records_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\import_from_intune\import_from_intune_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\import_from_intune\import_intune_record_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\import_from_intune\view_a_discovered_intune_record_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\import_from_intune\view_intune_import_record_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\import_meraki_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+discovery_scan_6_1\imported_assets\access_the_imported_assets_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+discovery_scan_6_1\imported_assets\imported_asset_details_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\imported_assets\imported_assets_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+discovery_scan_6_1\imported_assets\manage_imported_assets_6_1.mdx
+  - Has [text]{.Strong} or [text]{.Emphasis} syntax
+
+discovery_scan_6_1\imported_assets_6_1.mdx
+  - Contains old HTML/div content
+
+discovery_scan_6_1\ipam_networks_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+discovery_scan_6_1\ldap_user_import_scans_6_1.mdx
+  - Has style attributes with curly braces
+
+discovery_scan_6_1\move_cmdb_6_1.mdx
+  - Has style attributes with curly braces
+
+discovery_scan_6_1\move_servicenow_6_1.mdx
+  - Has style attributes with curly braces
+
+discovery_scan_6_1\popups\example_dashboard_layout_6_1.mdx
+  - Contains old HTML/div content
+
+discovery_scan_6_1\run_a_scan\scans_pre_reqs_6_1.mdx
+  - Has style attributes with curly braces
+
+discovery_scan_6_1\scans_background_info_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+discovery_scan_6_1\scans_frequency_6_1.mdx
+  - Contains old HTML/div content
+
+discovery_scan_6_1\scans_scheduled_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+discovery_scan_6_1\scans_scheduled_new_6_1.mdx
+  - Has style attributes with curly braces
+
+itam_6_1\about_itam_6_1.mdx
+  - Has style attributes with curly braces
+
+itam_6_1\about_itam_newui_6_1.mdx
+  - Has style attributes with curly braces
+
+itam_6_1\asset_lic_entitlement_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itam_6_1\audits_itam_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itam_6_1\contract_management\contract_mngmnt_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itam_6_1\contract_mngmnt_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itam_6_1\financial_management\ci_financial_plan_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itam_6_1\financial_management\service_financial_plan_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itam_6_1\financial_mngmnt_content_hold_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itam_6_1\hw_asset_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itam_6_1\hw_asset_edit_6_1.mdx
+  - Has style attributes with curly braces
+
+itam_6_1\hw_assets\hw_assets_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itam_6_1\procurement\po_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itam_6_1\procurement\po_line_items_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itam_6_1\procurement\po_line_items_new_6_1.mdx
+  - Has style attributes with curly braces
+
+itam_6_1\procurement\po_new_6_1.mdx
+  - Has style attributes with curly braces
+
+itam_6_1\procurement\recv_slip_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itam_6_1\procurement\recv_slip_line_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itam_6_1\procurement\recv_slip_lines_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itam_6_1\procurement\req_items_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itam_6_1\procurement\req_items_new_6_1.mdx
+  - Has style attributes with curly braces
+
+itam_6_1\procurement\transfer_order_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itam_6_1\service_design_package_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itam_6_1\service_financial_plan_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itam_6_1\stockroom_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itam_6_1\stockroom_type_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itam_6_1\sw_asset_mngmt\certificate_mngmt_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itam_6_1\sw_asset_mngmt\sw_assets_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itam_6_1\sw_asset_mngmt\sw_license_key_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itam_6_1\sw_asset_mngmt\swlk_6_1.mdx
+  - Has style attributes with curly braces
+
+itam_6_1\user_license_entitle_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itam_6_1\vendor_management\vendor_mngmnt_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itam_6_1\vendor_management\vendor_mngmnt_new_6_1.mdx
+  - Has style attributes with curly braces
+
+itam_6_1\vendor_mngmnt_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itam_6_1\vendor_mngmnt_new_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\about_itsm_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\change_mngmnt\change_proposals_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\change_mngmnt\changes_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\change_mngmnt\outages_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\change_mngmnt\overview_change_mngmnt_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\change_mngmnt\request_changes_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\audits\audit_attachments_6_1.mdx
+  - Contains old HTML/div content
+
+itsm_6_1\config_mngmt\audits\audit_comments_6_1.mdx
+  - Contains old HTML/div content
+
+itsm_6_1\config_mngmt\audits\audits_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\audits\audits_tasks_6_1.mdx
+  - Contains old HTML/div content
+
+itsm_6_1\config_mngmt\components\aws_subnets_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\components\azure_vmss_inst_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\components\back_end_pools_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\components\databases_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\components\db_server_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\components\docker_contain_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\components\docker_images_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\components\ip_addresses_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\components\isilon_clusters_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\components\kub_name_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\components\kub_nodes_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\components\kub_pods_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\components\kub_services_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\components\linux_server_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\components\load_balancers_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\components\net_adapters_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\components\net_interfaces_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\components\net_strge_disks_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\components\peri_devices_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\components\routes_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\components\storage_pool_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\components\subnet_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\components\sw_instances_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\components\targets_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\components\vir_machines_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\components\vir_servers_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\components\vlans_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\components\vm_disk_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\components\xtrio_clusters_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\conf_items\bsm_examples\bsm_infra_view_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\conf_items\cmdb_process_jobs_6_1.mdx
+  - Contains old HTML/div content
+
+itsm_6_1\config_mngmt\conf_items\config_items_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\conf_items\config_items_attachments_6_1.mdx
+  - Contains old HTML/div content
+
+itsm_6_1\config_mngmt\conf_items\config_items_comments_6_1.mdx
+  - Contains old HTML/div content
+
+itsm_6_1\config_mngmt\conf_items\config_items_components_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\conf_items\config_items_details_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\conf_items\config_items_edit_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\conf_items\config_items_installed_on_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\conf_items\config_items_itsm_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\conf_items\config_items_logon_events_6_1.mdx
+  - Contains old HTML/div content
+
+itsm_6_1\config_mngmt\conf_items\config_items_maintenance_6_1.mdx
+  - Contains old HTML/div content
+
+itsm_6_1\config_mngmt\conf_items\config_items_options_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\conf_items\config_items_relationships_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\conf_items\config_items_sla_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\conf_items\config_items_tasks_6_1.mdx
+  - Contains old HTML/div content
+
+itsm_6_1\config_mngmt\conf_items\details_add_property_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\conf_items\details_get_config_file_6_1.mdx
+  - Contains old HTML/div content
+
+itsm_6_1\config_mngmt\conf_items\details_mark_knowledge_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\conf_items\details_process_license_keys_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\conf_items\details_release_hierarchy_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\conf_items\details_usage_rpt_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\conf_items\service_map_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\about_ci_components_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\aws_subnets_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\azure_subnets_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\azure_vmss_inst_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\back_end_pools_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\databases_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\db_server_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\docker_container_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\docker_images_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\images_vulnerabilities_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\install_sw_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\ipv4_addresses_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\isilon_clusters_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\kub_name_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\kub_nodes_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\kub_pods_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\kub_services_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\linux_server_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\listener_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\listening_processes_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\load_balancers_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\net_adapters_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\net_interfaces_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\net_strge_disks_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\peri_devices_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\processes_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\routes_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\storage_pool_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\subnet_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\sw_instances_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\targets_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\vir_machines_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\vir_servers_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\vlans_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_components\xtrio_clusters_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_details\business_service_map_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_details\cmdb_process_jobs_6_1.mdx
+  - Contains old HTML/div content
+
+itsm_6_1\config_mngmt\config_items\config_item_details\config_items_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_details\config_items_audits_6_1.mdx
+  - Contains old HTML/div content
+
+itsm_6_1\config_mngmt\config_items\config_item_details\config_items_clusters_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_details\config_items_datacenters_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_details\config_items_folders_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_details\config_items_hosts_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_details\config_items_installed_on_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_details\config_items_logon_events_6_1.mdx
+  - Contains old HTML/div content
+
+itsm_6_1\config_mngmt\config_items\config_item_details\config_items_maintenance_6_1.mdx
+  - Contains old HTML/div content
+
+itsm_6_1\config_mngmt\config_items\config_item_details\config_items_tags_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\config_item_details\details_add_property_6_1.mdx
+  - Contains old HTML/div content
+
+itsm_6_1\config_mngmt\config_items\config_item_details\details_get_config_file_6_1.mdx
+  - Contains old HTML/div content
+
+itsm_6_1\config_mngmt\config_items\config_item_select_actions_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\config_items\copy_of_config_item_select_actions_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\dashboard_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\config_mngmt\tags_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\incident_mngmt\incident_mngmnt_new_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\incident_mngmt\incidents_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\knowledge_mngmt\articles_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\knowledge_mngmt\base_submission_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\knowledge_mngmt\faqs_6_1.mdx
+  - Has style attributes with curly braces
+
+itsm_6_1\knowledge_mngmt\records_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\problem_mngmt\known_errors_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\problem_mngmt\problems_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\release_mngmt\activities_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\release_mngmt\phases_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\release_mngmt\releases_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\release_mngmt\tasks_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\request_fulfillment\requests_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\runbook\runbook_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\service_portfolio\catalog_items_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\service_portfolio\category_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\service_portfolio\execution_plan_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+itsm_6_1\service_portfolio\order_item_link_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+msp_6_1\msp\admin_client_6_1.mdx
+  - Contains old HTML/div content
+
+msp_6_1\msp\admin_email_templates_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+msp_6_1\msp\admin_mailbox_monitoring_config_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+msp_6_1\msp\admin_users_6_1.mdx
+  - Contains old HTML/div content
+
+msp_6_1\msp\copy_clone_move_6_1.mdx
+  - Contains old HTML/div content
+
+msp_6_1\msp\create_incidents_6_1.mdx
+  - Has style attributes with curly braces
+
+msp_6_1\msp\dashboard_6_1.mdx
+  - Has style attributes with curly braces
+
+msp_6_1\msp\my_incidents_6_1.mdx
+  - Has style attributes with curly braces
+
+my_dashboard_6_1\my_dashboard\dashboard_add_contents_new_6_1.mdx
+  - Has style attributes with curly braces
+
+my_dashboard_6_1\my_dashboard\my_dashboard_both_6_1.mdx
+  - Has style attributes with curly braces
+
+my_dashboard_6_1\my_dashboard\my_dashboard_new_6_1.mdx
+  - Has style attributes with curly braces
+
+my_dashboard_6_1\my_dashboard\my_dashboard_old_6_1.mdx
+  - Has style attributes with curly braces
+
+procurement_properties_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+procurement_property_group_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+program-project-management_6_1\program_dashboard_6_1.mdx
+  - Has style attributes with curly braces
+
+program-project-management_6_1\programs_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+program-project-management_6_1\project_dashboard_6_1.mdx
+  - Has style attributes with curly braces
+
+program-project-management_6_1\projects_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+reports_6_1\reports_ad_hoc_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+reports_6_1\reports_canned_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+reports_6_1\reports_new_ad_hoc_6_1.mdx
+  - Has style attributes with curly braces
+
+reports_6_1\reports_new_canned_6_1.mdx
+  - Contains old HTML/div content
+
+reports_6_1\reports_props_conds_6_1.mdx
+  - Contains old HTML/div content
+
+reports_6_1\reports_run_6_1.mdx
+  - Contains old HTML/div content
+
+risk_register_6_1\about_risk_register_6_1.mdx
+  - Contains old HTML/div content
+
+risk_register_6_1\risks_6_1.mdx
+  - Contains old HTML/div content
+  - Has style attributes with curly braces
+
+self_service_6_1\my_incidents_6_1.mdx
+  - Has style attributes with curly braces
+
+self_service_6_1\my_requests_6_1.mdx
+  - Has style attributes with curly braces
+
+self_service_6_1\service_catalog_6_1.mdx
+  - Contains old HTML/div content
+

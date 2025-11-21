@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-toc-path="Discovery Scan|Import Data Files|Manage Import Data Files|View an Imported Data File" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Import Data File</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <script src="../../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/version-switcher.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#Discovery/Import Data Files/Unauthorized Tab.htm">Open topic with navigation</a>
+        </p>
+        <div role="main" id="mc-main-content">
+            <h1 class="Heading1"><span class="Strong">Unauthorized Tab</span>
+            </h1>
+            <p>Lists new records that do not currently exist in the CMDB. These will be added as new CIs once approved.</p>
+            <p class="step-media">
+                <img src="../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_17.png" />
+            </p>
+            <ul class="ul_3">
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Action Buttons:</span>
+                    </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p><span class="inline-comment-marker">"<b>Move to CMDB</b>" (to approve and move assets into the CMDB)</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p><span class="inline-comment-marker">"<b>Delete</b>" (to remove selected assets)</span>
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Click any unauthorized CI to view details of the im<span class="inline-comment-marker">ported assets.</span></p>
+                    <p class="step-media">
+                        <img src="../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_18.png" />
+                    </p>
+                </li>
+            </ul>
+            <h1 class="Heading1"><span class="Strong">Layout and Sections</span>
+            </h1>
+            <ol start="1" class="ol_1">
+                <li value="1">
+                    <p><span class="Strong" style="font-weight: bold;">Left Sidebar</span>
+                    </p>
+                </li>
+            </ol>
+            <ul class="ul_3">
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Primary Details:</span> Shows key identifiers and metadata for the asset, including:</p>
+                    <ul class="ul_2">
+                        <li>
+                            <p><b>Asset ID</b> (e.g., IMP001273)</p>
+                        </li>
+                        <li>
+                            <p><b>Blueprint</b> (e.g., Windows Server)</p>
+                        </li>
+                        <li>
+                            <p><b>Created On </b>and<b> Last Modified On</b> timestamps</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Authorization status</span> – A badge indicating <span class="Strong">This CI is unauthorized</span>:</p>
+                            <ul class="ul_1">
+                                <li>
+                                    <p><span class="Emphasis" style="font-weight: bold;">Unauthorized</span> = the CI is new or not yet moved to CMDB; typically surfaced from the <span class="Emphasis">Unauthorized</span> tab in import views.</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p><b>Tags</b> if any (with an editable pencil icon)</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><span class="Strong"><b>Owner</b>:</span> The system assigns the logged-in user as the CI owner when importing a CI.</p>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Import Details:</span> Information about the import process, such as:</p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>File Name (e.g., Import+CI's.xlsx)</p>
+                        </li>
+                        <li>
+                            <p>Status (e.g., Processed)</p>
+                        </li>
+                        <li>
+                            <p>Uploaded By (e.g., Lakshmi Virima)</p>
+                        </li>
+                        <li>
+                            <p>Uploaded On (timestamp)</p>
+                        </li>
+                        <li>
+                            <p>Authorization status – A badge indicating This CI is unauthorized.</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ol start="2" class="ol_1">
+                <li value="2">
+                    <p><span class="Strong" style="font-weight: bold;">Main Content Area</span>
+                    </p>
+                </li>
+            </ol>
+            <ul class="ul_3">
+                <li>
+                    <p><span class="Strong"><b>Header</b>:</span> Displays the asset identifier (e.g., IMP001273).</p>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Action Buttons:</span>
+                    </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p><span class="Strong">Move to CMDB</span> (to promote the asset to the CMDB)</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong">Rescan Now</span> (to trigger a new scan of the asset)</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Tabbed Navigation:</span> Provides access to different information categories:</p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>Details (active tab)</p>
+                        </li>
+                        <li>
+                            <p>Components</p>
+                        </li>
+                        <li>
+                            <p>Log On Events</p>
+                        </li>
+                        <li>
+                            <p>Tasks</p>
+                        </li>
+                        <li>
+                            <p>Comments</p>
+                        </li>
+                        <li>
+                            <p>Attachments</p>
+                        </li>
+                        <li>
+                            <p>Updates</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ol start="3" class="ol_1">
+                <li value="3">
+                    <p><span class="Strong" style="font-weight: bold;">Details Tab (Main Content)</span>
+                    </p>
+                </li>
+            </ol>
+            <ul class="ul_3">
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Asset Primary Information</span>
+                    </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Asset ID</span> – the imported ID (IMP prefix).</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Asset Name</span> – Asset name from the file.</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Host Name</span> – The hostname of the asset.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Hardware and Network</span>
+                    </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">IP Address</span> – last/primary IP from the import.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Life Cycle Information</span>
+                    </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Acquisition Date</span> – date/time of acquisition provided during import.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Network Adapter Details</span>
+                    </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">MAC Address</span> – network adapter MAC captured in the import.</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <hr style="margin-top: 12pt;" width="100%" size="0" align="center" />
+            <div style="font-family: Verdana;font-size: 8pt;text-align: center;">Copyright © 2025 Virima, Inc. All rights reserved. v6.1</div>
+        </div>
+    </body>
+</html>

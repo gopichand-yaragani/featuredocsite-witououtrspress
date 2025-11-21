@@ -1,0 +1,46 @@
+---
+lang: en-us
+title: AWS Import
+viewport: width=device-width, initial-scale=1.0
+---
+
+# Importing Meraki Record
+
+Use this function to import the required Meraki resources into the Discovery application.
+
+- Open the Import From Meraki page, From the **Select Actions** drop-down list, choose **Import**.
+
+ ![Import Meraki Window 3](../../Resources/Images/Discovery/Import-From-Meraki/Import Meraki Window_3.png)
+
+- The Import From Meraki dialog box displays.
+
+ ![Import Meraki Window 4](../../Resources/Images/Discovery/Import-From-Meraki/Import Meraki Window_4.png)
+
+- In the Name field, enter a name for the import action.
+
+- In the Credential field, click the drop-down list and select the appropriate credential to access the Meraki service.
+
+ - If no credentials are listed in the dropdown, add credentials by navigating to **Admin \> Discovery \> Credentials**.
+
+- Click **Add** to import the Meraki services to virima.
+
+ ![Import Meraki Window 5](../../Resources/Images/Discovery/Import-From-Meraki/Import Meraki Window_5.png)
+
+The system displays an error if Add is clicked without selecting credentials.
+
+![Import Meraki Window 6](../../Resources/Images/Discovery/Import-From-Meraki/Import Meraki Window_6.png)
+
+- User will be redirected to the import From Meraki page,
+
+ - The import record will first appear with the status "**Importing**" (the process is running and in progress).
+
+ - The status will then change to "**Adding Data**" (the imported information from Meraki is being processed and added to your system).
+
+ - Once the process is finished, the status will update to "**Completed**".
+
+ - After the status is "**Completed**", click on the imported record to view the imported Meraki resources.
+
+ - To view the details of a CI, click on the CI. This redirects you to the discovered item page, where you can view the imported CI details.
+
+If you do not have the necessary permissions to import---such as lacking access to authenticate with a certificate or Secret Key ---the system will display an error message:\
+**\"Please check your Meraki credentials.\"**

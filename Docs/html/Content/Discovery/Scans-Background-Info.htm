@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Background Information on Scans</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <link href="../Resources/TableStyles/Note.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <link href="../Resources/TableStyles/Alternate-Row-Color-Left.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/version-switcher.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#Discovery/Scans-Background-Info.htm">Open topic with navigation</a>
+        </p>
+        <div role="main" id="mc-main-content">
+            <h1><span style="background-color: #ffffff;">Background Information on Scans</span>
+            </h1>
+            <p class="p_10">There are three components related to scanning:</p>
+            <div class="Bullet1"><span class="span_2" style="font-weight: bold;">Probes </span><span class="span_1">executes a set of scripts on the target hosts to retrieve information. Each host type will have a different probe.</span>
+            </div>
+            <div class="Bullet1"><span class="span_2"><b>Probe Workflows</b> executes a</span><span class="span_1"> script when a scan is created. The workflow calls the set of the probes required to discover the information about the hosts on which the scan is performed.</span>
+            </div>
+            <div class="Bullet1"><span class="span_2" style="font-weight: bold;">Sensors. </span><span class="span_1">Scripts that are applied to the output of the respective probes. The sensors give the data&#160;</span><span class="span_2">JSON</span><span class="span_1">&#160;output.</span>
+            </div>
+            <p class="p_8">The basic work flow is as follows:</p>
+            <div class="Bullet1">Find up and running Hosts.</div>
+            <div class="Bullet1">Get Host Types for each host.</div>
+            <div class="Bullet2"><span class="span_1">If Host Type is&#160;</span><span class="span_2"><b>Unix</b>, find the Unix&#160;OS&#160;flavor and, depending on&#160;the OS,&#160;send the probes to the Discovery Server, which retrieves the information of the host.</span>
+            </div>
+            <div class="Bullet2"><span class="span_1">If Host Type is&#160;</span><span class="span_2" style="font-weight: bold;">Windows</span><span class="span_1">&#160;or&#160;</span><span class="span_2"><b>Network device</b>, send  probes to the the Discovery Server that retrieves the information of the host.</span>
+            </div>
+            <p class="p_10"><span class="span_1">For discovering Windows machines in a workgroup, the admin shared folder should be remotely accessible. Enable this folder by following these steps:</span>
+            </p>
+            <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                <col style="width: 24px;" />
+                <col style="width: 24px;" />
+                <col style="width: auto;" />
+                <tr>
+                    <td valign="top" />
+                    <td class="AutoNumber_div_numlist1" valign="top"><span>1. </span>
+                    </td>
+                    <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="1. "><span class="span_1">Run&#160;</span><span class="span_6"><b>regedit</b>.</span>
+                    </td>
+                </tr>
+            </table>
+            <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                <col style="width: 24px;" />
+                <col style="width: 24px;" />
+                <col style="width: auto;" />
+                <tr>
+                    <td valign="top" />
+                    <td class="AutoNumber_div_numlist1" valign="top"><span>2. </span>
+                    </td>
+                    <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="2. "><span class="span_1">Navigate to this directory</span><span class="span_2">:<br /></span><span class="span_6" style="font-family: 'Courier New'; font-size: 10pt;">HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System</span>
+                    </td>
+                </tr>
+            </table>
+            <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                <col style="width: 24px;" />
+                <col style="width: 24px;" />
+                <col style="width: auto;" />
+                <tr>
+                    <td valign="top" />
+                    <td class="AutoNumber_div_numlist1" valign="top"><span>3. </span>
+                    </td>
+                    <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="3. "><span class="span_1">Right-click on the right pane and choose&#160;</span><span class="span_2" style="font-weight: bold;">New</span><span class="span_1" style="font-weight: bold;">&#160;&gt;&#160;</span><span class="span_2" style="font-weight: bold;">DWORD</span><span class="span_1"><b>&#160;(32-bit) Value</b>.</span>
+                    </td>
+                </tr>
+            </table>
+            <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                <col style="width: 24px;" />
+                <col style="width: 24px;" />
+                <col style="width: auto;" />
+                <tr>
+                    <td valign="top" />
+                    <td class="AutoNumber_div_numlist1" valign="top"><span>4. </span>
+                    </td>
+                    <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="4. "><span class="span_1">Fill&#160;</span><span class="span_6" style="font-weight: bold;">LocalAccountTokenFilterPolicy</span><span class="span_1">&#160;for the Value name and press <b>Enter</b>.</span>
+                    </td>
+                </tr>
+            </table>
+            <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                <col style="width: 24px;" />
+                <col style="width: 24px;" />
+                <col style="width: auto;" />
+                <tr>
+                    <td valign="top" />
+                    <td class="AutoNumber_div_numlist1" valign="top"><span>5. </span>
+                    </td>
+                    <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="5. "><span class="span_1">Double-click&#160;</span><span class="span_6" style="font-weight: bold;">LocalAccountTokenFilterPolicy</span><span class="span_1">&#160;value and modify the “Value Data” from “0” to “1".</span>
+                    </td>
+                </tr>
+            </table>
+            <table class="AutoNumber_div_numlist1" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+                <col style="width: 24px;" />
+                <col style="width: 24px;" />
+                <col style="width: auto;" />
+                <tr>
+                    <td valign="top" />
+                    <td class="AutoNumber_div_numlist1" valign="top"><span>6. </span>
+                    </td>
+                    <td class="AutoNumber_div_numlist1" valign="top" data-mc-autonum="6. "><span class="span_1">Click </span><span class="span_2" style="font-weight: bold;">OK</span><span class="span_1">.</span>
+                    </td>
+                </tr>
+            </table>
+            <p class="p_10"><span class="span_1">To verify whether the admin share is accessible, run the following on the command line:&#160;<br /></span>
+            </p>
+            <p class="p_10"><span class="span_6"><span style="font-family: 'Courier New';"><span style="font-size: 10pt;">net use&#160;</span></span></span><span class="span_7"><span style="font-family: 'Courier New';"><span style="font-size: 10pt;">\\remoteIP\admin$</span></span></span><span class="span_6"><span style="font-family: 'Courier New';"><span style="font-size: 10pt;">&#160;/user:&lt;username&gt;&#160;</span></span></span><span class="span_4"><span style="font-family: 'Courier New';"><span style="font-size: 10pt;">*</span></span></span><span class="span_1"><span style="font-family: 'Courier New';"><span style="font-size: 10pt;">&#160;</span></span><br /><br />Example: <span style="font-family: 'Courier New'; font-size: 10pt;">net use \\111.222.333.444\admin$ /user:win7-2\admin *</span></span>
+            </p>
+            <h2>Workflows</h2>
+            <p class="p_4" style="background-color: #ffffff;"><span style="background-color: #ffffff;">Discovery </span>has several work flows: </p>
+            <div class="Bullet1" style="font-style: italic;" data-mc-conditions="Default.Omit"><b style="font-style: normal;">Basic Scan</b> </div>
+            <div class="Bullet1" data-mc-conditions="Default.Omit"><b>Nmap Enabled Host Scan</b>
+            </div>
+            <div class="Bullet1" data-mc-conditions="Default.Omit"><b>Deep Host Scan with Application and Package Information</b> </div>
+            <div class="Bullet1" data-mc-conditions="Default.Omit"><b>Basic Host Type Scan</b> </div>
+            <div class="Bullet1" data-mc-conditions="Default.Omit"><b>Host Scan for Windows</b> <i> </i></div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="12" width="16" alt="Closed" data-mc-alt2="Open" />Basic Scan</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <p>Determines the Host Type (Unix/Windows/Network Device).</p>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="12" width="16" alt="Closed" data-mc-alt2="Open" /><b>Nmap Enable Host Scan</b></a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <p><span class="span_1">Determines the&#160;</span><span class="span_2">HOST TYPE</span><span class="span_1">,&#160;</span><span class="span_2">OPEN PORT</span><span class="span_1">&#160;and&#160;</span><span class="span_2">MAC Address</span><span class="span_1">.</span>
+                    </p>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="12" width="16" alt="Closed" data-mc-alt2="Open" />Deep Host Scan for Windows/Linux/Network Devices</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <p class="p_4">A Deep Host Scan discovers the following:</p>
+                    <table class="TableStyle-Alternate-Row-Color-Left" style="margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/Alternate-Row-Color-Left.css');" cellspacing="21">
+                        <col class="TableStyle-Alternate-Row-Color-Left-Column-Column1">
+                        </col>
+                        <col class="TableStyle-Alternate-Row-Color-Left-Column-Column1" style="width: 694px;">
+                        </col>
+                        <thead>
+                            <tr class="TableStyle-Alternate-Row-Color-Left-Head-Header1">
+                                <th class="TableStyle-Alternate-Row-Color-Left-HeadE-Column1-Header1">
+                                    <p class="p_6">Type</p>
+                                </th>
+                                <th class="TableStyle-Alternate-Row-Color-Left-HeadD-Column1-Header1">
+                                    <p class="p_6">Description</p>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="TableStyle-Alternate-Row-Color-Left-Body-Body1">
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyE-Column1-Body1" style="font-weight: bold;">
+                                    <p class="p_6">LINUX</p>
+                                </td>
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyD-Column1-Body1">
+                                    <div class="Bullet1"><span class="span_9">System information</span><span class="span_8">,&#160;such as Operating System details, Processor details, etc.</span>
+                                    </div>
+                                    <div class="Bullet1"><span class="span_8"><span class="span_9">Network Adapter information</span><span class="span_8">,&#160;such as IP Address, MAC Address, etc.</span><br /></span>
+                                    </div>
+                                    <div class="Bullet1"><span class="span_8"><span class="span_9">Storage information,</span><span class="span_8">&#160;such as Disk size, Free Memory, etc.</span><br /></span>
+                                    </div>
+                                    <div class="Bullet1"><span class="span_8"><span class="span_9">Unclassified Processes information</span><span class="span_8">&#160;- Process Name, Port, Command and Arguments.</span><br /></span>
+                                    </div>
+                                    <div class="Bullet1"><span class="span_8">Installed package information.<br /></span>
+                                    </div>
+                                    <div class="Bullet1"><span class="span_8"><span class="span_9">Running Applications information</span><span class="span_8">&#160;(If it’s a known Application).</span><br /></span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Alternate-Row-Color-Left-Body-Body2">
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyE-Column1-Body2" style="font-weight: bold;">
+                                    <p class="p_6">Windows</p>
+                                </td>
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyD-Column1-Body2">
+                                    <div class="Bullet1"><span class="span_9">System information</span><span class="span_8">,&#160;such as Operating System details, Processor details, etc.</span>
+                                    </div>
+                                    <div class="Bullet1"><span class="span_8"><span class="span_9">Network Adapter information,</span><span class="span_8">&#160;such as IP Address, MAC Address, etc.</span></span>
+                                    </div>
+                                    <div class="Bullet1"><span class="span_8"><span class="span_9">Storage information,</span><span class="span_8">&#160;such as Disk size, Free Memory, etc.</span></span>
+                                    </div>
+                                    <div class="Bullet1"><span class="span_8"><span class="span_9">Installed Software details</span><span class="span_8">,&#160;</span><span class="span_9">Services details</span><span class="span_8">&#160;and&#160;</span><span class="span_9">Running Process</span><span class="span_8">.</span></span>
+                                    </div>
+                                    <div class="Bullet1"><span class="span_9">Running Applications information</span><span class="span_8">&#160;(If it’s a known Application)</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Alternate-Row-Color-Left-Body-Body1">
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyE-Column1-Body1" style="font-weight: bold;">
+                                    <p class="p_6">ESXi Host</p>
+                                </td>
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyD-Column1-Body1">
+                                    <div class="Bullet1"><span class="span_9">System information,</span><span class="span_8">&#160;such as Operating System details, Processor details, etc.</span>
+                                    </div>
+                                    <div class="Bullet1"><span class="span_8"><span class="span_9">Network Adapter information</span><span class="span_8">,&#160;such as IP Address, MAC Address, etc.</span></span>
+                                    </div>
+                                    <div class="Bullet1"><span class="span_8"><span class="span_9">Storage information,</span><span class="span_8">&#160;such as Disk size, Free Memory, etc.</span></span>
+                                    </div>
+                                    <div class="Bullet1"><span class="span_8"><span class="span_9">Virtual Machines information</span><span class="span_8">.</span><br /></span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Alternate-Row-Color-Left-Body-Body2">
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyE-Column1-Body2" style="font-weight: bold;">
+                                    <p class="p_6">Switch</p>
+                                </td>
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyD-Column1-Body2">
+                                    <div class="Bullet1"><span class="span_9">Switch details,</span><span class="span_8">&#160;such as Manufacturer, Serial Number, Model, etc.</span>
+                                    </div>
+                                    <div class="Bullet1"><span class="span_8"><span class="span_9">IPV4 Addresses</span><span class="span_8">,&#160;</span><span class="span_9">VLANs</span><span class="span_8">&#160;and&#160;</span><span class="span_9">Network Interfaces details</span><span class="span_8">.</span><br /></span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Alternate-Row-Color-Left-Body-Body1">
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyB-Column1-Body1" style="font-weight: bold;">
+                                    <p class="p_6">HyperV</p>
+                                </td>
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyA-Column1-Body1">
+                                    <div class="Bullet1"><span class="span_9">System information,</span><span class="span_8">&#160;such as Host Name, IP Address, Operating System details, etc.</span>
+                                    </div>
+                                    <div class="Bullet1"><span class="span_8"><span class="span_9">Basic virtual machine information</span><span class="span_8">&#160;installed on HyperV.</span><br /></span>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table style="mc-table-style: url('../Resources/TableStyles/Note.css');margin-left: 0;margin-right: auto;width: 100%;" class="TableStyle-Note" cellspacing="0">
+                        <col class="TableStyle-Note-Column-Column1" />
+                        <col class="TableStyle-Note-Column-Column2" />
+                        <tbody>
+                            <tr class="TableStyle-Note-Body-Body1">
+                                <td class="TableStyle-Note-BodyB-Column1-Body1">&#160;</td>
+                                <td class="TableStyle-Note-BodyA-Column2-Body1">
+                                    <p class="p_10"><span class="span_2" style="font-weight: bold;">Note</span><span class="span_1">: <span class="span_4">Default Known Applications are</span><span class="span_1">&#160;</span><span class="span_2">Apache Webserver</span><span class="span_1">, M</span><span class="span_2">ySQL Database Server</span><span class="span_1">,&#160;</span><span class="span_2">Apache Tomcat Application Server</span><span class="span_1">,&#160;</span><span class="span_2">Lighttpd server</span><span class="span_1">,&#160;</span><span class="span_2">Postgresql</span><span class="span_1">,&#160;</span><span class="span_2">Jboss Application Server</span><span class="span_1">,&#160;</span><span class="span_2">Jboss Portal</span><span class="span_1">,&#160;</span><span class="span_2">Glassfish Server</span><span class="span_1">,&#160;</span><span class="span_2">and IBM WebSphere server</span><span class="span_1">.</span></span>
+                                    </p>
+                                    <p class="p_4">The applicable can discover more applications by creating <a href="../Admin - Discovery/Patterns.htm">Patterns</a> using process commands and arguments. </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="12" width="16" alt="Closed" data-mc-alt2="Open" />AS/400 Host SNMP Scan</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <table class="TableStyle-Alternate-Row-Color-Left" style="margin-left: auto;margin-right: auto;mc-table-style: url('../Resources/TableStyles/Alternate-Row-Color-Left.css');" cellspacing="21">
+                        <col class="TableStyle-Alternate-Row-Color-Left-Column-Column1" />
+                        <col class="TableStyle-Alternate-Row-Color-Left-Column-Column1" />
+                        <col class="TableStyle-Alternate-Row-Color-Left-Column-Column1" />
+                        <thead>
+                            <tr class="TableStyle-Alternate-Row-Color-Left-Head-Header1">
+                                <th class="TableStyle-Alternate-Row-Color-Left-HeadE-Column1-Header1">
+                                    <p class="p_6">Method</p>
+                                </th>
+                                <th class="TableStyle-Alternate-Row-Color-Left-HeadE-Column1-Header1">
+                                    <p class="p_6">MIB Values</p>
+                                </th>
+                                <th class="TableStyle-Alternate-Row-Color-Left-HeadD-Column1-Header1">
+                                    <p class="p_6">OID</p>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="TableStyle-Alternate-Row-Color-Left-Body-Body1">
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyE-Column1-Body1" style="font-weight: bold;">
+                                    <p class="p_7">getDeviceInfo*</p>
+                                </td>
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyE-Column1-Body1">
+                                    <p class="p_3"><span class="span_8">SNMPv2-MIB::sysDescr.0<br />SNMPv2-MIB::sysName.0</span>
+                                    </p>
+                                </td>
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyD-Column1-Body1">
+                                    <p class="p_3"><span class="span_8">1.3.6.1.2.1.1.1.0<br />1.3.6.1.2.1.1.5.0</span>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Alternate-Row-Color-Left-Body-Body2">
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyE-Column1-Body2" style="font-weight: bold;">
+                                    <p class="p_7">getHostInfo*</p>
+                                </td>
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyE-Column1-Body2">
+                                    <p class="p_3"><span class="span_8">HOST-RESOURCES-MIB::hrSystemUptime.0<br />HOST-RESOURCES-MIB::hrMemorySize.0</span>
+                                    </p>
+                                </td>
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyD-Column1-Body2">
+                                    <p class="p_3"><span class="span_8">1.3.6.1.2.1.25.1.1.0<br />1.3.6.1.2.1.25.2.2.0</span>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Alternate-Row-Color-Left-Body-Body1">
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyE-Column1-Body1" style="font-weight: bold;">
+                                    <p class="p_7">getInterfaceList*</p>
+                                </td>
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyE-Column1-Body1">
+                                    <p class="p_3"><span class="span_8">IP-MIB::ipAddrTable<br />[ ipAdEntAddr, ipAdEntIfIndex,<br />ipAdEntNetMask ]<br />IF-MIB::ifTable<br />[ ifIndex, ifDescr, ifSpeed, ifPhysAddress ]</span>
+                                    </p>
+                                </td>
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyD-Column1-Body1">
+                                    <p class="p_3"><span class="span_8">1.3.6.1.2.1.4.20.1<br />[ .1, .2, .3 ]<br />1.3.6.1.2.1.2.2.1<br />[ .1, .2, .5, .6 ]</span>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Alternate-Row-Color-Left-Body-Body2">
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyE-Column1-Body2" style="font-weight: bold;">
+                                    <p class="p_7">getNetworkConnectionList</p>
+                                </td>
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyE-Column1-Body2">
+                                    <p class="p_3"><span class="span_8">TCP-MIB::tcpConnTable<br />[ tcpConnState, tcpConnLocalAddress, tcpConnLocalPort, tcpConnRemAddress,<br />tcpConnRemPort<br />]<br />UDP-MIB::udpConnTable<br />[ udpLocalAddress, udpLocalPort ]</span>
+                                    </p>
+                                </td>
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyD-Column1-Body2">
+                                    <p class="p_3"><span class="span_8">1.3.6.1.2.1.6.13.1<br />[ .1, .2, .3, .4, .5 ]<br />1.3.6.1.2.1.7.5.1<br />[ .1, .2 ]</span>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Alternate-Row-Color-Left-Body-Body1">
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyE-Column1-Body1" style="font-weight: bold;">
+                                    <p class="p_7">getPackageList</p>
+                                </td>
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyE-Column1-Body1">
+                                    <p class="p_3"><span class="span_8">HOST-RESOURCES-</span><span class="span_10">&#160;MIB::hrSWInstalledTable&#160;</span><span class="span_8">[hrSWInstalledName ]</span>
+                                    </p>
+                                </td>
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyD-Column1-Body1">
+                                    <p class="p_3"><span class="span_8">1.3.6.1.2.1.25.6.3.1<br />[ .2 ]</span>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Alternate-Row-Color-Left-Body-Body2">
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyB-Column1-Body2" style="font-weight: bold;">
+                                    <p class="p_7">getProcessList</p>
+                                </td>
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyB-Column1-Body2">
+                                    <p class="p_3"><span class="span_8">HOST-RESOURCES-<br />MIB::hrSWRunTable<br />[hrSWRunIndex, hrSWRunName,<br />hrSWRunPath, hrSWRunParameters]</span>
+                                    </p>
+                                </td>
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyA-Column1-Body2">
+                                    <p class="p_3"><span class="span_8">1.3.6.1.2.1.25.4.2.1<br />[ .1, .2, .4, .5 ]</span>
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="12" width="16" alt="Closed" data-mc-alt2="Open" />Basic Host Type Scan</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <table class="TableStyle-Alternate-Row-Color-Left" style="margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/Alternate-Row-Color-Left.css');" cellspacing="21">
+                        <col class="TableStyle-Alternate-Row-Color-Left-Column-Column1">
+                        </col>
+                        <col class="TableStyle-Alternate-Row-Color-Left-Column-Column1">
+                        </col>
+                        <thead>
+                            <tr class="TableStyle-Alternate-Row-Color-Left-Head-Header1">
+                                <th class="TableStyle-Alternate-Row-Color-Left-HeadE-Column1-Header1">
+                                    <p class="p_6">Type</p>
+                                </th>
+                                <th class="TableStyle-Alternate-Row-Color-Left-HeadD-Column1-Header1">
+                                    <p class="p_6">Description</p>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="TableStyle-Alternate-Row-Color-Left-Body-Body1">
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyE-Column1-Body1" style="font-weight: bold;">
+                                    <p class="p_6">LINUX</p>
+                                </td>
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyD-Column1-Body1">
+                                    <div class="Bullet1"><span class="span_9">System information,</span><span class="span_8">&#160;such as Operating System details, Processor details, etc.<br /></span>
+                                    </div>
+                                    <div class="Bullet1"><span class="span_9">Network Adapter information</span><span class="span_8">,&#160;such as IP Address, MAC Address, etc.<br /></span>
+                                    </div>
+                                    <div class="Bullet1"><span class="span_9">Storage information,</span><span class="span_8">&#160;such as Disk size, Free Memory, etc.<br /></span>
+                                    </div>
+                                    <div class="Bullet1"><span class="span_9">Unclassified Processes</span><span class="span_8">&#160;information, such as Process Name, Port, Command and Arguments.</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Alternate-Row-Color-Left-Body-Body2">
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyE-Column1-Body2" style="font-weight: bold;">
+                                    <p class="p_6">Windows</p>
+                                </td>
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyD-Column1-Body2">
+                                    <div class="Bullet1"><span class="span_9">System information</span><span class="span_8">,&#160;such as Operating System details, Processor details, etc</span>.</div>
+                                    <div class="Bullet1"><span class="span_9">Network Adapter information</span><span class="span_8">,&#160;such as IP Address, MAC Address, etc</span>.</div>
+                                    <div class="Bullet1"><span class="span_9">Storage information</span><span class="span_8">,&#160;such as Disk size, Free Memory, etc</span>.</div>
+                                    <div class="Bullet1"><span class="span_9">Installed Software details</span><span class="span_8">,&#160;</span><span class="span_9">Services Details</span><span class="span_8">&#160;and&#160;</span><span class="span_9">Running Process</span>.</div>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Alternate-Row-Color-Left-Body-Body1">
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyE-Column1-Body1" style="font-weight: bold;">
+                                    <p class="p_6">ESXi Host</p>
+                                </td>
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyD-Column1-Body1">
+                                    <div class="Bullet1">System information,&#160;such as Operating System details.</div>
+                                    <div class="Bullet1">Processor details, etc.</div>
+                                    <div class="Bullet1">Network Adapter information, such as IP Address and MAC Address.</div>
+                                    <div class="Bullet1">Storage information, such as Disk size, Free Memory, etc.</div>
+                                    <div class="Bullet1">Virtual Machines information.</div>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-Alternate-Row-Color-Left-Body-Body2">
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyB-Column1-Body2" style="font-weight: bold;">
+                                    <p class="p_6">Switch</p>
+                                </td>
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyA-Column1-Body2">
+                                    <div class="Bullet1">Switch details, such as Manufacturer, Serial Number, Model, etc.</div>
+                                    <div class="Bullet1">IPV4 Addresses.</div>
+                                    <div class="Bullet1">Network Interfaces details.
+                                </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="12" width="16" alt="Closed" data-mc-alt2="Open" />Host Scan for Windows</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <table class="TableStyle-Alternate-Row-Color-Left" style="margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/Alternate-Row-Color-Left.css');" cellspacing="21">
+                        <col class="TableStyle-Alternate-Row-Color-Left-Column-Column1">
+                        </col>
+                        <col class="TableStyle-Alternate-Row-Color-Left-Column-Column1">
+                        </col>
+                        <thead>
+                            <tr class="TableStyle-Alternate-Row-Color-Left-Head-Header1">
+                                <th class="TableStyle-Alternate-Row-Color-Left-HeadE-Column1-Header1">
+                                    <p class="p_6">Type</p>
+                                </th>
+                                <th class="TableStyle-Alternate-Row-Color-Left-HeadD-Column1-Header1">
+                                    <p class="p_6">Description</p>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="TableStyle-Alternate-Row-Color-Left-Body-Body1">
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyB-Column1-Body1">
+                                    <p class="p_6"><b>Windows</b>
+                                    </p>
+                                </td>
+                                <td class="TableStyle-Alternate-Row-Color-Left-BodyA-Column1-Body1">
+                                    <div class="Bullet1">System information,&#160;such as Operating System details, Processor details, etc.
+                                </div>
+                                    <div class="Bullet1">Network Adapter information,&#160;such as IP Address, MAC Address, etc.
+                                </div>
+                                    <div class="Bullet1">Storage information,&#160;such as Disk size, Free Memory, etc.
+                                </div>
+                                    <div class="Bullet1">Installed Software details,&#160;Services details&#160;and&#160;Running Process details,
+                                </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div>
+            <hr style="margin-top: 12pt;" width="100%" size="0" align="center" />
+            <div style="font-family: Verdana;font-size: 8pt;text-align: center;">Copyright © 2025 Virima, Inc. All rights reserved. v6.1</div>
+        </div>
+    </body>
+</html>

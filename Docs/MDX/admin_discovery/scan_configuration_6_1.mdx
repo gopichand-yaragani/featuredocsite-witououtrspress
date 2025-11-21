@@ -1,0 +1,147 @@
+---
+lang: en-us
+title: Discovery Scan Configuration
+viewport: width=device-width, initial-scale=1.0
+---
+
+# Discovery Scan Configuration
+
+Use this function to create the host configuration.
+
+A host is determined based on the configuration defined under the host configuration. The application checks for the ports that are opened/closed on the machines based on this configuration. The application will first check (based on the rank) whether port 135 is opened or closed.
+
+ --- -------------------------------------------------------------------------------------------
+   Details about Host and Credential Configuration can be found at the bottom of this topic.
+ --- -------------------------------------------------------------------------------------------
+
+In the main window, click **Admin \> Discovery \> Discovery Scan Configuration**. The Discovery Scan Configuration window displays.
+
+![Probe 6.1](../Resources/Images/Admin - Discovery/Probe-6.1.png)
+
+Host is determined based on the configuration defined under Host configuration. The Discovery application checks for the ports that are opened/closed on the machines based on this configuration. The discovery application will first check (based on the rank) whether is port is opened or closed.
+
+If the port is OPENED:
+
+::: Bullet1
+The Discovery application will try to find the matching credential based on the Credential Configuration, if the credential is matched then it will determine the host as Windows.
+
+::: Bullet1
+If none of the credentials are matched, then it will check for the next ranked port.
+
+If the port is CLOSED:
+
+::: Bullet1
+The application will check for the next ranked port.
+
+::: Bullet1
+If second ranked port is closed, then it checks for the third ranked port.
+
+::: Bullet1
+If the last ranked port is also closed, then it will display Unknown Device message.
+
+For each platform type:
+
+ -- ----- --------------------------------------
+ 1. Enter the *Rank* and *Port* numbers.
+ -- ----- --------------------------------------
+
+ -- ----- -----------------
+ 2. Click **Save**.
+ -- ----- -----------------
+
+The Discovery Scan Configuration window contains the following sections:
+
+::: Bullet1
+Credential Configuration
+
+::: Bullet1
+PAExec Configuration
+
+![arrow border](../Resources/Images/arrow-border.PNG)
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}[]{#Credenti}[Credential Configuration](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+![Scan Config 6.1](../Resources/Images/Admin - Discovery/Scan-Config-6.1.png)
+
+The table below explains the logic of credential configuration.
+
++--------------------------+------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Credential Configuration | Try All Credentials | Try Matching Credentials |
++==========================+========================================================================================================================+=================================================================================================================================================================================================================================================================================================================+
+| Windows Domain | [Performs the first two steps of **Try Matching Credentials**.]{.span_4} | [Associated window credentials will be tried first.\ |
+| | | \ |
+| Column 1 | [If the specified domain credentials don\'t match, it tries the remaining Windows credentials.]{.span_4} | ]{.span_4}[When performing a scan for the first time, there won't be any associated credentials for a Host. Therefore, it will perform the below step. At the end of the initial scan, a matching credential for a host(s) will be associated, and this credential will be used for subsequent scans.]{.span_4} |
+| --- | --- | --- |
+| | [If none of the Windows credentials match, it will proceed with the next ranked port.]{.span_4} | [Windows credentials that are mapped to the specified IP address will be matched first.]{.span_4} |
+| | | |
+| | | [If none of the credentials match, it will try with the specified domain credentials.]{.span_4} |
+| | | |
+| | | [If the specified domain credentials don\'t match, then it will proceed with the next ranked port.]{.span_4} |
++--------------------------+------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Windows Workgroup | [Performs the first two steps of **Try Matching Credentials**.]{.span_4} | [Associated windows credentials will be tried first.\ |
+| | | \ |
+| Column 1 | [If none of the credentials match, it tries the remaining Windows credentials.]{.span_4} | [When performing a scan for the first time, there won't be any associated credential for a Host. Hence it will perform the next step. At the end of the initial scan, a matching credential for a host(s) will be associated, and this credential will be used for subsequent scans.]{.span_4}]{.span_4} |
+| --- | --- | --- |
+| | [If the remaining credentials don\'t match, it proceeds with the next ranked port.]{.span_4} | [Windows credentials that are mapped to the specified IP address will be matched first.]{.span_4}[\ |
+| | | ]{.span_4} |
+| | | |
+| | | [If none of the credentials match, then it will proceed with the next ranked port.]{.span_4} |
++--------------------------+------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Linux / SNMP** | [Performs the first two steps of **Try Matching Credentials**.]{.span_4} | [Associated Linux /SNMP credential is tried first.\ |
+| | | \ |
+| Column 1 | [If none of the credentials match, it tries the remaining Linux / SNMP credentials.]{.span_4} | [When performing a scan for the first time, there won't be any associated credential for a Host. Therefore, it performs the below step. ]{.span_4}]{.span_4} |
+| --- | --- | --- |
+| | [If the remaining credentials don\'t match, it will display an]{.span_4}[ Unknown Device]{.span_5}[ message.]{.span_4} | [[At the end of the initial scan, a matching credential for a host(s) will be associated, and this credential is used for subsequent scans.]{.span_4}]{.span_4} |
+| | | |
+| | | [Linux /SNMP credentials mapped to the specified IP address are matched first.]{.span_4} |
+| | | |
+| | | [If none of the credentials match, it proceeds with the next ranked port.\ |
+| | | ]{.span_4} |
++--------------------------+------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}[]{#PAExec}[PAExec Configuration](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+PAExec is a third-party, external application package inside the Virima Discovery application. It is used to help the Discovery application login into the remote Windows machines and execute the probes.
+
+ --- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   By default, some options are checked inside the Discovery Scan Configuration windows because these are mandatory settings required for performing the remote executions.
+ --- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+![PAExec config new](../Resources/Images/Admin - Discovery/PAExec-config-new.PNG)
+
+Default Options (Checked)
+
+-h: If the target system is running Vista or higher, the process runs with the account\'s elevated token, if available.
+
+-c: Copies the specified program to the remote system for execution. If this option is omitted, the application must be in the system path on the remote system.
+
+-f: Forces the specified program to be copied even if the file already exists on the remote system. This is required when using c to copy files.
+
+-u: Specifies the username for logging into the remote system.
+
+-p: Specifies the password for the provided username.
+
+-to: Sets a timeout in seconds. If the launched process does not exist within this time, it will be terminated.
+
+-lo: Logs output to a specified file, such as -lo C:\\Temp\\PAExec.log, so that you can track the execution progress or errors.
+
+-csrc: Allows you to specify an alternate path to copy the program from when using -c (copy). For example: -c -csrc \"C:\\test path\\file.exe\".
+
+Optional Options (Not Checked by Default)
+
+-e:
+
+Does not load the specified account\'s profile. This option is useful if you want to avoid loading user profiles, ensuring the process runs in a clean environment.
+
+This is not checked by default and must be selected if you want to run the process without loading the account's profile.
+
+-s:
+
+Runs the process in the System account. This option is useful for processes that require elevated permissions to perform system-level operations.
+
+This is not checked by default and must be selected if you need the process to run with system-level privileges.
+
+ --- ----------------------------------------------------------------------------------------------------------------
+   Enable -e or -s only if your use case requires running without a user profile or with system-level privileges.
+ --- ----------------------------------------------------------------------------------------------------------------
+

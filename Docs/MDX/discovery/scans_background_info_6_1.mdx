@@ -1,0 +1,305 @@
+---
+lang: en-us
+title: Background Information on Scans
+viewport: width=device-width, initial-scale=1.0
+---
+
+# [Background Information on Scans]{style="background-color: #ffffff;"}
+
+There are three components related to scanning:
+
+::: Bullet1
+[Probes ]{.span_2}[executes a set of scripts on the target hosts to retrieve information. Each host type will have a different probe.]{.span_1}
+
+::: Bullet1
+[**Probe Workflows** executes a]{.span_2}[ script when a scan is created. The workflow calls the set of the probes required to discover the information about the hosts on which the scan is performed.]{.span_1}
+
+::: Bullet1
+[Sensors. ]{.span_2}[Scripts that are applied to the output of the respective probes. The sensors give the data ]{.span_1}[JSON]{.span_2}[ output.]{.span_1}
+
+The basic work flow is as follows:
+
+::: Bullet1
+Find up and running Hosts.
+
+::: Bullet1
+Get Host Types for each host.
+
+::: Bullet2
+[If Host Type is ]{.span_1}[**Unix**, find the Unix OS flavor and, depending on the OS, send the probes to the Discovery Server, which retrieves the information of the host.]{.span_2}
+
+::: Bullet2
+[If Host Type is ]{.span_1}[Windows]{.span_2}[ or ]{.span_1}[**Network device**, send probes to the the Discovery Server that retrieves the information of the host.]{.span_2}
+
+[For discovering Windows machines in a workgroup, the admin shared folder should be remotely accessible. Enable this folder by following these steps:]{.span_1}
+
+ -- ----- ----------------------------------------
+ 1. [Run ]{.span_1}[**regedit**.]{.span_6}
+ -- ----- ----------------------------------------
+
+ -- ----- --------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 2. [Navigate to this directory]{.span_1}[:\
+ ]{.span_2}[HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System]{.span_6}
+
+ -- ----- --------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 3. [Right-click on the right pane and choose ]{.span_1}[New]{.span_2}[ \> ]{.span_1}[DWORD]{.span_2}[** (32-bit) Value**.]{.span_1}
+ -- ----- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- ----------------------------------------------------------------------------------------------------------------------------------------
+ 4. [Fill ]{.span_1}[LocalAccountTokenFilterPolicy]{.span_6}[ for the Value name and press **Enter**.]{.span_1}
+ -- ----- ----------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- ------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 5. [Double-click ]{.span_1}[LocalAccountTokenFilterPolicy]{.span_6}[ value and modify the "Value Data" from "0" to "1\".]{.span_1}
+ -- ----- ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- -----------------------------------------------------------------------
+ 6. [Click ]{.span_1}[OK]{.span_2}[.]{.span_1}
+ -- ----- -----------------------------------------------------------------------
+
+[To verify whether the admin share is accessible, run the following on the command line: \
+]{.span_1}
+
+[[[net use ]{style="font-size: 10pt;"}]{style="font-family: 'Courier New';"}]{.span_6}[[[\\\\remoteIP\\admin\$]{style="font-size: 10pt;"}]{style="font-family: 'Courier New';"}]{.span_7}[[[ /user:\<username\> ]{style="font-size: 10pt;"}]{style="font-family: 'Courier New';"}]{.span_6}[[[\*]{style="font-size: 10pt;"}]{style="font-family: 'Courier New';"}]{.span_4}[[[ ]{style="font-size: 10pt;"}]{style="font-family: 'Courier New';"}\
+\
+Example: [net use \\\\111.222.333.444\\admin\$ /user:win7-2\\admin \*]{style="font-family: 'Courier New'; font-size: 10pt;"}]{.span_1}
+
+## Workflows
+
+[Discovery ]{style="background-color: #ffffff;"}has several work flows:
+
+- [[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Scan](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+Determines the Host Type (Unix/Windows/Network Device).
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Enable Host Scan**](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+[Determines the ]{.span_1}[HOST TYPE]{.span_2}[, ]{.span_1}[OPEN PORT]{.span_2}[ and ]{.span_1}[MAC Address]{.span_2}[.]{.span_1}
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Host Scan for Windows/Linux/Network Devices](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+A Deep Host Scan discovers the following:
+
++-----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+| Type | Description |
++===========+================================================================================================================================================+
+| LINUX | ::: Bullet1 |
+| Column 1 | [System information]{.span_9}[, such as Operating System details, Processor details, etc.]{.span_8} |
+| --- | :---: |
+| | |
+| | ::: Bullet1 |
+| | [[Network Adapter information]{.span_9}[, such as IP Address, MAC Address, etc.]{.span_8}\ |
+| | ]{.span_8} |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | [[Storage information,]{.span_9}[ such as Disk size, Free Memory, etc.]{.span_8}\ |
+| | ]{.span_8} |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | [[Unclassified Processes information]{.span_9}[ - Process Name, Port, Command and Arguments.]{.span_8}\ |
+| | ]{.span_8} |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | [Installed package information.\ |
+| | ]{.span_8} |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | [[Running Applications information]{.span_9}[ (If it's a known Application).]{.span_8}\ |
+| | ]{.span_8} |
+| | ::: |
++-----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+| Windows | ::: Bullet1 |
+| Column 1 | [System information]{.span_9}[, such as Operating System details, Processor details, etc.]{.span_8} |
+| --- | :---: |
+| | |
+| | ::: Bullet1 |
+| | [[Network Adapter information,]{.span_9}[ such as IP Address, MAC Address, etc.]{.span_8}]{.span_8} |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | [[Storage information,]{.span_9}[ such as Disk size, Free Memory, etc.]{.span_8}]{.span_8} |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | [[Installed Software details]{.span_9}[, ]{.span_8}[Services details]{.span_9}[ and ]{.span_8}[Running Process]{.span_9}[.]{.span_8}]{.span_8} |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | [Running Applications information]{.span_9}[ (If it's a known Application)]{.span_8} |
+| | ::: |
++-----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+| ESXi Host | ::: Bullet1 |
+| Column 1 | [System information,]{.span_9}[ such as Operating System details, Processor details, etc.]{.span_8} |
+| --- | :---: |
+| | |
+| | ::: Bullet1 |
+| | [[Network Adapter information]{.span_9}[, such as IP Address, MAC Address, etc.]{.span_8}]{.span_8} |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | [[Storage information,]{.span_9}[ such as Disk size, Free Memory, etc.]{.span_8}]{.span_8} |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | [[Virtual Machines information]{.span_9}[.]{.span_8}\ |
+| | ]{.span_8} |
+| | ::: |
++-----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+| Switch | ::: Bullet1 |
+| Column 1 | [Switch details,]{.span_9}[ such as Manufacturer, Serial Number, Model, etc.]{.span_8} |
+| --- | :---: |
+| | |
+| | ::: Bullet1 |
+| | [[IPV4 Addresses]{.span_9}[, ]{.span_8}[VLANs]{.span_9}[ and ]{.span_8}[Network Interfaces details]{.span_9}[.]{.span_8}\ |
+| | ]{.span_8} |
+| | ::: |
++-----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+| HyperV | ::: Bullet1 |
+| Column 1 | [System information,]{.span_9}[ such as Host Name, IP Address, Operating System details, etc.]{.span_8} |
+| --- | :---: |
+| | |
+| | ::: Bullet1 |
+| | [[Basic virtual machine information]{.span_9}[ installed on HyperV.]{.span_8}\ |
+| | ]{.span_8} |
+| | ::: |
++-----------+------------------------------------------------------------------------------------------------------------------------------------------------+
+
++---+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Column 1 | [Note]{.span_2}[: [Default Known Applications are]{.span_4}[ ]{.span_1}[Apache Webserver]{.span_2}[, M]{.span_1}[ySQL Database Server]{.span_2}[, ]{.span_1}[Apache Tomcat Application Server]{.span_2}[, ]{.span_1}[Lighttpd server]{.span_2}[, ]{.span_1}[Postgresql]{.span_2}[, ]{.span_1}[Jboss Application Server]{.span_2}[, ]{.span_1}[Jboss Portal]{.span_2}[, ]{.span_1}[Glassfish Server]{.span_2}[, ]{.span_1}[and IBM WebSphere server]{.span_2}[.]{.span_1}]{.span_1} |
+| --- | --- |
+| | The applicable can discover more applications by creating [Patterns](/admin_discovery/patterns_6_1.mdx) using process commands and arguments. |
++---+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Host SNMP Scan](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
++--------------------------+--------------------------------------------------------------------------------------------------+--------------------------------+
+| Method | MIB Values | OID |
++==========================+==================================================================================================+================================+
+| getDeviceInfo\* | [SNMPv2-MIB::sysDescr.0\ | [1.3.6.1.2.1.1.1.0\ |
+| | SNMPv2-MIB::sysName.0]{.span_8} | 1.3.6.1.2.1.1.5.0]{.span_8} |
++--------------------------+--------------------------------------------------------------------------------------------------+--------------------------------+
+| getHostInfo\* | [HOST-RESOURCES-MIB::hrSystemUptime.0\ | [1.3.6.1.2.1.25.1.1.0\ |
+| | HOST-RESOURCES-MIB::hrMemorySize.0]{.span_8} | 1.3.6.1.2.1.25.2.2.0]{.span_8} |
++--------------------------+--------------------------------------------------------------------------------------------------+--------------------------------+
+| getInterfaceList\* | [IP-MIB::ipAddrTable\ | [1.3.6.1.2.1.4.20.1\ |
+| | \[ ipAdEntAddr, ipAdEntIfIndex,\ | \[ .1, .2, .3 \]\ |
+| | ipAdEntNetMask \]\ | 1.3.6.1.2.1.2.2.1\ |
+| | IF-MIB::ifTable\ | \[ .1, .2, .5, .6 \]]{.span_8} |
+| | \[ ifIndex, ifDescr, ifSpeed, ifPhysAddress \]]{.span_8} | |
++--------------------------+--------------------------------------------------------------------------------------------------+--------------------------------+
+| getNetworkConnectionList | [TCP-MIB::tcpConnTable\ | [1.3.6.1.2.1.6.13.1\ |
+| | \[ tcpConnState, tcpConnLocalAddress, tcpConnLocalPort, tcpConnRemAddress,\ | \[ .1, .2, .3, .4, .5 \]\ |
+| | tcpConnRemPort\ | 1.3.6.1.2.1.7.5.1\ |
+| | \]\ | \[ .1, .2 \]]{.span_8} |
+| | UDP-MIB::udpConnTable\ | |
+| | \[ udpLocalAddress, udpLocalPort \]]{.span_8} | |
++--------------------------+--------------------------------------------------------------------------------------------------+--------------------------------+
+| getPackageList | [HOST-RESOURCES-]{.span_8}[ MIB::hrSWInstalledTable ]{.span_10}[\[hrSWInstalledName \]]{.span_8} | [1.3.6.1.2.1.25.6.3.1\ |
+| | | \[ .2 \]]{.span_8} |
++--------------------------+--------------------------------------------------------------------------------------------------+--------------------------------+
+| getProcessList | [HOST-RESOURCES-\ | [1.3.6.1.2.1.25.4.2.1\ |
+| | MIB::hrSWRunTable\ | \[ .1, .2, .4, .5 \]]{.span_8} |
+| | \[hrSWRunIndex, hrSWRunName,\ | |
+| | hrSWRunPath, hrSWRunParameters\]]{.span_8} | |
++--------------------------+--------------------------------------------------------------------------------------------------+--------------------------------+
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Host Type Scan](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
++-----------+--------------------------------------------------------------------------------------------------------------------------+
+| Type | Description |
++===========+==========================================================================================================================+
+| LINUX | ::: Bullet1 |
+| | [System information,]{.span_9}[ such as Operating System details, Processor details, etc.\ |
+| Column 1 | ]{.span_8} |
+| --- | :---: |
+| | |
+| | ::: Bullet1 |
+| | [Network Adapter information]{.span_9}[, such as IP Address, MAC Address, etc.\ |
+| | ]{.span_8} |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | [Storage information,]{.span_9}[ such as Disk size, Free Memory, etc.\ |
+| | ]{.span_8} |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | [Unclassified Processes]{.span_9}[ information, such as Process Name, Port, Command and Arguments.]{.span_8} |
+| | ::: |
++-----------+--------------------------------------------------------------------------------------------------------------------------+
+| Windows | ::: Bullet1 |
+| Column 1 | [System information]{.span_9}[, such as Operating System details, Processor details, etc]{.span_8}. |
+| --- | :---: |
+| | |
+| | ::: Bullet1 |
+| | [Network Adapter information]{.span_9}[, such as IP Address, MAC Address, etc]{.span_8}. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | [Storage information]{.span_9}[, such as Disk size, Free Memory, etc]{.span_8}. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | [Installed Software details]{.span_9}[, ]{.span_8}[Services Details]{.span_9}[ and ]{.span_8}[Running Process]{.span_9}. |
+| | ::: |
++-----------+--------------------------------------------------------------------------------------------------------------------------+
+| ESXi Host | ::: Bullet1 |
+| Column 1 | System information, such as Operating System details. |
+| --- | :---: |
+| | |
+| | ::: Bullet1 |
+| | Processor details, etc. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | Network Adapter information, such as IP Address and MAC Address. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | Storage information, such as Disk size, Free Memory, etc. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | Virtual Machines information. |
+| | ::: |
++-----------+--------------------------------------------------------------------------------------------------------------------------+
+| Switch | ::: Bullet1 |
+| Column 1 | Switch details, such as Manufacturer, Serial Number, Model, etc. |
+| --- | :---: |
+| | |
+| | ::: Bullet1 |
+| | IPV4 Addresses. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | Network Interfaces details. |
+| | ::: |
++-----------+--------------------------------------------------------------------------------------------------------------------------+
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Scan for Windows](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
++-------------+-------------------------------------------------------------------------------+
+| Type | Description |
++=============+===============================================================================+
+| **Windows** | ::: Bullet1 |
+| Column 1 | System information, such as Operating System details, Processor details, etc. |
+| --- | :---: |
+| | |
+| | ::: Bullet1 |
+| | Network Adapter information, such as IP Address, MAC Address, etc. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | Storage information, such as Disk size, Free Memory, etc. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | Installed Software details, Services details and Running Process details, |
+| | ::: |
++-------------+-------------------------------------------------------------------------------+
+

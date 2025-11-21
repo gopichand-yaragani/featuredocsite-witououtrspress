@@ -1,0 +1,172 @@
+---
+lang: en-us
+title: Configuring Probe
+viewport: width=device-width, initial-scale=1.0
+---
+
+# Configuring Probe
+
+Select the probe type based on your environment and the required scan depth or focus. The available options and their configurations are:
+
+![Initiating and Configuring 7 556x249](../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_7_556x249.png)
+
+# .NET Framework Audit Scan
+
+- Discovers and audits all .NET Framework installations and versions present on machines in the monitored network environment.
+
+![Initiating and Configuring 8](../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_8.png)
+
+# Certificate Scan
+
+- Retrieves and validates SSL certificate details from the specified certificate path, including expiration dates, issuer information, and certificate chain.
+
+![Initiating and Configuring 9](../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_9.png)
+
+- The user must enter the full file system path where the SSL certificate is stored. This path is required for the system to locate and validate the certificate during the scan process.
+
+- Input Required: Enter the full file system path to the certificate file (e.g., C:\\Certificates\\server.cer, /etc/ssl/certs/apache.crt).
+
+# Deep Host Scan (WMIC \| SSH \| SNMP)
+
+- Performs comprehensive discovery of host systems, including IP address, OS type, MAC address, hardware specs, installed software, and system components.
+
+- Scan Through: Choose either IP Address (default) or Host Name.
+
+- IP Address is selected by default. This selection displays the IP Range and Exclude IP Range input fields.
+
+![Initiating and Configuring 10](../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_10.png)
+
+- If Host Name is selected, enter a space-separated list of valid hostnames (e.g., SERVER0 DC01.domain.local DB-SERVER-01).
+
+![Initiating and Configuring 11 558x249](../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_11_558x249.png)
+
+# Deep Host Scan -- SSH \| SNMP \| Windows (PowerShell)
+
+- Performs comprehensive host discovery using SSH for Linux/Unix, SNMP for network devices, or PowerShell for Windows.
+
+![Initiating and Configuring 12](../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_12.png)
+
+# Host Ping Scan
+
+- Basic network connectivity test to determine if hosts are active and reachable.
+
+![Initiating and Configuring 13](../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_13.png)
+
+# IP Connection Scan
+
+- Discovers and maps network connections between IP addresses, including active connections, listening ports, and network topology.
+
+![Initiating and Configuring 14](../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_14.png)
+
+# Java Audit Scan
+
+- Discovers and audits all Java Runtime Environment (JRE) and Java Development Kit (JDK) installations, including version and security compliance.
+
+![Initiating and Configuring 15](../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_15.png)
+
+# Kubernetes Discovery
+
+- Discovers Kubernetes clusters, nodes, pods, services, and other container orchestration components.
+
+![Initiating and Configuring 16](../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_16.png)
+
+# MSSQL Maintenance Connection Import Scan
+
+- Executes predefined CRUD operations on Microsoft SQL Server databases using static queries with automated data mapping.
+
+![Initiating and Configuring 17](../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_17.png)
+
+# [MSSQL Scan]{.inline-comment-marker}
+
+- Discovers Microsoft SQL Server instances, databases, and configurations.
+
+- Additional Configuration:
+
+ - Port Range\*:\
+ The user must specify one or more SQL Server ports to be scanned during the discovery process. This allows flexibility for environments using non-default ports.
+
+ - Input Format:\
+ Comma-separated list of port numbers.
+
+ - Default: 1433.
+
+![Initiating and Configuring 18](../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_18.png)
+
+Cannot use subnet notation (e.g., 101.155.1.0/24); use individual IP addresses instead.
+
+# Paexec Cleanup
+
+- Removes Paexec services and executable files deployed during remote execution tasks.
+
+![Initiating and Configuring 19](../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_19.png)
+
+# Port Scan
+
+- Probes network ports to identify open, closed, or filtered ports.
+
+- Additional Configuration: Specify port range (up to 1000 ports).
+
+- Formats: Comma-separated (e.g., 2001,2002,2003), hyphenated range (e.g., 2001-2003), or a mix (e.g., 2001,2002,2003-2009).
+
+![Initiating and Configuring 20](../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_20.png)
+
+# SCCM Import
+
+- Imports asset and configuration data from Microsoft SCCM database.
+
+![Initiating and Configuring 21 536x249](../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_21_536x249.png)
+
+# Storage Server Discovery Scan-XtreamIO
+
+- Discovers XtreamIO storage server details in the monitored network.
+
+![Initiating and Configuring 22 548x249](../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_22_548x249.png)
+
+# vCenter Scan
+
+- Discovers ESXi host details on VMware vCenter, including VMs, datastores, clusters, and resource pools.
+
+![Initiating and Configuring 23](../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_23.png)
+
+# Website Discovery
+
+- Crawls and analyzes web applications to discover URLs, technologies, SSL certificates, response codes, and structure.
+
+- Additional Configuration:
+
+ - URL\*: The user must enter the complete web addresses that need to be scanned. This input supports multiple URLs, which should be separated by a space.
+
+ - Input Format:\
+ Provide one or more fully qualified URLs (including protocol such as https:// or http://) separated by spaces.
+
+ - Example: URL: https://www.company, <https://webmail.company.com>
+
+![Initiating and Configuring 24 806x249](../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_24_806x249.png)
+
+# Windows Basic AD Scan
+
+- Queries Active Directory for basic computer object information, including names, OS, and organizational unit structure.
+
+![Initiating and Configuring 25 677x249](../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_25_677x249.png)
+
+# Windows Deep AD Scan
+
+- Performs comprehensive AD discovery, including all computer objects, properties, OU structure, group memberships, and detailed attributes.
+
+![Initiating and Configuring 25 677x249](../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_25_677x249.png)
+
+# Windows Major Components Discovery
+
+- Discovers major Windows components, features, and services.
+
+- Scan Through: Choose either IP Address (default) or Host Name.
+
+- IP Address is selected by default. This selection displays the IP Range and Exclude IP Range input fields.
+
+![Initiating and Configuring 26](../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_26.png)
+
+- Additional Configuration (Required if Host Name option is selected):
+
+- Host Names\*: If Host Name is selected, the user is required to enter a space-separated list of valid hostnames.
+
+![Initiating and Configuring 27](../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_27.png)

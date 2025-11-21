@@ -1,0 +1,374 @@
+COMPREHENSIVE TOC VALIDATION REPORT
+================================================================================
+
+SUMMARY
+--------------------------------------------------------------------------------
+Total TOC links: 360
+Valid links: 3
+Path mismatches (file exists, path needs fixing): 357
+Broken links (file not found): 0
+Total MDX files: 1125
+Files not in TOC: 1121
+
+================================================================================
+PATH MISMATCHES - Files exist but TOC path is incorrect:
+================================================================================
+
+Link Text: All About Virima v6.1
+  TOC Path: /6_1/application_overview_6_1/all_about_virima_v6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: System Icons
+  TOC Path: /6_1/application_overview_6_1/icons_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: User Specific Functions
+  TOC Path: /6_1/application_overview_6_1/user_specific_functions_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Online Help
+  TOC Path: /6_1/application_overview_6_1/online_help_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: About Common Functions
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/about_common_functions_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Advanced Search
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/advanced_search_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Attachments
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/attachments_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Auto Refresh
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/auto_refresh_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Collapse/Maximize
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/collapse_maximize_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Comments
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/comments_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Copy to Cherwell
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/copy_to_cherwell_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Copy to Ivanti
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/copy_to_ivanti_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Copy to ServiceNow
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/copy_to_servicenow_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Delete/Remove
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/delete_remove_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Email Preferences
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/email_prefs_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Enable/Disable Editing
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/enable_disable_editing_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Export
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/export_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: History
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/history_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Import
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/import_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Items per Page
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/items_per_page_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Mark as Knowledge
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/mark_as_knowledge_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Other Asset Info
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/other_asset_info_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Outage Calendar
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/outage_calendar_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Personalize Columns
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/personalize_columns_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Print
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/print_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Process ADM
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/process_adm_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Process Missing Components
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/process_missing_components_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Records per Page
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/records_per_page_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Reload Default Mapping
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/reload_default_mapping_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Re-scan
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/re_scan_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Re-Sync Data
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/re_sync_data_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Save
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/save_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Saved Filters
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/saved_filters_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Searching
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/searching_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Show Main/All Properties
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/show_main_all_properties_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Tasks
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/tasks_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Updates
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/updates_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Version Control
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/version_control_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Go to Page
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/go_to_page_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Send Report To
+  TOC Path: /6_1/application_overview_6_1/shared_functions_6_1/send_report_to_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: My Dashboard Overview
+  TOC Path: /6_1/my-dashboard-6_1/my-dashboard-overview-6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Dashboards
+  TOC Path: /6_1/my-dashboard-6_1/dashboards-6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Contents
+  TOC Path: /6_1/my-dashboard-6_1/dashboards-contents-6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Customization
+  TOC Path: /6_1/my-dashboard-6_1/dashboards-customization-6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: My Dashboard
+  TOC Path: /6_1/my-dashboard-6_1/my-dashboard-6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Contents
+  TOC Path: /6_1/my-dashboard-6_1/my-dashboard-contents-6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Report Actions
+  TOC Path: /6_1/my-dashboard-6_1/dashboards-report-actions-6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: System Icons
+  TOC Path: /6_1/my-dashboard-6_1/system-icons-6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Access CMDB
+  TOC Path: /6_1/cmdb_6_1/access_cmdb_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+Link Text: Manage CMDB
+  TOC Path: /6_1/cmdb_6_1/manage_cmdb_6_1
+  Actual File: about_procurement_6_1.mdx
+  Suggested Fix: /6_1/about_procurement_6_1
+
+... and 307 more path mismatches
+
+================================================================================
+FILES NOT IN TOC (first 100):
+================================================================================
+
+about_procurement_6_1.mdx
+admin_6_1\admin\admin_functions_new_6_1.mdx
+admin_6_1\admin\admin_functions_old_6_1.mdx
+admin_6_1\admin\admin_functions_v5_6_1.mdx
+admin_6_1\admin\admin_functions_v6_6_1.mdx
+admin_6_1\admin\admin_graphical_workflows_6_1.mdx
+admin_6_1\admin\admin_mngmnt_functions_6_1.mdx
+admin_6_1\admin\icons_6_1.mdx
+admin_6_1\admin\model_sections_fields_6_1.mdx
+admin_6_1\admin_change_mngmnt\about_change_mngmnt_6_1.mdx
+admin_6_1\admin_change_mngmnt\add_change_model_6_1.mdx
+admin_6_1\admin_change_mngmnt\add_changes_6_1.mdx
+admin_6_1\admin_change_mngmnt\change_category_6_1.mdx
+admin_6_1\admin_change_mngmnt\change_ci_category_6_1.mdx
+admin_6_1\admin_change_mngmnt\change_closure_code_6_1.mdx
+admin_6_1\admin_change_mngmnt\change_error_code_6_1.mdx
+admin_6_1\admin_change_mngmnt\change_model_6_1.mdx
+admin_6_1\admin_change_mngmnt\change_priority_calculator_6_1.mdx
+admin_6_1\admin_change_mngmnt\change_risk_assesments_6_1.mdx
+admin_6_1\admin_change_mngmnt\change_risks_6_1.mdx
+admin_6_1\admin_change_mngmnt\change_stage_state_6_1.mdx
+admin_6_1\admin_change_mngmnt\change_state_workflow_6_1.mdx
+admin_6_1\admin_change_mngmnt\change_timescale_6_1.mdx
+admin_6_1\admin_change_mngmnt\change_types_6_1.mdx
+admin_6_1\admin_change_mngmnt\changes_6_1.mdx
+admin_6_1\admin_change_mngmnt\request_changes_6_1.mdx
+admin_6_1\admin_change_mngmnt\risk_assessments_6_1.mdx
+admin_6_1\admin_contract_mngmt\about_contract_mngmnt_6_1.mdx
+admin_6_1\admin_contract_mngmt\contract_properties_6_1.mdx
+admin_6_1\admin_contract_mngmt\contract_property_group_6_1.mdx
+admin_6_1\admin_discovery\admin_discovery_6_1.mdx
+admin_6_1\admin_discovery\application_map_6_1.mdx
+admin_6_1\admin_discovery\client_6_1.mdx
+admin_6_1\admin_discovery\client_agents_schedules_6_1.mdx
+admin_6_1\admin_discovery\client_build_agent_6_1.mdx
+admin_6_1\admin_discovery\client_details_6_1.mdx
+admin_6_1\admin_discovery\client_discovery_agents_6_1.mdx
+admin_6_1\admin_discovery\client_edit_6_1.mdx
+admin_6_1\admin_discovery\client_remote_install_6_1.mdx
+admin_6_1\admin_discovery\client_restart_6_1.mdx
+admin_6_1\admin_discovery\client_scan_6_1.mdx
+admin_6_1\admin_discovery\config_services_account_6_1.mdx
+admin_6_1\admin_discovery\configuring_application_6_1.mdx
+admin_6_1\admin_discovery\correlation_6_1.mdx
+admin_6_1\admin_discovery\credentials_6_1.mdx
+admin_6_1\admin_discovery\credentials_backup_file_6_1.mdx
+admin_6_1\admin_discovery\credentials_details_6_1.mdx
+admin_6_1\admin_discovery\credentials_edit_6_1.mdx
+admin_6_1\admin_discovery\credentials_flush_6_1.mdx
+admin_6_1\admin_discovery\credentials_new_6_1.mdx
+admin_6_1\admin_discovery\custom_patterns_6_1.mdx
+admin_6_1\admin_discovery\downloading_discovery_6_1.mdx
+admin_6_1\admin_discovery\graphical_workflows_6_1.mdx
+admin_6_1\admin_discovery\ignore_adm_process_6_1.mdx
+admin_6_1\admin_discovery\ignore_process_6_1.mdx
+admin_6_1\admin_discovery\import_templates_6_1.mdx
+admin_6_1\admin_discovery\installation_discovery_6_1.mdx
+admin_6_1\admin_discovery\installation_linux_6_1.mdx
+admin_6_1\admin_discovery\installation_mac_6_1.mdx
+admin_6_1\admin_discovery\installation_uninstall_6_1.mdx
+admin_6_1\admin_discovery\installation_windows_6_1.mdx
+admin_6_1\admin_discovery\installing_application_6_1.mdx
+admin_6_1\admin_discovery\major_software_6_1.mdx
+admin_6_1\admin_discovery\major_software_details_6_1.mdx
+admin_6_1\admin_discovery\major_software_edit_6_1.mdx
+admin_6_1\admin_discovery\major_software_new_6_1.mdx
+admin_6_1\admin_discovery\mon_prof_6_1.mdx
+admin_6_1\admin_discovery\mon_prof_action_details_6_1.mdx
+admin_6_1\admin_discovery\mon_prof_details_6_1.mdx
+admin_6_1\admin_discovery\mon_prof_frequency_6_1.mdx
+admin_6_1\admin_discovery\mon_prof_notifications_6_1.mdx
+admin_6_1\admin_discovery\mon_prof_trigger_conditions_6_1.mdx
+admin_6_1\admin_discovery\patterns_6_1.mdx
+admin_6_1\admin_discovery\port_config_process_6_1.mdx
+admin_6_1\admin_discovery\probe_workflow_6_1.mdx
+admin_6_1\admin_discovery\probe_workflow_edit_delete_6_1.mdx
+admin_6_1\admin_discovery\probes_6_1.mdx
+admin_6_1\admin_discovery\probes_edit_delete_6_1.mdx
+admin_6_1\admin_discovery\probes_new_6_1.mdx
+admin_6_1\admin_discovery\probes_workflows_sensors_6_1.mdx
+admin_6_1\admin_discovery\scan_configuration_6_1.mdx
+admin_6_1\admin_discovery\scan_workflow_6_1.mdx
+admin_6_1\admin_discovery\sensors_6_1.mdx
+admin_6_1\admin_discovery\sensors_edit_delete_6_1.mdx
+admin_6_1\admin_discovery\updating_application_6_1.mdx
+admin_6_1\admin_event_mngmnt\about_event_mngmnt_6_1.mdx
+admin_6_1\admin_event_mngmnt\alert_configuration_6_1.mdx
+admin_6_1\admin_event_mngmnt\email_actions_6_1.mdx
+admin_6_1\admin_event_mngmnt\eventmailbox_configuration_6_1.mdx
+admin_6_1\admin_event_mngmnt\mailbox_configuration_6_1.mdx
+admin_6_1\admin_hardware_asset_mngmnt\about_hw_asset_mngmnt_6_1.mdx
+admin_6_1\admin_hardware_asset_mngmnt\hardware_properties_6_1.mdx
+admin_6_1\admin_hardware_asset_mngmnt\hardware_property_group_6_1.mdx
+admin_6_1\admin_incident_mngmnt\about_incident_mngmnt_6_1.mdx
+admin_6_1\admin_incident_mngmnt\incident_auto_escalation_6_1.mdx
+admin_6_1\admin_incident_mngmnt\incident_category_6_1.mdx
+admin_6_1\admin_incident_mngmnt\incident_error_code_6_1.mdx
+admin_6_1\admin_incident_mngmnt\incident_model_6_1.mdx
+admin_6_1\admin_incident_mngmnt\incident_priority_calculator_6_1.mdx
+admin_6_1\admin_incident_mngmnt\incident_states_substates_6_1.mdx
+
+... and 1021 more files not in TOC

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Business Service Map</title>
+        <link href="../../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <script src="../../../../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../Resources/Scripts/foundation.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../Resources/Scripts/version-switcher.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../../../Default.htm#ITSM/Config Mngmt/Config Items/Config Item Details/Business-Service-Map.htm">Open topic with navigation</a>
+        </p>
+        <div role="main" id="mc-main-content">
+            <h1>
+                <MadCap:conditionalText data-mc-conditions="Default.OldUI">Business </MadCap:conditionalText>Service Map</h1>
+            <p>Use the <MadCap:conditionalText data-mc-conditions="Default.OldUI">Business </MadCap:conditionalText>Service Map to graphically display the configuration items that support a business service. For example, delivering email to employees of an organization is supported by exchange servers and web servers. Below is an example.</p>
+            <p>
+                <img src="../../../../Resources/Images/ITSM/Biz-Svc-Map/bsm-example.PNG" />
+            </p>
+            <p><b>Type</b>. Click the drop-down list and select the type of view. </p>
+            <div class="Bullet1"><b><a href="BSM Examples/BSM-ADM-View.htm" style="font-weight: normal;">ADM View</a></b> displays the graphical connection between the applications or between applications and configuration items based on the relationship <i>Communicates With</i>. Administrators can add relations manually. ADM is processed automatically when the discovered items are moved into the CMDB. SSH communication is ignored in the ADM.</div>
+            <div class="Bullet1" style="color: #000000;"><b>Affected Business Application View</b> displays the list of services/applications impacted due to an affected Business Service.</div>
+            <div class="Bullet1"><b><a href="BSM Examples/BSM-Comm-View.htm" class="MCTopicPopup MCTopicPopupHotSpot a" style="font-weight: normal;">Communication View</a></b>	displays the graphical connection between the configuration items based on the relationship <i>Communicates With</i>. To view the list of Windows Host, click on the number. Grayed out machines/devices can be of different network or the devices that are not discovered by the Discovery application.</div>
+            <div class="Bullet1" style="color: #000000;"><span style="color: #dc143c;"><span style="color: #000000;"><b>Infrastructure View </b>displays the end-to-end visualization of a Server/Application infrastructure.</span></span>
+            </div>
+            <div class="Bullet1"><b><a href="BSM Examples/BSM-Network-View.htm" style="font-weight: normal;">Network View</a></b>	displays the physical and non-physical connections among the assets and/or business services based on relationships.</div>
+            <div class="Bullet1"><b>Service Topology View</b> displays the end-to-end visualization of a running service. </div>
+            <p><b>Select Actions</b>. Click the drop-down list and select the action. </p>
+            <div class="Bullet1"><b>Rescan. </b>When selected. displays the Rescan Now dialog box. Choose a <i>Client</i> and the <i>Type of Scan</i>. Then click <b>Scan</b>.</div>
+            <div class="Ind50">
+                <img src="../../../../Resources/Images/ITSM/rescan-now-dialog-box_476x212.png" style="width: 476;height: 212;" />
+            </div>
+            <div class="Bullet1"><b>Host Check</b>. When selected, displays the Check Host Reachability dialog box. Enter the <i>IP&#160;Address</i> and <i>Choose a client</i>, then click <b>Scan</b>. </div>
+            <div class="Ind50">
+                <img src="../../../../Resources/Images/ITSM/Biz-Svc-Map/check-host-reachability_473x216.png" style="width: 473;height: 216;" />
+            </div>
+            <p style="font-weight: normal;"><b>Orientation</b>. Select <i>Horizontal</i>, <b style="font-style: italic; font-weight: normal;">View</b> or <i>Radical</i> to change the perspective of the map. </p>
+            <p style="font-weight: normal;"><b>Refresh</b>. Updates the display to reflect any map changes. </p>
+            <p style="font-weight: normal;"><b>Additional Settings</b>. Click the red circle with the pencil in the lower right corner of the map.</p>
+            <div class="Ind50">
+                <img src="../../../../Resources/Images/ITSM/Biz-Svc-Map/bsm-edit-options.PNG" />
+            </div>
+            <div class="Bullet1"><b>Level Depth</b>. Specifies the number of levels deep to go to see the details. The maximum depth level is 5. </div>
+            <div class="Bullet1"><b>Show Legends On Bottom</b>. Specifies where the legend is located and if the filtered items should be removed.</div>
+            <div class="Bullet1"><b>Filter</b>. Filters the data in the map. In the Filter dialog box, select which items to display. </div>
+            <div class="Bullet1"><b>Full Screen</b>. Toggles between full screen and normal view.</div>
+            <div class="Bullet1"><b>Download BSM</b>. Displays the Download BSM View dialog box in which you specify what type of file to download. There must be data in order for the download to occur. Click either <b>Save as PNG</b> (image) or <b>Save Data as Excel</b> (spreadsheet), then click <b>Download</b>. </div>
+            <div class="Bullet1"><b>Save View</b>. Saves the current view, which can be reloaded for reference at another time.</div>
+            <div class="Bullet1"><b>Load View</b>. Loads any saved views. </div>
+            <p>&#160;</p>
+            <p style="background-color: #f5f5f5;"><b style="margin-top: 12pt; margin-bottom: 3pt; font-family: Verdana; font-size: 11pt;">Related Topics</b>
+            </p>
+            <div class="Bullet1"><a href="../../../../Common Functions/Process-ADM.htm" class="MCTopicPopup MCTopicPopupHotSpot a">Process ADM</a>
+            </div>
+            <div class="Bullet1"><a href="Details-Release-Hierarchy.htm" class="MCTopicPopup MCTopicPopupHotSpot a">Release Hierarchy</a>
+            </div>
+            <div class="Bullet1"><a href="Details-Add-Property.htm">Add Property</a>
+            </div>
+            <div class="Bullet1"><a href="../../../../Common Functions/Enable-Disable-Editing.htm" class="MCTopicPopup MCTopicPopupHotSpot a">Disable Editing</a>
+            </div>
+            <div class="Bullet1"><a href="Details-Merge-CI.htm">Merge CI</a>
+            </div>
+        </div>
+        <div>
+            <hr style="margin-top: 12pt;" width="100%" size="0" align="center" />
+            <div style="font-family: Verdana;font-size: 8pt;text-align: center;">Copyright © 2025 Virima, Inc. All rights reserved. v6.1</div>
+        </div>
+    </body>
+</html>

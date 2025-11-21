@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-toc-path="Discovery Scan|Import from AWS" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>AWS Import</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <script src="../../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/version-switcher.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#Discovery/Import-From-AWS/Access-Import-AWS-Window.htm">Open topic with navigation</a>
+        </p>
+        <div role="main" id="mc-main-content">
+            <h1 class="Heading1">Accessing the Import AWS Window</h1>
+            <p>Use this procedure to view and manage imported AWS resource metadata in Virima.</p>
+            <ol start="1" class="ol_1">
+                <li value="1">
+                    <p>In the left navigation pane, expand <span class="Strong">Discovery Scan</span>.</p>
+                </li>
+                <li value="2">
+                    <p>Select <span class="Strong">Import From AWS</span>.</p>
+                    <p class="step-media">
+                        <img src="../../Resources/Images/Discovery/Import-From-AWS/Import From AWS_1.png" />
+                    </p>
+                </li>
+            </ol>
+            <ol start="3" class="ol_1">
+                <li value="3">
+                    <p><span class="Strong">Import From AWS</span> page opens.</p>
+                </li>
+            </ol>
+            <p>The page displays a list of <span class="Strong">imported runs </span>from your AWS accounts. Each row represents a single import run.</p>
+            <p class="step-media">
+                <img src="../../Resources/Images/Discovery/Import-From-AWS/Import From AWS_1_1_544x249.png" style="width: 544;height: 249;" />
+            </p>
+            <ul class="ul_3">
+                <li>
+                    <p><span class="Strong">Key columns:</span>
+                    </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p><span class="Strong">Id</span>: Unique identification ID of the import run (e.g., AWS000686), records imported from AWS will have the prefix “AWS” followed by a six-digit sequential number.</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong">Name:</span>
+                            </p>
+                            <ul class="ul_1">
+                                <li>
+                                    <p>Manual Import: The user provided name used to identify the import run.</p>
+                                </li>
+                                <li>
+                                    <p>Scheduled imports: The user-provided schedule name appears under the "Name" column.</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p><span class="Strong">Account Id</span><span class="inline-comment-marker">: While adding credentials for AWS account configuration, regardless of the credential type selected (Account Id, Organization Unit Id, or Root Id), the value entered will always be displayed in the "Account Id" column.</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p><span class="Strong">Imported On</span>: The date and time when the import was completed.</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong">Status</span><span class="inline-comment-marker">: Current state (e.g., Importing, Completed, Failed).</span>
+                            </p>
+                            <ul class="ul_1">
+                                <li>
+                                    <p><span class="Strong">Importing:</span> The import process from AWS is currently running and in progress.</p>
+                                </li>
+                                <li>
+                                    <p><span class="Strong">Completed:</span> The import from AWS has finished successfully.</p>
+                                </li>
+                                <li>
+                                    <p><span class="Strong">Failed:</span> The import has failed, due to some unknown errors.</p>
+                                    <ul class="ul_1">
+                                        <li>
+                                            <p>View failure details from the AWS logs.</p>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p><span class="Strong">Imported By</span><span class="inline-comment-marker">: </span>
+                            </p>
+                            <ul class="ul_1">
+                                <li>
+                                    <p><span class="inline-comment-marker">Manual Import: The logged-in user who initiated a manual import.</span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p><span class="inline-comment-marker">Scheduled Import: The logged-in user who configured scheduled import.</span>
+                                    </p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p><span class="Strong">Credential</span>: Virima credential profile used to connect to AWS.</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong">Select Actions</span>: Perform bulk operations on selected or filtered rows.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><span class="inline-comment-marker">From the </span><span class="Strong">Select Actions</span><span class="inline-comment-marker"> drop-down list, choo</span>se the operation you want to perform.</p>
+                    <p class="step-media">
+                        <img src="../../Resources/Images/Discovery/Import-From-AWS/Import From AWS_1_2.png" />
+                    </p>
+                </li>
+            </ul>
+            <ul class="ul_3">
+                <li>
+                    <p><span class="Strong">Delete</span><span class="inline-comment-marker">: Remove selected import record</span>
+                    </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>Selected import record(s) shall be deleted</p>
+                        </li>
+                        <li>
+                            <p>CI(s) imported during the selected import shall be removed from Discovered Items</p>
+                        </li>
+                        <li>
+                            <p>CI(s) moved to CMDB will still appear under CMDB after deleting the AWS import record.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><span class="Strong">Export</span> – Download grid contents (selected or filtered rows) to Excel.</p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>If you have selected rows, only the selected rows are exported.</p>
+                        </li>
+                        <li>
+                            <p>If you have applied filters<span class="inline-comment-marker">, all </span>rows that <span class="inline-comment-marker">match the current filters are exported.</span></p>
+                        </li>
+                        <li>
+                            <p>If no filters are applied and no rows are selected, exporting will include all records from all pages.</p>
+                        </li>
+                        <li>
+                            <p><span class="inline-comment-marker">The file includes the grid columns (e.g., </span><span class="Strong">Unique ID</span><span class="inline-comment-marker">, </span><span class="Strong">Account Id</span><span class="inline-comment-marker">, </span><span class="Strong">Credential</span><span class="inline-comment-marker">, </span><span class="Strong">Imported By</span><span class="inline-comment-marker">, </span><span class="Strong">Name</span><span class="inline-comment-marker">, and </span><span class="Strong">Imported On</span><span class="inline-comment-marker">.) (Refer </span>Exported Excel Colum Details<span class="inline-comment-marker">)</span></p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <p class="p_3">This downloads the import records NOT the CI(s).</p>
+            <ul class="ul_3">
+                <li>
+                    <p><span class="Strong">Import</span><span class="inline-comment-marker"> – Initiate a new Import from AWS.</span>
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <hr style="margin-top: 12pt;" width="100%" size="0" align="center" />
+            <div style="font-family: Verdana;font-size: 8pt;text-align: center;">Copyright © 2025 Virima, Inc. All rights reserved. v6.1</div>
+        </div>
+    </body>
+</html>

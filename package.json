@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "react-helmet-async": "^2.0.5"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.6"
+  }
+}

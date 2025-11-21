@@ -1,0 +1,74 @@
+---
+lang: en-us
+title: Blueprint SLA
+viewport: width=device-width, initial-scale=1.0
+---
+
+# Blueprints: SLA
+
+Every Blueprint has its own SLA-defined based on its business factors. When a Root Cause CI is associated with an ITSM record, then the SLA of the blueprint is taken into consideration, provided a Custom Timescale and CI SLA *are not* defined. [ ]{style="background-color: #ffff00;"
+
+Use this function to configure response and resolution times for a CI marked as **Incident**, **Requests**, **Changes** or **Problems** that require resolution.
+
+ --- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   For System Administrators, SLA\'s are created through **[Admin \> Others \> Service Level Agreements](../Resources/Images/Admin%20-%20Other/add-sla.PNG){style="background-color: #ffffff;"}**.
+ --- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Use this function to manage the actions that occur for an SLA.
+
+ -- ----- ---------------------------------------------------------------------------------------------
+ 1. In the main window, select **Admin \> SACM \> Blueprints**. The Blueprints window displays.
+ -- ----- ---------------------------------------------------------------------------------------------
+
+ -- ----- -----------------------------------------------------
+ 2. Select the record to manage. A new window displays.
+ -- ----- -----------------------------------------------------
+
+::: Ind50
+![blueprints sla 621x285](../Resources/Images/Admin - SACM/blueprints-sla_621x285.png)
+
+ -- ----- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 3. In the *Response Time* field, [[specify the maximum amount of time that can pass before a response must occur.]{style="background-color: #ffffff;"}]{style="background-color: #ffff00;"}
+ -- ----- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 4. In the *Resolution Time* field, specify the total time allowed to find a resolution. The Resolution Time cannot be smaller than the total of all the other response times (e.g., Response Time, 1st Level Support, etc.).
+ -- ----- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 5. In the *Support Level* fields,[[ specify the amount of time allows for each support level to respond. ]{style="background-color: #ffffff;"}]{style="background-color: #ffff00;"}
+ -- ----- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- ------------------------------------------------
+ 6. In the **Escalate** section, do the following:
+ -- ----- ------------------------------------------------
+
+ -- ----- ---------------------------------------------------------------------------------------------------------------------------------------------------------
+ a. For the fields in the first column, specify when an action should taken place, either **Before** or **After** the specified time duration has occurred.
+ -- ----- ---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ b. For the fields in the second column, select the amount of time that can elapse before a notification is sent to the users, roles, groups and departments specified. Multiple options can be selected.
+ -- ----- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ c. For the actions in the third column, click **Add** (new) or **Update** (existing) to indicate who receives a notification that activity has been escalated. *Refer to* [Searching](/common_topics/searching_6_1.mdx){style="font-style: italic;"} *for details on how to make selections in the tabs.*
+ -- ----- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- -------------------------------------------------------
+ 7. When all selections/entries are made, click **Save**.
+ -- ----- -------------------------------------------------------
+
+ 
+
+**Related Topics**
+
+::: Bullet1
+[About Blueprints](/admin_sacm/blueprints_6_1.mdx)
+
+::: Bullet1
+[Edit Blueprints](Blueprints-Edit.mdx)
+
+[Other Functions and Page Elements]{style="font-family: Verdana;"}
+
+[Records per Page](../Common%20Topics/Records-per-Page.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-toc-path="Discovery Scan|Import Data Files|Manage Import Data Files" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Import Data File</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <script src="../../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/version-switcher.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#Discovery/Import Data Files/Import CI.htm">Open topic with navigation</a>
+        </p>
+        <div role="main" id="mc-main-content">
+            <h1 class="Heading1">Import CI’s</h1>
+            <h1 class="Heading1">Import CI without using existing Field Mapping Template</h1>
+            <ol start="1" class="ol_1">
+                <li value="1">
+                    <p>From the <span class="Strong" style="font-weight: bold;">Select Actions</span> menu, click <span class="Strong" style="font-weight: bold;">Import CI's</span>.</p>
+                    <p class="step-media">
+                        <img src="../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_3.png" />
+                    </p>
+                </li>
+            </ol>
+            <ol start="2" class="ol_1">
+                <li value="2">
+                    <p>The <span class="Strong" style="font-weight: bold;">Attach CI Data Files</span> window appears, allowing you to proceed with uploading and mapping your configuration item data files.</p>
+                    <p class="step-media">
+                        <img src="../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_4.png" />
+                    </p>
+                </li>
+            </ol>
+            <ol start="3" class="ol_1">
+                <li value="3">
+                    <p>In the <span class="Strong" style="font-weight: bold;">Attach CI Data Files</span> window:</p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>Select a mapping type as None</p>
+                            <ul class="ul_1">
+                                <li>
+                                    <p><span class="Strong" style="font-weight: bold;">None</span> – Import without a template.</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>Click <span class="Strong" style="font-weight: bold;">Browse</span> to select a file (.xls, .xlsx, or .csv).</p>
+                        </li>
+                        <li>
+                            <p>(Optional) Downlo<span class="inline-comment-marker">ad the sample template for reference.</span></p>
+                        </li>
+                    </ul>
+                    <p class="step-media">
+                        <img src="../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_5.png" />
+                    </p>
+                </li>
+            </ol>
+            <p><span class="Strong" style="font-weight: bold;">Expected Columns &amp; What to Enter</span>
+            </p>
+            <ul class="ul_3">
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Asset Name</span>
+                        <br />The name of the asset (e.g., server host + IP).</p>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">IP Address</span> <span class="Emphasis">(possible correlator)</span><br />The host’s primary IP (e.g., 10.14.80.36). If your blueprint uses IP as a correlator, this helps match to an existing CI.</p>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Host Name</span> <span class="Emphasis">(possible correlator)</span><br />Host name of the device (e.g., ADSERVERLD). Another common correlator.</p>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Mac Address</span> <span class="Emphasis">(possible correlator)</span><br />Physical MAC address (e.g., 00:50:56:B4:01:5). Use standard notation and only one MAC per row.</p>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Blueprint Name</span> <span class="Strong">(Mandatory)</span><br />The CMDB blueprint that defines the CI’s schema (e.g., <span class="Strong">Windows Server</span>). Must exactly match an existing blueprint name.</p>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Asset Id</span> <span class="Emphasis">(Mandatory only for updates)</span><br />The CMDB ID of an <span class="Strong">existing</span> CI (e.g., AST003156).</p>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Acquisition Date</span>
+                        <br />A datetime field for asset lifecycle. <span class="Strong">Format must be</span> MM/DD/YYYY HH:MM:SS (e.g., 12/22/2022 07:00:00 AM).</p>
+                </li>
+            </ul>
+            <p><span class="Strong" style="font-weight: bold;">Mandatory Import Rules</span>
+            </p>
+            <ul class="ul_3">
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">For New CIs:</span>
+                    </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p><span class="Strong">Blueprint Name</span> is required.</p>
+                        </li>
+                        <li>
+                            <p>At least <span class="Strong">one correlator</span> (IP Address, Host Name, or Mac Address, as defined by the blueprint) must be present.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">For Updating Existing CIs:</span>
+                    </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p><span class="Strong">Asset Id</span> is required.</p>
+                        </li>
+                        <li>
+                            <p>Correlators (IP, Host Name, MAC) help validate matches but are not strictly required if Asset Id is provided.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Date/Time Fields:</span>
+                    </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>Must follow the format MM/DD/YYYY HH:MM:SS.</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ol start="4" class="ol_1">
+                <li value="4">
+                    <p>Click <span class="Strong" style="font-weight: bold;">Upload</span>.</p>
+                </li>
+                <li value="5">
+                    <p>A preview of the data to import appears, showing how each attribute is mapped to the column headers in your sample file.</p>
+                </li>
+            </ol>
+            <p>
+                <img src="../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_6.png" />
+            </p>
+            <ol start="6" class="ol_1">
+                <li value="6">
+                    <p>If the default mapping is incorrect, use the dropdown to change the attribute name.</p>
+                </li>
+                <li value="7">
+                    <p>Click <span class="Strong" style="font-weight: bold;">Submit</span> to proceed.</p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>Ensure all correlator properties are mapped.</p>
+                        </li>
+                        <li>
+                            <p>If a property is highlighted in <span class="Strong">red</span>, it means it is not properly mapped to an application field; use <span class="Strong">Skip Column</span> if you do not wish to map that property.</p>
+                        </li>
+                        <li>
+                            <p>If a property is highlighted in <span class="Strong">green</span>, it means it is successfully mapped to an application field.</p>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+            <ul class="ul_3">
+                <li>
+                    <p>If a record in your Excel (or CSV) import file does not have a value for the “Blueprint Name” column, that record will not appear in the Import Data Files.</p>
+                </li>
+                <li>
+                    <p>If a record has a “<b>Blueprint Name</b>” but does not have any correlator (such as IP Address, Host Name, or MAC Address—as required by the blueprint), that record will also not be shown in the Import Data Files.</p>
+                </li>
+            </ul>
+            <ol start="8" class="ol_1">
+                <li value="8">
+                    <p>When prompted, a confirmation pop-up will ask if you want to save the current mapping as a template.</p>
+                </li>
+            </ol>
+            <p>
+                <img src="../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_7.png" />
+            </p>
+            <ol start="9" class="ol_1">
+                <li value="9">
+                    <p>Click <span class="Strong" style="font-weight: bold;">Yes</span> to save the template.</p>
+                </li>
+                <li value="10">
+                    <p>Enter a name for your template in the pop-up and click <span class="Strong" style="font-weight: bold;">Save and Continue</span>.</p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>You can reuse a saved field mapping template for future CI imports as long as the selected blueprint matches the blueprint associated with the template.</p>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+            <p>
+                <img src="../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_8.png" />
+            </p>
+            <ol start="11" class="ol_1">
+                <li value="11">
+                    <p>After import, a new row appears in the file list, displaying the imported file name, status, uploaded on, and uploaded by fields.</p>
+                </li>
+            </ol>
+            <ul class="ul_3">
+                <li>
+                    <p>The system shows an error message if a user tries to upload without a file.</p>
+                </li>
+            </ul>
+            <p>
+                <img src="../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_9.png" />
+            </p>
+            <h1 class="Heading1">Import CI using existing Field Mapping Template</h1>
+            <ol start="1" class="ol_1">
+                <li value="1">
+                    <p>From the <span class="Strong" style="font-weight: bold;">Select Actions</span> menu, click <span class="Strong" style="font-weight: bold;">Import CI’s</span>.</p>
+                </li>
+            </ol>
+            <p>
+                <img src="../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_3.png" />
+            </p>
+            <ol start="2" class="ol_1">
+                <li value="2">
+                    <p>The <span class="Strong" style="font-weight: bold;">Attach CI Data Files</span> window appears, allowing you to proceed with uploading and mapping the configuration item data files.</p>
+                </li>
+            </ol>
+            <p>
+                <img src="../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_10.png" />
+            </p>
+            <ol start="3" class="ol_1">
+                <li value="3">
+                    <p>In the <span class="Strong" style="font-weight: bold;">Attach CI Data Files</span> window:</p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>Select a mapping type:</p>
+                            <ul class="ul_1">
+                                <li>
+                                    <p><span class="Strong" style="font-weight: bold;">Choose Template</span> – Use a predefined import template.</p>
+                                </li>
+                                <li>
+                                    <p>Click <span class="Strong" style="font-weight: bold;">Choose Template</span>, then select a template from the dropdown.</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>Click <span class="Strong" style="font-weight: bold;">Browse</span> to select a file (.xls, .xlsx, or .csv).</p>
+                        </li>
+                        <li>
+                            <p>(Optional) Download the sample template for reference.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li value="4">
+                    <p>Click <span class="Strong"><b>Upload</b>.</span></p>
+                </li>
+            </ol>
+            <ul class="ul_3">
+                <li>
+                    <p>If a user attempts to upload a file in an unsupported format such as .txt on the Import Data Files page, the system immediately rejects the file and displays an error message.</p>
+                </li>
+            </ul>
+            <p>
+                <img src="../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_11.png" />
+            </p>
+            <ol start="5" class="ol_1">
+                <li value="5">
+                    <p>A preview of the data to import displays, with attributes mapped to column headers in the sample file.</p>
+                </li>
+            </ol>
+            <p>
+                <img src="../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_6.png" />
+            </p>
+            <ol start="6" class="ol_1">
+                <li value="6">
+                    <p>Click the dropdown to change the attribute name if the default mapping is incorrect.</p>
+                </li>
+                <li value="7">
+                    <p>Click on <span class="Strong"><b>Submit</b>.</span></p>
+                </li>
+            </ol>
+            <ul class="ul_3">
+                <li class="li_2">
+                    <p class="p_3">Ensure all correlator properties are mapped.</p>
+                </li>
+                <li class="li_2">
+                    <p class="p_3">If a property is highlighted in <span class="Strong" style="font-weight: bold;">red</span>, it means it is not properly mapped to an application field; use <span class="Strong">Skip Column</span> if you do not wish to map that property.</p>
+                </li>
+                <li class="li_2">
+                    <p class="p_3">If a property is highlighted in <span class="Strong" style="font-weight: bold;">green</span>, it means it is successfully mapped to an application field.</p>
+                </li>
+            </ul>
+            <ol start="8" class="ol_1">
+                <li value="8">
+                    <p>A confirmation pop-up asks you to save the current mapping as a template.</p>
+                </li>
+            </ol>
+            <p>
+                <img src="../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_7.png" />
+            </p>
+            <ol start="9" class="ol_1">
+                <li value="9">
+                    <p>Click <span class="Strong" style="font-weight: bold;">Yes </span>to save a template.</p>
+                </li>
+                <li value="10">
+                    <p>A pop-up prompts you to name the template.</p>
+                </li>
+                <li value="11">
+                    <p>Enter a name and click <span class="Strong" style="font-weight: bold;">Save and Continue</span>.</p>
+                    <ol start="1" class="ol_1">
+                        <li value="1">
+                            <p>The system saves the template with the current mapping.</p>
+                        </li>
+                        <li value="2">
+                            <p>Use the saved template for future CI imports.</p>
+                        </li>
+                    </ol>
+                </li>
+            </ol>
+            <p>
+                <img src="../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_8.png" />
+            </p>
+            <ol start="12" class="ol_1">
+                <li value="12">
+                    <p>A new row is displayed with imported file name, status, uploaded on and uploaded by fields.</p>
+                    <ul class="ul_2">
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">File Name</span>: Displays the name of the uploaded Excel file.</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Status</span>: Shows the current state of the file <span class="inline-comment-marker">(e.g., Processed, Processing).</span></p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Uploaded By</span>: Indicates which user uploaded the file.</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Uploaded On</span>: Timestamp showing the exact date and time of the upload.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li value="13">
+                    <p>Review imported CIs in the detailed view before moving them into the CMDB.</p>
+                </li>
+            </ol>
+        </div>
+        <div>
+            <hr style="margin-top: 12pt;" width="100%" size="0" align="center" />
+            <div style="font-family: Verdana;font-size: 8pt;text-align: center;">Copyright © 2025 Virima, Inc. All rights reserved. v6.1</div>
+        </div>
+    </body>
+</html>

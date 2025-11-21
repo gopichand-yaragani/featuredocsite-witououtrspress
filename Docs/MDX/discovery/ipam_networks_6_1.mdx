@@ -1,0 +1,164 @@
+---
+lang: en-us
+title: IPAM Networks
+viewport: width=device-width, initial-scale=1.0
+---
+
+# IPAM Networks
+
+Use this function to enable planning, tracking, and managing the information associated with an Internet Protocol address existing in the monitored network environment. It updates the following details to the application user:
+
+::: Bullet1
+Total number of subnets existing with its user details.
+
+::: Bullet1
+Total number of IP address(s)present in each subnet.
+
+::: Bullet1
+Name of the host associated with an IP address.
+
+::: Bullet1
+Specific hardware/software associated with an IP address.
+
+ --- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   Infoblox delivers essential technology to enable customers to manage, control, and optimize DNS, DHCP, and IPAM (DDI). Infoblox technology helps businesses automate complex network control functions to reduce costs and increase security and up time -- building bulletproof, scalable, and efficient networks.
+ --- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## [IPAM Procedure]
+
+The procedure to perform IPAM is as below:
+
+::: Bullet1
+Infoblox Configuration
+
+::: Bullet1
+IPAM
+
+![arrow border](../Resources/Images/arrow-border.PNG)
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Configuration]{.Strong_5}](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+Use this function to configure Infoblox on the installed machine.
+
+ --- ------------------------------------------------------------------------------------------------------------------------
+   A [client](/admin_discovery/client_6_1.mdx) needs to be created to associate a client with an Infoblox credential.
+ --- ------------------------------------------------------------------------------------------------------------------------
+
+In the navigation pane, select **Admin \> Integration \> Infoblox Configuration**. The Infoblox Credential dialog box displays. By default, the Add New Infoblox Credential option is selected.
+
+![infoblox credential new](../Resources/Images/Admin - Discovery/infoblox-credential-new.PNG)
+ -- ----- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- --------------------------------------------------------------------------------
+ b. In the *Show Password* field, click the checkbox to show the entered password.
+ -- ----- --------------------------------------------------------------------------------
+
+ -- ----- --------------------------------------------------------
+ c. Click **Cancel Change** to cancel the password change.
+ -- ----- --------------------------------------------------------
+
+::: Ind75
+![infoblox auto pick new](../Resources/Images/Admin - Integration/infoblox-auto-pick-new.png)
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+Use this function to monitor and sync the Internet Protocol address from Infoblox that exists in the monitored network environment.
+
+ -- ----- ----------------------------------------------------------------------------------------------------------------------------
+ 1. [In the navigation pane, select **Discovery Scan \>** ]{.span_5}[**IPAM Networks**. The IPAM window displays. ]{.Strong_4}
+ -- ----- ----------------------------------------------------------------------------------------------------------------------------
+
+::: Ind50
+![IPAM networks new](../Resources/Images/Discovery/IPAM-networks-new.PNG)
+
+Use this function to plan, track, and manage information associated with an Internet Protocol address in the monitored network environment.
+
+ -- ----- --------------------------------------------------------------------------------------------------------------
+ 1. [In the IPAM Networks window, click ]{.span_5}[**Sync**. The Sync From InfoBlox window displays.]{.Strong_4}
+ -- ----- --------------------------------------------------------------------------------------------------------------
+
+::: Ind50
+![sync from infoblox new](../Resources/Images/Discovery/sync-from-infoblox-new.png)[Instant Sync]{.Strong_4}[ to import the records from the Infoblox server.]{.span_5}
+ -- ----- ------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- ---------------------------------------------------------------------------------------------------------------------------------
+ 3. [Select ]{.span_5}[Schedule Sync]{.Strong_4}[ to import the records at a scheduled time. ]{.span_5}
+ -- ----- ---------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- -------------------------------------------------------------------------------
+ a. In the *Schedule Report Frequency* drop-down list, select the required value.
+ -- ----- -------------------------------------------------------------------------------
+
+ -- ----- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ b. [Check "]{.span_5}[Second]{.Strong_4}[" and/or "]{.span_5}[Minute]{.Strong_4}[" and/or "]{.span_5}[Hour]{.Strong_4}[" and/or "]{.span_5}[Day]{.Strong_4}[" and/or "]{.span_5}[Month]{.Strong_4}[" and/or "]{.span_5}[Weekday]{.Strong_4}[" option(s) according to the time selected for the Schedule Report Frequency.]{.span_5}
+ -- ----- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- ---------------------------------------------------------------------------------------------------------------------
+ c. [Click ]{.span_5}[Add]{.Strong_4}[ to update the schedule details accordingly.]{.span_5}
+ -- ----- ---------------------------------------------------------------------------------------------------------------------
+
+ -- ----- -------------------------------------------------------------------------------------------------------
+ 4. [Click ]{.span_5}[Sync Now]{.Strong_4}[ to enable the operation.]{.span_5}
+ -- ----- -------------------------------------------------------------------------------------------------------
+
+### Status Update {#status-update
+
+Use this function to select one or more networks (subnet) from the IPAM Networks page, one or more IP Addresses from the IPAM Network's IP list tab, then perform a status update scan. This pings every IP Address in the network\'s IP List, and updates its status to *Used* or *Unused*. All pingable IPs are set to *Used* and non-pingable to *Unused*.
+
+ -- ----- ---------------------
+ 1. Select a line item.
+ -- ----- ---------------------
+
+ -- ----- --------------------------
+ 2. Click **Status Update**.
+ -- ----- --------------------------
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" IPAM Network](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+ --- -----------------------------------------------------------------------------------------
+   Not all functions include an option to edit record line items shown in the main window.
+ --- -----------------------------------------------------------------------------------------
+
+ -- ----- -------------------------------------------------------
+ 1. Navigate to the window containing the record to edit.
+ -- ----- -------------------------------------------------------
+
+ -- ----- -------------------------------------------------------------------------------------
+ 2. Click the line containing the record. The applicable window or dialog box displays.
+ -- ----- -------------------------------------------------------------------------------------
+
+ -- ----- -----------------------------------
+ 3. Make the necessary modifications.
+ -- ----- -----------------------------------
+
+ -- ----- -------------------------------------------
+ 4. Click **Save** or **Add**, as applicable.
+ -- ----- -------------------------------------------
+
+To view details for the selected IP, click the **Details** tab.
+
+To view schedule details, click the **Schedule Details** tab.
+
+To view the history of activity, such as when changes were made, click the **History** tab.
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" IPAM Network](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+ --- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   Deleting is a permanent action and cannot be undone. Deleting may affect other functionality and information in the application such as data in configured reports, fields in windows, selectable options, etc. Therefore, be sure to understand the potential effects before making a deletion.
+ --- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- --------------------------------------------------
+ 1. Click the line that contains the item to delete.
+ -- ----- --------------------------------------------------
+
+ -- ----- ------------------------------------------------------------------------------------------------------------------------------------------------------
+ 2. From the *Select Actions* drop-down list, choose **Delete**. If a confirmation message is displayed, type **Delete** and click **Delete**to confirm.
+ -- ----- ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[Other Functions and Page Elements]{style="font-family: Verdana;"}
+
+::: Bullet1
+[Personalize Columns](../Common%20Functions/Personalize-Columns.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+
+::: Bullet1
+[Saved Filters](../Common%20Functions/Saved-Filters.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-toc-path="Discovery Scan|Import from Intune" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Viewing Intune Import Record</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <script src="../../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/version-switcher.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#Discovery/Import from Intune/View Intune Import Record.htm">Open topic with navigation</a>
+        </p>
+        <div role="main" id="mc-main-content">
+            <h1 class="Heading1">Viewing Intune Import Record</h1>
+            <p>Use this function to view the imported Intune resources</p>
+            <ol start="1" class="ol_1">
+                <li value="1">
+                    <p>Select an import record to open its details.</p>
+                </li>
+                <li value="2">
+                    <p>Report window displays imported CI(s) in these categories:</p>
+                    <ul class="ul_2">
+                        <li>
+                            <p style="font-weight: bold;">All</p>
+                        </li>
+                        <li>
+                            <p style="font-weight: bold;">Authorized</p>
+                        </li>
+                        <li>
+                            <p style="font-weight: bold;">Unauthorized</p>
+                        </li>
+                    </ul>
+                    <p class="step-media">
+                        <img src="../../Resources/Images/Discovery/Import-From-Intune/Import INTUNE Window_8.png" />
+                    </p>
+                </li>
+            </ol>
+            <ul class="ul_3">
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">All</span> – Every resource returned by the import.</p>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Authorized</span> – Assets that are already present in the CMDB.</p>
+                    <p class="step-media">
+                        <img src="../../Resources/Images/Discovery/Import-From-Intune/Import INTUNE Window_9.png" />
+                    </p>
+                </li>
+            </ul>
+            <ul class="ul_3">
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Unauthorized</span> – New assets not yet listed in the CMDB.</p>
+                    <p class="step-media">
+                        <img src="../../Resources/Images/Discovery/Import-From-Intune/Import INTUNE Window_10.png" />
+                    </p>
+                </li>
+            </ul>
+            <h1 class="Heading1"><span class="Strong">Common controls (top-right of the grid)</span>
+            </h1>
+            <ul class="ul_3">
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Move to CMDB</span> – Promote the selected records to CMDB (Refer Move to CMDB).</p>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Auto Refresh</span> – Refresh the grid on set periodic interval. Use this when import is still in progress so that the imported items show up without manual refresh.</p>
+                </li>
+            </ul>
+            <h1 class="Heading1">Key columns</h1>
+            <ul class="ul_3">
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Blueprint Name</span> – The discovery blueprint that matched the resource (e.g., <span class="Emphasis">Intune Virtual Network</span>, <span class="Emphasis">Intune Neo4j</span>)</p>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Asset Name</span> – The discovered resource name (cluster/service/task/instance, etc.).</p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>The asset name is the Intune instance ID.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Status</span>: Indicates the current state of the CI imported from Intune. When a CI is newly imported (does not exist in CMDB), the status is shown as "New."</p>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Asset ID</span>: A unique, sequential identification number assigned to each discovered Intune record. The ID shall have a prefix “DSC”+ 6 digits Unique sequential number.</p>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Host Name: </span>The host or endpoint name captured by discovery.</p>
+                </li>
+            </ul>
+            <p class="p_3">Users can select which columns to display when importing Intune and sort the grid by any column.</p>
+            <h1 class="Heading1">Move items to the CMDB</h1>
+            <p>After importing Intune data, promote it to the CMDB.</p>
+            <ol start="1" class="ol_1">
+                <li value="1">
+                    <p>In <span class="Strong" style="font-weight: bold;">All</span>, <span class="Strong" style="font-weight: bold;">Authorized</span> or <span class="Strong" style="font-weight: bold;">Unauthorized</span>, select one or more rows.</p>
+                </li>
+                <li value="2">
+                    <p>Click <span class="Strong" style="font-weight: bold;">Move to CMDB</span>.</p>
+                    <p class="step-media">
+                        <img src="../../Resources/Images/Discovery/Import-From-Intune/Import INTUNE Window_11.png" />
+                    </p>
+                </li>
+            </ol>
+            <ol start="3" class="ol_1">
+                <li value="3">
+                    <p>In the confirmation dialog, click <span class="Strong" style="font-weight: bold;">Continue</span>.<br />The move job runs <span class="Strong">in the background</span>—no further action is required. Use <span class="Strong" style="font-weight: bold;">Auto Refresh</span> to watch status changes.</p>
+                </li>
+            </ol>
+            <p>Tip: If no rows are selected, your environment will move <span class="Strong">all records that match the current filters</span>. If you want to limit scope, always select the exact rows to move.</p>
+            <ol start="4" class="ol_1">
+                <li value="4">
+                    <p>Upon successful move to CMDB, the records will be deleted from “Import from Intune” and “Discovered Items” View.</p>
+                </li>
+            </ol>
+        </div>
+        <div>
+            <hr style="margin-top: 12pt;" width="100%" size="0" align="center" />
+            <div style="font-family: Verdana;font-size: 8pt;text-align: center;">Copyright © 2025 Virima, Inc. All rights reserved. v6.1</div>
+        </div>
+    </body>
+</html>

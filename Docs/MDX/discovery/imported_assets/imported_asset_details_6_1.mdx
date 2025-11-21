@@ -1,0 +1,113 @@
+---
+lang: en-us
+title: Imported Asset Details Page
+viewport: width=device-width, initial-scale=1.0
+---
+
+# Imported Asset Details Page
+
+When viewing an imported asset in Virima, the page displays structured information across multiple sections, allowing administrators to review, validate, and take further actions such as moving the asset to the CMDB or rescanning.
+
+- Clicking the hyperlinked CI ID under CI column will display the corresponding record in CMDB.
+
+![Imported Assets 11](../../Resources/Images/Discovery/Imported-Assets/Imported Assets_11.png)
+
+- If we click on any other column values regardless of whether CI exists in CMDB or not, the user is redirected to Imported Assets view to view the imported asset data.
+
+![Imported Assets 12](../../Resources/Images/Discovery/Imported-Assets/Imported Assets_12.png)
+
+# **Header Section**
+
+- [Asset ID]{.Strong}: Unique identifier assigned to the imported asset (e.g., **IMP001277**).
+
+- [Move to CMDB Button]{.Strong}: Pushes the asset record into the Configuration Management Database (CMDB).
+
+ - The record will appear greyed out while the imported asset is being moved to the CMDB. Once the move is complete, the asset will be removed from the Imported Assets list.
+
+ - During this process, the system displays the progress message "import item is being processed" and automatically redirects the page to the imported asset's details.
+
+![Imported Assets 13](../../Resources/Images/Discovery/Imported-Assets/Imported Assets_13.png)
+
+- [Rescan Now Button]{.Strong}: Triggers an immediate re-scan of the asset to validate or update its details.
+
+ - Select the [Client]{.Strong} and [Type of scan]{.Strong} from the dropdown menus and then Click [Scan]{.Strong} to initiate the rescan.
+
+ - The system will display a success message and redirect you to the Recent Scan page.
+
+![Imported Assets 14](../../Resources/Images/Discovery/Imported-Assets/Imported Assets_14.png)
+
+# **Tabs Section**
+
+Multiple tabs are available to provide deeper insights into the asset:
+
+- [Details]{.Strong} (default view) -- Displays primary information, hardware, lifecycle, and network adapter details.
+
+- [Components]{.Strong} -- Shows associated components for the asset.
+
+- [Log On Events]{.Strong} -- Captures and displays login activity related to the asset.
+
+- [Tasks]{.Strong} -- Tracks assigned tasks or actions linked to this asset.
+
+- [Comments]{.Strong} -- Allows administrators to add or view comments about the asset.
+
+- [Attachments]{.Strong} -- Stores supporting files such as documents, screenshots, or reports.
+
+- [Updates]{.Strong} -- Displays historical updates or changes to the asset record.
+
+# Main panel -- Details tab sections
+
+- [Asset Primary Information]{.Strong}
+
+ - [Asset ID]{.Strong} -- the imported ID (IMP prefix).
+
+ - [Asset Name]{.Strong} -- Asset name from the file.
+
+ - [Host Name]{.Strong} -- The hostname of the asset.
+
+- [Hardware and Network]{.Strong}
+
+ - [IP Address]{.Strong} -- last/primary IP from the import (e.g., *1472.2.25*).
+
+- [Life Cycle Information]{.Strong}
+
+ - [Acquisition Date]{.Strong} -- date/time of acquisition provided during import.
+
+- [Network Adapter Details]{.Strong}
+
+ - [MAC Address]{.Strong} -- network adapter MAC captured in the import.
+
+# **Left-Side Panels**
+
+1. [Primary Details]{.Strong}
+
+ - [Asset ID]{.Strong}: Unique system identifier (e.g., *IMP001277*).
+
+ - [Blueprint]{.Strong}: Type of asset (e.g., *Windows Server*).
+
+ - [Created On]{.Strong}: Timestamp when the asset was imported (e.g., *08/11/2025, 3:52:51 PM*).
+
+ - [Last Modified On]{.Strong}: Timestamp of the most recent update.
+
+ - [Authorization Status]{.Strong}: Indicates whether the CI is authorized (in this case, *unauthorized*).
+
+ - [Tags]{.Strong}: Optional labels for categorization (empty if not provided).
+
+2. [Owner]{.Strong}
+
+ - [Name]{.Strong}: Designated owner of the asset (blank if not assigned).
+
+ - [Email]{.Strong}: Contact email of the owner.
+
+ - [Phone]{.Strong}: Contact number of the owner.
+
+3. [Import Details]{.Strong}
+
+ - [File Name]{.Strong}: Source file used for import (e.g., *Import+CI' Test 2.xlsx*).
+
+ - [Status]{.Strong}: Processing state of the file (e.g., *Processed*).
+
+ - [Uploaded By]{.Strong}: User who uploaded the file (e.g., *Admin Virima*).
+
+ - [Uploaded On]{.Strong}: Timestamp of the file upload (e.g., *08/11/2025, 3:52:29 PM*).
+
+ - [Authorization Status]{.Strong}: Reflects whether the CI is authorized (*unauthorized*).

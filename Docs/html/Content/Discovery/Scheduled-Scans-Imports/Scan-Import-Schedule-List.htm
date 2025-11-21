@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-toc-path="Discovery Scan|Scheduled Scans and Imports|Scans and Import Options" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Discovered Items Details</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <script src="../../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/version-switcher.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#Discovery/Scheduled-Scans-Imports/Scan-Import-Schedule-List.htm">Open topic with navigation</a>
+        </p>
+        <div role="main" id="mc-main-content">
+            <h1 class="Heading1"><span class="Strong">Scan and Import Schedule List</span>
+            </h1>
+            <ul class="ul_3">
+                <li>
+                    <p>The main area displays a grid listing all scheduled scans and imports.</p>
+                </li>
+                <li>
+                    <p>Each row represents a job, showing details such as Id, Name, Client, Is Active, Previous Trigger Time, Next Trigger Time, Credential, Hostname and Probe.</p>
+                </li>
+            </ul>
+            <table class="table_1" border="1" frame="border" rules="all" style="border-collapse: collapse; border: 1px solid;">
+                <col class="col_18" />
+                <col class="col_19" />
+                <tr>
+                    <td class="td_1" style="border: 1px solid;">
+                        <p class="p_4"><span class="Strong">Field Name</span>
+                        </p>
+                    </td>
+                    <td class="td_1" style="border: 1px solid;">
+                        <p class="p_4"><span class="Strong">Description</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1" style="border: 1px solid;">
+                        <p>ID</p>
+                    </td>
+                    <td class="td_1" style="border: 1px solid;">
+                        <p>The application automatically generates a unique ID for each job.</p>
+                        <p>Taxonomy is based on job type:</p>
+                        <ul class="ul_3">
+                            <li>
+                                <p>AWS: Prefix with "AWS" + 6-digit sequential number (e.g., AWS897789)</p>
+                            </li>
+                            <li>
+                                <p>AZURE: Prefix with "AZURE" + 6-digit sequential number (e.g., AZURE028538)</p>
+                            </li>
+                            <li>
+                                <p>MERAKI: Prefix with "MERAKI" + 6-digit sequential number (e.g., MERAKI345678)</p>
+                            </li>
+                            <li>
+                                <p>Scans: Prefix with "SCH" + 6-digit sequential number (e.g., SCH578673)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1" style="border: 1px solid;">
+                        <p>Name</p>
+                    </td>
+                    <td class="td_1" style="border: 1px solid;">
+                        <p>The user inputs the name when creating a job.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1" style="border: 1px solid;">
+                        <p>Client</p>
+                    </td>
+                    <td class="td_1" style="border: 1px solid;">
+                        <p>Applies only to scans. Refers to the Discovery Application (Client) the user selected when creating a scan.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1" style="border: 1px solid;">
+                        <p>IsActive</p>
+                    </td>
+                    <td class="td_1" style="border: 1px solid;">
+                        <p>True: The scheduled scan or import is active and triggers at the scheduled time.</p>
+                        <p>False: The scheduled scan or import is inactive and does not trigger at the scheduled time.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1" style="border: 1px solid;">
+                        <p>PreviousTriggerTime</p>
+                    </td>
+                    <td class="td_1" style="border: 1px solid;">
+                        <p>Displays the last run time of this schedule. This information populates after the initial execution.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1" style="border: 1px solid;">
+                        <p>NextTriggertime</p>
+                    </td>
+                    <td class="td_1" style="border: 1px solid;">
+                        <p>Shows the next run time. Recalculates immediately upon <span class="Strong">Save</span>, or after a scheduled job has been completed</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1" style="border: 1px solid;">
+                        <p>Credential</p>
+                    </td>
+                    <td class="td_1" style="border: 1px solid;">
+                        <p>Credentials for imports. Applicable only to AWS, A<span class="inline-comment-marker">zure, and Meraki.</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1" style="border: 1px solid;">
+                        <p>Probe</p>
+                    </td>
+                    <td class="td_1" style="border: 1px solid;">
+                        <p>Probe to execute during the scan. Applicable only to scheduled scans.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1" style="border: 1px solid;">
+                        <p>Hostname</p>
+                    </td>
+                    <td class="td_1" style="border: 1px solid;">
+                        <p>Hostname selected when initiating a scan. Applicable only to scheduled scans.</p>
+                    </td>
+                </tr>
+            </table>
+            <p class="p_3">Note: If you do not see any particular field in the table, use the personalized column option to select the fields to display.</p>
+        </div>
+        <div>
+            <hr style="margin-top: 12pt;" width="100%" size="0" align="center" />
+            <div style="font-family: Verdana;font-size: 8pt;text-align: center;">Copyright © 2025 Virima, Inc. All rights reserved. v6.1</div>
+        </div>
+    </body>
+</html>

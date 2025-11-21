@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-conditions="Default.HOLD" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Discovery Scan Workflow</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/version-switcher.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#Admin - Discovery/Scan-Workflow.htm">Open topic with navigation</a>
+        </p>
+        <div role="main" id="mc-main-content">
+            <h1>Discovery Scan Workflow</h1>
+            <p><span style="color: #dc143c;">This content is currently under development.</span>
+            </p>
+            <p class="p_5" style="color: #dc143c;" data-mc-conditions="Default.Omit">2/14/22: Per Balaji, this entire topic needs to be rewritten. This task is assigned to his team. </p>
+            <p class="p_5">When a scan is triggered, the host type of a machine is determined from ports rank/priority as configured under Host Configuration. Prioritizing/Ranking of ports. This determination is based on the organization's infrastructure as some organizations might have more Windows machines, than Linux and Network devices. In order to make scanning much faster, the ports are prioritized.</p>
+            <p class="p_5">The Discovery application checks to see if the highest ranked/prioritized port 135  is opened (see Workflow diagram below). </p>
+            <p class="p_5">
+                <img src="../Resources/Images/Admin - Discovery/scan-workflow.png" />
+            </p>
+            <p class="p_5">When the port is opened, it checks for the matching credentials.</p>
+            <div class="Bullet1"><span class="span_3">If the matching credential is found and worked</span><span class="span_2">, then it runs the respective probes determines the host type as Windows and collects the information of the machine.</span>
+            </div>
+            <div class="Bullet1"><span class="span_3">If the matching credential is found and didn’t work</span><span class="span_2">, then it might try remaining credentials based on the Credentials Configuration and then moves to the next ranked port</span>
+            </div>
+            <div class="Bullet1"><span class="span_3">If the matching credential is not found</span><span class="span_2">, then it might try remaining credentials based on the Credentials Configuration and then moves to the next ranked port.</span>
+            </div>
+            <p class="p_5">Next, the Discovery application looks as if the next ranked/prioritized port 22 is opened.</p>
+            <div class="Bullet1"><span class="span_3">If matching credentials found and worked</span><span class="span_2">, then it runs the respective probes determines the host type as Linux and collects the information of the machine.</span>
+            </div>
+            <div class="Bullet1"><span class="span_3">If the matching credential is found and didn’t work</span><span class="span_2">, then it might try remaining credentials based on the Credentials Configuration and moves to the next ranked port.</span>
+            </div>
+            <div class="Bullet1"><span class="span_3">If the matching credential is not found</span><span class="span_2">, Then it might try remaining credentials based on the Credentials Configuration and moves to the next ranked port.</span>
+            </div>
+            <p class="p_5">Finally, the Discovery application looks as if the last port 161 is opened.</p>
+            <p class="p_5">If SNMP is successful, then it will determine the host as Network Device and will collect the device information.</p>
+            <p class="p_6">For example, <span class="span_2">if port 161 has the highest rank/priority and SNMP is a success then it will double-check for Windows/Linux credentials. In this scenario, since it already checked for ports 135 and 22, it won’t check for Windows/Linux credentials.</span></p>
+            <p class="p_6"><span class="span_2">Suppose, SNMP check fails then it will display the&#160;</span><span class="span_3">Unknown Host</span><span class="span_2">&#160;message.</span>
+            </p>
+            <p class="p_6" data-mc-conditions="Default.Omit"><span style="background-color: #ffff00;">IS THERE SOMETHING AFTER THIS?</span>
+            </p>
+        </div>
+        <div>
+            <hr style="margin-top: 12pt;" width="100%" size="0" align="center" />
+            <div style="font-family: Verdana;font-size: 8pt;text-align: center;">Copyright © 2025 Virima, Inc. All rights reserved. v6.1</div>
+        </div>
+    </body>
+</html>

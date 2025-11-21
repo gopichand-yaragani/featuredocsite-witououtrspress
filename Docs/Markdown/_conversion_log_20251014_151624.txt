@@ -1,0 +1,24 @@
+[2025-10-14 15:16:24] [INFO] Found 19 .docx files to convert
+[2025-10-14 15:16:24] [INFO] Max parallel threads: 4
+[2025-10-14 15:16:24] [INFO] If file exists: Skip
+[2025-10-14 15:16:24] [INFO] Log file: C:\Docs\Markdown\_conversion_log_20251014_151624.txt
+[2025-10-14 15:16:26] [SUCCESS] AWS_Services_Integration_Documentation.docx -> AWS_Services_Integration_Documentation.md - Success (Images: 0)
+[2025-10-14 15:16:26] [SUCCESS] Azure_Cloud_Service.docx -> Azure_Cloud_Service.md - Success (Images: 0)
+[2025-10-14 15:16:27] [SUCCESS] Azure_Services_Integration_Documentation.docx -> Azure_Services_Integration_Documentation.md - Success (Images: 0)
+[2025-10-14 15:16:27] [SUCCESS] Blueprints.docx -> Blueprints.md - Success (Images: 27)
+[2025-10-14 15:16:28] [SUCCESS] CMDB_Properties.docx -> CMDB_Properties.md - Success (Images: 7)
+[2025-10-14 15:16:28] [SUCCESS] Confidence_Configuration.docx -> Confidence_Configuration.md - Success (Images: 1)
+[2025-10-14 15:16:28] [SUCCESS] Correlation.docx -> Correlation.md - Success (Images: 5)
+[2025-10-14 15:16:28] [SUCCESS] Dashboard.docx -> Dashboard.md - Success (Images: 8)
+[2025-10-14 15:16:28] [SUCCESS] Departments.docx -> Departments.md - Success (Images: 9)
+[2025-10-14 15:16:28] [SUCCESS] Discovery_Dashboard.docx -> Discovery_Dashboard.md - Success (Images: 12)
+[2025-10-14 15:16:28] [SUCCESS] Ignore_Process.docx -> Ignore_Process.md - Success (Images: 10)
+[2025-10-14 15:16:28] [SUCCESS] IPAM_Networks.docx -> IPAM_Networks.md - Success (Images: 19)
+[2025-10-14 15:16:29] [SUCCESS] Operational_Hours.docx -> Operational_Hours.md - Success (Images: 4)
+[2025-10-14 15:16:29] [SUCCESS] Probe.docx -> Probe.md - Success (Images: 17)
+[2025-10-14 15:16:29] [SUCCESS] Procurement.docx -> Procurement.md - Success (Images: 18)
+[2025-10-14 15:16:29] [SUCCESS] ITAM_CMDB.docx -> ITAM_CMDB.md - Success (Images: 75)
+[2025-10-14 15:16:29] [SUCCESS] Relationship_Types_SACM.docx -> Relationship_Types_SACM.md - Success (Images: 11)
+[2025-10-14 15:16:30] [SUCCESS] Users.docx -> Users.md - Success (Images: 19)
+[2025-10-14 15:16:30] [SUCCESS] User_Groups.docx -> User_Groups.md - Success (Images: 10)
+[2025-10-14 15:16:30] [INFO] Conversion complete. Success: 19, Failed: 0, Renamed: 0, Images: 252, Time: 00:05

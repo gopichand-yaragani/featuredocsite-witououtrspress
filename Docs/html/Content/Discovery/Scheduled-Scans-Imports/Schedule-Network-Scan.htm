@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-toc-path="Discovery Scan|Scheduled Scans and Imports" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Discovered Items Details</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <script src="../../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/version-switcher.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#Discovery/Scheduled-Scans-Imports/Schedule-Network-Scan.htm">Open topic with navigation</a>
+        </p>
+        <div role="main" id="mc-main-content">
+            <h1 class="Heading1">Scheduling a Network Scan</h1>
+            <ol start="1" class="ol_1">
+                <li value="1">
+                    <p>In Scheduling Scans and Imports landing page</p>
+                </li>
+                <li value="2">
+                    <p>Select "Scans" Radio Button</p>
+                </li>
+                <li value="3">
+                    <p>From the "Select Actions" drop down</p>
+                </li>
+                <li value="4">
+                    <p>Select Option "New Scan"</p>
+                    <p class="step-media">
+                        <img src="../../Resources/Images/Discovery/Scheduled-Scans-and-Imports/Scheduled Scans and Imports_1_1.png" />
+                    </p>
+                </li>
+            </ol>
+            <ol start="2" class="ol_1">
+                <li value="2">
+                    <p>The <span class="Strong">Run A Scan</span> page opens.</p>
+                    <p class="step-media">
+                        <img src="../../Resources/Images/Discovery/Scheduled-Scans-and-Imports/Scheduled Scans and Imports_1_2.png" />
+                    </p>
+                </li>
+            </ol>
+            <ol start="3" class="ol_1">
+                <li value="3">
+                    <p>Enter Required Details:</p>
+                    <ol start="1" class="ol_1">
+                        <li value="1">
+                            <p><span class="Strong">Name</span>* – Enter the display name. This is a name to identify the schedule scan</p>
+                        </li>
+                        <li value="2">
+                            <p><span class="Strong">Probe</span>* – choose the scan probe (e.g., <span class="Emphasis">Deep Host Scan (WMIC | SSH | SNMP)</span>).</p>
+                        </li>
+                        <li value="3">
+                            <p><span class="Strong">Client</span>* – Select the Discovery Application that has access to the IP Range / hostname to be scanned</p>
+                        </li>
+                        <li value="4">
+                            <p><span class="Strong">Scan Through</span> – choose <span class="Strong">IP Address</span> or <span class="Strong">Host Name</span>.</p>
+                        </li>
+                        <li value="5">
+                            <p><span class="Strong">IP Range</span>* – enter targets. Supported formats:</p>
+                            <ul class="ul_1">
+                                <li>
+                                    <p>Single IP: 192.168.48.1</p>
+                                </li>
+                                <li>
+                                    <p>Multiple across subnets (space-separated): 192.168.48.1 192.168.49.2</p>
+                                </li>
+                                <li>
+                                    <p>Same-subnet list: 192.168.48.1,2,3,4</p>
+                                </li>
+                                <li>
+                                    <p>Range: 192.168.48.1-50</p>
+                                </li>
+                                <li>
+                                    <p>CIDR (one or more): 192.168.48.0/24 192.168.49.0/24</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li value="6">
+                            <p><span class="Strong">Exclude IP Range</span> – Enter IP address that has to be excluded from the scan. The format is the same IP Range</p>
+                        </li>
+                        <li value="7">
+                            <p>For Hostname based scans enter comma separated hostnames</p>
+                        </li>
+                        <li value="8">
+                            <p><span class="Strong">Location</span>
+                            </p>
+                            <ul class="ul_1">
+                                <li>
+                                    <p>Click <span class="Strong">Add</span> to select the Location the discovered devices will be associated with</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li value="9">
+                            <p><span class="Strong">Send Scan Report To</span>
+                            </p>
+                            <ul class="ul_1">
+                                <li>
+                                    <p>Click <span class="Strong">Add</span> → pick one or more users from the Virima <span class="Strong">User</span> directory.</p>
+                                </li>
+                                <li>
+                                    <p>Recipients get email when the scan report is generated. (Make sure their email + role are set in Users.)</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li value="10">
+                            <p><span class="Strong">Timezone</span>
+                            </p>
+                            <ul class="ul_1">
+                                <li>
+                                    <p>Choose the time zone <span class="Strong">where you want the schedule to be interpreted</span>.<br />Tip: If times look off, confirm this first.</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li value="11">
+                            <p><span class="Strong">Scan Frequency</span>
+                            </p>
+                            <ul class="ul_1">
+                                <li>
+                                    <p>Leave <span class="Strong">Current Time Settings</span> to drive the schedule entirely from the wheels, or—if your environment exposes presets—choose a preset here.</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li value="12">
+                            <p><span class="Strong">Active / Recurring</span>
+                            </p>
+                            <ul class="ul_1">
+                                <li>
+                                    <p><span class="Strong">Active</span>: must be ON for the job to run.</p>
+                                </li>
+                                <li>
+                                    <p><span class="Strong">Recurring</span>:</p>
+                                    <ul class="ul_1">
+                                        <li>
+                                            <p><span class="Strong">On</span> → runs indefinitely by your wheels; turns on Yearly occurrence</p>
+                                        </li>
+                                        <li>
+                                            <p><span class="Strong">Off</span> → Execute at scheduled times only for current year</p>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li value="13">
+                            <p><span class="Strong">Time wheels (what actually sets the schedule)</span>
+                            </p>
+                            <ul class="ul_1">
+                                <li>
+                                    <p>Tick a unit to include it, then select values:</p>
+                                    <ul class="ul_1">
+                                        <li>
+                                            <p><span class="Strong">Second</span> – default 0 if not changed (start at top of the minute).</p>
+                                        </li>
+                                        <li>
+                                            <p><span class="Strong">Minute, Hour, Day, Month, Weekday</span> – choose one or multiple values per column.</p>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p>The combination you pick becomes the schedule.</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li value="14">
+                            <p><span class="Strong">Certificate</span> Required when “Certificate Scan” Probe is selected. Attach a file path/certificate/location artifact needed by the probe. Click <span class="Strong">Add</span> to supply/update the path.</p>
+                        </li>
+                        <li value="15">
+                            <p><span class="Strong">Port Range: </span>Required when “Port Scan” Probe is selected<br /><img src="../../Resources/Images/Discovery/Scheduled-Scans-and-Imports/Scheduled Scans and Imports_1_3.png" /><br /></p>
+                        </li>
+                        <li value="16">
+                            <p><span class="Strong">URL</span> Required when “Website Discovery” Probe is selected</p>
+                        </li>
+                    </ol>
+                </li>
+            </ol>
+            <p class="p_3"><span class="Strong">Port list rules</span>
+            </p>
+            <ul class="ul_3">
+                <li class="li_2">
+                    <p class="p_3">Port range can be specified as mentioned below, by default all popular ports will be scanned if no ports are provided.</p>
+                </li>
+                <li class="li_2">
+                    <p class="p_3">Only maximum of <span class="Strong">1000</span> ports can be specified per scan.</p>
+                </li>
+                <li class="li_2">
+                    <p class="p_3">Accepted formats:</p>
+                    <ul class="ul_2">
+                        <li class="li_2">
+                            <p class="p_3">Comma-separated list: 2001,2002,2003</p>
+                        </li>
+                        <li class="li_2">
+                            <p class="p_3">Range with a hyphen: 2001-2003</p>
+                        </li>
+                        <li class="li_2">
+                            <p class="p_3">Mixed list and range: 2001,2002,2003-2009</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ol start="4" class="ol_1">
+                <li value="4">
+                    <p>Click <span class="Strong">Save</span>.</p>
+                </li>
+                <li value="5">
+                    <p>Confirm the Schedule</p>
+                </li>
+            </ol>
+            <ul class="ul_3">
+                <li>
+                    <p>You’ll be redirected to <span class="Strong">Scheduled Scans and Imports → Scans</span>.</p>
+                </li>
+                <li>
+                    <p>Your newly created job will be listed with <span class="Strong">IsActive = true</span> and a <span class="Strong">NextTriggerTime</span> displayed, confirming that the schedule is active and set.</p>
+                </li>
+            </ul>
+            <p>
+                <img src="../../Resources/Images/Discovery/Scheduled-Scans-and-Imports/Scheduled Scans and Imports_1_4.png" />
+            </p>
+        </div>
+        <div>
+            <hr style="margin-top: 12pt;" width="100%" size="0" align="center" />
+            <div style="font-family: Verdana;font-size: 8pt;text-align: center;">Copyright © 2025 Virima, Inc. All rights reserved. v6.1</div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,191 @@
+---
+lang: en-us
+title: CMDB Graphical Workflow
+viewport: width=device-width, initial-scale=1.0
+---
+
+# CMDB Graphical Workflow
+
+The Workflow is the sequence or process through which a piece of work passes from Initiation to Completion.
+
+In the main window, click **Admin** then navigate to required graphical configuration page for functions such as:
+
+::: Bullet1
+Discovery
+
+::: Bullet1
+CMDB
+
+::: Bullet1
+Change
+
+::: Bullet1
+Incident
+
+::: Bullet1
+Problem
+
+::: Bullet1
+Release
+
+::: Bullet1
+Request
+
+The Graphical Workflow window allows you to create conditions and action type showing how the workflow should proceed when events occur.
+
+The window contains the following functions:
+
+::: Bullet1
+**File** contains options for *New*, *Open* and *Save*.
+
+::: Bullet1
+**Save** opens the Workflow dialog box in which you enter the details for the workflow.
+
+::: Ind50
+![graphical workflow save dialog box](../Resources/Images/Common Topics/graphical-workflow-save-dialog-box.PNG)
+
+::: Bullet1
+**Zoom %** sets the resolution for the workflow in the window.
+
+::: Bullet1
+**Zoom In/Zoom Out** adjusts the workflow window, making the elements larger or smaller.
+
+- Undo reverses the last action
+::: Bullet1
+**Redo** reverses the last Undo action
+
+::: Bullet1
+**Delete** removes the selected element
+
+All workflow windows contain a **Start** and **End** icon.
+
+![graphical workflow start end](../Resources/Images/Common Topics/graphical-workflow-start-end.PNG)
+
+ -- ----- -----------------------------------------------------------------------------
+ 1. To begin a workflow, hover over the **Start** element until arrows display.
+ -- ----- -----------------------------------------------------------------------------
+
+::: {.Ind50
+![graphical workflow start arrows](../Resources/Images/Common Topics/graphical-workflow-start-arrows.PNG)
+
+ -- ----- --------------------------------------------------------------------------------------------------------------------------
+ 2. Click the arrow for the direction the next element should be added. The *Trigger Condition* element (triangle) displays.
+ -- ----- --------------------------------------------------------------------------------------------------------------------------
+
+::: {.Ind50
+![graphical workflow next shape](../Resources/Images/Common Topics/graphical-workflow-next-shape.PNG)
+
+ -- ----- ---------------------------------------------------------------------------------------------------------------
+ 3. To configure the *Trigger* *Condition*, double-click on the shape. The Trigger Condition dialog box displays.
+ -- ----- ---------------------------------------------------------------------------------------------------------------
+
+::: Ind50
+![graphical workflow next block](../Resources/Images/Common Topics/graphical-workflow-next-block.PNG)
+
+ -- ----- -------------------------------------------------------------------------------------------
+ 6. Select the type of block to add, either *Condition* or *Action Type*. Then click **Add**.
+ -- ----- -------------------------------------------------------------------------------------------
+
+Any example workflow is shown below, followed by the relevant steps.
+
+![graphical workflow sample condition](../Resources/Images/Common Topics/graphical-workflow-sample-condition.PNG)
+
+ --- -----------------------------------------------------------------------------------------------------------------------
+   Every Condition must include an Action Type; however, every Action Type does not need to be proceeded by a Condition.
+ --- -----------------------------------------------------------------------------------------------------------------------
+
+## Condition Type
+
+When **Condition** is selected, a diamond element displays.
+
+ -- ----- ------------------------------------------------------------------------
+ 1. Double-click the diamond shape. The Add Condition dialog box displays.
+ -- ----- ------------------------------------------------------------------------
+
+::: Ind50
+![graphical workflow add condition](../Resources/Images/Common Topics/graphical-workflow-add-condition.PNG)
+
+ -- ----- ---------------------------------------------------------------------
+ 2. Select the *Property Name* (Created On) and *Operator* (Not Empty).
+ -- ----- ---------------------------------------------------------------------
+
+ -- ----- ---------------------------------------------------------------------------------------------------------------------------------------------------------
+ 3. Click **Add**. The workflow window redisplays and shows the newly added element. The *Property Name* is shown in the shape (for example, *Created On*).
+ -- ----- ---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 4. Hover over the diamond shape and click the right-pointing arrow. The Action Type dialog box displays. Following the steps below under **Action Type Element**.
+ -- ----- ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- ------------------------------------------------------------------------------------------
+ 5. To end the workflow after all Conditions and Action Types are created, do the following:
+ -- ----- ------------------------------------------------------------------------------------------
+
+ -- ----- --------------------------------------
+ a. Hover over the last element created.
+ -- ----- --------------------------------------
+
+ -- ----- ---------------------------------
+ b. Click the right-pointing arrow.
+ -- ----- ---------------------------------
+
+ -- ----- ------------------------------------------------------------------------------------
+ c. In the Select next Block dialog box, click **Connect to End**, then click **Add**.
+ -- ----- ------------------------------------------------------------------------------------
+
+::: Ind75
+![graphical workflow connect end](../Resources/Images/Common Topics/graphical-workflow-connect-end.PNG)
+
+The workflow is completed.
+
+## Action Type
+
+When **Action Type** is selected, a square element displays.
+
+ -- ----- ---------------------------------------------------------------------
+ 1. Double-click the square shape. The Action Type dialog box displays.
+ -- ----- ---------------------------------------------------------------------
+
+::: Ind50
+![graphical workflow action type](../Resources/Images/Common Topics/graphical-workflow-action-type.PNG)
+
+ -- ----- ---------------------------------------------------------------
+ 2. Select the applicable action type from the available choices.
+ -- ----- ---------------------------------------------------------------
+
++---+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+| Column 1 | Some Action Types require additional information. |
+| --- | --- |
+| | **Create New Record**. The Record Details dialog box displays. Enter the applicable information for the new record and click **Add**. |
+| | |
+| | ![graphical workflow record details](../Resources/Images/Common Topics/graphical-workflow-record-details.PNG) |
+| | |
+| | **Create Task in Triggered Record**. The Record Details dialog box displays. Configure the applicable properties and click **Add**. |
+| | |
+| | ![graphical workflow record details task](../Resources/Images/Common Topics/graphical-workflow-record-details-task.PNG) |
++---+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+
+ -- ----- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 3. After an Action Type is selected, click **Add**. The workflow window displays and shows the newly added element. The *Property Name* is shown in the shape (for example, *No Action*).
+ -- ----- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- ---------------------------------------------------------------------------
+ 4. To end the workflow after all Action Types are created, do the following:
+ -- ----- ---------------------------------------------------------------------------
+
+ -- ----- --------------------------------------------------
+ a. Hover over the last Action Type element created.
+ -- ----- --------------------------------------------------
+
+ -- ----- ---------------------------------
+ b. Click the right-pointing arrow.
+ -- ----- ---------------------------------
+
+ -- ----- ------------------------------------------------------------------------------------
+ c. In the Select next Block dialog box, click **Connect to End**, then click **Add**.
+ -- ----- ------------------------------------------------------------------------------------
+
+::: Ind75
+![graphical workflow connect end](../Resources/Images/Common Topics/graphical-workflow-connect-end.PNG)
+
+The workflow is completed.

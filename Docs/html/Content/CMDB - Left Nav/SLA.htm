@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-toc-path="ITAM|Configuration Management|CMDB|CI Details and Tabs" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>SLA</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/version-switcher.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../Default.htm#CMDB - Left Nav/SLA.htm">Open topic with navigation</a>
+        </p>
+        <div role="main" id="mc-main-content">
+            <h1 class="Heading1">SLA</h1>
+            <p>To set up response and resolution times for any CI (Incident, Request, Change, or Problem) whose Root-Cause blueprint’s SLA should apply, follow these steps:</p>
+            <ol start="1" class="ol_1">
+                <li value="1">
+                    <p>Open the <b>SLA</b> tab:</p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>Click the desired Blueprint.</p>
+                        </li>
+                        <li>
+                            <p>In the <b>Details</b> pane, switch to the <b>SLA</b> tab.</p>
+                        </li>
+                    </ul>
+                    <p class="step-media">
+                        <img src="../Resources/Images/CMDB - Left-Nav/Configuration Management Database_67.png" />
+                    </p>
+                </li>
+            </ol>
+            <ol start="2" class="ol_1">
+                <li value="2">
+                    <p>Set response and resolution targets:</p>
+                    <ul class="ul_2">
+                        <li>
+                            <p><b>Response Time</b>: Enter the maximum time before the first response.</p>
+                        </li>
+                        <li>
+                            <p><b>Resolution Time</b>: Enter the total time allowed for full resolution. <span class="Emphasis">Note</span>: This value must be at least the sum of your response time and any support-level response windows.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li value="3">
+                    <p>Define support-level response windows:</p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>In the <b>Support Level</b> fields, specify the response time for each tier (1st, 2nd, 3rd, etc.).</p>
+                        </li>
+                    </ul>
+                </li>
+                <li value="4">
+                    <p>Configure escalation rules:</p>
+                    <ol start="1" class="ol_1">
+                        <li value="1">
+                            <p><span class="Strong" style="font-weight: bold;">First column</span>: Choose whether the escalation fires <span class="Strong">before</span> or <span class="Strong">after</span> the specified delay.</p>
+                        </li>
+                        <li value="2">
+                            <p><span class="Strong" style="font-weight: bold;">Second column</span>: Enter the delay amount (hours/minutes) before notifications are sent.</p>
+                        </li>
+                        <li value="3">
+                            <p><span class="Strong" style="font-weight: bold;">Third column</span>: Click <span class="Strong" style="font-weight: bold;">Add</span> (for a new recipient list) or <span class="Strong">Update</span> (to edit an existing one), then select users, roles, groups, or departments to alert.</p>
+                        </li>
+                    </ol>
+                </li>
+            </ol>
+            <p>For each rule, specify when it triggers, how long to wait, and who gets notified:</p>
+            <table class="table_1">
+                <col class="col_12" />
+                <col class="col_13" />
+                <col class="col_14" />
+                <tr>
+                    <td class="td_1">
+                        <p class="p_4"><span class="Strong" style="font-weight: bold;">When</span>
+                        </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_4"><span class="Strong" style="font-weight: bold;">Delay</span>
+                        </p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_4"><span class="Strong" style="font-weight: bold;">Notification Recipients</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p><span class="Emphasis">Before/After X</span>
+                        </p>
+                    </td>
+                    <td class="td_1">
+                        <p>Time duration (e.g.&#160;30&#160;minutes)</p>
+                    </td>
+                    <td class="td_1">
+                        <p>Users, roles, groups or departments (select one or many; use the Add/Update buttons to choose or modify recipients)</p>
+                    </td>
+                </tr>
+            </table>
+            <ol start="5" class="ol_1">
+                <li value="5">
+                    <p>Once all fields and escalation rules are set, click <span class="Strong">Save</span> to apply.</p>
+                </li>
+            </ol>
+        </div>
+        <div>
+            <hr style="margin-top: 12pt;" width="100%" size="0" align="center" />
+            <div style="font-family: Verdana;font-size: 8pt;text-align: center;">Copyright © 2025 Virima, Inc. All rights reserved. v6.1</div>
+        </div>
+    </body>
+</html>

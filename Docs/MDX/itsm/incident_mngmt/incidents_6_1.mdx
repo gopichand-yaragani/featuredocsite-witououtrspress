@@ -1,0 +1,428 @@
+---
+lang: en-us
+title: New Incident
+viewport: width=device-width, initial-scale=1.0
+---
+
+# Incidents
+
+Use this function to create a new incident.
+
+In the main window, select **ITSM \> Incident Management \> Incidents**.
+
+![incident main old](../../Resources/Images/ITSM/Incident Mngmnt/incident-main-old.PNG)
+
+![arrow border](../../Resources/Images/arrow-border.PNG)
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Incident](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+ -- ----- --------------------------------------------------------------------
+ 1. From the *Select Actions* drop-down list, choose **New Incident**.
+ -- ----- --------------------------------------------------------------------
+
+ -- ----- ----------------
+ 1. Click **New**.
+ -- ----- ----------------
+
+ -- ----- ----------------------------------------------------
+ 2. Complete the fields, referring to the table below.
+ -- ----- ----------------------------------------------------
+
+ -- ----- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 3. To select a pre-defined template, from the *Select Incident Model* drop-down list, choose a template. Once the model is selected, the pre-defined values are updated automatically but can be modified when logging an incident.
+ -- ----- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 4. To search for an incident, in the left panel, type in the search criteria. When a result item is selected, the corresponding information for that incident displays in a new window.
+ -- ----- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 5. When all selections/entries are made, click **Add**. Once the Incident is created, a notification email is sent to the Reporter, Assignee, and other users according to their Email Preferences and Role Access for Incidents.
+ -- ----- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Incident Fields
+
++------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Field | Description |
++========================+=======================================================================================================================================================================================================================================================================================================================================================================================+
+| Primary Details | Enter a Title. The MSP Incident ID will be automatically assigned when the incident is created. |
++------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Assignee Details | ::: Bullet1 |
+| Column 1 | **Assignee/Group Assignee**. The role assigned the change. This category is used when it\'s unknown who can work on the change at the time of creation. |
+| --- | :---: |
+| | |
+| | ::: Bullet1 |
+| | **Assigned User from Group**. This field is not editable. It populates with the group associated with the Group Assignee. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | **Department Assignee**. The department to which the change is assigned. This category is used when it\'s unknown who can work on the change at the time of creation. |
+| | ::: |
++------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Reporter Details | ::: Bullet1 |
+| Column 1 | **User** **Type**. The type of user, either Internal or External. |
+| --- | :---: |
+| | |
+| | ::: Bullet1 |
+| | **Method of Notification**. The method to receive notification regarding incident progress such as email, event management, phone or web. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | **Call Back** Method. The communication method to use, either *Phone* or *Email*. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | **Group Reporter**. The group to association with this Incident Model. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | **Is VIP**. To work with this model, the user must have the \"Is VIP\" configuration. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | **Job Title**. The job title of the user. |
+| | ::: |
++------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Record Details | ::: Bullet1 |
+| Column 1 | **Category**. Determines the type of a change: Major, Minor, Standard, and Significant. |
+| --- | :---: |
+| | |
+| | ::: Bullet1 |
+| | **Sub Category**. The sub category, if any, related to the Category. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | **Impact Level**. The measure of the effect of a change on the Business Process. Impact is used to assign the priority: High, Medium and Low. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | **Urgency**. A measure of how long it will be a change and has a significant Impact on the Business: High, Medium and Low. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | **Priority**. A Category is used to identify the relative importance of a change. Priority is based on Impact and Urgency, and each priority level has a specified SLA for which a change needs to be resolved. |
+| | ::: |
+| | |
+| | ::: Ind50 |
+| | If a model has a priority (expect 1-Very High) and has been assigned to all three support levels while creating an Incident. If the priority is changed to 1-Very High (based on *Impact* and *Urgency*), the Incident has to be assigned to the third level support assignee. The *Response Time* and *Resolution Time* will be applicable only to the third-level support assignee. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | **Error Code**. The error code to associate with this problem. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | **State**. A category that is a sub set of Stage: Accepted, Rejected, Requested. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | *Sub State*. The sub state, if any, related to the State. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | **No. of Affected CIs**. The number of configuration items that are affected by this problem. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | **No. of Affected Users**. The number of users affected by this problem. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | **Root Cause CI**. The root cause configuration item affected by this problem. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | **Associated CIs**. The associated configuration items affected by this problem. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | **Internal Stakeholders**. An internal person or organization that has a legitimate interest in a project or entity. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | **External Stakeholder Email ID**. An external person or organization that has a legitimate interest in a project or entity. Multiple email IDs can be separated by a comma (,). |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | **Description**. A brief description about the incident. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | **Custom Timescale**. The Response and Resolution Times for the requested change. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | **Runbook**. When the record is saved or changed, the associated Runbook specified here gets triggered, and performs all the tasks which are listed under the task. |
+| | ::: |
++------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Associated Records** | This information is displayed automatically. |
++------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+When viewing an incident, a \"breadcrumb\" trail is shown with statuses for the incident. The statuses change based upon the type of incident. An example is shown below.
+
+![breadcrumbs](../../Resources/Images/ITSM/Incident Mngmnt/breadcrumbs.PNG)
+
+Actions can be taken for an item. When the text is clicked, a message displays prompting to confirm the status change should be performed.
+
+![breadcrumbs status change](../../Resources/Images/ITSM/Incident Mngmnt/breadcrumbs-status-change.PNG)
+
+Click **OK**. The appropriate next step is taken. For example, when the \"Active\" status is changed, the \"In Progress\" status changes to \"Skipped.\" 
+
+![breadcrumbs change status](../../Resources/Images/ITSM/Incident Mngmnt/breadcrumbs-change-status.PNG)
+
+If the \"Resolved\" item is selected, the Resolution Notes dialog box displays.
+
+![breadcrumbs resolution notes](../../Resources/Images/ITSM/Incident Mngmnt/breadcrumbs-resolution-notes.PNG)
+
+Below is an example of how the breadcrumbs change when the \"Delivery\" status changes:
+
+![breadcrumbs delivery](../../Resources/Images/ITSM/Incident Mngmnt/breadcrumbs-delivery.PNG)
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+### **[]{#Surveys}Surveys**
+
+When a matter is resolved, an associated survey is emailed to the Requester to know their satisfaction. The User clicks a link in the email and answers the survey questions.
+
+Once the Requester submits the response, it is updated and shown on this tab.
+
++---+-------------------------------------------------------------------------+
+|   | ::: Bullet1 |
+| Column 1 | The survey can be taken only once by the Requester. |
+| --- | :---: |
+| | |
+| | ::: Bullet1 |
+| | If Requester selects **Yes**, then the matter is automatically closed. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | If Requester selects **No**, then the matter is automatically reopened. |
+| | ::: |
++---+-------------------------------------------------------------------------+
+
+### []{#TimeTracking}Time Tracking
+
+Use this function to add a record/task or generate a time spent report.
+
+While viewing the Details window, select **Time Tracking**. The Time Tracking window displays.
+
+![changes time tracking main old](../../Resources/Images/ITSM/Change Management/changes-time-tracking-main-old.PNG)
+
+#### Add Record or Tasks
+
+ -- ----- ------------------------------------------------------------------------------
+ 1. To add a new item, click **Add**. The Add Time Tracking dialog box displays.
+ -- ----- ------------------------------------------------------------------------------
+
+::: {.Ind50
+![time tracking add record old](../../Resources/Images/ITSM/Change Management/time-tracking-add-record-old.PNG)
+
+::: {.Ind50
+![time tracking add task old](../../Resources/Images/ITSM/Change Management/time-tracking-add-task-old.PNG)
+
+ -- ----- ----------------------------------------
+ 2. Select either **Record** or **Tasks**.
+ -- ----- ----------------------------------------
+
+- [[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Details](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+### Related Records
+
+Associates records for relevant items such as problems, changes, incidents, and so forth.
+
+Click the **Plus icon** and search for and select the applicable records.
+
+### Notes
+
+Add any relevant notes in the free-form text field.
+
+To upload related documents, click the **Upload** button, then search for and select the applicable document. Only one document can be uploaded for any specific section.
+
+### Resolution Information
+
+The *State* for the current workflow must be RESOLVED before the following information can be viewed or entered:
+
+::: Bullet1
+**Date** (populated by the system)
+
+::: Bullet1
+**Assignee** (populated by the system)
+
+::: Bullet1
+**Notes** (enter any free-form text)
+
+### Closure Information
+
+The *State* for the current workflow must be CLOSED before the following information can be viewed, selected, or entered:
+
+::: Bullet1
+**Date** closed (populated by the system)
+
+::: Bullet1
+**Assignee** (populated by the system)
+
+::: Bullet1
+**Closure Code** (select from the drop-down list)
+
+::: Bullet1
+**Notes** (enter any free-form text)
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Actions](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+In the Details window, click the *Select Actions* drop-down list.
+
+ Buttons Description
+ ---------------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Mark as Knowledge Create Knowledge for the current Incident and the same is displayed at Associated Knowledge\'s under Related Records. A notification email will be sent to the Reporter/ other users as per Email Preferences and/or Role access of Knowledge.
+ Create Problem Create a Problem for the current Incident and the same is displayed under Associated Problems under Related Records. This will be the Parent Incident of the Problem. A notification email will be sent to the Reporter/Other Users as per the Email Preferences and/or Role access of the Problem.
+ Clone Create another Incident (duplicate) with a unique ID. This is disabled for the Incidents which are not created using the Incident Model.
+ ![icon process document](../../Resources/Images/ITSM/Incident Mngmnt/icon-process-document.png) View the procedure to handle the Incident, if the procedure is documented under Handling Incident while creating a model.
+ Save Generates an Incident with a Unique ID or saves the modifications.
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" an Incident](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+After resolving the Incident, the Assignee will set the *State* to **Resolved** under Record Details. When **Save** is clicked, a prompt displays to enter the *Resolution Notes*, which can be viewed under the Resolution Information.
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" an Incident](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+When closing the Incident, the Assignee will set the *State* to **Closed** under Record Details. When **Save** is clicked, a prompt displays to enter the *Closure Notes*, which can be viewed under the Closure Information.
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Notifications](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+When certain events occur, an email notification is sent. This occurs for the following:
+
+::: Bullet1
+Closing an incident
+
+::: Bullet1
+Creating a Knowledge Item
+
+::: Bullet1
+Creating a Problem
+
+::: Bullet1
+Adding/Updating Notes
+
+::: Bullet1
+Resolution for a Survey
+
+::: Bullet1
+SLA Breached
+
+::: Bullet1
+**Response and Resolution Time Violations**\
+If the First level support assignee violates the Resolution Time, the Incident is auto assigned to a Second level assignee or Second level group and an escalation email is sent to Users/Roles/From Record as defined in escalation hierarchy of Custom Timescale/Root Cause CI/Priority based Timescale.\
+\
+Similarly if Second level assignee violates, the Incident is auto assigned to a Third level assignee or Third level group and an escalation email is sent to Users/Roles/From Record as defined in escalation hierarchy of Custom Timescale/Root Cause CI/Priority based Timescale.\
+\
+If the Third level assignee violates then SLA breached email is sent to Users/Roles/From Record as defined in escalation hierarchy of Custom Timescale/Root Cause CI/Priority based Timescale.
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Cause CI](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+A CI will be assigned to Second and Third level support Assignees and has its own SLA (defined for all the 2 levels). When a CI is assigned to an Incident as a Root Cause CI, then the SLA and Escalation process is changed (see details below).
+
+### **SLA Calculation**
+
+ Root Cause CI Blueprint of CI SLA Calculation
+ ----------------------- ----------------------- -------------------------------------------------------------------------------
+ If SLA is defined If SLA is defined CI\'s SLA is considered (provided Custom Timescale is not set)
+ If SLA is not defined If SLA is defined Blueprint SLA is considered (provided Custom Timescale is not set)
+ If SLA is not defined If SLA is not defined Priority based Timescale is considered (provided Custom Timescale is not set)
+
+### **Assignment and Escalation Process**
+
+If the assignees are not set in the model, then an Incident is escalated by default to Incident Manager(s).
+
+ Root Cause CI Blueprint of CI SLA Calculation
+ --------------------------------------------- -------------------------------------------- ---------------------------------------------------------------------
+ If support level users are assigned If support level users are assigned Incident is assigned and escalated as per CI assignees.
+ If support level assignees are not assigned If support level assignees are assigned Incident is assigned and escalated as per blueprint assignees.
+ If support level assignees are not assigned If support level assign's are not assigned Incident is assigned and escalated as per Incident Model assignees.
+
+Response and Resolution Time Calculation when a Root Cause CI is assigned
+
+Example scenario:
+
+An Incident is created at 9:00 AM with a medium priority, and has a response time of 10 minutes (for the 1st level assignee).
+
+At 9:03 AM, a root cause CI (which has a response time of five minutes) is associated to an Incident, the available response time would be only two minutes (that is the Response time of the CI minus the number of minutes spent before assigning the root cause CI).
+
+If the Root Cause CI (which has a response time of three minutes) is assigned to an incident at 9:03 AM, and there is no response time left, a Response Time Violation email is sent to Incident Manager(s).
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Incident](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+ --- -----------------------------------------------------------------------------------------
+   Not all functions include an option to edit record line items shown in the main window.
+ --- -----------------------------------------------------------------------------------------
+
+ -- ----- -------------------------------------------------------
+ 1. Navigate to the window containing the record to edit.
+ -- ----- -------------------------------------------------------
+
+ -- ----- -------------------------------------------------------------------------------------
+ 2. Click the line containing the record. The applicable window or dialog box displays.
+ -- ----- -------------------------------------------------------------------------------------
+
+ -- ----- -----------------------------------
+ 3. Make the necessary modifications.
+ -- ----- -----------------------------------
+
+ -- ----- -------------------------------------------
+ 4. Click **Save** or **Add**, as applicable.
+ -- ----- -------------------------------------------
+
+When editing an existing item, other options may be available, such as adding [Tasks](/itsm/release_mngmt/tasks_6_1.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}, [Comments](/discovery/comments_6_1.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}, and [Attachments](/discovery/attachments_6_1.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a} and viewing [History](/common_topics/history_6_1.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}.
+
+ --- ---------------------------------------------------------------------------------------
+   The options change based upon the function; therefore, not every option may be shown.
+ --- ---------------------------------------------------------------------------------------
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Incident](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+ --- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   Deleting is a permanent action and cannot be undone. Deleting may affect other functionality and information in the application such as data in configured reports, fields in windows, selectable options, etc. Therefore, be sure to understand the potential effects before making a deletion.
+ --- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- --------------------------------------------------
+ 1. Click the line that contains the item to delete.
+ -- ----- --------------------------------------------------
+
+ -- ----- ------------------------------------------------------------------------------------------------------------------------------------------------------
+ 2. From the *Select Actions* drop-down list, choose **Delete**. If a confirmation message is displayed, type **Delete** and click **Delete**to confirm.
+ -- ----- ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Related Topics**
+
+::: Bullet1
+[About Incident Management](About-ITSM-Incident-Mngmnt.mdx)
+
+::: Bullet1
+[Categorization, Priority Determination and Tracking Time](Cat-Prior-Deter-Target-Time.mdx)
+
+::: Bullet1
+[Incident Policy](Incident-Policy.mdx)
+
+::: Bullet1
+[Process Flow](Process-Flow.mdx)
+
+[Other Functions and Page Elements]{style="font-family: Verdana;"}
+
+::: Bullet1
+[Auto Refresh](../../Common%20Functions/Auto-Refresh.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+
+::: Bullet1
+[Delete](../../Common%20Functions/Delete-Remove.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+
+::: Bullet1
+[Export](/discovery/import_data_files/export_6_1.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+
+::: Bullet1
+[Go To Page](../../Common%20Functions/Go-to-Page.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+
+::: Bullet1
+[Personalize Columns](../../Common%20Functions/Personalize-Columns.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+
+::: Bullet1
+[Saved Filters](../../Common%20Functions/Saved-Filters.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+

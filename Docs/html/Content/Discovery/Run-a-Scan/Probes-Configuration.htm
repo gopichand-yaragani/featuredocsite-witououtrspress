@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-toc-path="Discovery Scan|Run a Scan|Initiate and Configure Discovery Scan|Configure Discovery Scan" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Configuring Probe</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <script src="../../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/version-switcher.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#Discovery/Run-a-Scan/Probes-Configuration.htm">Open topic with navigation</a>
+        </p>
+        <div role="main" id="mc-main-content">
+            <h1 class="Heading1">Configuring Probe
+        </h1>
+            <p>Select the probe type based on your environment and the required scan depth or focus. The available options and their configurations are:</p>
+            <p class="step-media">
+                <img src="../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_7_556x249.png" style="width: 556;height: 249;" />
+            </p>
+            <h1 class="Heading1">.NET Framework Audit Scan
+        </h1>
+            <ul class="ul_3">
+                <li>
+                    <p>Discovers and audits all .NET Framework installations and versions present on machines in the monitored network environment.</p>
+                </li>
+            </ul>
+            <p class="step-media">
+                <img src="../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_8.png" />
+            </p>
+            <h1 class="Heading1">Certificate Scan
+        </h1>
+            <ul class="ul_3">
+                <li>
+                    <p>Retrieves and validates SSL certificate details from the specified certificate path, including expiration dates, issuer information, and certificate chain.</p>
+                </li>
+            </ul>
+            <p class="step-media">
+                <img src="../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_9.png" />
+            </p>
+            <ul class="ul_3">
+                <li>
+                    <p>The user must enter the full file system path where the SSL certificate is stored. This path is required for the system to locate and validate the certificate during the scan process.</p>
+                </li>
+                <li>
+                    <p>Input Required: Enter the full file system path to the certificate file (e.g., C:\Certificates\server.cer, /etc/ssl/certs/apache.crt).</p>
+                </li>
+            </ul>
+            <h1 class="Heading1">Deep Host Scan (WMIC | SSH | SNMP)
+        </h1>
+            <ul class="ul_3">
+                <li>
+                    <p>Performs comprehensive discovery of host systems, including IP address, OS type, MAC address, hardware specs, installed software, and system components.</p>
+                </li>
+                <li>
+                    <p>Scan Through: Choose either IP Address (default) or Host Name.</p>
+                </li>
+                <li>
+                    <p>IP Address is selected by default. This selection displays the IP Range and Exclude IP Range input fields.</p>
+                </li>
+            </ul>
+            <p class="step-media">
+                <img src="../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_10.png" />
+            </p>
+            <ul class="ul_3">
+                <li>
+                    <p>If Host Name is selected, enter a space-separated list of valid hostnames (e.g., SERVER0 DC01.domain.local DB-SERVER-01).</p>
+                </li>
+            </ul>
+            <p class="step-media">
+                <img src="../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_11_558x249.png" style="width: 558;height: 249;" />
+            </p>
+            <h1 class="Heading1">Deep Host Scan – SSH | SNMP | Windows (PowerShell)
+        </h1>
+            <ul class="ul_3">
+                <li>
+                    <p>Performs comprehensive host discovery using SSH for Linux/Unix, SNMP for network devices, or PowerShell for Windows.</p>
+                </li>
+            </ul>
+            <p class="step-media">
+                <img src="../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_12.png" />
+            </p>
+            <h1 class="Heading1">Host Ping Scan
+        </h1>
+            <ul class="ul_3">
+                <li>
+                    <p>Basic network connectivity test to determine if hosts are active and reachable.</p>
+                </li>
+            </ul>
+            <p class="step-media">
+                <img src="../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_13.png" />
+            </p>
+            <h1 class="Heading1">IP Connection Scan
+        </h1>
+            <ul class="ul_3">
+                <li>
+                    <p>Discovers and maps network connections between IP addresses, including active connections, listening ports, and network topology.</p>
+                </li>
+            </ul>
+            <p class="step-media">
+                <img src="../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_14.png" />
+            </p>
+            <h1 class="Heading1">Java Audit Scan
+        </h1>
+            <ul class="ul_3">
+                <li>
+                    <p>Discovers and audits all Java Runtime Environment (JRE) and Java Development Kit (JDK) installations, including version and security compliance.</p>
+                </li>
+            </ul>
+            <p class="step-media">
+                <img src="../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_15.png" />
+            </p>
+            <h1 class="Heading1">Kubernetes Discovery
+        </h1>
+            <ul class="ul_3">
+                <li>
+                    <p>Discovers Kubernetes clusters, nodes, pods, services, and other container orchestration components.</p>
+                </li>
+            </ul>
+            <p class="step-media">
+                <img src="../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_16.png" />
+            </p>
+            <h1 class="Heading1">MSSQL Maintenance Connection Import Scan
+        </h1>
+            <ul class="ul_3">
+                <li>
+                    <p>Executes predefined CRUD operations on Microsoft SQL Server databases using static queries with automated data mapping.</p>
+                </li>
+            </ul>
+            <p class="step-media">
+                <img src="../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_17.png" />
+            </p>
+            <h1 class="Heading1"><span class="inline-comment-marker">MSSQL Scan</span>
+            </h1>
+            <ul class="ul_3">
+                <li>
+                    <p>Discovers Microsoft SQL Server instances, databases, and configurations.</p>
+                </li>
+                <li>
+                    <p>Additional Configuration:
+                </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>Port Range*:<br />The user must specify one or more SQL Server ports to be scanned during the discovery process. This allows flexibility for environments using non-default ports.</p>
+                        </li>
+                        <li>
+                            <p>Input Format:<br />Comma-separated list of port numbers.</p>
+                        </li>
+                        <li>
+                            <p>Default: 1433.</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <p class="step-media">
+                <img src="../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_18.png" />
+            </p>
+            <p class="p_3">Cannot use subnet notation (e.g., 101.155.1.0/24); use individual IP addresses instead.</p>
+            <h1 class="Heading1">Paexec Cleanup
+        </h1>
+            <ul class="ul_3">
+                <li>
+                    <p>Removes Paexec services and executable files deployed during remote execution tasks.</p>
+                </li>
+            </ul>
+            <p class="step-media">
+                <img src="../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_19.png" />
+            </p>
+            <h1 class="Heading1">Port Scan
+        </h1>
+            <ul class="ul_3">
+                <li>
+                    <p>Probes network ports to identify open, closed, or filtered ports.</p>
+                </li>
+                <li>
+                    <p>Additional Configuration: Specify port range (up to 1000 ports).</p>
+                </li>
+                <li>
+                    <p>Formats: Comma-separated (e.g., 2001,2002,2003), hyphenated range (e.g., 2001-2003), or a mix (e.g., 2001,2002,2003-2009).</p>
+                </li>
+            </ul>
+            <p class="step-media">
+                <img src="../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_20.png" />
+            </p>
+            <h1 class="Heading1">SCCM Import
+        </h1>
+            <ul class="ul_3">
+                <li>
+                    <p>Imports asset and configuration data from Microsoft SCCM database.</p>
+                </li>
+            </ul>
+            <p class="step-media">
+                <img src="../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_21_536x249.png" style="width: 536;height: 249;" />
+            </p>
+            <h1 class="Heading1">Storage Server Discovery Scan-XtreamIO
+        </h1>
+            <ul class="ul_3">
+                <li>
+                    <p>Discovers XtreamIO storage server details in the monitored network.</p>
+                </li>
+            </ul>
+            <p class="step-media">
+                <img src="../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_22_548x249.png" style="width: 548;height: 249;" />
+            </p>
+            <h1 class="Heading1">vCenter Scan
+        </h1>
+            <ul class="ul_3">
+                <li>
+                    <p>Discovers ESXi host details on VMware vCenter, including VMs, datastores, clusters, and resource pools.</p>
+                </li>
+            </ul>
+            <p class="step-media">
+                <img src="../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_23.png" />
+            </p>
+            <h1 class="Heading1">Website Discovery
+        </h1>
+            <ul class="ul_3">
+                <li>
+                    <p>Crawls and analyzes web applications to discover URLs, technologies, SSL certificates, response codes, and structure.</p>
+                </li>
+                <li>
+                    <p>Additional Configuration:
+                </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>URL*: The user must enter the complete web addresses that need to be scanned. This input supports multiple URLs, which should be separated by a space.</p>
+                        </li>
+                        <li>
+                            <p>Input Format:<br />Provide one or more fully qualified URLs (including protocol such as https:// or http://) separated by spaces.</p>
+                        </li>
+                        <li>
+                            <p>Example: URL:&#160;https://www.company, <a href="https://webmail.company.com">https://webmail.company.com</a></p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <p class="step-media">
+                <img src="../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_24_806x249.png" style="width: 806;height: 249;" />
+            </p>
+            <h1 class="Heading1">Windows Basic AD Scan
+        </h1>
+            <ul class="ul_3">
+                <li>
+                    <p>Queries Active Directory for basic computer object information, including names, OS, and organizational unit structure.</p>
+                </li>
+            </ul>
+            <p class="step-media">
+                <img src="../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_25_677x249.png" style="width: 677;height: 249;" />
+            </p>
+            <h1 class="Heading1">Windows Deep AD Scan
+        </h1>
+            <ul class="ul_3">
+                <li>
+                    <p>Performs comprehensive AD discovery, including all computer objects, properties, OU structure, group memberships, and detailed attributes.</p>
+                </li>
+            </ul>
+            <p class="step-media">
+                <img src="../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_25_677x249.png" style="width: 677;height: 249;" />
+            </p>
+            <h1 class="Heading1">Windows Major Components Discovery
+        </h1>
+            <ul class="ul_3">
+                <li>
+                    <p>Discovers major Windows components, features, and services.</p>
+                </li>
+                <li>
+                    <p>Scan Through: Choose either IP Address (default) or Host Name.</p>
+                </li>
+                <li>
+                    <p>IP Address is selected by default. This selection displays the IP Range and Exclude IP Range input fields.</p>
+                </li>
+            </ul>
+            <p class="step-media">
+                <img src="../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_26.png" />
+            </p>
+            <ul class="ul_3">
+                <li>
+                    <p>Additional Configuration (Required if Host Name option is selected):</p>
+                </li>
+                <li>
+                    <p>Host Names*: If Host Name is selected, the user is required to enter a space-separated list of valid hostnames.</p>
+                </li>
+            </ul>
+            <p class="step-media">
+                <img src="../../Resources/Images/Discovery/Run-a-Scan/Initiating and Configuring_27.png" />
+            </p>
+        </div>
+        <div>
+            <hr style="margin-top: 12pt;" width="100%" size="0" align="center" />
+            <div style="font-family: Verdana;font-size: 8pt;text-align: center;">Copyright © 2025 Virima, Inc. All rights reserved. v6.1</div>
+        </div>
+    </body>
+</html>

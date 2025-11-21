@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-toc-path="Discovery Scan|Import Data Files|Manage Import Data Files|View an Imported Data File" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Import Data File</title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <script src="../../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/version-switcher.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.htm#Discovery/Import Data Files/Authorized Tab.htm">Open topic with navigation</a>
+        </p>
+        <div role="main" id="mc-main-content">
+            <h1 class="Heading1"><span class="Strong">Authorized Tab</span>
+            </h1>
+            <ul class="ul_3">
+                <li>
+                    <p>Shows CI(s) that match existing entries in the CMDB - Correlator Match.</p>
+                </li>
+                <li>
+                    <p>Fields in this view:</p>
+                    <ul class="ul_2">
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Blueprint Name</span>: Name of the Blueprint.</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">CI</span>: CMDB CI ID matching the imported CI.</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Asset Name</span>: Provided Asset name.</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Asset ID</span>: New Asset ID is created with prefix of “IMP” to denote that this record was imported. The format is “IMP” + 6 digits (auto generated sequential number.</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Status</span><span class="inline-comment-marker">: Indicates the current status of the imported asset.</span>
+                            </p>
+                            <ul class="ul_1">
+                                <li>
+                                    <p><span class="Strong">What it is:</span> CI lifecycle state (e.g., <span class="Emphasis">In Use, Retired, Decommissioned</span>).</p>
+                                </li>
+                                <li>
+                                    <p><span class="Strong">Where it comes from:</span> The Status dropdown is <span class="Strong">driven by</span> <span class="Strong">Admin → SACM → CMDB Properties → Status</span>. The same picklist is used by <span class="Strong">Business Rules</span>.</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Host Name</span><span class="inline-comment-marker">: The hostname of the asset or device.</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Terminal ID</span><span class="inline-comment-marker">: Optional, stored exactly as provided; not used for correlation unless your blueprint explicitly defines it.</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Operating System</span><span class="inline-comment-marker">: The operating system detected or specified for the asset.</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Missing Components</span><span class="inline-comment-marker">: Lists any components that are missing from the imported asset.</span>
+                            </p>
+                            <ul class="ul_1">
+                                <li>
+                                    <p><span class="Strong">Missing Components:</span> <span class="Emphasis">Not applicable</span> for <span class="Strong">Imported Items</span>. We don’t import component lists, so this field is <span class="Strong">left blank</span> (or treated as <span class="Strong">N/A</span>) on import. It will only be evaluated <span class="Strong">after</span> a CI is <span class="Strong">moved to CMDB</span> and the <span class="Strong">Process-Missing-Components</span> job runs.</p>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p class="step-media">
+                        <img src="../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_15.png" />
+                    </p>
+                </li>
+            </ul>
+            <ul class="ul_3">
+                <li>
+                    <p>Click any CI to view details of the im<span class="inline-comment-marker">ported assets other than the hyperlinked column under CI column.</span></p>
+                    <p class="step-media">
+                        <img src="../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_16.png" />
+                    </p>
+                </li>
+            </ul>
+            <h1 class="Heading1"><span class="Strong">Layout and Sections</span>
+            </h1>
+            <ol start="1" class="ol_1">
+                <li value="1">
+                    <p><span class="Strong" style="font-weight: bold;">Left Sidebar</span>
+                    </p>
+                </li>
+            </ol>
+            <ul class="ul_3">
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Primary Details:</span> Shows key identifiers and metadata for the asset, including:</p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>Asset ID (e.g., IMP001255)</p>
+                        </li>
+                        <li>
+                            <p>Blueprint (e.g., Windows Server)</p>
+                        </li>
+                        <li>
+                            <p>Created On and Last Modified On timestamps</p>
+                        </li>
+                        <li>
+                            <p>Update To (which refers to the Asset ID from CMDB associated with this record).</p>
+                        </li>
+                        <li>
+                            <p>Tags if any (with an editable pencil icon)</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><span class="Strong"><b>Owner</b>:</span> The system assigns the logged-in user as the CI owner when importing a CI.</p>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Import Details:</span> Information about the import process, such as:</p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>File Name (e.g., Import+CI's.xlsx)</p>
+                        </li>
+                        <li>
+                            <p>Status (e.g., Processed)</p>
+                        </li>
+                        <li>
+                            <p>Uploaded By (e.g., Lakshmi Virima)</p>
+                        </li>
+                        <li>
+                            <p>Uploaded On (timestamp)</p>
+                        </li>
+                        <li>
+                            <p>Update To (again referencing AST003156)</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ol start="2" class="ol_1">
+                <li value="2">
+                    <p><span class="Strong" style="font-weight: bold;">Main Content Area</span>
+                    </p>
+                </li>
+            </ol>
+            <ul class="ul_3">
+                <li>
+                    <p><span class="Strong"><b>Header</b>:</span> Displays the asset identifier (e.g., IMP001255).</p>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Action Buttons:</span>
+                    </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Move to CMDB</span> (to promote the asset to the configuration database)</p>
+                        </li>
+                        <li>
+                            <p><span class="Strong" style="font-weight: bold;">Rescan Now</span> (to trigger a new scan of the asset)</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Tabbed Navigation:</span> Provides access to different information categories:</p>
+                    <ul class="ul_2">
+                        <li>
+                            <p style="font-weight: normal;">Details (active tab)</p>
+                        </li>
+                        <li>
+                            <p style="font-weight: normal;">Components</p>
+                        </li>
+                        <li>
+                            <p style="font-weight: normal;">Log On Events</p>
+                        </li>
+                        <li>
+                            <p style="font-weight: normal;">Tasks</p>
+                        </li>
+                        <li>
+                            <p style="font-weight: normal;">Comments</p>
+                        </li>
+                        <li>
+                            <p style="font-weight: normal;">Attachments</p>
+                        </li>
+                        <li>
+                            <p style="font-weight: normal;">Updates</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ol start="3" class="ol_1">
+                <li value="3">
+                    <p><span class="Strong" style="font-weight: bold;">Details Tab (Main Content)</span>
+                    </p>
+                </li>
+            </ol>
+            <ul class="ul_3">
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Asset Primary Information:</span>
+                    </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>Asset ID, Host Name, Asset Name</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Hardware and Network:</span>
+                    </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>IP Address</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Life Cycle Information:</span>
+                    </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>Acquisition Date (repeated, possibly for multiple records or a display issue)</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><span class="Strong" style="font-weight: bold;">Network Adapter Details:</span>
+                    </p>
+                    <ul class="ul_2">
+                        <li>
+                            <p>MAC Address</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <hr style="margin-top: 12pt;" width="100%" size="0" align="center" />
+            <div style="font-family: Verdana;font-size: 8pt;text-align: center;">Copyright © 2025 Virima, Inc. All rights reserved. v6.1</div>
+        </div>
+    </body>
+</html>

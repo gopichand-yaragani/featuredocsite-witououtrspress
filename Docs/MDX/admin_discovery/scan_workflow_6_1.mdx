@@ -1,0 +1,49 @@
+---
+lang: en-us
+title: Discovery Scan Workflow
+viewport: width=device-width, initial-scale=1.0
+---
+
+# Discovery Scan Workflow
+
+[This content is currently under development.]{style="color: #dc143c;"}
+
+2/14/22: Per Balaji, this entire topic needs to be rewritten. This task is assigned to his team.
+
+When a scan is triggered, the host type of a machine is determined from ports rank/priority as configured under Host Configuration. Prioritizing/Ranking of ports. This determination is based on the organization\'s infrastructure as some organizations might have more Windows machines, than Linux and Network devices. In order to make scanning much faster, the ports are prioritized.
+
+The Discovery application checks to see if the highest ranked/prioritized port 135 is opened (see Workflow diagram below).
+
+![scan workflow](../Resources/Images/Admin - Discovery/scan-workflow.png)
+
+When the port is opened, it checks for the matching credentials.
+
+::: Bullet1
+[If the matching credential is found and worked]{.span_3}[, then it runs the respective probes determines the host type as Windows and collects the information of the machine.]{.span_2}
+
+::: Bullet1
+[If the matching credential is found and didn't work]{.span_3}[, then it might try remaining credentials based on the Credentials Configuration and then moves to the next ranked port]{.span_2}
+
+::: Bullet1
+[If the matching credential is not found]{.span_3}[, then it might try remaining credentials based on the Credentials Configuration and then moves to the next ranked port.]{.span_2}
+
+Next, the Discovery application looks as if the next ranked/prioritized port 22 is opened.
+
+::: Bullet1
+[If matching credentials found and worked]{.span_3}[, then it runs the respective probes determines the host type as Linux and collects the information of the machine.]{.span_2}
+
+::: Bullet1
+[If the matching credential is found and didn't work]{.span_3}[, then it might try remaining credentials based on the Credentials Configuration and moves to the next ranked port.]{.span_2}
+
+::: Bullet1
+[If the matching credential is not found]{.span_3}[, Then it might try remaining credentials based on the Credentials Configuration and moves to the next ranked port.]{.span_2}
+
+Finally, the Discovery application looks as if the last port 161 is opened.
+
+If SNMP is successful, then it will determine the host as Network Device and will collect the device information.
+
+For example, [if port 161 has the highest rank/priority and SNMP is a success then it will double-check for Windows/Linux credentials. In this scenario, since it already checked for ports 135 and 22, it won't check for Windows/Linux credentials.]{.span_2}
+
+[Suppose, SNMP check fails then it will display the ]{.span_2}[Unknown Host]{.span_3}[ message.]{.span_2}
+
+[IS THERE SOMETHING AFTER THIS?]{style="background-color: #ffff00;"}
