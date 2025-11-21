@@ -1,0 +1,487 @@
+---
+title: Dashboard Report Actions
+description: >-
+  Dashboard Report Actions provide powerful capabilities to export, schedule,
+  share, and distribute dashboard data and visualizations. These actions enable
+  users to transform dashboard insights into actionable reports for
+  stakeholders.
+canonical: 'https://docs.virima.com/6_1/my_dashboard_6_1/dashboards-report-actions-6_1'
+keywords:
+  - Dashboard Report Actions
+  - Dashboard
+  - Report
+  - Actions
+  - Virima
+lastUpdated: '2025-11-18'
+---
+# Dashboard Report Actions
+
+Dashboard Report Actions provide powerful capabilities to export, schedule, share, and distribute dashboard data and visualizations. These actions enable users to transform dashboard insights into actionable reports for stakeholders.
+
+## Overview
+
+Report Actions in dashboards allow you to extract data from widgets, generate formatted reports, schedule automated deliveries, and share insights with team members. These features bridge the gap between real-time monitoring and formal reporting requirements.
+
+## Report Action Types
+
+### Export Actions
+Generate one-time exports of dashboard data:
+- **PDF Export**: Create formatted PDF documents
+- **Excel Export**: Export data to Excel spreadsheets
+- **CSV Export**: Generate comma-separated value files
+- **Image Export**: Capture dashboard screenshots
+- **PowerPoint Export**: Create presentation slides
+- **JSON Export**: Export raw data in JSON format
+
+### Schedule Actions
+Automate report generation and delivery:
+- **Daily Reports**: Generate reports every day at specified time
+- **Weekly Reports**: Create weekly summary reports
+- **Monthly Reports**: Produce end-of-month reports
+- **Custom Schedules**: Define specific intervals and timing
+- **Event-Triggered**: Generate reports based on conditions
+
+### Share Actions
+Distribute reports to stakeholders:
+- **Email Distribution**: Send reports via email
+- **Portal Publishing**: Publish to company portal
+- **File Repository**: Save to network drives or cloud storage
+- **Collaboration Tools**: Share to Slack, Teams, or other platforms
+- **Link Sharing**: Generate shareable links to reports
+
+### Print Actions
+Physical and digital printing:
+- **Direct Print**: Send to connected printers
+- **Print Preview**: Review before printing
+- **Print to PDF**: Save as PDF file
+- **Batch Printing**: Print multiple dashboards
+- **Custom Page Setup**: Configure margins, orientation, size
+
+## Export Configuration
+
+### PDF Export
+
+**Settings**
+- **Page Size**: Letter, A4, Legal, Custom
+- **Orientation**: Portrait or Landscape
+- **Include**: Title page, table of contents, page numbers
+- **Quality**: Standard or High resolution
+- **Color Mode**: Color or Grayscale
+
+**Layout Options**
+- Widget per page
+- Multiple widgets per page
+- Continuous scroll
+- Custom layout template
+
+**Customization**
+```
+Header: Company logo and report title
+Content: Dashboard widgets with data
+Footer: Page numbers, generation date, confidentiality notice
+```
+
+### Excel Export
+
+**Data Format**
+- One worksheet per widget
+- Combined worksheet with all data
+- Pivot table format
+- Raw data format
+
+**Excel Features**
+- Maintain formatting and colors
+- Include charts as images
+- Formulas for calculations
+- Auto-filter enabled
+- Freeze header rows
+
+**File Options**
+- .xlsx format (Excel 2007+)
+- .xls format (Legacy Excel)
+- Macro-enabled workbook
+- Template-based export
+
+### CSV Export
+
+**Configuration**
+- Delimiter: Comma, Tab, Semicolon, Custom
+- Text qualifier: Double quotes, Single quotes, None
+- Include headers: Yes/No
+- Date format: ISO, US, EU, Custom
+- Number format: Decimal separator and thousands separator
+
+**Use Cases**
+- Data import into other systems
+- Database bulk loading
+- Statistical analysis tools
+- Custom data processing
+
+### Image Export
+
+**Image Formats**
+- PNG (recommended for dashboards)
+- JPEG (smaller file size)
+- SVG (vector format for charts)
+- BMP (uncompressed)
+
+**Resolution**
+- Screen resolution (default)
+- High resolution (2x, 3x)
+- Custom DPI setting
+- Print quality (300 DPI)
+
+**Capture Options**
+- Entire dashboard
+- Individual widgets
+- Selected widgets
+- Visible area only
+- Full scrollable content
+
+## Scheduled Reports
+
+### Creating a Schedule
+
+1. **Select Report Content**
+   - Choose dashboard or specific widgets
+   - Define filters and date ranges
+   - Select export format
+
+2. **Configure Schedule**
+   - Frequency: Daily, Weekly, Monthly, Custom
+   - Time: Specify execution time
+   - Time zone: Set appropriate timezone
+   - Start date: When schedule begins
+   - End date: Optional schedule expiration
+
+3. **Define Recipients**
+   - Email addresses
+   - User groups
+   - Distribution lists
+   - Dynamic recipient rules
+
+4. **Set Delivery Options**
+   - Email subject and message
+   - Attachment or inline
+   - File naming convention
+   - Archive location
+
+5. **Activate Schedule**
+   - Review configuration
+   - Test delivery
+   - Enable schedule
+
+### Schedule Management
+
+**Active Schedules**
+- View all configured schedules
+- Edit schedule parameters
+- Pause/resume schedules
+- Delete schedules
+- View execution history
+
+**Execution History**
+- Last run date and time
+- Success/failure status
+- Recipient list
+- File size and location
+- Error messages (if any)
+
+**Schedule Templates**
+Create reusable schedule configurations:
+- Save schedule settings as template
+- Apply template to new schedules
+- Share templates with team
+- Organizational standard schedules
+
+## Email Distribution
+
+### Email Configuration
+
+**Message Settings**
+- **Subject Line**: Static or dynamic with variables
+  - Example: "Daily Dashboard Report - {DATE}"
+- **Body Text**: Plain text or HTML formatted
+- **Attachments**: Report file(s) attached to email
+- **Inline Content**: Embed charts and tables in email body
+
+**Recipient Management**
+- To: Primary recipients
+- CC: Carbon copy recipients
+- BCC: Blind carbon copy
+- Dynamic recipients based on data
+- User group expansion
+
+**Email Templates**
+```
+Subject: Virima Dashboard Report - {DASHBOARD_NAME} - {DATE}
+
+Body:
+Hello {RECIPIENT_NAME},
+
+Please find attached the latest {DASHBOARD_NAME} report 
+for the period {DATE_RANGE}.
+
+Key highlights:
+- {METRIC_1}: {VALUE_1}
+- {METRIC_2}: {VALUE_2}
+
+View full dashboard: {DASHBOARD_URL}
+
+Best regards,
+Virima Reporting System
+```
+
+### Email Delivery Options
+
+**Timing**
+- Immediate delivery
+- Scheduled delivery time
+- Time zone consideration
+- Delivery window
+
+**Conditions**
+- Send only if data changes
+- Send only if thresholds met
+- Skip if no data
+- Send summary vs. detail
+
+**Attachments**
+- Single file (all widgets combined)
+- Multiple files (one per widget)
+- Compressed ZIP archive
+- Maximum file size handling
+
+## Sharing and Collaboration
+
+### Link Sharing
+
+**Generate Shareable Links**
+1. Select dashboard or widget
+2. Click "Share" button
+3. Configure link settings:
+   - Expiration date
+   - Password protection
+   - View-only access
+   - Download permission
+4. Copy generated link
+5. Share via email or messaging
+
+**Link Security**
+- Time-limited access (1 hour, 1 day, 1 week, custom)
+- Password protected
+- IP address restrictions
+- Single-use links
+- Revocable links
+
+### Portal Publishing
+
+**Publish to Portal**
+- Make dashboard available on company portal
+- Public or authenticated access
+- Embedded in portal pages
+- Real-time or snapshot view
+
+**Portal Settings**
+- Portal location/URL
+- Access permissions
+- Refresh frequency
+- Caching options
+- Mobile responsive
+
+### Collaboration Platform Integration
+
+**Microsoft Teams**
+- Post dashboard snapshots to channels
+- Schedule automated posts
+- Interactive dashboard links
+- Bot notifications
+
+**Slack**
+- Send reports to Slack channels
+- Direct messages to users
+- Scheduled Slack updates
+- Interactive components
+
+**SharePoint**
+- Upload reports to document libraries
+- Version control
+- Metadata tagging
+- Automated filing
+
+## Print Configuration
+
+### Print Settings
+
+**Page Setup**
+- **Margins**: Top, Bottom, Left, Right (inches or mm)
+- **Orientation**: Portrait or Landscape
+- **Paper Size**: Letter, Legal, A4, A3, Custom
+- **Scale**: Fit to page, Actual size, Custom percentage
+
+**Print Quality**
+- Draft (faster, lower quality)
+- Normal (standard quality)
+- Best (slower, highest quality)
+
+**Color Options**
+- Color
+- Grayscale
+- Black and white
+
+### Print Preview
+
+Before printing, review:
+- Page layout and breaks
+- Widget positioning
+- Text readability
+- Chart clarity
+- Header and footer content
+- Page count
+
+**Preview Options**
+- Zoom in/out
+- Navigate pages
+- Adjust settings
+- Show margins
+- Show headers/footers
+
+### Batch Printing
+
+Print multiple dashboards or widgets:
+1. Select dashboards to print
+2. Configure common settings
+3. Queue print jobs
+4. Monitor print queue
+5. Manage print jobs (pause, cancel, reorder)
+
+## Report Actions Best Practices
+
+1. **Schedule Appropriately**: Don't over-schedule reports; consider recipient needs
+2. **Optimize Timing**: Schedule resource-intensive reports during off-peak hours
+3. **Meaningful Names**: Use descriptive names for scheduled reports
+4. **Test First**: Always test report output before activating schedules
+5. **Monitor Execution**: Regularly check schedule execution history
+6. **Recipient Management**: Keep distribution lists current and relevant
+7. **File Size**: Consider file size when emailing reports; use links for large files
+8. **Security**: Apply appropriate security measures for sensitive reports
+9. **Archive Strategy**: Define retention policy for generated reports
+10. **Documentation**: Document schedule purpose and recipient expectations
+
+## Report Formatting
+
+### Headers and Footers
+
+**Header Elements**
+- Company logo
+- Report title
+- Dashboard name
+- Date and time
+- Custom text
+
+**Footer Elements**
+- Page numbers (Page X of Y)
+- Generation timestamp
+- User who generated report
+- Confidentiality notice
+- Company information
+
+### Data Formatting
+
+**Numbers**
+- Thousand separators (1,000 or 1.000)
+- Decimal places (0, 2, 4, auto)
+- Negative number format (-100, (100), <100>)
+- Currency symbols ($, €, £)
+- Percentage format (10%, 0.10)
+
+**Dates**
+- Format: MM/DD/YYYY, DD/MM/YYYY, YYYY-MM-DD
+- Include time: Yes/No
+- Time format: 12-hour or 24-hour
+- Time zone display
+
+**Text**
+- Word wrap
+- Text alignment
+- Font and size
+- Truncation handling
+
+## Automation and Integration
+
+### API-Based Report Generation
+Trigger report generation via API:
+```
+POST /api/v1/dashboards/{dashboardId}/export
+{
+  "format": "pdf",
+  "filters": {...},
+  "delivery": {
+    "method": "email",
+    "recipients": ["user@example.com"]
+  }
+}
+```
+
+### Webhook Integration
+Send reports to external systems:
+- Trigger webhook on report generation
+- POST report data to endpoint
+- Include metadata and links
+- Error handling and retry logic
+
+### File System Integration
+Automated file operations:
+- Save to network shares
+- Upload to cloud storage (S3, Azure Blob)
+- FTP/SFTP delivery
+- Automated file naming and organization
+
+## Troubleshooting
+
+### Report Generation Fails
+**Problem**: Scheduled report doesn't generate  
+**Solution**:
+- Check schedule is active
+- Verify data source connectivity
+- Review execution history for errors
+- Test manual export
+- Check system resource availability
+
+### Email Not Received
+**Problem**: Report email not delivered  
+**Solution**:
+- Verify recipient email addresses
+- Check spam/junk folders
+- Review email server logs
+- Test with different email address
+- Check file size limits
+
+### Export Data Incomplete
+**Problem**: Exported file missing data  
+**Solution**:
+- Verify filter settings
+- Check data permissions
+- Review export row limits
+- Test different date ranges
+- Confirm widget data displays correctly
+
+### Poor Print Quality
+**Problem**: Printed dashboard appears blurry or cut off  
+**Solution**:
+- Increase print quality setting
+- Check page scaling options
+- Adjust margins and orientation
+- Use PDF export instead
+- Review print preview before printing
+
+## Related Topics
+
+- [Dashboards](dashboards)
+- [Dashboard Contents](dashboards-contents)
+- [Dashboard Customization](dashboards-customization)
+- [My Dashboard Overview](overview)
+
+## Version Information
+
+This documentation applies to Virima version **6.1**.

@@ -1,0 +1,69 @@
+TOC Link Fixes
+================================================================================
+
+OLD: /6_1/my-dashboard-6_1/my-dashboard-overview-6_1
+NEW: /6_1/my_dashboard_6_1/my-dashboard-overview-6_1
+--------------------------------------------------------------------------------
+OLD: /6_1/my-dashboard-6_1/dashboards-6_1
+NEW: /6_1/my_dashboard_6_1/dashboards-6_1
+--------------------------------------------------------------------------------
+OLD: /6_1/my-dashboard-6_1/dashboards-contents-6_1
+NEW: /6_1/my_dashboard_6_1/dashboards-contents-6_1
+--------------------------------------------------------------------------------
+OLD: /6_1/my-dashboard-6_1/dashboards-customization-6_1
+NEW: /6_1/my_dashboard_6_1/dashboards-customization-6_1
+--------------------------------------------------------------------------------
+OLD: /6_1/my-dashboard-6_1/my-dashboard-6_1
+NEW: /6_1/my_dashboard_6_1/my-dashboard-6_1
+--------------------------------------------------------------------------------
+OLD: /6_1/my-dashboard-6_1/my-dashboard-contents-6_1
+NEW: /6_1/my_dashboard_6_1/my-dashboard-contents-6_1
+--------------------------------------------------------------------------------
+OLD: /6_1/my-dashboard-6_1/dashboards-report-actions-6_1
+NEW: /6_1/my_dashboard_6_1/dashboards-report-actions-6_1
+--------------------------------------------------------------------------------
+OLD: /6_1/my-dashboard-6_1/system-icons-6_1
+NEW: /6_1/my_dashboard_6_1/system-icons-6_1
+--------------------------------------------------------------------------------
+OLD: /6_1/itam_6_1/cmdb_6_1/sync_logs_6_1
+NEW: /6_1/itsm_6_1/config_mngmt/sync_logs_6_1
+--------------------------------------------------------------------------------
+OLD: /6_1/itam_6_1/cmdb_6_1/tags_6_1
+NEW: /6_1/admin_6_1/admin_sacm/process_tags_6_1
+--------------------------------------------------------------------------------
+OLD: /6_1/vulnerability_management-6_1/core_functionality_6_1
+NEW: /6_1/vulnerability_management_6_1/core_functionality_6_1
+--------------------------------------------------------------------------------
+OLD: /6_1/vulnerability_management-6_1/access_vulnerability_management_6_1
+NEW: /6_1/vulnerability_management_6_1/access_vulnerability_management_6_1
+--------------------------------------------------------------------------------
+OLD: /6_1/vulnerability_management-6_1/view_vulnerability_management_6_1
+NEW: /6_1/vulnerability_management_6_1/view_vulnerability_management_6_1
+--------------------------------------------------------------------------------
+OLD: /6_1/vulnerability_management-6_1/best_practices_6_1
+NEW: /6_1/vulnerability_management_6_1/best_practices_6_1
+--------------------------------------------------------------------------------
+OLD: /6_1/vulnerability_management-6_1/limitations_considerations_6_1
+NEW: /6_1/vulnerability_management_6_1/limitations_considerations_6_1
+--------------------------------------------------------------------------------
+OLD: /6_1/self-service-6_1/service_catalog_6_1
+NEW: /6_1/self_service_6_1/service_catalog_6_1
+--------------------------------------------------------------------------------
+OLD: /6_1/self-service-6_1/my_incidents_6_1
+NEW: /6_1/self_service_6_1/my_incidents_6_1
+--------------------------------------------------------------------------------
+OLD: /6_1/self-service-6_1/my_requests_6_1
+NEW: /6_1/self_service_6_1/my_requests_6_1
+--------------------------------------------------------------------------------
+OLD: /6_1/program-project-management-6_1/program_dashboard_6_1
+NEW: /6_1/program-project-management_6_1/program_dashboard_6_1
+--------------------------------------------------------------------------------
+OLD: /6_1/program-project-management-6_1/project_dashboard_6_1
+NEW: /6_1/program-project-management_6_1/project_dashboard_6_1
+--------------------------------------------------------------------------------
+OLD: /6_1/risk-register-6_1/risk_dashboard_6_1
+NEW: /6_1/risk_register_6_1/risk_dashboard_6_1
+--------------------------------------------------------------------------------
+OLD: /6_1/risk-register-6_1/risks_6_1
+NEW: /6_1/risk_register_6_1/risks_6_1
+--------------------------------------------------------------------------------

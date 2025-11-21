@@ -1,0 +1,166 @@
+---
+lang: en-us
+title: Scheduled Scan
+viewport: width=device-width, initial-scale=1.0
+---
+
+# Scheduled Scans
+
+Use this function to enable the execution of scan functionality according to a configured date and time.
+
+In the navigation pane, select **Discovery Scan \> Scheduled Scan**. The Scheduled Scans window displays.
+
+![scheduled scan main old](../Resources/Images/Discovery/scheduled-scan-main-old.PNG)
+
+![arrow border](../Resources/Images/arrow-border.PNG)
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Scheduled Scan](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+ -- ----- ----------------------------------------------------------------------------------------------------
+ 1. From the *Select Actions* drop-down list, choose **New Scan**. The Run a Scan dialog box displays.
+ -- ----- ----------------------------------------------------------------------------------------------------
+
+ -- ----- ----------------------------------------------------------
+ 1. Click **New**. The New Schedule Scan dialog box displays
+ -- ----- ----------------------------------------------------------
+
+::: {.Ind50
+![scheduled scan new 423x447](../Resources/Images/Discovery/scheduled-scan-new_423x447.png)
+
+ -- ----- ----------------------------------------------------
+ 2. Complete the fields, referring to the table below.
+ -- ----- ----------------------------------------------------
+
+ -- ----- ------------------------------------------------------
+ 3. When all selections/entries are made, click **Run**.
+ -- ----- ------------------------------------------------------
+
+## Scheduled Scan Fields
+
++---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Field | Description |
++=====================+=====================================================================================================================================================================+
+| Name | Name of the scan. |
++---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Probe | The required probe. Refer to [Probe Types](Probe-Types.mdx). |
++---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Client | Name of the Client, which can be selected in the drop-down list. |
++---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IP Range | Specifies an IP Range to *include* in the scan. Click the icon to scan the entire subnet mask of the corresponding IP address. |
+| --- | --- |
+| | When adding an IP address, the IP range can be specified in various formats: |
+| | |
+| | ::: Bullet1 |
+| | 192.168.48.1 (Single IP) |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | 192.168.48.1 192.168.49.2 (Multiple IPs of Different Subnets) |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | 192.168.48.1,2,3,4 (Multiple IPs of Same Subnet) |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | 192.168.48.1-50 (A wide Range of IPs in a Subnet) |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | 192.168.48.0/24 (Single Subnet/CIDR Notation) |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | 192.168.48.0/24 192.168.49.0/24 (Multiple Subnets/CIDR Notation) |
+| | ::: |
++---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Exclude IP Range | Specifies an IP Range to *exclude* from the scan (optional). See *IP Range*, above, for a list of valid formats. |
++---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Location | The location (path) for the Certificate. Click **Add** to update the Location. |
+| --- | --- |
+| | The location (path) for the Certificate. Click the **plus + sign**. |
++---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Send Scan Report to | Users to whom the report should be sent. Click **Add** and select the applicable users. An email is sent to the user that the scan report is available. |
+| --- | --- |
+| | Users to whom the report should be sent. Click **the plus + sign** and select the applicable users. An email is sent to the user that the scan report is available. |
++---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Immediate | Select if the scan should be run immediately instead of following a schedule. |
++---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Scheduled | Select if the scan should run at a set interval. *Refer to* [Scan Frequency](Scans-Frequency.mdx){style="font-style: italic;"}*.* |
++---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Scheduled Scan](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+ --- -----------------------------------------------------------------------------------------
+   Not all functions include an option to edit record line items shown in the main window.
+ --- -----------------------------------------------------------------------------------------
+
+ -- ----- -------------------------------------------------------
+ 1. Navigate to the window containing the record to edit.
+ -- ----- -------------------------------------------------------
+
+ -- ----- -------------------------------------------------------------------------------------
+ 2. Click the line containing the record. The applicable window or dialog box displays.
+ -- ----- -------------------------------------------------------------------------------------
+
+ -- ----- -----------------------------------
+ 3. Make the necessary modifications.
+ -- ----- -----------------------------------
+
+ -- ----- -------------------------------------------
+ 4. Click **Save** or **Add**, as applicable.
+ -- ----- -------------------------------------------
+
+When editing an existing item, other options may be available, such as adding [Tasks](/itsm/release_mngmt/tasks_6_1.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}, [Comments](/discovery/comments_6_1.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}, and [Attachments](/discovery/attachments_6_1.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a} and viewing [History](/common_topics/history_6_1.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}.
+
+ --- ---------------------------------------------------------------------------------------
+   The options change based upon the function; therefore, not every option may be shown.
+ --- ---------------------------------------------------------------------------------------
+
+To view scans related to this scan, click the **Related Scans** tab.
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Scheduled Scan](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+ --- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   Deleting is a permanent action and cannot be undone. Deleting may affect other functionality and information in the application such as data in configured reports, fields in windows, selectable options, etc. Therefore, be sure to understand the potential effects before making a deletion.
+ --- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- --------------------------------------------------
+ 1. Click the line that contains the item to delete.
+ -- ----- --------------------------------------------------
+
+ -- ----- ------------------------------------------------------------------------------------------------------------------------------------------------------
+ 2. From the *Select Actions* drop-down list, choose **Delete**. If a confirmation message is displayed, type **Delete** and click **Delete**to confirm.
+ -- ----- ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Related Topics**
+
+::: Bullet1
+[Run Scan](Run-a-Scan/Run-a-Scan.mdx)
+
+::: Bullet1
+[Recent Scans](Recent-Scans/Scans-Recent.mdx)
+
+::: Bullet1
+[Scan Frequency](Scans-Frequency.mdx)
+
+[Other Functions and Page Elements]{style="font-family: Verdana;"}
+
+::: Bullet1
+[Auto Refresh](../Common%20Functions/Auto-Refresh.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+
+::: Bullet1
+[Delete](../Common%20Functions/Delete-Remove.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+
+::: Bullet1
+[Export](/discovery/import_data_files/export_6_1.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+
+::: Bullet1
+[Go To Page](../Common%20Functions/Go-to-Page.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+
+::: Bullet1
+[Personalize Columns](../Common%20Functions/Personalize-Columns.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+
+::: Bullet1
+[Saved Filters](../Common%20Functions/Saved-Filters.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+

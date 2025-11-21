@@ -1,0 +1,22 @@
+---
+lang: en-us
+title: AWS Import
+viewport: width=device-width, initial-scale=1.0
+---
+
+# Move items to the CMDB
+
+After importing Meraki data, promote it to the CMDB.
+
+1. In **All**, **Authorized** or **Unauthorized**, select one or more rows.
+
+2. Click **Move to CMDB**.
+
+ ![Import Meraki Window 10](../../Resources/Images/Discovery/Import-From-Meraki/Import Meraki Window_10.png)
+
+3. In the confirmation dialog, click **Continue**.\
+ The move job runs **in the background**---no further action is required. Use **Auto Refresh** to watch status changes.
+
+Tip: If no rows are selected, your environment will move **all records that match the current filters**. If you want to limit scope, always select the exact rows to move.
+
+4. Upon successful move to CMDB, the records will be deleted from "Import from Meraki" and "Discovered Items" View.

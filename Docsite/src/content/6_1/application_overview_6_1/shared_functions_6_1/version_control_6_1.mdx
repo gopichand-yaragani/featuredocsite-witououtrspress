@@ -1,0 +1,71 @@
+---
+title: Version Control
+description: >-
+  The versioning of a CI starts from Production status and thereafter increments
+  the version by 0.1 when changes are made in the CI.
+canonical: >-
+  https://docs.virima.com/6_1/application_overview_6_1/shared_functions_6_1/version_control_6_1
+keywords:
+  - Version Control
+  - Version
+  - Control
+  - Virima
+lastUpdated: '2025-11-18'
+---
+## Version Control
+
+The versioning of a CI starts from Production status and thereafter increments the version by 0.1 when changes are made in the CI.
+
+Below are the conditions that version a CI:
+
+::: Bullet1
+Changing one or more property values of a CI.
+
+::: Bullet1
+Adding a New Property.
+
+::: Bullet1
+Adding a New CI component for example: adding a Software Instance or a Network Adapter etc.
+
+::: Bullet1
+Removing a component from a CI.
+
+If the first two conditions (mentioned above) happen for any of the CI components, the system versions the CI Component and the CI.
+
+ --- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   You cannot set a version as a baseline which was versioned due to one of its components. When a version is set as the baseline, for example, marked as stable and for this version, a snapshot is created that can be used as a revert to version.
+ --- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- ------------------------------------------------
+ 1. Click the drop-down list and choose a version.
+ -- ----- ------------------------------------------------
+
+::: {.Ind50 .step-media
+![version control 572x262](../Resources/Images/ITSM/version-control_572x262.png)
+
+::: Ind50
+A window displays with the current asset information.
+
+::: {.Ind50 .step-media
+![version control set baseline 473x281](../Resources/Images/ITSM/version-control-set-baseline_473x281.png)
+
+::: {.Ind50 .step-media
+![version control set baseline new 475x246](../Resources/Images/ITSM/version-control-set-baseline-new_475x246.png)
+
+ -- ----- -----------------------------------------------------------------
+ 2. To set this version as the baseline, click **Set as Baseline**.
+ -- ----- -----------------------------------------------------------------
+
+ -- ----- -----------------
+ 3. Click **Done**.
+ -- ----- -----------------
+
+ 
+
+**Related Topics**
+
+::: Bullet1
+[Configuration Item - Components](../ITSM/Config%20Mngmt/Conf-Items/Config-Items-Components.mdx)
+
+::: Bullet1
+[Configuration Item - Details](../ITSM/Config%20Mngmt/Conf-Items/Config-Items-Details.mdx)

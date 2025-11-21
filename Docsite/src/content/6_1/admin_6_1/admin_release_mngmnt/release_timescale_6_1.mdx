@@ -1,0 +1,57 @@
+---
+lang: en-us
+title: Release Timescale
+viewport: width=device-width, initial-scale=1.0
+---
+
+# Release Timescale
+
+Use this function to configure a resolution according to a priority basis.
+
+In the main window, click **Admin \> Release Management \> Release Timescale**. The Release Timescale window displays.
+
+::: Bullet1
+1 day is equal to 24 working hours. (For more info, see [Operational Hours](../Admin%20-%20Org%20Details/Operational-Hours.mdx).)
+
+::: Bullet1
+The numbers must be entered manually.
+
+::: Bullet1
+The timescale definitions for the various types of priorities are shown below.
+
+::: Bullet1
+Click in the field, and scroll the up or down arrows until the desired time interval is displayed.
+
+## Timescale Definitions
+
+ Parameter Hours of Support Response Target Resolution Target
+ ------------------------------ ------------------ ----------------- -------------------
+ Priority 1 -- Major Incident 24×7 15 minutes 2 hours
+ Priority 2 - Critical Business Hours 30 minutes 4 business hours
+ Priority 3 - High Business Hours 2 hours 1 business day
+ Priority 4 - Normal Business Hours 1 business day 5 business days
+
+## Escalate
+
+If the incident is breached during the defined time, the escalation matrix goes into effect.
+
+![timescale escalate old](../Resources/Images/Admin - Change/timescale-escalate-old.PNG)
+
+ -- ----- ----------------------------------------------------------------------------------------------
+ 1. Click the drop-down list and select if the time is *Before* or *After* the defined interval.
+ -- ----- ----------------------------------------------------------------------------------------------
+
+ -- ----- --------------------------------------------------------------------------------------------------
+ 2. Click in the field and scroll the up or down arrow until the desired time interval is displayed.
+ -- ----- --------------------------------------------------------------------------------------------------
+
+ -- ----- -------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 3. To send a report on an escalation, in the *To* field, click **Add**, make the applicable selections in the *Send Report To* dialog box, and click **Save**.
+ -- ----- -------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+::: {.Ind50
+![send report to old](../Resources/Images/Admin - Incident/send-report-to-old.PNG)
+
+ -- ----- --------------------------------------------------------------
+ 4. When all the escalation selections are made, click **Save**.
+ -- ----- --------------------------------------------------------------

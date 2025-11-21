@@ -1,0 +1,70 @@
+---
+lang: en-us
+title: Viewing Intune Import Record
+viewport: width=device-width, initial-scale=1.0
+---
+
+# Viewing Intune Import Record
+
+Use this function to view the imported Intune resources
+
+1. Select an import record to open its details.
+
+2. Report window displays imported CI(s) in these categories:
+
+ - All
+
+ - Authorized
+
+ - Unauthorized
+
+ ![Import INTUNE Window 8](../../Resources/Images/Discovery/Import-From-Intune/Import INTUNE Window_8.png)
+
+- [All]{.Strong} -- Every resource returned by the import.
+
+- [Authorized]{.Strong} -- Assets that are already present in the CMDB.
+
+ ![Import INTUNE Window 9](../../Resources/Images/Discovery/Import-From-Intune/Import INTUNE Window_9.png)
+
+- [Unauthorized]{.Strong} -- New assets not yet listed in the CMDB.
+
+ ![Import INTUNE Window 10](../../Resources/Images/Discovery/Import-From-Intune/Import INTUNE Window_10.png)
+
+# **Common controls (top-right of the grid)**
+
+- [Move to CMDB]{.Strong} -- Promote the selected records to CMDB (Refer Move to CMDB).
+
+- [Auto Refresh]{.Strong} -- Refresh the grid on set periodic interval. Use this when import is still in progress so that the imported items show up without manual refresh.
+
+# Key columns
+
+- [Blueprint Name]{.Strong} -- The discovery blueprint that matched the resource (e.g., *Intune Virtual Network*, *Intune Neo4j*)
+
+- [Asset Name]{.Strong} -- The discovered resource name (cluster/service/task/instance, etc.).
+
+ - The asset name is the Intune instance ID.
+
+- [Status]{.Strong}: Indicates the current state of the CI imported from Intune. When a CI is newly imported (does not exist in CMDB), the status is shown as \"New.\"
+
+- [Asset ID]{.Strong}: A unique, sequential identification number assigned to each discovered Intune record. The ID shall have a prefix "DSC"+ 6 digits Unique sequential number.
+
+- [Host Name: ]{.Strong}The host or endpoint name captured by discovery.
+
+Users can select which columns to display when importing Intune and sort the grid by any column.
+
+# Move items to the CMDB
+
+After importing Intune data, promote it to the CMDB.
+
+1. In [All]{.Strong}, [Authorized]{.Strong} or [Unauthorized]{.Strong}, select one or more rows.
+
+2. Click [Move to CMDB]{.Strong}.
+
+ ![Import INTUNE Window 11](../../Resources/Images/Discovery/Import-From-Intune/Import INTUNE Window_11.png)
+
+3. In the confirmation dialog, click [Continue]{.Strong}.\
+ The move job runs **in the background**---no further action is required. Use [Auto Refresh]{.Strong} to watch status changes.
+
+Tip: If no rows are selected, your environment will move **all records that match the current filters**. If you want to limit scope, always select the exact rows to move.
+
+4. Upon successful move to CMDB, the records will be deleted from "Import from Intune" and "Discovered Items" View.

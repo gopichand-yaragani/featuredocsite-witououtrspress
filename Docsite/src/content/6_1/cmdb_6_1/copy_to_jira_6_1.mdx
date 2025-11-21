@@ -1,0 +1,50 @@
+---
+title: Copy to Jira
+description: >-
+  The Copy to Jira action transfers all CIs, components, and relationships from
+  the CMDB to Jira. The system retrieves records, validates them against
+  blueprint conditions on the Jira Mapping page, maps data to Jira properties,
+  and sends i...
+canonical: 'https://docs.virima.com/6_1/cmdb_6_1/copy_to_jira_6_1'
+keywords:
+  - Copy to Jira
+  - Copy
+  - To
+  - Jira
+  - Virima
+lastUpdated: '2025-11-18'
+---
+
+# Copy to Jira
+
+The [Copy to Jira]{.Strong} action transfers all CIs, components, and relationships from the CMDB to Jira. The system retrieves records, validates them against blueprint conditions on the Jira Mapping page, maps data to Jira properties, and sends it in the following order:
+
+- Main CIs
+
+- Relationships
+
+- Components
+
+- JSON components
+
+1. Open the CMDB module in Virima.
+
+2. Select the CIs from the CMDB list to copy to Jira.
+
+3. Click the [Select Actions]{.Strong} dropdown at the top-right of the CMDB list.
+
+4. Choose [Copy to Jira]{.Strong} from the dropdown.
+
+ ![Configuration Management Database 20](../Resources/Images/CMDB - Left-Nav/Configuration Management Database_20.png)
+
+5. A confirmation dialog appears, asking, \"**Are you sure you want to move the Asset?**\"
+
+6. Click [Yes]{.Strong} to proceed or [No]{.Strong} to cancel.
+
+7. The system processes the selected records.
+
+8. A success message appears: \"**Records will be moved in the background**.\" Click [OK]{.Strong} to close the message.
+
+8. Monitor progress and sync details from the [Sync Logs]{.Strong} page under Configuration Management.
+
+9. After completion, check the CMDB page. If the copy is successful, the Ivanti sync flag will be set to [true]{.Strong}; if unsuccessful, it will be set to [false]{.Strong}.

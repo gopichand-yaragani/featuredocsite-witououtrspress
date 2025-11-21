@@ -1,0 +1,33 @@
+---
+lang: en-us
+title: Service Map ADM View
+viewport: width=device-width, initial-scale=1.0
+---
+
+# Service Map: ADM View
+
+In the example figure below:
+
+::: Bullet1
+Both the **Source** and the **Target** CI's are of type Software Instance.
+
+::: Bullet1
+The Apache Tomcat application is communicating with Redis Server and MySQL Database.
+
+Hover the pointer on any of the streams to know the Port numbers through which they are communicating.
+
+ 
+
+ 
+
+![adm view](../../../../../Resources/Images/ITSM/Biz-Svc-Map/adm-view.png)
+
+Right-click on the CI to view its details:
+
+![adm view ci details](../../../../../Resources/Images/ITSM/Biz-Svc-Map/adm-view-ci-details.png)
+
++---+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Column 1 | If any of the above relationships are deleted and if they are found to be communicating again during another scan, then the relationship will be established. |
+| --- | --- |
+| | If any one of the assets is not communicating during the scan, then the relationship will not be established. |
++---+---------------------------------------------------------------------------------------------------------------------------------------------------------------+

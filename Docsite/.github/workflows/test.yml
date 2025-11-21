@@ -1,0 +1,116 @@
+name: Test and Lint
+
+on:
+  pull_request:
+    branches:
+      - main
+      - master
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Test Build
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node-version: ['18', '20']
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Verify package.json
+        run: |
+          echo "Verifying package.json..."
+          node -e "const pkg = require('./package.json'); console.log('Package name:', pkg.name); console.log('Package version:', pkg.version);"
+
+      - name: Check for TypeScript errors
+        run: |
+          if [ -f tsconfig.json ]; then
+            echo "Running TypeScript type check..."
+            npx tsc --noEmit || echo "TypeScript errors found (non-blocking)"
+          else
+            echo "No tsconfig.json found, skipping type check"
+          fi
+        continue-on-error: true
+
+      - name: Build project
+        run: npm run build
+
+      - name: Verify build artifacts
+        run: |
+          echo "Verifying build output..."
+          if [ ! -d "build" ]; then
+            echo "❌ Error: Build directory not found!"
+            exit 1
+          fi
+          
+          if [ ! -f "build/index.html" ]; then
+            echo "❌ Error: index.html not found in build directory!"
+            exit 1
+          fi
+          
+          echo "✅ Build verification successful!"
+          echo "Build contents:"
+          ls -la build/ | head -20
+          
+          # Check for common build artifacts
+          if [ -d "build/assets" ]; then
+            echo "✅ Assets directory found"
+            echo "Asset files:"
+            find build/assets -type f | head -10
+          fi
+
+      - name: Check build size
+        run: |
+          BUILD_SIZE=$(du -sh build | cut -f1)
+          FILE_COUNT=$(find build -type f | wc -l)
+          echo "📦 Build size: $BUILD_SIZE"
+          echo "📄 Total files: $FILE_COUNT"
+          
+          # Warn if build is unusually large (> 50MB)
+          BUILD_SIZE_BYTES=$(du -sb build | cut -f1)
+          if [ "$BUILD_SIZE_BYTES" -gt 52428800 ]; then
+            echo "⚠️ Warning: Build size exceeds 50MB"
+          fi
+
+      - name: Test build output accessibility
+        run: |
+          echo "Testing build output..."
+          if [ -f "build/index.html" ]; then
+            # Basic HTML validation
+            if grep -q "<!DOCTYPE html>" build/index.html; then
+              echo "✅ Valid HTML5 doctype found"
+            else
+              echo "⚠️ Warning: HTML5 doctype not found"
+            fi
+            
+            if grep -q "<div id=\"root\">" build/index.html; then
+              echo "✅ React root element found"
+            else
+              echo "⚠️ Warning: React root element not found"
+            fi
+          fi
+
+      - name: Upload build artifacts
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-artifacts-${{ matrix.node-version }}
+          path: build/
+          retention-days: 1
+

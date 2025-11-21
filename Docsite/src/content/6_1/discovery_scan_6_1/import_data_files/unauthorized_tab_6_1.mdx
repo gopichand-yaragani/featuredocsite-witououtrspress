@@ -1,0 +1,101 @@
+---
+lang: en-us
+title: Import Data File
+viewport: width=device-width, initial-scale=1.0
+---
+
+# **Unauthorized Tab**
+
+Lists new records that do not currently exist in the CMDB. These will be added as new CIs once approved.
+
+![Import Data Files 1 17](../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_17.png)
+
+- [Action Buttons:]{.Strong}
+
+ - [\"**Move to CMDB**\" (to approve and move assets into the CMDB)]{.inline-comment-marker}
+
+ - [\"**Delete**\" (to remove selected assets)]{.inline-comment-marker}
+
+- Click any unauthorized CI to view details of the im[ported assets.]{.inline-comment-marker}
+
+ ![Import Data Files 1 18](../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_18.png)
+
+# **Layout and Sections**
+
+1. [Left Sidebar]{.Strong}
+
+- [Primary Details:]{.Strong} Shows key identifiers and metadata for the asset, including:
+
+ - **Asset ID** (e.g., IMP001273)
+
+ - **Blueprint** (e.g., Windows Server)
+
+ - **Created On** and **Last Modified On** timestamps
+
+ - [Authorization status]{.Strong} -- A badge indicating **This CI is unauthorized**:
+
+ - [Unauthorized]{.Emphasis} = the CI is new or not yet moved to CMDB; typically surfaced from the *Unauthorized* tab in import views.
+
+ - **Tags** if any (with an editable pencil icon)
+
+- ****Owner**:** The system assigns the logged-in user as the CI owner when importing a CI.
+
+- [Import Details:]{.Strong} Information about the import process, such as:
+
+ - File Name (e.g., Import+CI\'s.xlsx)
+
+ - Status (e.g., Processed)
+
+ - Uploaded By (e.g., Lakshmi Virima)
+
+ - Uploaded On (timestamp)
+
+ - Authorization status -- A badge indicating This CI is unauthorized.
+
+2. [Main Content Area]{.Strong}
+
+- ****Header**:** Displays the asset identifier (e.g., IMP001273).
+
+- [Action Buttons:]{.Strong}
+
+ - **Move to CMDB** (to promote the asset to the CMDB)
+
+ - **Rescan Now** (to trigger a new scan of the asset)
+
+- [Tabbed Navigation:]{.Strong} Provides access to different information categories:
+
+ - Details (active tab)
+
+ - Components
+
+ - Log On Events
+
+ - Tasks
+
+ - Comments
+
+ - Attachments
+
+ - Updates
+
+3. [Details Tab (Main Content)]{.Strong}
+
+- [Asset Primary Information]{.Strong}
+
+ - [Asset ID]{.Strong} -- the imported ID (IMP prefix).
+
+ - [Asset Name]{.Strong} -- Asset name from the file.
+
+ - [Host Name]{.Strong} -- The hostname of the asset.
+
+- [Hardware and Network]{.Strong}
+
+ - [IP Address]{.Strong} -- last/primary IP from the import.
+
+- [Life Cycle Information]{.Strong}
+
+ - [Acquisition Date]{.Strong} -- date/time of acquisition provided during import.
+
+- [Network Adapter Details]{.Strong}
+
+ - [MAC Address]{.Strong} -- network adapter MAC captured in the import.

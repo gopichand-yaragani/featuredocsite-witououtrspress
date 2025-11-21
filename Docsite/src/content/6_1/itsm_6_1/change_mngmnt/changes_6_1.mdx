@@ -1,0 +1,506 @@
+---
+lang: en-us
+title: About Change Management
+viewport: width=device-width, initial-scale=1.0
+---
+
+# Changes
+
+Use this function to create a change.
+
+ --- -----------------------------------------------------------------------------------------------------------------------------------
+   Roles with relevant access as per role access of Change and RFC can view, add, edit, approve, reject, resolve and close a change.
+ --- -----------------------------------------------------------------------------------------------------------------------------------
+
+In the navigation pane, select **ITSM \> Change Management** \> **Changes**. The Changes window displays.
+
+![change mngmnt main old](../../Resources/Images/ITSM/Change Management/change-mngmnt-main-old.PNG)
+
+![change mngmnt main new 796x158](../../Resources/Images/ITSM/Change Management/change-mngmnt-main-new_796x158.png)
+
+![arrow border](../../Resources/Images/arrow-border.PNG)
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Change](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+ -- ----- ------------------------------------------------------------------
+ 1. From the *Select Actions* drop-down list, choose **New Change**.
+ -- ----- ------------------------------------------------------------------
+
+ -- ----- ----------------
+ 1. Click **New**.
+ -- ----- ----------------
+
+ -- ----- ----------------------------------------------------
+ 2. Complete the fields, referring to the table below.
+ -- ----- ----------------------------------------------------
+
+ -- ----- ------------------------------------------------------
+ 3. When all selections/entries are made, click **Add**.
+ -- ----- ------------------------------------------------------
+
+ --- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   Once a Change is created, a notification mail is sent to the Requester, Assignee and other Roles as per Role Access of Change and RFC, and individual users email preferences.
+ --- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Change Request Fields
+
++------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Field | Description |
++==============================+===================================================================================================================================================================================+
+| Select Change Model | Click the drop-down list and select the model for this change. |
+| --- | --- |
+| | +---+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+ |
+| | | | If a model has a priority (expect 1- Very High) and assigned to all three support levels, the following occurs: | |
+| | | | | |
+| | | | ::: Bullet1 | |
+| | | | When creating a Change, if the priority is changed to 1-very High (based on Impact and Urgency), the change will be assigned directly to the Third level assignee. | |
+| | | | ::: | |
+| | | | | |
+| | | | ::: Bullet1 | |
+| | | | The Response and the Resolution times are applicable only to the Third level. | |
+| | | | ::: | |
+| | +---+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+ |
++------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Title | The title for the change. |
++------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Requester Details | ::: Bullet1 |
+| Column 1 | *Requester*. The name of the person requesting the change. Click **Addthe plus + sign** and search for and select the applicable person. |
+| --- | :---: |
+| | |
+| | ::: Bullet1 |
+| | *Requester Department*. The department associated with the Requestor. This field is automatically populated if a department is associated with the selected Requestor. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | *Requestor Location*. The location associated with the Requestor. This field is automatically populated if there is a location associated with the selected Requestor. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | *Group Requester*. The group associated with the Requestor. Click **Addthe plus + sign** and search for and select the applicable group. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | *Callback Method*. The communication method to use\--either *Phone* or *Email*. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | *Contact Info*. The information related to the Callback Method, such as phone number or email address. |
+| | ::: |
++------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Record Details | For each of the following fields, click the **drop-down list**, and select the applicable option. |
+| --- | --- |
+| | ::: Bullet1 |
+| | CI Category |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | CI SubCategory |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | Category |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | Type |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | Impact Level |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | Urgency |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | Priority (This is a required field and a selection must be made before you can Add the change.) |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | Risk |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | Stage |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | State |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | Error Code |
+| | ::: |
+| | |
+| | For each of these fields, click **Add**, and search for and select the applicable information. |
+| | |
+| | For each of these fields, click the **plus + sign**, and search for and select the applicable information. |
+| | |
+| | ::: Bullet1 |
+| | Assignee/Group Assignee |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | Department Assignee |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | Approver |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | Approval Group |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | Associated CIs |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | Internal Stakeholders |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | External Stakeholder Email ID |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | Runbook |
+| | ::: |
+| | |
+| | For these fields, enter the relevant information: |
+| | |
+| | ::: Bullet1 |
+| | Description |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | UserName |
+| | ::: |
++------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Associated Records | Displays all the records associated with this request. |
++------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Schedule Details | The schedule for completing this change request: Planned Start/End and Work Start/End. |
++------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Change Review | Uploads a document containing information relevant to this change. Click **Upload**, search for and select the applicable document, then click **OK**. |
++------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Related Records (tab) | Select the records to associate with this change request. Click the plus + sign next to the applicable category. |
+| --- | --- |
+| | --- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| | When selecting a record, an option may be shown to Add that item. For example, when Associate Problem is selected, the dialog box includes an option to **Add Problem**. |
+| | --- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
++------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Notes (tab) | Details for this change include Change Plan, Back Out Plan, Test Plan, Approval Notes, and Scope. Enter the applicable text and/or upload the text from a different file. |
++------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Resolution Information (tab) | Details on how the change was resolved or closed. |
++------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Closure Information (tab) | Details related to the closure of the change. |
+| --- | --- |
+| | ::: Bullet1 |
+| | In the *Closure Code* field, click the drop-down list and select a *Closure Code*. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | In the *Closure Notes* field, enter any details. |
+| | ::: |
++------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+### Existing Changes {#existing-changes
+
+Two functions can be performed in the Add Change panel shown on the left side of the window: (1) search for an existing change, OR(2) select an existing change from the list of Recent Changes.
+
+- [[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16"
+](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+### Risks
+
+Use this function to associate risks with this change request.
+
+ -- ----- -------------------------------------------------------------------------------
+ 1. While viewing the Details window, click **Risks**. The Risks window displays.
+ -- ----- -------------------------------------------------------------------------------
+
+::: {.Ind50
+![changes risks main old](../../Resources/Images/ITSM/Change Management/changes-risks-main-old.PNG)
+
+::: {.Ind50
+![changes risks main new](../../Resources/Images/ITSM/Change Management/changes-risks-main-new.PNG)
+
+ -- ----- -----------------------------------------------------
+ 2. Click **New Risk**.  The Risks dialog box displays.
+ -- ----- -----------------------------------------------------
+
+ -- ----- --------------------------------------------------------------------
+ 3. Search for and select the risk item to add to this change request.
+ -- ----- --------------------------------------------------------------------
+
+ -- ----- --------------------------------------------------------------
+ 4. If the required item does not exist, click **Add New Risk**.
+ -- ----- --------------------------------------------------------------
+
+::: {.Ind50
+![changes risks new old](../../Resources/Images/ITSM/Change Management/changes-risks-new-old.PNG)
+
+::: {.Ind50
+![changes risks new new](../../Resources/Images/ITSM/Change Management/changes-risks-new-new.PNG)
+
+::: Ind50
+The window refreshes and the Risk window displays. *Refer to* **[Risk Register \> Risks](/risk_register/risks_6_1.mdx)** *for details on completing the Risk window.*
+
+ -- ----- -----------------
+ 5. Click **Save**.
+ -- ----- -----------------
+
+### Outages
+
+Use this function to view a CI associated with this change request.
+
+ -- ----- ---------------------------------------------------
+ 1. While viewing the Details window, select Outages.
+ -- ----- ---------------------------------------------------
+
+ -- ----- -------------------------------------------------------------------------------------------------------------------------------------------------
+ 2. Set the *Outage Start Date* and *Outage End Date*. Then click **Save**. This outage will also display in the Outages calendar on the dashboard.
+ -- ----- -------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- -----------------
+ 3. Click **Save**.
+ -- ----- -----------------
+
+### Risk Assessments
+
+Based on the overall score as assigned in the Risk Assessment Threshold (as configured through [Admin \> Change Management \> Risk Assessments](../../Admin%20-%20Change%20Mngmnt/Change-Risks.mdx)), the Risk of a change will get updated automatically.
+
+While viewing the Details window, select **Risk Assessments**. The Risk Assessments information displays (which are view only).
+
+### Surveys
+
+When a matter is resolved, an associated survey is emailed to the Requester to know their satisfaction. The User clicks a link in the email and answers the survey questions.
+
+Once the Requester submits the response, it is updated and shown on this tab.
+
++---+-------------------------------------------------------------------------+
+|   | ::: Bullet1 |
+| Column 1 | The survey can be taken only once by the Requester. |
+| --- | :---: |
+| | |
+| | ::: Bullet1 |
+| | If Requester selects **Yes**, then the matter is automatically closed. |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | If Requester selects **No**, then the matter is automatically reopened. |
+| | ::: |
++---+-------------------------------------------------------------------------+
+
+### CAB Meetings
+
+Use this function to enter CAB meeting details.
+
+ -- ----- ---------------------------------------------------------------------------------------------
+ 1. While viewing the Details window, click **CAB Meetings**. The CAB Meetings window displays.
+ -- ----- ---------------------------------------------------------------------------------------------
+
+::: {.Ind50
+![changes cab meetings main old](../../Resources/Images/ITSM/Change Management/changes-cab-meetings-main-old.PNG)
+
+::: {.Ind50
+![changes cab meeting main new](../../Resources/Images/ITSM/Change Management/changes-cab-meeting-main-new.PNG)
+
+ -- ----- -----------------------------------
+ 2. Click **New Change CAB Meeting.**
+ -- ----- -----------------------------------
+
+ -- ----- --------------------------------
+ 3. Enter the CAB meeting details.
+ -- ----- --------------------------------
+
+::: Ind50
+![changes cab meeting new old](../../Resources/Images/ITSM/Change Management/changes-cab-meeting-new-old.PNG)
+
+ -- ----- ------------------------------------------------------
+ 4. When all selections/entries are made, click **Add**.
+ -- ----- ------------------------------------------------------
+
+### Reviews
+
+Use this function to enter review details and upload relevant documents.
+
+ -- ----- -----------------------------------------------------------------------------------
+ 1. While viewing the Details window, click **Reviews**. The Reviews window displays.
+ -- ----- -----------------------------------------------------------------------------------
+
+::: {.Ind50
+![changes review main old](../../Resources/Images/ITSM/Change Management/changes-review-main-old.PNG)
+
+::: {.Ind50
+![changes review main new](../../Resources/Images/ITSM/Change Management/changes-review-main-new.PNG)
+
+ -- ----- -----------------------------------------------------------
+ 2. Click **Add Review**. The Add Review dialog box displays.
+ -- ----- -----------------------------------------------------------
+
+ -- ----- ------------------------
+ 3. Enter a *Description*.
+ -- ----- ------------------------
+
+ -- ----- ----------------------------------------------------------------------------------
+ 4. To upload a document, click **Upload**, then Browse for and select the document.
+ -- ----- ----------------------------------------------------------------------------------
+
+ -- ----- ------------------
+ 5. Click **Apply**.
+ -- ----- ------------------
+
+ -- ----- ----------------
+ 6. Click **Add**.
+ -- ----- ----------------
+
+::: {.Ind50
+![changes review add old](../../Resources/Images/ITSM/Change Management/changes-review-add-old.PNG)
+
+::: {.Ind50
+![changes review add new](../../Resources/Images/ITSM/Change Management/changes-review-add-new.PNG)
+
+### Time Tracking
+
+Use this function to add a record/task or generate a time spent report.
+
+While viewing the Details window, select **Time Tracking**. The Time Tracking window displays.
+
+![changes time tracking main old](../../Resources/Images/ITSM/Change Management/changes-time-tracking-main-old.PNG)
+
+#### Add Record or Tasks
+
+ -- ----- ------------------------------------------------------------------------------
+ 1. To add a new item, click **Add**. The Add Time Tracking dialog box displays.
+ -- ----- ------------------------------------------------------------------------------
+
+::: {.Ind50
+![time tracking add record old](../../Resources/Images/ITSM/Change Management/time-tracking-add-record-old.PNG)
+
+::: {.Ind50
+![time tracking add task old](../../Resources/Images/ITSM/Change Management/time-tracking-add-task-old.PNG)
+
+ -- ----- ----------------------------------------
+ 2. Select either **Record** or **Tasks**.
+ -- ----- ----------------------------------------
+
+- [[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Details](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+### Related Records
+
+Associates records for relevant items such as problems, changes, incidents, and so forth.
+
+Click the **Plus icon** and search for and select the applicable records.
+
+### Notes
+
+Add any relevant notes in the free-form text field.
+
+To upload related documents, click the **Upload** button, then search for and select the applicable document. Only one document can be uploaded for any specific section.
+
+### Resolution Information
+
+The *State* for the current workflow must be RESOLVED before the following information can be viewed or entered:
+
+::: Bullet1
+**Date** (populated by the system)
+
+::: Bullet1
+**Assignee** (populated by the system)
+
+::: Bullet1
+**Notes** (enter any free-form text)
+
+### Closure Information
+
+The *State* for the current workflow must be CLOSED before the following information can be viewed, selected, or entered:
+
+::: Bullet1
+**Date** closed (populated by the system)
+
+::: Bullet1
+**Assignee** (populated by the system)
+
+::: Bullet1
+**Closure Code** (select from the drop-down list)
+
+::: Bullet1
+**Notes** (enter any free-form text)
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Change](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+ --- -----------------------------------------------------------------------------------------
+   Not all functions include an option to edit record line items shown in the main window.
+ --- -----------------------------------------------------------------------------------------
+
+ -- ----- -------------------------------------------------------
+ 1. Navigate to the window containing the record to edit.
+ -- ----- -------------------------------------------------------
+
+ -- ----- -------------------------------------------------------------------------------------
+ 2. Click the line containing the record. The applicable window or dialog box displays.
+ -- ----- -------------------------------------------------------------------------------------
+
+ -- ----- -----------------------------------
+ 3. Make the necessary modifications.
+ -- ----- -----------------------------------
+
+ -- ----- -------------------------------------------
+ 4. Click **Save** or **Add**, as applicable.
+ -- ----- -------------------------------------------
+
+When editing an existing item, other options may be available, such as adding [Tasks](/itsm/release_mngmt/tasks_6_1.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}, [Comments](/discovery/comments_6_1.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}, and [Attachments](/discovery/attachments_6_1.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a} and viewing [History](/common_topics/history_6_1.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}.
+
+ --- ---------------------------------------------------------------------------------------
+   The options change based upon the function; therefore, not every option may be shown.
+ --- ---------------------------------------------------------------------------------------
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Change](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+ --- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   Deleting is a permanent action and cannot be undone. Deleting may affect other functionality and information in the application such as data in configured reports, fields in windows, selectable options, etc. Therefore, be sure to understand the potential effects before making a deletion.
+ --- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- --------------------------------------------------
+ 1. Click the line that contains the item to delete.
+ -- ----- --------------------------------------------------
+
+ -- ----- ------------------------------------------------------------------------------------------------------------------------------------------------------
+ 2. From the *Select Actions* drop-down list, choose **Delete**. If a confirmation message is displayed, type **Delete** and click **Delete**to confirm.
+ -- ----- ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Related Topics**
+
+::: Bullet1
+[About Change Management](About-Change-Mngmnt.mdx)
+
+::: Bullet1
+[Change Proposals](Change-Proposals.mdx)
+
+::: Bullet1
+[Change Requests](#){.selected}
+
+::: Bullet1
+[Outages](/itsm/change_mngmnt/outages_6_1.mdx)
+
+[Other Functions and Page Elements]{style="font-family: Verdana;"}
+
+::: Bullet1
+[Auto Refresh](../../Common%20Functions/Auto-Refresh.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+
+::: Bullet1
+[Delete](../../Common%20Functions/Delete-Remove.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+
+::: Bullet1
+[Export](/discovery/import_data_files/export_6_1.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+
+::: Bullet1
+[Go To Page](../../Common%20Functions/Go-to-Page.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+
+::: Bullet1
+[Personalize Columns](../../Common%20Functions/Personalize-Columns.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+
+::: Bullet1
+[Saved Filters](../../Common%20Functions/Saved-Filters.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Production-Virima Documentation Website</title>
+    <script type="text/javascript">
+      // Redirect to root index.html for client-side routing
+      // This allows React Router to handle all routes
+      // Store the original URL for React Router to use
+      sessionStorage.redirect = location.href;
+      
+      // Calculate the base path (e.g., /FeatureDocsite)
+      const pathSegments = location.pathname.split('/').filter(Boolean);
+      const basePath = pathSegments[0] ? '/' + pathSegments[0] : '';
+      
+      // Redirect to root index.html
+      location.replace(basePath + '/index.html');
+    </script>
+  </head>
+  <body></body>
+</html>
+

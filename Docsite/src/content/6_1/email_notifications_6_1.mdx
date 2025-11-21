@@ -1,0 +1,43 @@
+---
+title: Email Notifications
+description: >-
+  Various functions in the application will generate an email notification when
+  certain actions take place.
+canonical: 'https://docs.virima.com/6_1/email_notifications_6_1'
+keywords:
+  - Email Notifications
+  - Email
+  - Notifications
+  - Virima
+lastUpdated: '2025-11-18'
+---
+
+# Email Notifications
+
+Various functions in the application will generate an email notification when certain actions take place.
+
+The user receives a notification based upon their email preferences as specified in their [user](/admin_users/users_6_1.mdx) account. (Admin \> Users).
+
+![email preferences](Resources/Images/Admin - Users/email-preferences.PNG)
+
+## Example Functions
+
+The list of functions that generate an email notification is too long to list in this topic. However, below are some examples:
+
+::: Bullet1
+When [creating a request](/itsm/request_fulfillment/requests_6_1.mdx) or [creating an incident](/itsm/incident_mngmt/incidents_6_1.mdx), an email notification is sent to Requester, Assignee, and to users based upon their email preferences.
+
+::: Bullet1
+When adding a [new CI component](ITSM/Config%20Mngmt/Config%20Items/Config-Item-New.mdx), an email notification is sent to the applicable Roles as per the SACM RACI matrix and email preferences.
+
+::: Bullet1
+When creating or updating a [project](/prog_proj_mngmnt/projects_6_1.mdx), an email notification is sent to Project Manager(s) associated with the project.
+
+::: Bullet1
+When an [SLA](/cmdb_left_nav/sla_6_1.mdx) breach occurs, a notification email is sent to Change Manager(s) and CAB members.
+
+## Example Email
+
+The content of the email varies based upon the function. For example, when working with a project, an email may look similar to that shown below. In this email, a link can be clicked and the application will load the corresponding project detail page.
+
+![sample email notification](Resources/Images/Other Topics/sample-email-notification.png)

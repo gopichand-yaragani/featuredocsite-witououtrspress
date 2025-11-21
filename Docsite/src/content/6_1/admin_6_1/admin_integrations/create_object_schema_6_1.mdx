@@ -1,0 +1,122 @@
+---
+lang: en-us
+title: Jira Credentials
+viewport: width=device-width, initial-scale=1.0
+---
+
+# Create an Object Schema in Jira
+
+You can create a new Object Schema directly from Virima:
+
+- Go to the **Schema Wizard** in Jira Credentials.\
+ ![JIRA Integration 5](../Resources/Images/Admin - Integration/JIRA Integration_5.png)
+
+- Select **Create Object Schema**.\
+ ![JIRA Integration 6](../Resources/Images/Admin - Integration/JIRA Integration_6.png)
+
+- In the **Add New Object Schema** wizard, enter:
+
+ - **Schema Name** (mandatory)
+
+ - **Key** (mandatory, 2--10 alphanumeric characters only)
+
+ - **Description**
+
+- Select **Add**.\
+ The schema is added to Jira and appears in the Schema Wizard list.
+
+# Jira Credentials
+
+Use this function to specify the credentials for the Jira domain.
+
+ -- ----- --------------------------------------------------------------------------
+ 1. In the main window, click **Admin \> Integrations \> Jira Credentials**.
+ -- ----- --------------------------------------------------------------------------
+
+::: Ind50
+![JIra Credentials 6.1](../Resources/Images/Admin - Integration/JIra-Credentials-6.1.png)
+
+ -- ----- ------------------------------------------------------------
+ 2. Enter a *Username*, the applicable *Domain* and *API Key*.
+ -- ----- ------------------------------------------------------------
+
+ -- ----- -----------------
+ 3. Click **Next**.
+ -- ----- -----------------
+
+ -- ----- ---------------------
+ 4. Choose one or both:
+ -- ----- ---------------------
+
+*Asset Management* -- Sync Virima metadata into Jira Assets (CMDB).
+
+*Service Management* -- Sync Jira Incidents and Changes into Virima.
+
+ -- ----- -----------------
+ 5. Click **Next**.
+ -- ----- -----------------
+
+ -- ----- -----------------------------
+ 6. **Asset management setup:**
+ -- ----- -----------------------------
+
+Choose specific object schemas from the dropdown or select *All Object Schemas* to include all available schemas.
+
+Select **Yes** to sync Virima Blueprints into Jira schemas. **No** to skip.
+
+![JIra Credentials Asset Management 6.1](../Resources/Images/Admin - Integration/JIra-Credentials-Asset_Management_6.1.png)
+
+ -- ----- -------------------------------
+ 7. **Service management setup:**
+ -- ----- -------------------------------
+
+Select *All Projects* or choose specific projects from the dropdown. Click **Next**.
+
+![Jira Service Management 6.1png](../Resources/Images/Admin - Integration/Jira_Service_Management_6.1png.png)
+
+ -- ----- -------------------------------------------------------------
+ 8. Select *All incident type issues* or choose specific types.
+ -- ----- -------------------------------------------------------------
+
+ -- ----- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 9. Select *Incident type issues*, choose how to retrieve issues by clicking **Assets** or **Custom** (link Asset Name to Jira incidents or map properties), and click **Next**.![Jira incident](../Resources/Images/Admin - Integration/Jira_incident.png)
+ -- ----- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ------ -----------------------------------------------------------
+ 10. Select *All change type issues* or choose specific types.
+ -- ------ -----------------------------------------------------------
+
+ -- ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 11. Select *Change types issues*, choose how to retrieve change issues by clicking **Assets** or **Custom** (link Asset Name to Jira changes or map properties), and click **Save**.![Jira change](../Resources/Images/Admin - Integration/Jira_change.png)
+ -- ------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ------ -----------------------------------------------------------------------------------------------------------------------
+ 12. A popup will confirm the process. You will receive an email notification once it finishes. Select **Yes** to confirm.
+ -- ------ -----------------------------------------------------------------------------------------------------------------------
+
+# Create an Object Schema in Jira
+
+You can create a new Object Schema directly from Virima:
+
+- Go to the **Schema Wizard** in Jira Credentials.\
+ ![JIRA Integration 5](../Resources/Images/Admin - Integration/JIRA Integration_5.png)
+
+- Select **Create Object Schema**.\
+ ![JIRA Integration 6](../Resources/Images/Admin - Integration/JIRA Integration_6.png)
+
+- In the **Add New Object Schema** wizard, enter:
+
+ - **Schema Name** (mandatory)
+
+ - **Key** (mandatory, 2--10 alphanumeric characters only)
+
+ - **Description**
+
+- Select **Add**.\
+ The schema is added to Jira and appears in the Schema Wizard list.
+
+ 
+
+**Related Topics**
+
+[Jira Mappings](Jira-Mappings.mdx)

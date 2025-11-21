@@ -1,0 +1,89 @@
+---
+lang: en-us
+title: Business Service Map
+viewport: width=device-width, initial-scale=1.0
+---
+
+# Business Service Map
+
+Use the Business Service Map to graphically display the configuration items that support a business service. For example, delivering email to employees of an organization is supported by exchange servers and web servers. Below is an example.
+
+![bsm example](../../../../Resources/Images/ITSM/Biz-Svc-Map/bsm-example.PNG)
+
+**Type**. Click the drop-down list and select the type of view.
+
+::: Bullet1
+**[ADM View](BSM%20Examples/BSM-ADM-View.mdx){style="font-weight: normal;"}** displays the graphical connection between the applications or between applications and configuration items based on the relationship *Communicates With*. Administrators can add relations manually. ADM is processed automatically when the discovered items are moved into the CMDB. SSH communication is ignored in the ADM.
+
+- **Affected Business Application View** displays the list of services/applications impacted due to an affected Business Service.
+::: Bullet1
+**[Communication View](BSM%20Examples/BSM-Comm-View.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}** displays the graphical connection between the configuration items based on the relationship *Communicates With*. To view the list of Windows Host, click on the number. Grayed out machines/devices can be of different network or the devices that are not discovered by the Discovery application.
+
+- [[**Infrastructure View** displays the end-to-end visualization of a Server/Application infrastructure.]{style="color: #000000;"}]{style="color: #dc143c;"}
+::: Bullet1
+**[Network View](BSM%20Examples/BSM-Network-View.mdx){style="font-weight: normal;"}** displays the physical and non-physical connections among the assets and/or business services based on relationships.
+
+::: Bullet1
+**Service Topology View** displays the end-to-end visualization of a running service.
+
+**Select Actions**. Click the drop-down list and select the action.
+
+::: Bullet1
+**Rescan.** When selected. displays the Rescan Now dialog box. Choose a *Client* and the *Type of Scan*. Then click **Scan**.
+
+::: Ind50
+![rescan now dialog box 476x212](../../../../Resources/Images/ITSM/rescan-now-dialog-box_476x212.png)
+
+::: Bullet1
+**Host Check**. When selected, displays the Check Host Reachability dialog box. Enter the *IP Address* and *Choose a client*, then click **Scan**.
+
+::: Ind50
+![check host reachability 473x216](../../../../Resources/Images/ITSM/Biz-Svc-Map/check-host-reachability_473x216.png)
+
+**Orientation**. Select *Horizontal*, **View** or *Radical* to change the perspective of the map.
+
+**Refresh**. Updates the display to reflect any map changes.
+
+**Additional Settings**. Click the red circle with the pencil in the lower right corner of the map.
+
+::: Ind50
+![bsm edit options](../../../../Resources/Images/ITSM/Biz-Svc-Map/bsm-edit-options.PNG)
+
+::: Bullet1
+**Level Depth**. Specifies the number of levels deep to go to see the details. The maximum depth level is 5.
+
+::: Bullet1
+**Show Legends On Bottom**. Specifies where the legend is located and if the filtered items should be removed.
+
+::: Bullet1
+**Filter**. Filters the data in the map. In the Filter dialog box, select which items to display.
+
+::: Bullet1
+**Full Screen**. Toggles between full screen and normal view.
+
+::: Bullet1
+**Download BSM**. Displays the Download BSM View dialog box in which you specify what type of file to download. There must be data in order for the download to occur. Click either **Save as PNG** (image) or **Save Data as Excel** (spreadsheet), then click **Download**.
+
+::: Bullet1
+**Save View**. Saves the current view, which can be reloaded for reference at another time.
+
+::: Bullet1
+**Load View**. Loads any saved views.
+
+**Related Topics**
+
+::: Bullet1
+[Process ADM](../../../../Common%20Functions/Process-ADM.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+
+::: Bullet1
+[Release Hierarchy](Details-Release-Hierarchy.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+
+::: Bullet1
+[Add Property](Details-Add-Property.mdx)
+
+::: Bullet1
+[Disable Editing](../../../../Common%20Functions/Enable-Disable-Editing.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+
+::: Bullet1
+[Merge CI](Details-Merge-CI.mdx)
+

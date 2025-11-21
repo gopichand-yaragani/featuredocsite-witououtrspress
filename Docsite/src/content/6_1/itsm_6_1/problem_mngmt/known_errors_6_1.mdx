@@ -1,0 +1,230 @@
+---
+lang: en-us
+title: Known Errors
+viewport: width=device-width, initial-scale=1.0
+---
+
+# Known Errors
+
+Use this function to view and create known errors.
+
+In the main window, select **ITSM \> Problem Management \> Known Error Database \> Known Errors**.
+
+![known errors main old](../../Resources/Images/ITSM/Problem Management/known-errors-main-old.PNG)
+
+![arrow border](../../Resources/Images/arrow-border.PNG)
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Known Error](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+ -- ----- -----------------------------------------------------------------------
+ 1. From the *Select Actions* drop-down list, choose **New Known Error**.
+ -- ----- -----------------------------------------------------------------------
+
+ -- ----- ----------------------------------------------------
+ 2. Complete the fields, referring to the table below.
+ -- ----- ----------------------------------------------------
+
+ -- ----- ------------------------------------------------------
+ 3. When all selections/entries are made, click **Add**.
+ -- ----- ------------------------------------------------------
+
+### Known Error Fields
+
++--------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Section | Fields |
++====================+======================================================================================================================================================================================================+
+| Primary Details | Enter a *Title* for this problem. |
++--------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Assignee Details | Click the **Add** then search for and select the applicable assignees. |
++--------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Reporter Details | **Reporter**. Click **Add**, then search for and select the reporter for this problem. |
+| --- | --- |
+| | **Reporter Department/Reporter Location**. Displays the Department and Location associated with the Reporter. This field cannot be edited in this window. |
+| | |
+| | **Group Reporter**. Click **Add**, then search for and select the group reporter for this problem. |
+| | |
+| | **Method of Notification**. The method to receive notification regarding incident progress such as email, event management, phone or web. |
+| | |
+| | **Callback Method**. The communication method to use, either Phone or Email. |
+| | |
+| | **Contact Info**. Displays the contact info for the selected Reporter. This field cannot be edited in this window. |
++--------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Record Details | Click the drop-down list and select the applicable choice for the following fields: |
+| --- | --- |
+| | ::: Bullet1 |
+| | [Category]{style="font-weight: normal;"} |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | Sub Category |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | Impact Level |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | Urgency |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | [Priority]{style="font-weight: normal;"} |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | Type |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | [State]{style="font-weight: normal;"} |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | Sub State |
+| | ::: |
+| | |
+| | Click **Add**, then search for select the applicable user for the following: |
+| | |
+| | ::: Bullet1 |
+| | Root Cause CIs |
+| | ::: |
+| | |
+| | ::: Bullet1 |
+| | Associated CIs |
+| | ::: |
+| | |
+| | **Description**. Enter a description for this release. |
+| | |
+| | **Symptoms**. Enter the symptoms to describe the problem. |
+| | |
+| | **Custom Timescale**. When selected, displays a form in which specific times are specified, and the actions that result when those times are violated. Then, the escalation criteria is implemented. |
+| | |
+| | **Known Error**. Select to indicate this is a known error. |
++--------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Associated Records | Displays all records associated with this known error. |
++--------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+ 
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Details](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+### Related Records
+
+Associates records for relevant items such as problems, changes, incidents, and so forth.
+
+Click the **Plus icon** and search for and select the applicable records.
+
+### Notes
+
+Add any relevant notes in the free-form text field.
+
+To upload related documents, click the **Upload** button, then search for and select the applicable document. Only one document can be uploaded for any specific section.
+
+### Reviews
+
+Add any review information.
+
+To upload documents, click the **Upload** button, then search for and select the applicable document.
+
+### Resolution Information
+
+The *State* for the current workflow must be RESOLVED before the following information can be viewed or entered:
+
+::: Bullet1
+**Date** (populated by the system)
+
+::: Bullet1
+**Assignee** (populated by the system)
+
+::: Bullet1
+**Notes** (enter any free-form text)
+
+### Closure Information
+
+The *State* for the current workflow must be CLOSED before the following information can be viewed, selected, or entered:
+
+::: Bullet1
+**Date** closed (populated by the system)
+
+::: Bullet1
+**Assignee** (populated by the system)
+
+::: Bullet1
+**Closure Code** (select from the drop-down list)
+
+::: Bullet1
+**Notes** (enter any free-form text)
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Known Error](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+ --- -----------------------------------------------------------------------------------------
+   Not all functions include an option to edit record line items shown in the main window.
+ --- -----------------------------------------------------------------------------------------
+
+ -- ----- -------------------------------------------------------
+ 1. Navigate to the window containing the record to edit.
+ -- ----- -------------------------------------------------------
+
+ -- ----- -------------------------------------------------------------------------------------
+ 2. Click the line containing the record. The applicable window or dialog box displays.
+ -- ----- -------------------------------------------------------------------------------------
+
+ -- ----- -----------------------------------
+ 3. Make the necessary modifications.
+ -- ----- -----------------------------------
+
+ -- ----- -------------------------------------------
+ 4. Click **Save** or **Add**, as applicable.
+ -- ----- -------------------------------------------
+
+When editing an existing item, other options may be available, such as adding [Tasks](/itsm/release_mngmt/tasks_6_1.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}, [Comments](/discovery/comments_6_1.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}, and [Attachments](/discovery/attachments_6_1.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a} and viewing [History](/common_topics/history_6_1.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}.
+
+ --- ---------------------------------------------------------------------------------------
+   The options change based upon the function; therefore, not every option may be shown.
+ --- ---------------------------------------------------------------------------------------
+
+[[[Closed]{.image .placeholder .MCDropDown_Image_Icon original-image-src="../../../Skins/Default/Stylesheets/Images/transparent.gif" original-image-title="" height="12" width="16" Known Error](javascript:void(0)){.MCDropDownHotSpot .dropDownHotspot .MCDropDownHotSpot_ .MCHotSpotImage aria-expanded="false"}]{.MCDropDownHead .dropDownHead}
+
+ --- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   Deleting is a permanent action and cannot be undone. Deleting may affect other functionality and information in the application such as data in configured reports, fields in windows, selectable options, etc. Therefore, be sure to understand the potential effects before making a deletion.
+ --- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ -- ----- --------------------------------------------------
+ 1. Click the line that contains the item to delete.
+ -- ----- --------------------------------------------------
+
+ -- ----- ------------------------------------------------------------------------------------------------------------------------------------------------------
+ 2. From the *Select Actions* drop-down list, choose **Delete**. If a confirmation message is displayed, type **Delete** and click **Delete**to confirm.
+ -- ----- ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Related Topics**
+
+::: Bullet1
+[About Problem Management](About-Problem-Mngmnt.mdx)
+
+::: Bullet1
+[Dashboard](../../Dashboards/Dashboard-Overview.mdx)
+
+::: Bullet1
+[Problems](/itsm/problem_mngmt/problems_6_1.mdx)
+
+[Other Functions and Page Elements]{style="font-family: Verdana;"}
+
+::: Bullet1
+[Auto Refresh](../../Common%20Functions/Auto-Refresh.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+
+::: Bullet1
+[Delete](../../Common%20Functions/Delete-Remove.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+
+::: Bullet1
+[Export](/discovery/import_data_files/export_6_1.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+
+::: Bullet1
+[Go To Page](../../Common%20Functions/Go-to-Page.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+
+::: Bullet1
+[Personalize Columns](../../Common%20Functions/Personalize-Columns.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+
+::: Bullet1
+[Saved Filters](../../Common%20Functions/Saved-Filters.mdx){.MCTopicPopup .MCTopicPopupHotSpot .a}
+

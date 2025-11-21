@@ -1,0 +1,178 @@
+---
+lang: en-us
+title: Import Data File
+viewport: width=device-width, initial-scale=1.0
+---
+
+# Import CI's
+
+# Import CI without using existing Field Mapping Template
+
+1. From the [Select Actions]{.Strong} menu, click [Import CI\'s]{.Strong}.
+
+ ![Import Data Files 1 3](../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_3.png)
+
+2. The [Attach CI Data Files]{.Strong} window appears, allowing you to proceed with uploading and mapping your configuration item data files.
+
+ ![Import Data Files 1 4](../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_4.png)
+
+3. In the [Attach CI Data Files]{.Strong} window:
+
+ - Select a mapping type as None
+
+ - [None]{.Strong} -- Import without a template.
+
+ - Click [Browse]{.Strong} to select a file (.xls, .xlsx, or .csv).
+
+ - (Optional) Downlo[ad the sample template for reference.]{.inline-comment-marker}
+
+ ![Import Data Files 1 5](../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_5.png)
+
+[Expected Columns & What to Enter]{.Strong}
+
+- [Asset Name]{.Strong}\
+ The name of the asset (e.g., server host + IP).
+
+- [IP Address]{.Strong} *(possible correlator)*\
+ The host's primary IP (e.g., 10.14.80.36). If your blueprint uses IP as a correlator, this helps match to an existing CI.
+
+- [Host Name]{.Strong} *(possible correlator)*\
+ Host name of the device (e.g., ADSERVERLD). Another common correlator.
+
+- [Mac Address]{.Strong} *(possible correlator)*\
+ Physical MAC address (e.g., 00:50:56:B4:01:5). Use standard notation and only one MAC per row.
+
+- [Blueprint Name]{.Strong} **(Mandatory)**\
+ The CMDB blueprint that defines the CI's schema (e.g., **Windows Server**). Must exactly match an existing blueprint name.
+
+- [Asset Id]{.Strong} *(Mandatory only for updates)*\
+ The CMDB ID of an **existing** CI (e.g., AST003156).
+
+- [Acquisition Date]{.Strong}\
+ A datetime field for asset lifecycle. **Format must be** MM/DD/YYYY HH:MM:SS (e.g., 12/22/2022 07:00:00 AM).
+
+[Mandatory Import Rules]{.Strong}
+
+- [For New CIs:]{.Strong}
+
+ - **Blueprint Name** is required.
+
+ - At least **one correlator** (IP Address, Host Name, or Mac Address, as defined by the blueprint) must be present.
+
+- [For Updating Existing CIs:]{.Strong}
+
+ - **Asset Id** is required.
+
+ - Correlators (IP, Host Name, MAC) help validate matches but are not strictly required if Asset Id is provided.
+
+- [Date/Time Fields:]{.Strong}
+
+ - Must follow the format MM/DD/YYYY HH:MM:SS.
+
+4. Click [Upload]{.Strong}.
+
+5. A preview of the data to import appears, showing how each attribute is mapped to the column headers in your sample file.
+
+![Import Data Files 1 6](../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_6.png)
+
+6. If the default mapping is incorrect, use the dropdown to change the attribute name.
+
+7. Click [Submit]{.Strong} to proceed.
+
+ - Ensure all correlator properties are mapped.
+
+ - If a property is highlighted in **red**, it means it is not properly mapped to an application field; use **Skip Column** if you do not wish to map that property.
+
+ - If a property is highlighted in **green**, it means it is successfully mapped to an application field.
+
+- If a record in your Excel (or CSV) import file does not have a value for the "Blueprint Name" column, that record will not appear in the Import Data Files.
+
+- If a record has a "**Blueprint Name**" but does not have any correlator (such as IP Address, Host Name, or MAC Address---as required by the blueprint), that record will also not be shown in the Import Data Files.
+
+8. When prompted, a confirmation pop-up will ask if you want to save the current mapping as a template.
+
+![Import Data Files 1 7](../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_7.png)
+
+9. Click [Yes]{.Strong} to save the template.
+
+10. Enter a name for your template in the pop-up and click [Save and Continue]{.Strong}.
+
+ - You can reuse a saved field mapping template for future CI imports as long as the selected blueprint matches the blueprint associated with the template.
+
+![Import Data Files 1 8](../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_8.png)
+
+11. After import, a new row appears in the file list, displaying the imported file name, status, uploaded on, and uploaded by fields.
+
+- The system shows an error message if a user tries to upload without a file.
+
+![Import Data Files 1 9](../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_9.png)
+
+# Import CI using existing Field Mapping Template
+
+1. From the [Select Actions]{.Strong} menu, click [Import CI's]{.Strong}.
+
+![Import Data Files 1 3](../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_3.png)
+
+2. The [Attach CI Data Files]{.Strong} window appears, allowing you to proceed with uploading and mapping the configuration item data files.
+
+![Import Data Files 1 10](../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_10.png)
+
+3. In the [Attach CI Data Files]{.Strong} window:
+
+ - Select a mapping type:
+
+ - [Choose Template]{.Strong} -- Use a predefined import template.
+
+ - Click [Choose Template]{.Strong}, then select a template from the dropdown.
+
+ - Click [Browse]{.Strong} to select a file (.xls, .xlsx, or .csv).
+
+ - (Optional) Download the sample template for reference.
+
+4. Click ****Upload**.**
+
+- If a user attempts to upload a file in an unsupported format such as .txt on the Import Data Files page, the system immediately rejects the file and displays an error message.
+
+![Import Data Files 1 11](../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_11.png)
+
+5. A preview of the data to import displays, with attributes mapped to column headers in the sample file.
+
+![Import Data Files 1 6](../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_6.png)
+
+6. Click the dropdown to change the attribute name if the default mapping is incorrect.
+
+7. Click on ****Submit**.**
+
+- Ensure all correlator properties are mapped.
+
+- If a property is highlighted in [red]{.Strong}, it means it is not properly mapped to an application field; use **Skip Column** if you do not wish to map that property.
+
+- If a property is highlighted in [green]{.Strong}, it means it is successfully mapped to an application field.
+
+8. A confirmation pop-up asks you to save the current mapping as a template.
+
+![Import Data Files 1 7](../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_7.png)
+
+9. Click [Yes ]{.Strong}to save a template.
+
+10. A pop-up prompts you to name the template.
+
+11. Enter a name and click [Save and Continue]{.Strong}.
+
+ 1. The system saves the template with the current mapping.
+
+ 2. Use the saved template for future CI imports.
+
+![Import Data Files 1 8](../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_8.png)
+
+12. A new row is displayed with imported file name, status, uploaded on and uploaded by fields.
+
+ - [File Name]{.Strong}: Displays the name of the uploaded Excel file.
+
+ - [Status]{.Strong}: Shows the current state of the file [(e.g., Processed, Processing).]{.inline-comment-marker}
+
+ - [Uploaded By]{.Strong}: Indicates which user uploaded the file.
+
+ - [Uploaded On]{.Strong}: Timestamp showing the exact date and time of the upload.
+
+13. Review imported CIs in the detailed view before moving them into the CMDB.

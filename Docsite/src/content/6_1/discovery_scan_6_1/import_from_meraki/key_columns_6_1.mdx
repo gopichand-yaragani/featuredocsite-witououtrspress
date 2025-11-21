@@ -1,0 +1,21 @@
+---
+lang: en-us
+title: AWS Import
+viewport: width=device-width, initial-scale=1.0
+---
+
+# Key columns
+
+- **Blueprint Name** -- The discovery blueprint that matched the resource (e.g., *Meraki Virtual Network*, *Meraki Neo4j*)
+
+- **Asset Name** -- The discovered resource name (cluster/service/task/instance, etc.).
+
+ - The asset name is the Meraki instance ID.
+
+- **Status**: Indicates the current state of the CI imported from Meraki. When a CI is newly imported (does not exist in CMDB), the status is shown as \"New.\"
+
+- **Asset ID**: A unique, sequential identification number assigned to each discovered Meraki record. The ID shall have a prefix "DSC"+ 6 digits Unique sequential number.
+
+- **Host Name: **The host or endpoint name captured by discovery.
+
+Users can select which columns to display when importing Meraki and sort the grid by any column.

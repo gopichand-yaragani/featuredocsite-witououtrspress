@@ -1,0 +1,115 @@
+---
+lang: en-us
+title: Import Data File
+viewport: width=device-width, initial-scale=1.0
+---
+
+# **Authorized Tab**
+
+- Shows CI(s) that match existing entries in the CMDB - Correlator Match.
+
+- Fields in this view:
+
+ - [Blueprint Name]{.Strong}: Name of the Blueprint.
+
+ - [CI]{.Strong}: CMDB CI ID matching the imported CI.
+
+ - [Asset Name]{.Strong}: Provided Asset name.
+
+ - [Asset ID]{.Strong}: New Asset ID is created with prefix of "IMP" to denote that this record was imported. The format is "IMP" + 6 digits (auto generated sequential number.
+
+ - [Status]{.Strong}[: Indicates the current status of the imported asset.]{.inline-comment-marker}
+
+ - **What it is:** CI lifecycle state (e.g., *In Use, Retired, Decommissioned*).
+
+ - **Where it comes from:** The Status dropdown is **driven by** **Admin → SACM → CMDB Properties → Status**. The same picklist is used by **Business Rules**.
+
+ - [Host Name]{.Strong}[: The hostname of the asset or device.]{.inline-comment-marker}
+
+ - [Terminal ID]{.Strong}[: Optional, stored exactly as provided; not used for correlation unless your blueprint explicitly defines it.]{.inline-comment-marker}
+
+ - [Operating System]{.Strong}[: The operating system detected or specified for the asset.]{.inline-comment-marker}
+
+ - [Missing Components]{.Strong}[: Lists any components that are missing from the imported asset.]{.inline-comment-marker}
+
+ - **Missing Components:** *Not applicable* for **Imported Items**. We don't import component lists, so this field is **left blank** (or treated as **N/A**) on import. It will only be evaluated **after** a CI is **moved to CMDB** and the **Process-Missing-Components** job runs.
+
+ ![Import Data Files 1 15](../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_15.png)
+
+- Click any CI to view details of the im[ported assets other than the hyperlinked column under CI column.]{.inline-comment-marker}
+
+ ![Import Data Files 1 16](../../Resources/Images/Discovery/Import-Data-Files/Import Data Files_1_16.png)
+
+# **Layout and Sections**
+
+1. [Left Sidebar]{.Strong}
+
+- [Primary Details:]{.Strong} Shows key identifiers and metadata for the asset, including:
+
+ - Asset ID (e.g., IMP001255)
+
+ - Blueprint (e.g., Windows Server)
+
+ - Created On and Last Modified On timestamps
+
+ - Update To (which refers to the Asset ID from CMDB associated with this record).
+
+ - Tags if any (with an editable pencil icon)
+
+- ****Owner**:** The system assigns the logged-in user as the CI owner when importing a CI.
+
+- [Import Details:]{.Strong} Information about the import process, such as:
+
+ - File Name (e.g., Import+CI\'s.xlsx)
+
+ - Status (e.g., Processed)
+
+ - Uploaded By (e.g., Lakshmi Virima)
+
+ - Uploaded On (timestamp)
+
+ - Update To (again referencing AST003156)
+
+2. [Main Content Area]{.Strong}
+
+- ****Header**:** Displays the asset identifier (e.g., IMP001255).
+
+- [Action Buttons:]{.Strong}
+
+ - [Move to CMDB]{.Strong} (to promote the asset to the configuration database)
+
+ - [Rescan Now]{.Strong} (to trigger a new scan of the asset)
+
+- [Tabbed Navigation:]{.Strong} Provides access to different information categories:
+
+ - Details (active tab)
+
+ - Components
+
+ - Log On Events
+
+ - Tasks
+
+ - Comments
+
+ - Attachments
+
+ - Updates
+
+3. [Details Tab (Main Content)]{.Strong}
+
+- [Asset Primary Information:]{.Strong}
+
+ - Asset ID, Host Name, Asset Name
+
+- [Hardware and Network:]{.Strong}
+
+ - IP Address
+
+- [Life Cycle Information:]{.Strong}
+
+ - Acquisition Date (repeated, possibly for multiple records or a display issue)
+
+- [Network Adapter Details:]{.Strong}
+
+ - MAC Address
